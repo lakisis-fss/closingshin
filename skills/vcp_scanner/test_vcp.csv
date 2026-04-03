@@ -1,0 +1,7 @@
+﻿date,ticker,name,market,close,contractions_cnt,last_depth_pct,vol_dry_up,vol_ratio
+20260205,006800,미래에셋증권,KOSPI,49600,6,5.57,False,1.55
+20260205,011500,한농화성,KOSPI,25850,5,5.89,False,1.92
+20260205,457190,이수스페셜티케미컬,KOSPI,105700,5,7.41,False,1.49
+20260205,038500,삼표시멘트,KOSDAQ,18440,6,11.2,False,1.98
+20260205,389680,유디엠텍,KOSDAQ,1273,4,4.57,False,3.22
+20260205,032820,우리기술,KOSDAQ,9260,5,10.14,False,1.2

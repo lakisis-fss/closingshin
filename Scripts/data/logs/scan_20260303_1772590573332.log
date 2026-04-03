@@ -1,0 +1,10 @@
+[2026-03-04 11:16:32.822134] VCP 통합 스캔 시작 (Target Date: 20260303)
+[2026-03-04 11:16:32.822134] 대상 종목 선별 작업 시작...
+기준 기간: 20251223 ~ 20260303 (약 50일)
+
+[KOSPI] 데이터 수집 중...
+[KOSPI] 에러 발생: index 0 is out of bounds for axis 0 with size 0
+
+[KOSDAQ] 데이터 수집 중...
+[KOSDAQ] 에러 발생: index 0 is out of bounds for axis 0 with size 0
+[오류] 대상 종목을 선정하지 못했습니다.

@@ -1,0 +1,12 @@
+﻿ticker,name,market,close,contractions_count,contractions_history,last_depth_pct,volume_dry_up,vol_ratio,vcp_score,jump_score,note
+138360,앤로보틱스,KOSDAQ,2835,11,"[8.4, 4.6, 6.2, 0.0, 2.9, 3.8, 24.3, 18.8, 0.0, 22.5, 9.7]",9.71,True,0.29,80,50,VCP Pattern Detected
+000720,현대건설,KOSPI,112000,7,"[8.7, 11.5, 8.9, 15.8, 9.0, 11.9, 9.5]",9.52,True,0.77,70,50,VCP Pattern Detected
+298020,효성티앤씨,KOSPI,381000,7,"[9.1, 10.5, 6.2, 1.4, 0.0, 10.7, 8.1]",8.08,True,0.79,70,50,VCP Pattern Detected
+005930,삼성전자,KOSPI,165800,4,"[5.5, 14.7, 6.1, 2.4]",2.41,False,1.16,70,80,VCP Pattern Detected
+006800,미래에셋증권,KOSPI,51900,6,"[3.3, 10.7, 16.5, 14.5, 9.1, 5.6]",5.57,False,1.11,50,60,VCP Pattern Detected
+457190,이수스페셜티케미컬,KOSPI,100500,5,"[9.3, 12.1, 12.6, 19.7, 7.4]",7.41,False,1.09,50,30,VCP Pattern Detected
+011500,한농화성,KOSPI,25550,5,"[7.7, 4.5, 17.3, 12.4, 5.9]",5.89,False,1.25,50,60,VCP Pattern Detected
+010780,아이에스동서,KOSPI,29250,6,"[3.6, 13.4, 8.7, 6.7, 15.4, 6.8]",6.78,False,2.28,50,30,VCP Pattern Detected
+189300,인텔리안테크,KOSDAQ,119900,7,"[5.4, 9.7, 4.6, 24.0, 5.5, 8.1, 7.8]",7.82,False,1.39,50,30,VCP Pattern Detected
+474170,루미르,KOSDAQ,20700,6,"[6.7, 14.1, 6.2, 11.7, 15.7, 7.1]",7.07,False,1.17,50,30,VCP Pattern Detected
+180400,DXVX,KOSDAQ,4665,9,"[13.6, 14.8, 10.0, 0.0, 20.3, 7.0, 10.1, 16.8, 9.3]",9.29,False,0.94,50,30,VCP Pattern Detected

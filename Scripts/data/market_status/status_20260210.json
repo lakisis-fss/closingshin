@@ -1,0 +1,243 @@
+{
+    "KOSPI": {
+        "Close": 5301.69,
+        "Change_Pct": 3.65
+    },
+    "KOSPI_Close": 5301.69,
+    "KOSDAQ": {
+        "Close": 1115.2,
+        "Change_Pct": -12.35
+    },
+    "KOSDAQ_Close": 1115.2,
+    "NASDAQ": {
+        "Close": 23238.669921875,
+        "Change_Pct": 0.9
+    },
+    "NASDAQ_Close": 23238.669921875,
+    "SOX": {
+        "Close": 8162.580078125,
+        "Change_Pct": 1.42
+    },
+    "USD_KRW": {
+        "Close": 1462.4000244140625,
+        "Change_Pct": -0.56
+    },
+    "US10Y": {
+        "Close": 4.197999954223633,
+        "Change_Pct": -0.19
+    },
+    "WTI_OIL": {
+        "Close": 64.36000061035156,
+        "Change_Pct": 1.27
+    },
+    "Sectors": {
+        "KOSPI200": {
+            "Ticker": "069500",
+            "Close": 78435,
+            "Change_Pct": 0.12
+        },
+        "Semicon": {
+            "Ticker": "091160",
+            "Close": 86705,
+            "Change_Pct": -2.11
+        },
+        "Battery": {
+            "Ticker": "305720",
+            "Close": 16985,
+            "Change_Pct": -0.38
+        },
+        "Auto": {
+            "Ticker": "091170",
+            "Close": 15900,
+            "Change_Pct": 3.11
+        },
+        "IT": {
+            "Ticker": "102780",
+            "Close": 17375,
+            "Change_Pct": 0.99
+        },
+        "Bank": {
+            "Ticker": "102960",
+            "Close": 15815,
+            "Change_Pct": -1.19
+        },
+        "Steel": {
+            "Ticker": "117680",
+            "Close": 15240,
+            "Change_Pct": -0.46
+        },
+        "Securities": {
+            "Ticker": "102970",
+            "Close": 23880,
+            "Change_Pct": 2.49
+        }
+    },
+    "KOSPI_Net": {
+        "Foreigner": 147401952607,
+        "Institution": 564307735521,
+        "Individual": -877983534528
+    },
+    "KOSDAQ_Net": {
+        "Foreigner": -195545372383,
+        "Institution": -80839272343,
+        "Individual": 323943781173
+    },
+    "ADR": {
+        "KOSPI": 330.62,
+        "KOSDAQ": 0.0,
+        "Counts": {
+            "KOSPI_Up": 691,
+            "KOSPI_Down": 209,
+            "KOSDAQ_Up": 0,
+            "KOSDAQ_Down": 0
+        }
+    },
+    "History": [
+        {
+            "date": "2026-01-02",
+            "KOSPI": 4309.63,
+            "KOSDAQ": 945.57
+        },
+        {
+            "date": "2026-01-05",
+            "KOSPI": 4457.52,
+            "KOSDAQ": 957.5
+        },
+        {
+            "date": "2026-01-06",
+            "KOSPI": 4525.48,
+            "KOSDAQ": 955.97
+        },
+        {
+            "date": "2026-01-07",
+            "KOSPI": 4551.06,
+            "KOSDAQ": 947.39
+        },
+        {
+            "date": "2026-01-08",
+            "KOSPI": 4552.37,
+            "KOSDAQ": 944.06
+        },
+        {
+            "date": "2026-01-09",
+            "KOSPI": 4586.32,
+            "KOSDAQ": 947.92
+        },
+        {
+            "date": "2026-01-12",
+            "KOSPI": 4624.79,
+            "KOSDAQ": 949.81
+        },
+        {
+            "date": "2026-01-13",
+            "KOSPI": 4692.64,
+            "KOSDAQ": 948.98
+        },
+        {
+            "date": "2026-01-14",
+            "KOSPI": 4723.1,
+            "KOSDAQ": 942.18
+        },
+        {
+            "date": "2026-01-15",
+            "KOSPI": 4797.55,
+            "KOSDAQ": 951.16
+        },
+        {
+            "date": "2026-01-16",
+            "KOSPI": 4840.74,
+            "KOSDAQ": 954.59
+        },
+        {
+            "date": "2026-01-19",
+            "KOSPI": 4904.66,
+            "KOSDAQ": 968.36
+        },
+        {
+            "date": "2026-01-20",
+            "KOSPI": 4885.75,
+            "KOSDAQ": 976.37
+        },
+        {
+            "date": "2026-01-21",
+            "KOSPI": 4909.93,
+            "KOSDAQ": 951.29
+        },
+        {
+            "date": "2026-01-22",
+            "KOSPI": 4952.53,
+            "KOSDAQ": 970.35
+        },
+        {
+            "date": "2026-01-23",
+            "KOSPI": 4990.07,
+            "KOSDAQ": 993.93
+        },
+        {
+            "date": "2026-01-26",
+            "KOSPI": 4949.59,
+            "KOSDAQ": 1064.41
+        },
+        {
+            "date": "2026-01-27",
+            "KOSPI": 5084.85,
+            "KOSDAQ": 1082.59
+        },
+        {
+            "date": "2026-01-28",
+            "KOSPI": 5170.81,
+            "KOSDAQ": 1133.52
+        },
+        {
+            "date": "2026-01-29",
+            "KOSPI": 5221.25,
+            "KOSDAQ": 1164.41
+        },
+        {
+            "date": "2026-01-30",
+            "KOSPI": 5224.36,
+            "KOSDAQ": 1149.44
+        },
+        {
+            "date": "2026-02-02",
+            "KOSPI": 4949.67,
+            "KOSDAQ": 1098.36
+        },
+        {
+            "date": "2026-02-03",
+            "KOSPI": 5288.08,
+            "KOSDAQ": 1144.33
+        },
+        {
+            "date": "2026-02-04",
+            "KOSPI": 5371.1,
+            "KOSDAQ": 1149.43
+        },
+        {
+            "date": "2026-02-05",
+            "KOSPI": 5163.57,
+            "KOSDAQ": 1108.41
+        },
+        {
+            "date": "2026-02-06",
+            "KOSPI": 5089.14,
+            "KOSDAQ": 1080.77
+        },
+        {
+            "date": "2026-02-09",
+            "KOSPI": 5298.04,
+            "KOSDAQ": 1127.55
+        },
+        {
+            "date": "2026-02-10",
+            "KOSPI": 5301.69,
+            "KOSDAQ": 1115.2
+        }
+    ],
+    "AI_Insight": {
+        "sentiment": "NEUTRAL",
+        "summary": "KOSPI는 상승했지만 KOSDAQ의 급락과 반도체 섹터의 부진, 그리고 미 국채 금리 하락이 혼재되어 시장 심리는 중립적입니다.",
+        "reasoning": "KOSPI가 큰 폭으로 상승하고 외국인 순매수가 강하게 나타났지만, KOSDAQ의 급락은 기술주 전반에 대한 투자 심리 위축을 시사합니다. 특히 PHLX SOX 지수 상승에도 불구하고 KOSPI 반도체 섹터가 하락한 것은 국내 반도체 기업에 대한 우려를 반영하며, 미 국채 금리 하락과 함께 시장 변동성이 커질 수 있음을 의미합니다."
+    },
+    "timestamp": "2026-02-10 23:50:22"
+}

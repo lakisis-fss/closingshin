@@ -1,0 +1,23 @@
+[2026-03-21 19:27:12.975971] 자동 시장 데이터 동기화 체크 중...
+[2026-03-21 20:28:59.777969] 동기화 확인 완료.
+[2026-03-21 20:28:59.785995] VCP 통합 스캔 시작 (Target Date: 20260319)
+[2026-03-21 20:28:59.816839] 대상 종목 선별 작업 시작 (Batch 모드)...
+  선정 기간: 20260105 ~ 20260319 (약 50거래일 기준)
+[2026-03-21 20:29:16.888008] Naver Finance에서 종목 리스트 수집 중...
+  Market 0 has 49 pages.
+  Market 1 has 37 pages.
+[PB Utils] Successfully fetched 4239 tickers from Naver Finance.
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=date+~+%222026-03-19%22&sort=&page=2&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=date+~+%222026-01-05%22&sort=&page=2&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[경고] 비교 가능한 데이터가 없습니다.
+[오류] 대상 종목을 선정하지 못했습니다.

@@ -1,0 +1,11 @@
+flowchart LR
+    GH["generate_historical_data.py"]
+    S02["02_scan_vcp.py"]
+    S04["04_collect_news.py"]
+    S05B["05_analyze_news.py"]
+    S06["06_collect_stock_data.py"]
+    
+    GH -->|"순차 호출"| S02
+    GH -->|"--skip-news 없으면"| S04
+    GH -->|"--skip-news 없으면"| S05B
+    GH --> S06

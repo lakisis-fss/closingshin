@@ -1,0 +1,66 @@
+{
+    "KOSPI": {
+        "Close": 5163.57,
+        "Change_Pct": -207.53
+    },
+    "KOSPI_Close": 5163.57,
+    "KOSDAQ_Close": 1108.41,
+    "NASDAQ_Close": 22904.580078125,
+    "SOX_Close": null,
+    "USD_KRW": 1465.550048828125,
+    "US10Y": 4.275000095367432,
+    "WTI_OIL": 64.2300033569336,
+    "Sectors": {
+        "KOSPI200": {
+            "Ticker": "069500",
+            "Close": 76010,
+            "Change_Pct": -4.25
+        },
+        "Semicon": {
+            "Ticker": "091160",
+            "Close": 84000,
+            "Change_Pct": -5.41
+        },
+        "Battery": {
+            "Ticker": "305720",
+            "Close": 17185,
+            "Change_Pct": -2.5
+        },
+        "Auto": {
+            "Ticker": "091170",
+            "Close": 14580,
+            "Change_Pct": 0.41
+        },
+        "IT": {
+            "Ticker": "102780",
+            "Close": 16850,
+            "Change_Pct": -3.8
+        },
+        "Bank": {
+            "Ticker": "102960",
+            "Close": 15940,
+            "Change_Pct": -4.78
+        },
+        "Steel": {
+            "Ticker": "117680",
+            "Close": 15080,
+            "Change_Pct": -3.64
+        },
+        "Securities": {
+            "Ticker": "102970",
+            "Close": 22445,
+            "Change_Pct": -2.69
+        }
+    },
+    "ADR": {
+        "KOSPI": 53.2,
+        "KOSDAQ": 0.0,
+        "Counts": {
+            "KOSPI_Up": 308,
+            "KOSPI_Down": 579,
+            "KOSDAQ_Up": 0,
+            "KOSDAQ_Down": 0
+        }
+    },
+    "timestamp": "2026-02-05 20:14:48"
+}

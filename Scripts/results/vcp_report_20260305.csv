@@ -1,0 +1,46 @@
+﻿ticker,name,market,close,contractions_count,contractions_history,last_depth_pct,volume_dry_up,vol_ratio,vcp_score,jump_score,pivot_point,pivot_distance_pct,note,vcp_mode
+047040,대우건설,KOSPI,8540,4,"[3.6, 14.7, 5.3, 5.0]",4.95,False,2.44,70,60,3835,-55.09,VCP Pattern Detected,Classic
+052690,한전기술,KOSPI,146200,4,"[22.7, 14.1, 13.3, 12.4]",12.39,True,0.8,60,50,151700,3.76,VCP Pattern Detected,Classic
+103590,일진전기,KOSPI,81000,4,"[13.1, 20.9, 12.9, 6.5]",6.46,False,1.2,60,30,63500,-21.6,VCP Pattern Detected,Classic
+010690,화신,KOSPI,13210,4,"[13.3, 8.6, 14.7, 9.1]",9.1,False,1.49,60,30,9780,-25.97,VCP Pattern Detected,Classic
+064850,에프앤가이드,KOSDAQ,18830,7,"[6.0, 5.1, 3.5, 5.9, 2.8, 5.0, 3.9]",3.87,False,3.62,50,60,9050,-51.94,VCP Pattern Detected,Classic
+012450,한화에어로스페이스,KOSPI,1381000,9,"[3.6, 17.6, 6.7, 11.4, 17.0, 11.4, 7.5, 16.5, 3.9]",3.86,False,2.6,50,60,1242000,-10.07,VCP Pattern Detected,Classic
+053610,프로텍,KOSDAQ,55500,7,"[4.5, 5.0, 8.5, 13.9, 8.6, 6.3, 5.0]",4.97,False,1.42,50,60,37200,-32.97,VCP Pattern Detected,Classic
+028050,삼성E&A,KOSPI,33150,8,"[4.0, 5.3, 15.7, 4.6, 5.4, 8.1, 4.1, 4.2]",4.2,False,1.2,50,40,32150,-3.02,VCP Pattern Detected,Classic
+127120,제이에스링크,KOSDAQ,36050,8,"[0.0, 23.5, 20.4, 20.1, 14.3, 10.1, 13.3, 7.7]",7.73,False,0.91,40,30,31050,-13.87,VCP Pattern Detected,Classic
+028670,팬오션,KOSPI,5660,7,"[14.8, 8.6, 5.5, 3.6, 1.1, 13.4, 6.9]",6.87,False,4.86,40,30,5530,-2.3,VCP Pattern Detected,Classic
+420770,기가비스,KOSDAQ,71300,4,"[18.8, 14.8, 16.3, 11.8]",11.83,False,1.11,40,30,65100,-8.7,VCP Pattern Detected,Classic
+047770,코데즈컴바인,KOSDAQ,4810,8,"[11.1, 39.4, 4.4, 2.4, 7.5, 9.5, 12.1, 6.8]",6.82,False,1.43,40,30,3080,-35.97,VCP Pattern Detected,Classic
+365270,큐라클,KOSDAQ,16430,9,"[24.4, 7.2, 21.9, 19.5, 20.9, 4.1, 4.8, 8.8, 5.2]",5.24,False,1.11,40,60,12780,-22.22,VCP Pattern Detected,Classic
+037350,성도이엔지,KOSDAQ,10800,7,"[5.0, 11.2, 5.5, 6.1, 9.1, 17.3, 7.0]",7.01,False,4.86,40,30,7420,-31.3,VCP Pattern Detected,Classic
+036170,에이치엠넥스,KOSDAQ,3050,7,"[5.6, 6.5, 5.1, 9.1, 4.7, 21.1, 9.9]",9.9,False,1.61,40,30,1798,-41.05,VCP Pattern Detected,Classic
+272210,한화시스템,KOSPI,150800,8,"[3.5, 15.5, 16.7, 16.5, 7.5, 9.2, 17.6, 5.1]",5.06,False,1.82,40,60,116500,-22.75,VCP Pattern Detected,Classic
+064760,티씨케이,KOSDAQ,245000,6,"[19.4, 17.4, 7.5, 9.9, 14.1, 9.7]",9.73,False,1.49,40,30,221000,-9.8,VCP Pattern Detected,Classic
+006800,미래에셋증권,KOSPI,65200,5,"[10.7, 16.5, 14.5, 9.1, 5.6]",5.57,False,0.8,40,60,28700,-55.98,VCP Pattern Detected,Classic
+138490,코오롱ENP,KOSPI,11500,7,"[3.8, 8.7, 16.5, 5.1, 10.1, 9.2, 9.8]",9.79,False,1.23,40,10,11850,3.04,VCP Pattern Detected,Classic
+006340,대원전선,KOSPI,5430,10,"[1.8, 4.3, 7.1, 21.5, 7.9, 11.8, 12.5, 8.9, 7.2, 7.0]",7.05,False,2.16,40,30,3830,-29.47,VCP Pattern Detected,Classic
+010120,엘에스일렉트릭,KOSPI,701000,8,"[0.0, 13.6, 9.9, 7.8, 13.8, 12.2, 6.4, 7.1]",7.05,False,1.15,40,10,539000,-23.11,VCP Pattern Detected,Classic
+000720,현대건설,KOSPI,144000,6,"[11.5, 8.9, 15.8, 9.0, 11.9, 9.5]",9.52,False,1.66,40,30,109200,-24.17,VCP Pattern Detected,Classic
+009150,삼성전기,KOSPI,401500,5,"[7.4, 5.8, 16.7, 7.5, 6.8]",6.85,False,1.49,40,30,292000,-27.27,VCP Pattern Detected,Classic
+010820,퍼스텍,KOSPI,7720,9,"[11.0, 9.3, 0.0, 22.9, 6.9, 6.1, 7.8, 10.3, 5.6]",5.58,False,2.52,40,60,4840,-37.31,VCP Pattern Detected,Classic
+000880,한화,KOSPI,127700,7,"[12.1, 7.2, 27.5, 7.4, 4.2, 20.6, 7.9]",7.89,False,1.0,40,30,122900,-3.76,VCP Pattern Detected,Classic
+010950,S-Oil,KOSPI,134700,6,"[5.1, 4.1, 14.8, 7.1, 7.7, 8.3]",8.33,False,5.92,40,10,120000,-10.91,VCP Pattern Detected,Classic
+047810,한국항공우주,KOSPI,179000,7,"[16.9, 10.9, 7.6, 4.4, 7.3, 6.4, 7.5]",7.54,False,1.54,40,10,171200,-4.36,VCP Pattern Detected,Classic
+218410,RFHIC,KOSDAQ,67200,8,"[13.4, 15.1, 29.4, 5.1, 9.8, 10.3, 9.0, 10.1]",10.13,False,1.74,20,10,63200,-5.95,VCP Pattern Detected,Classic
+042700,한미반도체,KOSPI,315000,5,"[16.0, 10.4, 9.6, 10.1, 11.3]",11.33,False,1.91,20,10,211000,-33.02,VCP Pattern Detected,Classic
+277810,레인보우로보틱스,KOSDAQ,837000,7,"[3.8, 5.9, 26.9, 7.2, 9.3, 11.6, 13.4]",13.42,False,1.14,20,10,760000,-9.2,VCP Pattern Detected,Classic
+319660,피에스케이,KOSDAQ,65300,7,"[10.7, 26.8, 4.1, 10.1, 0.0, 11.5, 12.7]",12.68,False,1.33,20,10,61500,-5.82,VCP Pattern Detected,Classic
+178320,서진시스템,KOSDAQ,46450,5,"[6.9, 28.2, 11.3, 11.6, 11.0]",11.01,False,3.03,20,30,39950,-13.99,VCP Pattern Detected,Classic
+084370,유진테크,KOSDAQ,144900,6,"[5.8, 27.1, 11.0, 3.5, 17.6, 13.1]",13.06,False,1.17,20,30,111000,-23.4,VCP Pattern Detected,Classic
+900290,GRT,KOSDAQ,6040,7,"[9.0, 5.1, 0.0, 7.8, 9.0, 14.4, 10.5]",10.53,False,2.25,20,30,3895,-35.51,VCP Pattern Detected,Classic
+267250,HD현대,KOSPI,275000,6,"[8.3, 6.8, 16.9, 14.1, 14.1, 12.2]",12.25,False,1.43,20,30,298000,8.36,VCP Pattern Detected,Classic
+327260,RF머트리얼즈,KOSDAQ,48650,6,"[5.9, 15.2, 22.1, 17.4, 13.1, 11.5]",11.55,False,1.55,20,30,25550,-47.48,VCP Pattern Detected,Classic
+006400,삼성SDI,KOSPI,392500,5,"[3.8, 9.3, 16.0, 17.3, 11.5]",11.48,False,1.23,20,30,396500,1.02,VCP Pattern Detected,Classic
+040160,누리플렉스,KOSDAQ,8800,6,"[22.1, 0.0, 13.1, 8.3, 12.6, 15.0]",14.98,False,1.44,20,10,9410,6.93,VCP Pattern Detected,Classic
+031980,피에스케이홀딩스,KOSDAQ,109100,7,"[8.2, 17.9, 18.6, 11.8, 7.0, 13.8, 12.7]",12.69,False,1.54,20,30,90600,-16.96,VCP Pattern Detected,Classic
+036930,주성엔지니어링,KOSDAQ,66800,5,"[5.5, 7.2, 17.3, 12.3, 11.6]",11.59,False,2.38,20,30,34950,-47.68,VCP Pattern Detected,Classic
+024060,흥구석유,KOSDAQ,32700,7,"[4.9, 3.6, 6.1, 3.9, 6.1, 17.2, 14.6]",14.62,False,2.88,20,30,15390,-52.94,VCP Pattern Detected,Classic
+187660,현대ADM,KOSDAQ,13750,6,"[9.4, 8.9, 24.9, 18.7, 20.8, 11.2]",11.24,False,2.33,20,30,3380,-75.42,VCP Pattern Detected,Classic
+221800,유투바이오,KOSDAQ,23700,6,"[1.7, 7.2, 20.4, 41.8, 21.7, 10.2]",10.22,False,1.53,20,30,4990,-78.95,VCP Pattern Detected,Classic
+000150,두산,KOSPI,1073000,5,"[17.4, 9.8, 18.3, 19.5, 12.5]",12.47,False,1.23,20,30,946000,-11.84,VCP Pattern Detected,Classic
+322000,HD현대에너지솔루션,KOSPI,90100,7,"[13.5, 31.7, 13.6, 10.2, 0.5, 12.8, 13.2]",13.17,False,3.68,20,10,89600,-0.55,VCP Pattern Detected,Classic

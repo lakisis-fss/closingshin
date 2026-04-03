@@ -1,0 +1,83 @@
+{
+    "NASDAQ": {
+        "Close": 22878.380859375,
+        "Change_Pct": -1.18
+    },
+    "NASDAQ_Close": 22878.380859375,
+    "SOX": {
+        "Close": 8197.259765625,
+        "Change_Pct": -3.19
+    },
+    "USD_KRW": {
+        "Close": 1426.9300537109375,
+        "Change_Pct": -0.91
+    },
+    "US10Y": {
+        "Close": 4.017000198364258,
+        "Change_Pct": -0.77
+    },
+    "WTI_OIL": {
+        "Close": 65.20999908447266,
+        "Change_Pct": -0.32
+    },
+    "Sectors": {
+        "KOSPI200": {
+            "Ticker": "069500",
+            "Close": 94120,
+            "Change_Pct": -0.95
+        },
+        "Semicon": {
+            "Ticker": "091160",
+            "Close": 105400,
+            "Change_Pct": 0.2
+        },
+        "Battery": {
+            "Ticker": "305720",
+            "Close": 19430,
+            "Change_Pct": 1.49
+        },
+        "Auto": {
+            "Ticker": "091170",
+            "Close": 16180,
+            "Change_Pct": -3.26
+        },
+        "IT": {
+            "Ticker": "102780",
+            "Close": 20640,
+            "Change_Pct": -1.05
+        },
+        "Bank": {
+            "Ticker": "102960",
+            "Close": 17785,
+            "Change_Pct": -0.61
+        },
+        "Steel": {
+            "Ticker": "117680",
+            "Close": 17370,
+            "Change_Pct": 3.39
+        },
+        "Securities": {
+            "Ticker": "102970",
+            "Close": 29185,
+            "Change_Pct": -2.36
+        }
+    },
+    "KOSPI_Net": {
+        "Individual": 6249600000000,
+        "Foreigner": -7052800000000,
+        "Institution": 566600000000
+    },
+    "KOSDAQ_Net": {
+        "Individual": -472400000000,
+        "Foreigner": 62300000000,
+        "Institution": 446000000000
+    },
+    "ADR": {},
+    "History": [],
+    "AI_Insight": {
+        "sentiment": "NEGATIVE",
+        "summary": "외국인 대량 순매도와 필라델피아 반도체 지수 하락세가 한국 증시에 부정적인 영향을 미치고 있으며, 특히 자동차 및 IT 섹터의 부진이 두드러집니다.",
+        "reasoning": "외국인의 대규모 순매도는 시장 심리를 위축시키는 주요 요인이며, 필라델피아 반도체 지수의 하락은 국내 반도체 섹터에 대한 투자 심리를 악화시킬 수 있습니다. KOSPI200 지수 하락과 자동차, IT, 증권 섹터의 부진은 전반적인 시장 분위기가 좋지 않음을 시사합니다. "
+    },
+    "timestamp": "2026-02-27 18:20:25"
+}

@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.DS_Store
+.vscode/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Docker build artifacts
+closingshin.tar
+closingshin.tar.gz
+
+pb_data/
+pb_data_old/
+pb_dat_old/
+*.db
+*.tar 
+*.gz 
+
+

@@ -1,0 +1,8 @@
+﻿ticker,name,market,close,contractions_count,contractions_history,last_depth_pct,volume_dry_up,vol_ratio,vcp_score,jump_score,note
+012610,경인양행,KOSPI,4835,9,"[9.4, 0.0, 8.9, 8.7, 5.3, 9.6, 7.9, 14.9, 10.0]",10.0,True,0.43,60,50,VCP Pattern Detected
+457190,이수스페셜티케미컬,KOSPI,106300,5,"[9.3, 12.1, 12.6, 19.7, 7.4]",7.41,False,2.68,50,30,VCP Pattern Detected
+204320,HL만도,KOSPI,64300,8,"[5.0, 3.2, 7.6, 3.9, 7.0, 13.3, 14.1, 9.9]",9.94,False,0.85,50,30,VCP Pattern Detected
+454910,두산로보틱스,KOSPI,120400,9,"[6.9, 5.4, 8.8, 4.2, 16.3, 14.5, 8.2, 6.6, 5.5]",5.55,False,1.61,50,60,VCP Pattern Detected
+056080,유진로봇,KOSDAQ,34000,7,"[6.7, 6.6, 12.3, 10.9, 21.1, 18.1, 5.2]",5.16,False,1.29,50,60,VCP Pattern Detected
+376270,HEM파마,KOSDAQ,87700,8,"[7.6, 2.6, 6.3, 3.2, 5.5, 10.5, 23.3, 7.0]",6.99,False,1.31,50,30,VCP Pattern Detected
+464080,에스오에스랩,KOSDAQ,25750,7,"[22.0, 5.7, 0.0, 20.6, 4.1, 22.4, 5.8]",5.78,False,1.39,50,60,VCP Pattern Detected

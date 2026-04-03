@@ -1,0 +1,1318 @@
+[2026-03-21 18:46:31.484093] 자동 시장 데이터 동기화 체크 중...
+[2026-03-21 19:51:11.755652] 동기화 확인 완료.
+[2026-03-21 19:51:11.759869] VCP 통합 스캔 시작 (Target Date: 20260319)
+[2026-03-21 19:51:11.782073] 대상 종목 선별 작업 시작 (Batch 모드)...
+  선정 기간: 20260105 ~ 20260319 (약 50거래일 기준)
+[2026-03-21 19:51:31.278297] Naver Finance에서 종목 리스트 수집 중...
+  Market 0 has 49 pages.
+  Market 1 has 37 pages.
+[PB Utils] Successfully fetched 4239 tickers from Naver Finance.
+[2026-03-21 19:59:29.039552] 대상 선별 완료. (Batch 모드로 26분 -> 수 초로 단축)
+[2026-03-21 19:59:29.095960] 스캔 대상 200개 상세 데이터 로딩 시작...
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22065170%22+%7C%7C+code%3D%22032820%22+%7C%7C+code%3D%22900270%22+%7C%7C+code%3D%22187660%22+%7C%7C+code%3D%22036170%22+%7C%7C+code%3D%22242040%22+%7C%7C+code%3D%22221800%22+%7C%7C+code%3D%22047040%22+%7C%7C+code%3D%22038500%22+%7C%7C+code%3D%22001510%22&sort=%2Bdate&page=3&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  상세 데이터 로딩 중 (10/200)
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22412350%22+%7C%7C+code%3D%22043260%22+%7C%7C+code%3D%22357580%22+%7C%7C+code%3D%22000250%22+%7C%7C+code%3D%22048410%22+%7C%7C+code%3D%22357880%22+%7C%7C+code%3D%22192410%22+%7C%7C+code%3D%22040160%22+%7C%7C+code%3D%22290550%22+%7C%7C+code%3D%22069540%22&sort=%2Bdate&page=1&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22440110%22+%7C%7C+code%3D%22046120%22+%7C%7C+code%3D%22012860%22+%7C%7C+code%3D%22129920%22+%7C%7C+code%3D%22006800%22+%7C%7C+code%3D%22475150%22+%7C%7C+code%3D%22331920%22+%7C%7C+code%3D%22005090%22+%7C%7C+code%3D%22272210%22+%7C%7C+code%3D%22420770%22&sort=%2Bdate&page=1&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  상세 데이터 로딩 중 (30/200)
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22024850%22+%7C%7C+code%3D%22393890%22+%7C%7C+code%3D%22347700%22+%7C%7C+code%3D%22327260%22+%7C%7C+code%3D%22019210%22+%7C%7C+code%3D%22322000%22+%7C%7C+code%3D%22354320%22+%7C%7C+code%3D%22064850%22+%7C%7C+code%3D%22226590%22+%7C%7C+code%3D%22027040%22&sort=%2Bdate&page=2&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22448900%22+%7C%7C+code%3D%22010170%22+%7C%7C+code%3D%22007120%22+%7C%7C+code%3D%22234340%22+%7C%7C+code%3D%22127120%22+%7C%7C+code%3D%22000720%22+%7C%7C+code%3D%22321370%22+%7C%7C+code%3D%22054620%22+%7C%7C+code%3D%22360350%22+%7C%7C+code%3D%22218410%22&sort=%2Bdate&page=1&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  상세 데이터 로딩 중 (50/200)
+  [경고] 배치 로딩 중 오류 (개별 시도 fallback): 'Index' object has no attribute 'tz'
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22289930%22+%7C%7C+code%3D%22348340%22+%7C%7C+code%3D%22095910%22+%7C%7C+code%3D%22033160%22+%7C%7C+code%3D%22080580%22+%7C%7C+code%3D%22376900%22+%7C%7C+code%3D%22365270%22+%7C%7C+code%3D%22001820%22+%7C%7C+code%3D%220015G0%22+%7C%7C+code%3D%22452260%22&sort=%2Bdate&page=16&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  상세 데이터 로딩 중 (70/200)
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22474610%22+%7C%7C+code%3D%22056080%22+%7C%7C+code%3D%22291650%22+%7C%7C+code%3D%22319660%22+%7C%7C+code%3D%22289080%22+%7C%7C+code%3D%22001290%22+%7C%7C+code%3D%22090470%22+%7C%7C+code%3D%22036930%22+%7C%7C+code%3D%22138080%22+%7C%7C+code%3D%22131290%22&sort=%2Bdate&page=1&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22078600%22+%7C%7C+code%3D%22230240%22+%7C%7C+code%3D%22077360%22+%7C%7C+code%3D%22171090%22+%7C%7C+code%3D%22229000%22+%7C%7C+code%3D%22130660%22+%7C%7C+code%3D%22085620%22+%7C%7C+code%3D%22003280%22+%7C%7C+code%3D%22099320%22+%7C%7C+code%3D%22005440%22&sort=%2Bdate&page=1&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  상세 데이터 로딩 중 (90/200)
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22265740%22+%7C%7C+code%3D%22092870%22+%7C%7C+code%3D%22489790%22+%7C%7C+code%3D%22000440%22+%7C%7C+code%3D%22011930%22+%7C%7C+code%3D%22009830%22+%7C%7C+code%3D%22042700%22+%7C%7C+code%3D%22104200%22+%7C%7C+code%3D%22010060%22+%7C%7C+code%3D%22032500%22&sort=%2Bdate&page=1&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22083650%22+%7C%7C+code%3D%22298020%22+%7C%7C+code%3D%22056090%22+%7C%7C+code%3D%22058470%22+%7C%7C+code%3D%22222080%22+%7C%7C+code%3D%22092220%22+%7C%7C+code%3D%22224060%22+%7C%7C+code%3D%22052690%22+%7C%7C+code%3D%22010820%22+%7C%7C+code%3D%22355150%22&sort=%2Bdate&page=1&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  상세 데이터 로딩 중 (110/200)
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009150%22+%7C%7C+code%3D%22417500%22+%7C%7C+code%3D%2200680K%22+%7C%7C+code%3D%22196450%22+%7C%7C+code%3D%22241520%22+%7C%7C+code%3D%22117670%22+%7C%7C+code%3D%22123750%22+%7C%7C+code%3D%22417200%22+%7C%7C+code%3D%22090710%22+%7C%7C+code%3D%22046890%22&sort=%2Bdate&page=6&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22019010%22+%7C%7C+code%3D%22402490%22+%7C%7C+code%3D%22052020%22+%7C%7C+code%3D%22017960%22+%7C%7C+code%3D%22010120%22+%7C%7C+code%3D%22005380%22+%7C%7C+code%3D%22131970%22+%7C%7C+code%3D%22082920%22+%7C%7C+code%3D%22178320%22+%7C%7C+code%3D%22006920%22&sort=%2Bdate&page=1&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  상세 데이터 로딩 중 (130/200)
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22189300%22+%7C%7C+code%3D%22041920%22+%7C%7C+code%3D%22024060%22+%7C%7C+code%3D%22389030%22+%7C%7C+code%3D%22388790%22+%7C%7C+code%3D%22039310%22+%7C%7C+code%3D%22086520%22+%7C%7C+code%3D%22084870%22+%7C%7C+code%3D%22323280%22+%7C%7C+code%3D%220120G0%22&sort=%2Bdate&page=2&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22007340%22+%7C%7C+code%3D%22215380%22+%7C%7C+code%3D%22005960%22+%7C%7C+code%3D%22120110%22+%7C%7C+code%3D%22078020%22+%7C%7C+code%3D%22296640%22+%7C%7C+code%3D%22253590%22+%7C%7C+code%3D%22050890%22+%7C%7C+code%3D%22006340%22+%7C%7C+code%3D%22138490%22&sort=%2Bdate&page=13&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  상세 데이터 로딩 중 (150/200)
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22+%7C%7C+code%3D%22044490%22+%7C%7C+code%3D%22100790%22+%7C%7C+code%3D%22363250%22+%7C%7C+code%3D%22037350%22+%7C%7C+code%3D%22089980%22+%7C%7C+code%3D%22456040%22+%7C%7C+code%3D%22355690%22+%7C%7C+code%3D%22272110%22+%7C%7C+code%3D%22353200%22&sort=%2Bdate&page=1&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012210%22+%7C%7C+code%3D%22318060%22+%7C%7C+code%3D%22900290%22+%7C%7C+code%3D%22073490%22+%7C%7C+code%3D%22424980%22+%7C%7C+code%3D%22003000%22+%7C%7C+code%3D%22112610%22+%7C%7C+code%3D%22373200%22+%7C%7C+code%3D%22053610%22+%7C%7C+code%3D%22101490%22&sort=%2Bdate&page=11&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  상세 데이터 로딩 중 (170/200)
+  [경고] 배치 로딩 중 오류 (개별 시도 fallback): 'Index' object has no attribute 'tz'
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10054] 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10054] 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+  상세 데이터 로딩 중 (190/200)
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[2026-03-21 20:57:26.213218] 상세 데이터 로딩 완료.
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+ [51/200] 동아엘텍(088130): 패턴 미완성 (제외)
+ [52/200] 아주IB투자(027360): 패턴 미완성 (제외)
+ [53/200] THE E&M(089230): 패턴 미완성 (제외)
+ [54/200] ISC(095340): 패턴 미완성 (제외)
+ [55/200] 해성옵틱스(076610): 패턴 미완성 (제외)
+ [56/200] 다원넥스뷰(323350): 패턴 미완성 (제외)
+ [57/200] 한스바이오메드(042520): 패턴 미완성 (제외)
+ -> [★발견★] 아이티센글로벌 (Market): 8회 수축, 마지막 14.5%, 점수 40 (Jump 50), 피벗 71,900 (+16.9%)
+ -> [★발견★] 피에스케이홀딩스 (Market): 7회 수축, 마지막 12.8%, 점수 40 (Jump 30), 피벗 117,300 (+5.3%)
+ [60/200] 네오티스(085910): 패턴 미완성 (제외)
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+ [171/200] 한선엔지니어링(452280): 패턴 미완성 (제외)
+ [172/200] 우리로(046970): 패턴 미완성 (제외)
+ [173/200] NH투자증권(005940): 패턴 미완성 (제외)
+ [174/200] 유성티엔에스(024800): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 58.6%
+ [175/200] 와이바이오로직스(338840): 패턴 미완성 (제외)
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (ohlcv): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+
+============================================================
+ VCP 스캔 요약: 발견 2, 추세제외 1, 패턴제외 12, 에러 0
+============================================================
+[PB Error] Query failed (vcp_reports): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Upload failed (vcp_reports): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Query failed (vcp_reports): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[PB Error] Upload failed (vcp_reports): Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+[완료] 2개 PB 업로드 완료.
+[2026-03-21 21:03:52.129504] 06_collect_stock_data.py 실행 중...
+[오류] 파이프라인 중단: Command '['E:\\Downloads\\Antigravity Project\\ClosingSHIN\\venv\\Scripts\\pythonw.exe', 'E:\\Downloads\\Antigravity Project\\ClosingSHIN\\Scripts\\06_collect_stock_data.py', '--date', '20260319', '--parent']' returned non-zero exit status 2.

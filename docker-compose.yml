@@ -1,0 +1,42 @@
+services:
+  pocketbase:
+    image: ghcr.io/muchobien/pocketbase:latest
+    container_name: pocketbase
+    ports:
+      - "8090:8080"
+    volumes:
+      - ./pb_data:/pb_data
+    command:
+      - serve
+      - --http=0.0.0.0:8080
+      - --dir=/pb_data
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  closingshin:
+    build: .
+    image: closingshin:latest
+    container_name: closingshin
+    depends_on:
+      - pocketbase
+    ports:
+      - "3000:3000" # Next.js 웹 서버
+      - "3001:3001" # Scheduler 상태 API
+    volumes:
+      - ./Scripts/data:/app/Scripts/data
+      - ./Scripts/results:/app/Scripts/results
+      - ./.env:/app/.env:ro
+    environment:
+      - NODE_ENV=production
+      - TZ=Asia/Seoul
+      - PB_URL=http://pocketbase:8080
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

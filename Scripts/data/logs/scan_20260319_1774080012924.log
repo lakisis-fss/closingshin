@@ -1,0 +1,469 @@
+[2026-03-21 17:00:27.234505] 자동 시장 데이터 동기화 체크 중...
+[2026-03-21 17:49:34.396451] 동기화 확인 완료.
+[2026-03-21 17:49:34.404992] VCP 통합 스캔 시작 (Target Date: 20260319)
+[2026-03-21 17:49:34.503515] 대상 종목 선별 작업 시작 (전체 시장)...
+총 2656개 중 2537개 스캔 대상 확정
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%220126Z0%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22079900%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%220120G0%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22279570%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22480370%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22217590%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22317450%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22439260%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22484870%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031210%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22475560%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22064400%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22499790%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22487570%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22022100%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22278470%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22462870%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22092790%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22454910%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22062040%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22017860%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22066970%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22034230%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22475150%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22489790%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22483650%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22443060%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22111380%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22465770%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22450080%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22271940%22&sort=-date&page=1&perPage=70
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  Progress: 100/2537
+  Progress: 200/2537
+  Progress: 300/2537
+  Progress: 400/2537
+  Progress: 500/2537
+  Progress: 600/2537
+  Progress: 700/2537
+  Progress: 800/2537
+  Progress: 900/2537
+  Progress: 1000/2537
+  Progress: 1100/2537
+  Progress: 1200/2537
+  Progress: 1300/2537
+  Progress: 1400/2537
+  Progress: 1500/2537
+  Progress: 1600/2537
+  Progress: 1700/2537
+  Progress: 1800/2537
+  Progress: 1900/2537
+  Progress: 2000/2537
+  Progress: 2100/2537
+  Progress: 2200/2537
+  Progress: 2300/2537
+  Progress: 2400/2537
+  Progress: 2500/2537
+  캐시 완료: 50/200
+  캐시 완료: 100/200
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22307180%22&sort=-date&page=1&perPage=400
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22098120%22&sort=-date&page=1&perPage=400
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22053610%22&sort=-date&page=1&perPage=400
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22252990%22&sort=-date&page=1&perPage=400
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  캐시 완료: 150/200
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22424980%22&sort=-date&page=1&perPage=400
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22458870%22&sort=-date&page=1&perPage=400
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22117670%22&sort=-date&page=1&perPage=400
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+  캐시 완료: 200/200
+ [1/200] 비엘팜텍(065170): 패턴 미완성 (제외)
+ [2/200] 우리기술(032820): 패턴 미완성 (제외)
+ [3/200] 헝셩그룹(900270): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 611.86%
+ [4/200] 현대ADM(187660): 패턴 미완성 (제외)
+ [5/200] 유투바이오(221800): 패턴 미완성 (제외)
+ [6/200] 나무기술(242040): 패턴 미완성 (제외)
+ -> [★발견★] 에이치엠넥스 (Market): 7회 수축, 마지막 10.2%, 점수 20 (Jump 10), 피벗 5,480 (+11.4%)
+ [8/200] 대우건설(047040): 패턴 미완성 (제외)
+ [9/200] 레이저쎌(412350): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 319.62%
+ [10/200] 삼표시멘트(038500): 패턴 미완성 (제외)
+ [11/200] 성호전자(043260): 패턴 미완성 (제외)
+ [12/200] SK증권(001510): 패턴 미완성 (제외)
+ [13/200] 삼천당제약(000250): 패턴 미완성 (제외)
+ -> [★발견★] 현대바이오 (Market): 9회 수축, 마지막 11.9%, 점수 40 (Jump 50), 피벗 16,690 (+13.5%)
+ [15/200] SKAI(357880): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 205.67%
+ [16/200] 아모센스(357580): 패턴 미완성 (제외)
+ [17/200] 디케이티(290550): 패턴 미완성 (제외)
+ -> [★발견★] 누리플렉스 (Market): 6회 수축, 마지막 15.0%, 점수 20 (Jump 10), 피벗 9,410 (-8.4%)
+ [19/200] 오르비텍(046120): 패턴 미완성 (제외)
+ [20/200] 대성하이텍(129920): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 177.78%
+ [21/200] 파두(440110): 패턴 미완성 (제외)
+ -> [★발견★] HD현대에너지솔루션 (Market): 6회 수축, 마지막 13.2%, 점수 20 (Jump 10), 피벗 89,600 (-31.6%)
+ -> [★발견★] RF머트리얼즈 (Market): 6회 수축, 마지막 11.5%, 점수 20 (Jump 30), 피벗 25,550 (-65.4%)
+ [24/200] 스피어(347700): 패턴 미완성 (제외)
+ -> [★발견★] 셀레믹스 (Market): 5회 수축, 마지막 10.5%, 점수 40 (Jump 50), 피벗 5,140 (-24.9%)
+ [26/200] 오늘이엔엠(192410): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 152.72%
+ [27/200] 헥토파이낸셜(234340): 패턴 미완성 (제외)
+ [28/200] 대한광통신(010170): 1차 조정폭 과다 (제외)
+ -> [★발견★] 와이지-원 (Market): 6회 수축, 마지막 13.5%, 점수 20 (Jump 30), 피벗 13,790 (+9.9%)
+ [30/200] HLB이노베이션(024850): 패턴 미완성 (제외)
+ [31/200] APS(054620): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 148.11%
+ [32/200] SGC에너지(005090): 패턴 미완성 (제외)
+ [33/200] 더블유씨피(393890): 패턴 미완성 (제외)
+ -> [★발견★] 미래에셋증권 (Market): 6회 수축, 마지막 6.2%, 점수 70 (Jump 50), 피벗 71,091 (+5.0%)
+ [35/200] 코셈(360350): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 138.01%
+ [36/200] THE E&M(089230): 패턴 미완성 (제외)
+ -> [★발견★] 기가비스 (Market): 5회 수축, 마지막 9.4%, 점수 60 (Jump 50), 피벗 77,400 (-1.6%)
+ [38/200] 미래아이앤지(007120): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 134.18%
+ [39/200] 한화시스템(272210): 패턴 미완성 (제외)
+ [40/200] 아주IB투자(027360): 패턴 미완성 (제외)
+ [41/200] 동아엘텍(088130): 패턴 미완성 (제외)
+ [42/200] 네오티스(085910): 패턴 미완성 (제외)
+ [43/200] 엠디바이스(226590): 1차 조정폭 과다 (제외)
+ [44/200] 에스에너지(095910): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 127.92%
+ [45/200] 에프앤가이드(064850): 패턴 미완성 (제외)
+ [46/200] 해성옵틱스(076610): 패턴 미완성 (제외)
+ [47/200] 현대건설(000720): 패턴 미완성 (제외)
+ [48/200] 서울전자통신(027040): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 123.35%
+ [49/200] ISC(095340): 패턴 미완성 (제외)
+ [50/200] 큐라클(365270): 패턴 미완성 (제외)
+ [51/200] 뉴로메카(348340): 50일선 아래 (제외) | 50일등락: 115.12%
+ [52/200] 선익시스템(171090): 패턴 미완성 (제외)
+ -> [★발견★] 피에스케이홀딩스 (Market): 7회 수축, 마지막 12.8%, 점수 40 (Jump 30), 피벗 117,300 (+5.3%)
+ [54/200] 압타머사이언스(291650): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 113.23%
+ [55/200] 한스바이오메드(042520): 패턴 미완성 (제외)
+ [56/200] 삼화콘덴서공업(001820): 패턴 미완성 (제외)
+ [57/200] 엠케이전자(033160): 패턴 미완성 (제외)
+ [58/200] 한화갤러리아(452260): 패턴 미완성 (제외)
+ [59/200] RFHIC(218410): 패턴 미완성 (제외)
+ [60/200] 덕산하이메탈(077360): 패턴 미완성 (제외)
+ -> [★발견★] SV인베스트먼트 (Market): 7회 수축, 마지막 7.0%, 점수 70 (Jump 50), 피벗 3,660 (+7.5%)
+ -> [★발견★] 제이에스링크 (Market): 7회 수축, 마지막 7.8%, 점수 60 (Jump 30), 피벗 41,900 (+4.2%)
+ [63/200] 오이솔루션(138080): 패턴 미완성 (제외)
+ [64/200] 티에스이(131290): 패턴 미완성 (제외)
+ [65/200] 젠큐릭스(229000): 패턴 미완성 (제외)
+ -> [★발견★] 아이티센글로벌 (Market): 8회 수축, 마지막 14.5%, 점수 40 (Jump 50), 피벗 71,900 (+16.9%)
+ [67/200] 한국피아이엠(448900): 패턴 미완성 (제외)
+ -> [★발견★] 대주전자재료 (Market): 6회 수축, 마지막 10.8%, 점수 20 (Jump 30), 피벗 118,800 (-5.9%)
+ [69/200] 제이스텍(090470): 패턴 미완성 (제외)
+ [70/200] 한전산업(130660): 패턴 미완성 (제외)
+ [71/200] 상상인증권(001290): 패턴 미완성 (제외)
+ [72/200] 오킨스전자(080580): 패턴 미완성 (제외)
+ [73/200] 신성이엔지(011930): 패턴 미완성 (제외)
+ [74/200] 케이엠더블유(032500): 패턴 미완성 (제외)
+ [75/200] 비에이치아이(083650): 패턴 미완성 (제외)
+ [76/200] 센서뷰(321370): 패턴 미완성 (제외)
+ [77/200] 삼미금속(012210): 패턴 미완성 (제외)
+ [78/200] OCI홀딩스(010060): 패턴 미완성 (제외)
+ [79/200] 흥아해운(003280): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 94.39%
+ [80/200] 모베이스전자(012860): 50일선 아래 (제외) | 50일등락: 94.17%
+ [81/200] 웨이비스(289930): 패턴 미완성 (제외)
+ [82/200] 미래에셋생명(085620): 패턴 미완성 (제외)
+ [83/200] 중앙에너비스(000440): 패턴 미완성 (제외)
+ [84/200] 에스티큐브(052020): 패턴 미완성 (제외)
+ [85/200] 씨아이에스(222080): 패턴 미완성 (제외)
+ [86/200] 시지메드텍(056090): 패턴 미완성 (제외)
+ [87/200] RF시스템즈(474610): 패턴 미완성 (제외)
+ [88/200] LS머트리얼즈(417200): 패턴 미완성 (제외)
+ [89/200] 서진시스템(178320): 패턴 미완성 (제외)
+ [90/200] DSC인베스트먼트(241520): 패턴 미완성 (제외)
+ [91/200] 피에스케이(319660): 패턴 미완성 (제외)
+ [92/200] 현대지에프홀딩스(005440): 패턴 미완성 (제외)
+ -> [★발견★] 엔에프씨 (Market): 10회 수축, 마지막 13.7%, 점수 40 (Jump 50), 피벗 9,400 (+4.4%)
+ [94/200] 코아시아씨엠(196450): 패턴 미완성 (제외)
+ -> [★발견★] KEC (Market): 9회 수축, 마지막 12.9%, 점수 20 (Jump 30), 피벗 1,521 (+8.1%)
+ [96/200] 한화솔루션(009830): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 87.74%
+ [97/200] 케이엔제이(272110): 패턴 미완성 (제외)
+ [98/200] 엑시콘(092870): 패턴 미완성 (제외)
+ [99/200] 더코디(224060): 패턴 미완성 (제외)
+ [100/200] 퍼스텍(010820): 패턴 미완성 (제외)
+ [101/200] 휴림로봇(090710): 패턴 미완성 (제외)
+ [102/200] 서울반도체(046890): 패턴 미완성 (제외)
+ [103/200] 리노공업(058470): 패턴 미완성 (제외)
+ [104/200] 에치에프알(230240): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 82.01%
+ [105/200] 제이아이테크(417500): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 81.87%
+ -> [★발견★] 대덕전자 (Market): 9회 수축, 마지막 9.7%, 점수 40 (Jump 30), 피벗 66,700 (-19.4%)
+ [107/200] 유진로봇(056080): 50일선 아래 (제외) | 50일등락: 81.59%
+ [108/200] 엘에스일렉트릭(010120): 패턴 미완성 (제외)
+ [109/200] 대원전선(006340): 패턴 미완성 (제외)
+ [110/200] 모헨즈(006920): 패턴 미완성 (제외)
+ [111/200] 코스텍시스(355150): 패턴 미완성 (제외)
+ [112/200] 쏠리드(050890): 패턴 미완성 (제외)
+ [113/200] 로킷헬스케어(376900): 패턴 미완성 (제외)
+ -> [★발견★] 태성 (Market): 6회 수축, 마지막 10.5%, 점수 40 (Jump 50), 피벗 77,500 (+11.3%)
+ [115/200] 성도이엔지(037350): 패턴 미완성 (제외)
+ [116/200] GRT(900290): 패턴 미완성 (제외)
+ [117/200] 두산테스나(131970): 패턴 미완성 (제외)
+ [118/200] 삼성전기(009150): 패턴 미완성 (제외)
+ -> [★발견★] 그린리소스 (Market): 7회 수축, 마지막 6.6%, 점수 40 (Jump 30), 피벗 10,010 (-32.8%)
+ [120/200] 그래피(318060): 데이터 부족 (200일 미만) (제외) | 50일등락: 75.67%
+ [121/200] 태웅(044490): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 75.24%
+ [122/200] 효성티앤씨(298020): 패턴 미완성 (제외)
+ -> [★발견★] 주성엔지니어링 (Market): 5회 수축, 마지막 12.9%, 점수 20 (Jump 10), 피벗 70,000 (-3.9%)
+ -> [★발견★] 한전기술 (Market): 6회 수축, 마지막 5.5%, 점수 60 (Jump 80), 피벗 177,700 (+1.2%)
+ [125/200] OCI(456040): 패턴 미완성 (제외)
+ [126/200] 동부건설(005960): 패턴 미완성 (제외)
+ [127/200] 베뉴지(019010): 패턴 미완성 (제외)
+ [128/200] 상아프론테크(089980): 패턴 미완성 (제외)
+ -> [★발견★] 코오롱인더 (Market): 6회 수축, 마지막 6.5%, 점수 60 (Jump 50), 피벗 75,000 (+7.0%)
+ [130/200] 이노룰스(296640): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 71.25%
+ [131/200] 인텔리안테크(189300): 패턴 미완성 (제외)
+ [132/200] 한선엔지니어링(452280): 패턴 미완성 (제외)
+ [133/200] 세중(039310): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 71.02%
+ [134/200] 에이텀(355690): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 70.66%
+ -> [★발견★] 브이엠 (Market): 7회 수축, 마지막 10.8%, 점수 20 (Jump 30), 피벗 43,400 (-8.9%)
+ -> [★발견★] 라이콤 (Market): 6회 수축, 마지막 10.3%, 점수 40 (Jump 50), 피벗 3,190 (-25.9%)
+ [137/200] LS증권(078020): 패턴 미완성 (제외)
+ -> [★발견★] 한섬 (Market): 8회 수축, 마지막 2.7%, 점수 70 (Jump 100), 피벗 24,200 (-9.7%)
+ -> [★발견★] 코오롱ENP (Market): 8회 수축, 마지막 5.0%, 점수 80 (Jump 80), 피벗 13,800 (+3.8%)
+ [140/200] 흥구석유(024060): 패턴 미완성 (제외)
+ [141/200] DN오토모티브(007340): 패턴 미완성 (제외)
+ [142/200] 쎄트렉아이(099320): 패턴 미완성 (제외)
+ [143/200] 부광약품(003000): 패턴 미완성 (제외)
+ [144/200] 비나텍(126340): 패턴 미완성 (제외)
+ -> [★발견★] 이노와이어리스 (Market): 9회 수축, 마지막 12.4%, 점수 20 (Jump 30), 피벗 45,550 (+7.6%)
+ [146/200] 아이엘(307180): 패턴 미완성 (제외)
+ [147/200] 마이크로컨텍솔(098120): 패턴 미완성 (제외)
+ [148/200] 프로텍(053610): 패턴 미완성 (제외)
+ [149/200] 샘씨엔에스(252990): 패턴 미완성 (제외)
+ [150/200] 다원넥스뷰(323350): 패턴 미완성 (제외)
+ [151/200] 마이크로투나노(424980): 패턴 미완성 (제외)
+ [152/200] 알멕(354320): 50일선 아래 (제외) | 50일등락: 65.85%
+ -> [★발견★] 한미반도체 (Market): 6회 수축, 마지막 10.0%, 점수 50 (Jump 50), 피벗 333,500 (+7.8%)
+ [154/200] 씨어스테크놀로지(458870): 패턴 미완성 (제외)
+ [155/200] 진시스템(363250): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 65.16%
+ [156/200] 에코프로(086520): 패턴 미완성 (제외)
+ [157/200] 한신기계공업(011700): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 64.83%
+ -> [★발견★] 싸이맥스 (Market): 7회 수축, 마지막 13.2%, 점수 20 (Jump 30), 피벗 23,050 (-2.5%)
+ [159/200] 씨에스윈드(112610): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 64.3%
+ [160/200] 에이엔피(015260): 패턴 미완성 (제외)
+ [161/200] 일지테크(019540): 패턴 미완성 (제외)
+ [162/200] 리브스메드(491000): 데이터 부족 (200일 미만) (제외) | 50일등락: 63.4%
+ [163/200] 에스앤에스텍(101490): 패턴 미완성 (제외)
+ [164/200] 에스피지(058610): 50일선 아래 (제외) | 50일등락: 62.11%
+ [165/200] 인콘(083640): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 61.94%
+ [166/200] 티비에이치글로벌(084870): 패턴 미완성 (제외)
+ [167/200] 케이엔에스(432470): 패턴 미완성 (제외)
+ [168/200] 네오펙트(290660): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 61.81%
+ [169/200] 세아메카닉스(396300): 50일선 아래 (제외) | 50일등락: 61.66%
+ [170/200] 태광산업(003240): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 61.64%
+ [171/200] 알파칩스(117670): 패턴 미완성 (제외)
+ [172/200] 유성티엔에스(024800): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 60.65%
+ [173/200] 레인보우로보틱스(277810): 50일선 아래 (제외) | 50일등락: 60.63%
+ [174/200] NH투자증권(005940): 패턴 미완성 (제외)
+ [175/200] SG세계물산(004060): 패턴 미완성 (제외)
+ [176/200] 대창솔루션(096350): 패턴 미완성 (제외)
+ [177/200] 비츠로셀(082920): 패턴 미완성 (제외)
+ [178/200] 우리로(046970): 패턴 미완성 (제외)
+ [179/200] 한화생명(088350): 패턴 미완성 (제외)
+ [180/200] 씨엠티엑스(388210): 데이터 부족 (200일 미만) (제외) | 50일등락: 59.91%
+ -> [★발견★] 알톤 (Market): 6회 수축, 마지막 6.4%, 점수 70 (Jump 50), 피벗 2,405 (+6.9%)
+ [182/200] 이수스페셜티케미컬(457190): 50일선 아래 (제외) | 50일등락: 59.69%
+ -> [★발견★] 신영증권 (Market): 9회 수축, 마지막 6.5%, 점수 70 (Jump 50), 피벗 213,500 (+2.1%)
+ [184/200] 코데즈컴바인(047770): 1차 조정폭 과다 (제외)
+ -> [★발견★] 원익IPS (Market): 6회 수축, 마지막 13.9%, 점수 40 (Jump 50), 피벗 137,800 (+10.2%)
+ [186/200] 앤디포스(238090): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 58.54%
+ -> [★발견★] 자화전자 (Market): 7회 수축, 마지막 11.9%, 점수 50 (Jump 50), 피벗 44,400 (+13.6%)
+ [188/200] 미래에셋벤처투자(100790): 패턴 미완성 (제외)
+ -> [★발견★] 보로노이 (Market): 9회 수축, 마지막 12.0%, 점수 40 (Jump 50), 피벗 363,500 (+12.0%)
+ -> [★발견★] 네오셈 (Market): 8회 수축, 마지막 7.6%, 점수 60 (Jump 50), 피벗 20,300 (+6.3%)
+ [191/200] 현대홈쇼핑(057050): 패턴 미완성 (제외)
+ [192/200] 지니너스(389030): 패턴 미완성 (제외)
+ [193/200] 옵티코어(380540): 패턴 미완성 (제외)
+ [194/200] 한화투자증권(003530): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 56.85%
+ [195/200] HDC(012630): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 56.46%
+ [196/200] 세아제강지주(003030): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 56.46%
+ [197/200] 앤씨앤(092600): 이평선 역배열 (50>150>200 미충족) (제외) | 50일등락: 56.18%
+ [198/200] 롯데쇼핑(023530): 패턴 미완성 (제외)
+ -> [★발견★] 서남 (Market): 7회 수축, 마지막 4.8%, 점수 80 (Jump 80), 피벗 4,200 (+2.9%)
+ [200/200] 삼화페인트공업(000390): 패턴 미완성 (제외)
+
+============================================================
+ VCP 스캔 요약: 발견 36, 추세제외 42, 패턴제외 122, 에러 0
+============================================================
+[완료] 36개 PB 업로드 완료.
+[2026-03-21 19:21:33.449723] 06_collect_stock_data.py 실행 중...
+[오류] 파이프라인 중단: Command '['E:\\Downloads\\Antigravity Project\\ClosingSHIN\\venv\\Scripts\\pythonw.exe', 'E:\\Downloads\\Antigravity Project\\ClosingSHIN\\Scripts\\06_collect_stock_data.py', '--date', '20260319', '--parent']' returned non-zero exit status 2.

@@ -1,0 +1,104 @@
+{
+    "KOSPI": {
+        "Close": 5549.85009765625,
+        "Change_Pct": null
+    },
+    "KOSPI_Close": 5549.85009765625,
+    "KOSDAQ": {
+        "Close": 1138.2900390625,
+        "Change_Pct": null
+    },
+    "KOSDAQ_Close": 1138.2900390625,
+    "NASDAQ": {
+        "Close": 22386.234375,
+        "Change_Pct": null
+    },
+    "NASDAQ_Close": 22386.234375,
+    "SOX": {
+        "Close": 7834.38525390625,
+        "Change_Pct": null
+    },
+    "USD_KRW": {
+        "Close": 1490.6500244140625,
+        "Change_Pct": 1.36
+    },
+    "US10Y": {
+        "Close": 4.23199987411499,
+        "Change_Pct": null
+    },
+    "WTI_OIL": {
+        "Close": 95.1500015258789,
+        "Change_Pct": null
+    },
+    "Sectors": {
+        "KOSPI200": {
+            "Ticker": "069500",
+            "Close": 82985,
+            "Change_Pct": 1.77
+        },
+        "Semicon": {
+            "Ticker": "091160",
+            "Close": 99470,
+            "Change_Pct": 2.62
+        },
+        "Battery": {
+            "Ticker": "305720",
+            "Close": 15935,
+            "Change_Pct": -1.54
+        },
+        "Auto": {
+            "Ticker": "091170",
+            "Close": 14710,
+            "Change_Pct": -0.34
+        },
+        "IT": {
+            "Ticker": "102780",
+            "Close": 18020,
+            "Change_Pct": 0.31
+        },
+        "Bank": {
+            "Ticker": "102960",
+            "Close": 16160,
+            "Change_Pct": -1.85
+        },
+        "Steel": {
+            "Ticker": "117680",
+            "Close": 14680,
+            "Change_Pct": -2.78
+        },
+        "Securities": {
+            "Ticker": "102970",
+            "Close": 26920,
+            "Change_Pct": 1.2
+        }
+    },
+    "KOSPI_Net": {
+        "Individual": 716400000000,
+        "Foreigner": -848500000000,
+        "Institution": 91100000000
+    },
+    "KOSDAQ_Net": {
+        "Individual": 710400000000,
+        "Foreigner": -501200000000,
+        "Institution": -169600000000
+    },
+    "ADR": {
+        "KOSPI": 83.39,
+        "KOSDAQ": 46.38,
+        "Counts": {
+            "KOSPI_Up": 1647,
+            "KOSPI_Down": 1975,
+            "KOSDAQ_Up": 852,
+            "KOSDAQ_Down": 1837
+        },
+        "Date": "20260317",
+        "Source": "Naver"
+    },
+    "History": [],
+    "AI_Insight": {
+        "sentiment": "NEUTRAL",
+        "summary": "외국인 순매도에도 불구하고 KOSPI200과 반도체 상승에 힘입어 중립적인 시장 분위기가 감지되나, SOX 지수 정보 부재는 불확실성을 더합니다.",
+        "reasoning": "외국인이 대규모 순매도를 보였음에도 불구하고 KOSPI200 지수와 반도체 섹터가 상승한 점은 긍정적이지만, PHLX SOX 지수 정보가 없어 반도체 섹터 상승세의 지속가능성을 판단하기 어렵습니다. 또한, 배터리, 자동차, 은행, 철강 등 다른 주요 섹터의 하락은 전반적인 시장 심리를 긍정적으로 보기 어렵게 합니다."
+    },
+    "timestamp": "2026-03-17 00:10:28"
+}

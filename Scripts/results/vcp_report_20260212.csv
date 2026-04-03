@@ -1,0 +1,12 @@
+﻿ticker,name,market,close,contractions_count,contractions_history,last_depth_pct,volume_dry_up,vol_ratio,vcp_score,jump_score,pivot_point,pivot_distance_pct,note
+45226K,한화갤러리아우,KOSPI,10030,11,"[0.0, 3.3, 1.1, 6.5, 11.5, 2.4, 3.7, 49.4, 0.0, 36.8, 9.7]",9.67,True,0.24,80,50,11070,10.37,VCP Pattern Detected
+244920,에이플러스에셋,KOSPI,14290,6,"[4.7, 11.2, 18.2, 5.8, 9.2, 4.5]",4.45,True,0.77,80,80,11000,-23.02,VCP Pattern Detected
+452260,한화갤러리아,KOSPI,2225,9,"[3.8, 4.0, 5.3, 4.8, 0.0, 1.8, 22.1, 20.1, 7.4]",7.38,True,0.53,70,50,2235,0.45,VCP Pattern Detected
+006800,미래에셋증권,KOSPI,53400,6,"[3.3, 10.7, 16.5, 14.5, 9.1, 5.6]",5.57,False,1.0,50,60,28700,-46.25,VCP Pattern Detected
+298020,효성티앤씨,KOSPI,402500,7,"[9.1, 10.5, 6.2, 1.4, 0.0, 10.7, 8.1]",8.08,False,0.8,50,30,414500,2.98,VCP Pattern Detected
+010780,아이에스동서,KOSPI,30150,6,"[3.6, 13.4, 8.7, 6.7, 15.4, 6.8]",6.78,False,1.9,50,30,23600,-21.72,VCP Pattern Detected
+005440,현대지에프홀딩스,KOSPI,13930,5,"[4.5, 16.9, 9.3, 11.2, 9.6]",9.6,False,5.26,50,30,8750,-37.19,VCP Pattern Detected
+011500,한농화성,KOSPI,25250,6,"[7.7, 4.5, 17.3, 12.4, 5.9, 5.6]",5.58,False,0.89,50,60,26000,2.97,VCP Pattern Detected
+189300,인텔리안테크,KOSDAQ,131100,6,"[9.7, 4.6, 24.0, 5.5, 8.1, 7.8]",7.82,False,1.79,50,30,74200,-43.4,VCP Pattern Detected
+180400,DXVX,KOSDAQ,5050,9,"[13.6, 14.8, 10.0, 0.0, 20.3, 7.0, 10.1, 16.8, 9.3]",9.29,False,0.99,50,30,4090,-19.01,VCP Pattern Detected
+474170,루미르,KOSDAQ,19190,6,"[6.7, 14.1, 6.2, 11.7, 15.7, 7.1]",7.07,False,1.03,50,30,9340,-51.33,VCP Pattern Detected

@@ -1,0 +1,9 @@
+﻿ticker,name,market,close,contractions_count,contractions_history,last_depth_pct,volume_dry_up,vol_ratio,vcp_score,jump_score,note
+049630,재영솔루텍,KOSDAQ,6940,8,"[11.0, 20.3, 8.2, 6.9, 21.8, 25.0, 16.4, 8.0]",8.05,True,0.53,70,50,VCP Pattern Detected
+023810,인팩,KOSPI,12980,6,"[3.1, 10.2, 0.0, 10.7, 3.3, 2.6]",2.59,False,1.35,60,80,VCP Pattern Detected
+086280,현대글로비스,KOSPI,273000,7,"[5.4, 3.2, 15.6, 3.2, 15.3, 6.5, 3.7]",3.72,False,2.84,60,60,VCP Pattern Detected
+012860,모베이스전자,KOSDAQ,5720,8,"[2.9, 4.2, 0.0, 6.8, 4.5, 6.0, 6.0, 2.0]",2.04,False,3.36,60,80,VCP Pattern Detected
+00781K,코리아써키트2우B,KOSPI,13100,5,"[1.6, 4.5, 7.9, 25.1, 5.8]",5.84,False,1.07,50,60,VCP Pattern Detected
+272210,한화시스템,KOSPI,90800,7,"[17.8, 5.0, 3.5, 15.5, 16.7, 16.5, 7.5]",7.48,False,2.38,50,30,VCP Pattern Detected
+295310,에이치브이엠,KOSDAQ,77400,6,"[19.8, 14.7, 7.2, 17.6, 10.3, 7.9]",7.92,False,1.32,50,30,VCP Pattern Detected
+056080,유진로봇,KOSDAQ,32850,7,"[6.7, 6.6, 12.3, 10.9, 21.1, 18.1, 5.2]",5.16,False,3.01,50,60,VCP Pattern Detected

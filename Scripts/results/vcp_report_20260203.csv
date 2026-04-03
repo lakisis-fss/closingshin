@@ -1,0 +1,9 @@
+﻿ticker,name,market,close,contractions_count,contractions_history,last_depth_pct,volume_dry_up,vol_ratio,vcp_score,jump_score,note
+000720,현대건설,KOSPI,108600,7,"[8.7, 11.5, 8.9, 15.8, 9.0, 11.9, 9.5]",9.52,True,0.68,70,50,VCP Pattern Detected
+000990,DB하이텍,KOSPI,112900,6,"[5.8, 5.3, 12.2, 15.0, 5.3, 4.7]",4.65,False,1.59,60,60,VCP Pattern Detected
+00680K,미래에셋증권2우B,KOSPI,17800,6,"[8.0, 11.7, 7.9, 5.1, 4.7, 3.7]",3.69,False,2.16,60,60,VCP Pattern Detected
+274090,켄코아에어로스페이스,KOSDAQ,28200,4,"[10.2, 7.4, 19.3, 9.7]",9.68,False,1.49,60,30,VCP Pattern Detected
+006800,미래에셋증권,KOSPI,49950,6,"[3.3, 10.7, 16.5, 14.5, 9.1, 5.6]",5.57,False,1.95,50,60,VCP Pattern Detected
+457190,이수스페셜티케미컬,KOSPI,107500,5,"[9.3, 12.1, 12.6, 19.7, 7.4]",7.41,False,1.21,50,30,VCP Pattern Detected
+012610,경인양행,KOSPI,5050,9,"[9.4, 0.0, 8.9, 8.7, 5.3, 9.6, 7.9, 14.9, 10.0]",10.0,True,0.62,50,50,VCP Pattern Detected
+00781K,코리아써키트2우B,KOSPI,14490,5,"[1.6, 4.5, 7.9, 25.1, 5.8]",5.84,False,1.31,50,60,VCP Pattern Detected

@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "C:\Users\JUN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\indexes\range.py", line 1018, in __getitem__
+    return self._range[new_key]
+           ~~~~~~~~~~~^^^^^^^^^
+IndexError: range object index out of range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Downloads\Antigravity Project\ClosingSHIN\Scripts\test_pykrx.py", line 5, in <module>
+    df = stock.get_market_price_change('20251210', '20260303', market='KOSPI')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JUN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pykrx\stock\stock_api.py", line 581, in get_market_price_change
+    return get_market_price_change_by_ticker(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JUN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pykrx\stock\stock_api.py", line 603, in get_market_price_change_by_ticker
+    fromdate = get_nearest_business_day_in_a_week(fromdate, prev=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JUN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pykrx\stock\stock_api.py", line 69, in get_nearest_business_day_in_a_week
+    return krx.get_nearest_business_day_in_a_week(date, prev)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JUN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pykrx\website\krx\__init__.py", line 45, in get_nearest_business_day_in_a_week
+    return df.index[0].strftime("%Y%m%d")
+           ~~~~~~~~^^^
+  File "C:\Users\JUN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\indexes\range.py", line 1020, in __getitem__
+    raise IndexError(
+IndexError: index 0 is out of bounds for axis 0 with size 0

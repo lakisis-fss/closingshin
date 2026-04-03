@@ -1,0 +1,234 @@
+{
+    "KOSPI": {
+        "Close": 5089.14,
+        "Change_Pct": -74.43
+    },
+    "KOSPI_Close": 5089.14,
+    "KOSDAQ": {
+        "Close": 1080.77,
+        "Change_Pct": -27.64
+    },
+    "KOSDAQ_Close": 1080.77,
+    "NASDAQ": {
+        "Close": 22540.58984375,
+        "Change_Pct": -1.59
+    },
+    "NASDAQ_Close": 22540.58984375,
+    "USD_KRW": {
+        "Close": 1460.1099853515625,
+        "Change_Pct": 0.93
+    },
+    "US10Y": {
+        "Close": 4.210000038146973,
+        "Change_Pct": -1.52
+    },
+    "WTI_OIL": {
+        "Close": 63.290000915527344,
+        "Change_Pct": -2.84
+    },
+    "Sectors": {
+        "KOSPI200": {
+            "Ticker": "069500",
+            "Close": 75195,
+            "Change_Pct": -1.07
+        },
+        "Semicon": {
+            "Ticker": "091160",
+            "Close": 84420,
+            "Change_Pct": 0.5
+        },
+        "Battery": {
+            "Ticker": "305720",
+            "Close": 16560,
+            "Change_Pct": -3.64
+        },
+        "Auto": {
+            "Ticker": "091170",
+            "Close": 14935,
+            "Change_Pct": 2.43
+        },
+        "IT": {
+            "Ticker": "102780",
+            "Close": 16515,
+            "Change_Pct": -1.99
+        },
+        "Bank": {
+            "Ticker": "102960",
+            "Close": 15370,
+            "Change_Pct": -3.58
+        },
+        "Steel": {
+            "Ticker": "117680",
+            "Close": 14815,
+            "Change_Pct": -1.76
+        },
+        "Securities": {
+            "Ticker": "102970",
+            "Close": 21780,
+            "Change_Pct": -2.96
+        }
+    },
+    "KOSPI_Net": {
+        "Foreigner": -3321730827051,
+        "Institution": 960508117304,
+        "Individual": 2172927660600
+    },
+    "KOSDAQ_Net": {
+        "Foreigner": 65891744117,
+        "Institution": -165325852766,
+        "Individual": 145404172087
+    },
+    "ADR": {
+        "KOSPI": 27.31,
+        "KOSDAQ": 0.0,
+        "Counts": {
+            "KOSPI_Up": 192,
+            "KOSPI_Down": 703,
+            "KOSDAQ_Up": 0,
+            "KOSDAQ_Down": 0
+        }
+    },
+    "History": [
+        {
+            "date": "2025-12-29",
+            "KOSPI": 4220.56,
+            "KOSDAQ": 932.59
+        },
+        {
+            "date": "2025-12-30",
+            "KOSPI": 4214.17,
+            "KOSDAQ": 925.47
+        },
+        {
+            "date": "2026-01-02",
+            "KOSPI": 4309.63,
+            "KOSDAQ": 945.57
+        },
+        {
+            "date": "2026-01-05",
+            "KOSPI": 4457.52,
+            "KOSDAQ": 957.5
+        },
+        {
+            "date": "2026-01-06",
+            "KOSPI": 4525.48,
+            "KOSDAQ": 955.97
+        },
+        {
+            "date": "2026-01-07",
+            "KOSPI": 4551.06,
+            "KOSDAQ": 947.39
+        },
+        {
+            "date": "2026-01-08",
+            "KOSPI": 4552.37,
+            "KOSDAQ": 944.06
+        },
+        {
+            "date": "2026-01-09",
+            "KOSPI": 4586.32,
+            "KOSDAQ": 947.92
+        },
+        {
+            "date": "2026-01-12",
+            "KOSPI": 4624.79,
+            "KOSDAQ": 949.81
+        },
+        {
+            "date": "2026-01-13",
+            "KOSPI": 4692.64,
+            "KOSDAQ": 948.98
+        },
+        {
+            "date": "2026-01-14",
+            "KOSPI": 4723.1,
+            "KOSDAQ": 942.18
+        },
+        {
+            "date": "2026-01-15",
+            "KOSPI": 4797.55,
+            "KOSDAQ": 951.16
+        },
+        {
+            "date": "2026-01-16",
+            "KOSPI": 4840.74,
+            "KOSDAQ": 954.59
+        },
+        {
+            "date": "2026-01-19",
+            "KOSPI": 4904.66,
+            "KOSDAQ": 968.36
+        },
+        {
+            "date": "2026-01-20",
+            "KOSPI": 4885.75,
+            "KOSDAQ": 976.37
+        },
+        {
+            "date": "2026-01-21",
+            "KOSPI": 4909.93,
+            "KOSDAQ": 951.29
+        },
+        {
+            "date": "2026-01-22",
+            "KOSPI": 4952.53,
+            "KOSDAQ": 970.35
+        },
+        {
+            "date": "2026-01-23",
+            "KOSPI": 4990.07,
+            "KOSDAQ": 993.93
+        },
+        {
+            "date": "2026-01-26",
+            "KOSPI": 4949.59,
+            "KOSDAQ": 1064.41
+        },
+        {
+            "date": "2026-01-27",
+            "KOSPI": 5084.85,
+            "KOSDAQ": 1082.59
+        },
+        {
+            "date": "2026-01-28",
+            "KOSPI": 5170.81,
+            "KOSDAQ": 1133.52
+        },
+        {
+            "date": "2026-01-29",
+            "KOSPI": 5221.25,
+            "KOSDAQ": 1164.41
+        },
+        {
+            "date": "2026-01-30",
+            "KOSPI": 5224.36,
+            "KOSDAQ": 1149.44
+        },
+        {
+            "date": "2026-02-02",
+            "KOSPI": 4949.67,
+            "KOSDAQ": 1098.36
+        },
+        {
+            "date": "2026-02-03",
+            "KOSPI": 5288.08,
+            "KOSDAQ": 1144.33
+        },
+        {
+            "date": "2026-02-04",
+            "KOSPI": 5371.1,
+            "KOSDAQ": 1149.43
+        },
+        {
+            "date": "2026-02-05",
+            "KOSPI": 5163.57,
+            "KOSDAQ": 1108.41
+        },
+        {
+            "date": "2026-02-06",
+            "KOSPI": 5089.14,
+            "KOSDAQ": 1080.77
+        }
+    ],
+    "timestamp": "2026-02-06 16:11:31"
+}

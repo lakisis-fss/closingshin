@@ -1,0 +1,1325 @@
+2026-02-08 15:02:55,099 - INFO - Starting Exit Monitor...
+2026-02-08 15:02:55,102 - INFO - Using stock data from: 20260206 (e:\Downloads\Antigravity Project\ClosingSHIN\Scripts\results\stock_info_20260206.csv)
+2026-02-08 15:03:59,481 - INFO - Starting Exit Monitor...
+2026-02-08 15:03:59,481 - ERROR - Failed to fetch price for 005930: name 'fdr' is not defined
+2026-02-08 15:03:59,483 - WARNING - Price not found for Samsung Electronics (005930)
+2026-02-08 15:03:59,483 - INFO - No exit signals detected.
+2026-02-08 15:04:50,462 - INFO - Starting Exit Monitor...
+2026-02-08 15:04:51,203 - INFO - Checking Samsung Electronics(005930): Price=158600.0, Buy=80000.0, PnL=98.25%, Held=769d
+2026-02-08 15:04:51,204 - WARNING - [TAKE PROFIT] Samsung Electronics(005930) Current: 98.25% >= Limit: 10% (Price: 158600.0)
+2026-02-08 15:04:51,207 - INFO - Detected 1 exit signals.
+2026-02-09 19:22:24,558 - INFO - Starting Exit Monitor...
+2026-02-09 19:22:25,208 - INFO - Checking DB하이텍(000990): Price=99000.0, Buy=75200.0, PnL=31.65%, Held=34 days, 19:22:25.208663
+2026-02-09 19:22:25,776 - INFO - Checking 한미반도체(042700): Price=197800.0, Buy=183700.0, PnL=7.68%, Held=34 days, 19:22:25.776673
+2026-02-09 19:22:26,408 - INFO - Checking 현대건설(000720): Price=114200.0, Buy=102600.0, PnL=11.31%, Held=10 days, 19:22:26.408421
+2026-02-09 19:22:26,409 - INFO - ALERT TRIGGERED: Exit Signal Detected - 현대건설(000720): [TAKE PROFIT] 11.3% >= 5.0%
+2026-02-09 19:22:27,014 - INFO - Checking 경인양행(012610): Price=4730.0, Buy=4920.0, PnL=-3.86%, Held=10 days, 19:22:27.014419
+2026-02-09 19:22:27,014 - INFO - Detected 1 exit signals.
+2026-02-09 19:22:27,014 - INFO - Exit Monitor Finished.
+2026-02-14 16:19:21,282 - INFO - Starting Exit Monitor...
+2026-02-14 16:19:21,844 - INFO - Checking DB하이텍(000990): Price=93000.0, Buy=103000.0, PnL=-9.71%, Held=12 days, 16:19:21.844939
+2026-02-14 16:19:21,844 - INFO - ALERT TRIGGERED: Exit Signal Detected - DB하이텍(000990): [STOP LOSS] -9.7% <= -3.0%
+2026-02-14 16:19:22,395 - INFO - Checking 한화시스템(272210): Price=103400.0, Buy=90500.0, PnL=14.25%, Held=25 days, 16:19:22.395503
+2026-02-14 16:19:22,395 - INFO - ALERT TRIGGERED: Exit Signal Detected - 한화시스템(272210): [TAKE PROFIT] 14.3% >= 8.0%
+2026-02-14 16:19:22,917 - INFO - Checking 한화시스템(272210): Price=103400.0, Buy=88800.0, PnL=16.44%, Held=24 days, 16:19:22.917244
+2026-02-14 16:19:23,476 - INFO - Checking 유진로봇(056080): Price=37750.0, Buy=36200.0, PnL=4.28%, Held=23 days, 16:19:23.476288
+2026-02-14 16:19:23,985 - INFO - Checking 이수스페셜티케미컬(457190): Price=99700.0, Buy=96600.0, PnL=3.21%, Held=22 days, 16:19:23.985239
+2026-02-14 16:19:24,522 - INFO - Checking 유진로봇(056080): Price=37750.0, Buy=31850.0, PnL=18.52%, Held=19 days, 16:19:24.522162
+2026-02-14 16:19:25,032 - INFO - Checking 에이플러스에셋(244920): Price=14060.0, Buy=10850.0, PnL=29.59%, Held=18 days, 16:19:25.031750
+2026-02-14 16:19:25,563 - INFO - Checking 경인양행(012610): Price=4800.0, Buy=4835.0, PnL=-0.72%, Held=17 days, 16:19:25.563812
+2026-02-14 16:19:26,090 - INFO - Checking 인텔리안테크(189300): Price=124300.0, Buy=128400.0, PnL=-3.19%, Held=5 days, 16:19:26.090634
+2026-02-14 16:19:26,613 - INFO - Checking 에이플러스에셋(244920): Price=14060.0, Buy=10850.0, PnL=29.59%, Held=18 days, 16:19:26.613944
+2026-02-14 16:19:26,613 - INFO - Detected 2 exit signals.
+2026-02-14 16:19:26,615 - INFO - Exit Monitor Finished.
+2026-02-14 16:19:26,615 - INFO - Triggering Portfolio Calculation...
+2026-02-14 16:19:34,194 - INFO - Portfolio Calculation completed successfully.
+2026-02-14 16:19:34,194 - INFO - 
+2026-03-05 18:13:59,279 - INFO - Starting Exit Monitor...
+2026-03-05 18:13:59,788 - INFO - Checking 한화시스템(272210): Price=150800.0, Buy=88800.0, PnL=69.82%, Held=43 days, 18:13:59.788535
+2026-03-05 18:14:00,202 - INFO - Checking 이수스페셜티케미컬(457190): Price=97000.0, Buy=96600.0, PnL=0.41%, Held=41 days, 18:14:00.202372
+2026-03-05 18:14:00,729 - INFO - Checking 유진로봇(056080): Price=30250.0, Buy=31850.0, PnL=-5.02%, Held=38 days, 18:14:00.729541
+2026-03-05 18:14:01,196 - INFO - Checking 인텔리안테크(189300): Price=120800.0, Buy=128400.0, PnL=-5.92%, Held=24 days, 18:14:01.196747
+2026-03-05 18:14:01,714 - INFO - Checking 에이플러스에셋(244920): Price=12800.0, Buy=10850.0, PnL=17.97%, Held=37 days, 18:14:01.714348
+2026-03-05 18:14:02,207 - INFO - Checking 한화갤러리아(452260): Price=2870.0, Buy=2225.0, PnL=28.99%, Held=21 days, 18:14:02.207124
+2026-03-05 18:14:02,654 - INFO - Checking 한전기술(052690): Price=146200.0, Buy=151600.0, PnL=-3.56%, Held=14 days, 18:14:02.654143
+2026-03-05 18:14:03,138 - INFO - Checking 휴림로봇(090710): Price=12990.0, Buy=14290.0, PnL=-9.10%, Held=13 days, 18:14:03.138039
+2026-03-05 18:14:03,138 - INFO - No exit signals detected.
+2026-03-05 18:14:03,138 - INFO - Exit Monitor Finished.
+2026-03-05 18:14:03,138 - INFO - Triggering Portfolio Calculation...
+2026-03-05 18:14:15,075 - INFO - Portfolio Calculation completed successfully.
+2026-03-05 18:14:15,075 - INFO - 2026-03-05 18:14:05,057 - INFO - Starting Portfolio Calculation...
+2026-03-05 18:14:14,888 - INFO - Portfolio status updated. Total Value: 77,214,000
+
+2026-03-06 18:00:01,981 - INFO - Starting Exit Monitor...
+2026-03-06 18:00:02,531 - INFO - Checking 한화시스템(272210): Price=158900.0, Buy=88800.0, PnL=78.94%, Held=44 days, 18:00:02.531229
+2026-03-06 18:00:03,147 - INFO - Checking 이수스페셜티케미컬(457190): Price=105100.0, Buy=96600.0, PnL=8.80%, Held=42 days, 18:00:03.147729
+2026-03-06 18:00:03,789 - INFO - Checking 유진로봇(056080): Price=32100.0, Buy=31850.0, PnL=0.78%, Held=39 days, 18:00:03.789591
+2026-03-06 18:00:04,311 - INFO - Checking 인텔리안테크(189300): Price=123800.0, Buy=128400.0, PnL=-3.58%, Held=25 days, 18:00:04.311012
+2026-03-06 18:00:05,011 - INFO - Checking 에이플러스에셋(244920): Price=12830.0, Buy=10850.0, PnL=18.25%, Held=38 days, 18:00:05.011161
+2026-03-06 18:00:05,576 - INFO - Checking 한화갤러리아(452260): Price=2900.0, Buy=2225.0, PnL=30.34%, Held=22 days, 18:00:05.576531
+2026-03-06 18:00:06,164 - INFO - Checking 한전기술(052690): Price=155400.0, Buy=151600.0, PnL=2.51%, Held=15 days, 18:00:06.164967
+2026-03-06 18:00:06,855 - INFO - Checking 휴림로봇(090710): Price=12860.0, Buy=14290.0, PnL=-10.01%, Held=14 days, 18:00:06.855755
+2026-03-06 18:00:07,514 - INFO - Checking 화신(010690): Price=12800.0, Buy=11550.0, PnL=10.82%, Held=2 days, 18:00:07.514538
+2026-03-06 18:00:08,040 - INFO - Checking 대원전선(006340): Price=5520.0, Buy=5430.0, PnL=1.66%, Held=1 day, 18:00:08.040414
+2026-03-06 18:00:08,040 - INFO - No exit signals detected.
+2026-03-06 18:00:08,040 - INFO - Exit Monitor Finished.
+2026-03-06 18:00:08,045 - INFO - Triggering Portfolio Calculation...
+2026-03-06 18:00:25,038 - INFO - Portfolio Calculation completed successfully.
+2026-03-06 18:00:25,038 - INFO - 2026-03-06 18:00:09,594 - INFO - Starting Portfolio Calculation...
+2026-03-06 18:00:24,855 - INFO - Portfolio status updated. Total Value: 84,386,000
+
+2026-03-10 11:50:02,692 - INFO - Starting Exit Monitor...
+2026-03-10 11:50:03,350 - INFO - Checking 한화시스템(272210): Price=154800.0, Buy=88800.0, PnL=74.32%, Held=48 days, 11:50:03.350860
+2026-03-10 11:50:03,888 - INFO - Checking 이수스페셜티케미컬(457190): Price=99000.0, Buy=96600.0, PnL=2.48%, Held=46 days, 11:50:03.888610
+2026-03-10 11:50:04,481 - INFO - Checking 유진로봇(056080): Price=30450.0, Buy=31850.0, PnL=-4.40%, Held=43 days, 11:50:04.481169
+2026-03-10 11:50:05,007 - INFO - Checking 인텔리안테크(189300): Price=136600.0, Buy=128400.0, PnL=6.39%, Held=29 days, 11:50:05.007741
+2026-03-10 11:50:05,554 - INFO - Checking 에이플러스에셋(244920): Price=12760.0, Buy=10850.0, PnL=17.60%, Held=42 days, 11:50:05.554843
+2026-03-10 11:50:06,111 - INFO - Checking 한화갤러리아(452260): Price=2820.0, Buy=2225.0, PnL=26.74%, Held=26 days, 11:50:06.111188
+2026-03-10 11:50:06,781 - INFO - Checking 한전기술(052690): Price=158300.0, Buy=151600.0, PnL=4.42%, Held=19 days, 11:50:06.781179
+2026-03-10 11:50:07,377 - INFO - Checking 휴림로봇(090710): Price=12810.0, Buy=14290.0, PnL=-10.36%, Held=18 days, 11:50:07.377027
+2026-03-10 11:50:07,931 - INFO - Checking 화신(010690): Price=12870.0, Buy=11550.0, PnL=11.43%, Held=6 days, 11:50:07.931845
+2026-03-10 11:50:08,481 - INFO - Checking 대원전선(006340): Price=5420.0, Buy=5430.0, PnL=-0.18%, Held=5 days, 11:50:08.481376
+2026-03-10 11:50:08,962 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 11:50:08.962011
+2026-03-10 11:50:08,962 - INFO - No exit signals detected.
+2026-03-10 11:50:08,962 - INFO - Exit Monitor Finished.
+2026-03-10 11:50:08,962 - INFO - Triggering Portfolio Calculation...
+2026-03-10 11:50:26,012 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 11:50:26,012 - INFO - 2026-03-10 11:50:11,069 - INFO - Starting Portfolio Calculation...
+2026-03-10 11:50:25,828 - INFO - Portfolio status updated. Total Value: 90,536,000
+
+2026-03-10 11:55:24,883 - INFO - Starting Exit Monitor...
+2026-03-10 11:55:25,339 - INFO - Checking 한화시스템(272210): Price=156600.0, Buy=88800.0, PnL=76.35%, Held=48 days, 11:55:25.339421
+2026-03-10 11:55:25,773 - INFO - Checking 이수스페셜티케미컬(457190): Price=99200.0, Buy=96600.0, PnL=2.69%, Held=46 days, 11:55:25.773800
+2026-03-10 11:55:26,305 - INFO - Checking 유진로봇(056080): Price=30350.0, Buy=31850.0, PnL=-4.71%, Held=43 days, 11:55:26.305041
+2026-03-10 11:55:26,851 - INFO - Checking 인텔리안테크(189300): Price=137500.0, Buy=128400.0, PnL=7.09%, Held=29 days, 11:55:26.851034
+2026-03-10 11:55:27,281 - INFO - Checking 에이플러스에셋(244920): Price=12660.0, Buy=10850.0, PnL=16.68%, Held=42 days, 11:55:27.281724
+2026-03-10 11:55:27,729 - INFO - Checking 한화갤러리아(452260): Price=2815.0, Buy=2225.0, PnL=26.52%, Held=26 days, 11:55:27.729297
+2026-03-10 11:55:28,215 - INFO - Checking 한전기술(052690): Price=158000.0, Buy=151600.0, PnL=4.22%, Held=19 days, 11:55:28.215694
+2026-03-10 11:55:28,692 - INFO - Checking 휴림로봇(090710): Price=12780.0, Buy=14290.0, PnL=-10.57%, Held=18 days, 11:55:28.691813
+2026-03-10 11:55:29,135 - INFO - Checking 화신(010690): Price=12850.0, Buy=11550.0, PnL=11.26%, Held=6 days, 11:55:29.135030
+2026-03-10 11:55:29,631 - INFO - Checking 대원전선(006340): Price=5430.0, Buy=5430.0, PnL=0.00%, Held=5 days, 11:55:29.631327
+2026-03-10 11:55:30,096 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 11:55:30.096073
+2026-03-10 11:55:30,096 - INFO - No exit signals detected.
+2026-03-10 11:55:30,096 - INFO - Exit Monitor Finished.
+2026-03-10 11:55:30,096 - INFO - Triggering Portfolio Calculation...
+2026-03-10 11:55:44,597 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 11:55:44,597 - INFO - 2026-03-10 11:55:31,952 - INFO - Starting Portfolio Calculation...
+2026-03-10 11:55:44,445 - INFO - Portfolio status updated. Total Value: 90,578,000
+
+2026-03-10 12:00:02,261 - INFO - Starting Exit Monitor...
+2026-03-10 12:00:02,755 - INFO - Checking 한화시스템(272210): Price=156300.0, Buy=88800.0, PnL=76.01%, Held=48 days, 12:00:02.755109
+2026-03-10 12:00:03,188 - INFO - Checking 이수스페셜티케미컬(457190): Price=98700.0, Buy=96600.0, PnL=2.17%, Held=46 days, 12:00:03.188657
+2026-03-10 12:00:03,726 - INFO - Checking 유진로봇(056080): Price=30300.0, Buy=31850.0, PnL=-4.87%, Held=43 days, 12:00:03.726957
+2026-03-10 12:00:04,265 - INFO - Checking 인텔리안테크(189300): Price=136600.0, Buy=128400.0, PnL=6.39%, Held=29 days, 12:00:04.265183
+2026-03-10 12:00:04,740 - INFO - Checking 에이플러스에셋(244920): Price=12660.0, Buy=10850.0, PnL=16.68%, Held=42 days, 12:00:04.740872
+2026-03-10 12:00:05,296 - INFO - Checking 한화갤러리아(452260): Price=2810.0, Buy=2225.0, PnL=26.29%, Held=26 days, 12:00:05.296974
+2026-03-10 12:00:05,957 - INFO - Checking 한전기술(052690): Price=157700.0, Buy=151600.0, PnL=4.02%, Held=19 days, 12:00:05.957376
+2026-03-10 12:00:06,564 - INFO - Checking 휴림로봇(090710): Price=12730.0, Buy=14290.0, PnL=-10.92%, Held=18 days, 12:00:06.564123
+2026-03-10 12:00:07,072 - INFO - Checking 화신(010690): Price=12820.0, Buy=11550.0, PnL=11.00%, Held=6 days, 12:00:07.072548
+2026-03-10 12:00:07,624 - INFO - Checking 대원전선(006340): Price=5410.0, Buy=5430.0, PnL=-0.37%, Held=5 days, 12:00:07.624543
+2026-03-10 12:00:08,166 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 12:00:08.166426
+2026-03-10 12:00:08,169 - INFO - No exit signals detected.
+2026-03-10 12:00:08,169 - INFO - Exit Monitor Finished.
+2026-03-10 12:00:08,169 - INFO - Triggering Portfolio Calculation...
+2026-03-10 12:00:24,672 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 12:00:24,672 - INFO - 2026-03-10 12:00:10,253 - INFO - Starting Portfolio Calculation...
+2026-03-10 12:00:24,512 - INFO - Portfolio status updated. Total Value: 90,407,000
+
+2026-03-10 12:10:06,934 - INFO - Starting Exit Monitor...
+2026-03-10 12:10:07,581 - INFO - Checking 한화시스템(272210): Price=155100.0, Buy=88800.0, PnL=74.66%, Held=48 days, 12:10:07.581139
+2026-03-10 12:10:08,320 - INFO - Checking 이수스페셜티케미컬(457190): Price=98600.0, Buy=96600.0, PnL=2.07%, Held=46 days, 12:10:08.320400
+2026-03-10 12:10:08,940 - INFO - Checking 유진로봇(056080): Price=30500.0, Buy=31850.0, PnL=-4.24%, Held=43 days, 12:10:08.940806
+2026-03-10 12:10:09,670 - INFO - Checking 인텔리안테크(189300): Price=137400.0, Buy=128400.0, PnL=7.01%, Held=29 days, 12:10:09.670678
+2026-03-10 12:10:10,339 - INFO - Checking 에이플러스에셋(244920): Price=12670.0, Buy=10850.0, PnL=16.77%, Held=42 days, 12:10:10.339198
+2026-03-10 12:10:10,968 - INFO - Checking 한화갤러리아(452260): Price=2815.0, Buy=2225.0, PnL=26.52%, Held=26 days, 12:10:10.968869
+2026-03-10 12:10:11,631 - INFO - Checking 한전기술(052690): Price=158100.0, Buy=151600.0, PnL=4.29%, Held=19 days, 12:10:11.631401
+2026-03-10 12:10:12,386 - INFO - Checking 휴림로봇(090710): Price=12860.0, Buy=14290.0, PnL=-10.01%, Held=18 days, 12:10:12.386919
+2026-03-10 12:10:13,443 - INFO - Checking 화신(010690): Price=12890.0, Buy=11550.0, PnL=11.60%, Held=6 days, 12:10:13.443343
+2026-03-10 12:10:14,133 - INFO - Checking 대원전선(006340): Price=5430.0, Buy=5430.0, PnL=0.00%, Held=5 days, 12:10:14.133098
+2026-03-10 12:10:14,749 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 12:10:14.749447
+2026-03-10 12:10:14,749 - INFO - No exit signals detected.
+2026-03-10 12:10:14,749 - INFO - Exit Monitor Finished.
+2026-03-10 12:10:14,750 - INFO - Triggering Portfolio Calculation...
+2026-03-10 12:10:38,262 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 12:10:38,262 - INFO - 2026-03-10 12:10:20,639 - INFO - Starting Portfolio Calculation...
+2026-03-10 12:10:38,022 - INFO - Portfolio status updated. Total Value: 90,435,000
+
+2026-03-10 12:20:02,456 - INFO - Starting Exit Monitor...
+2026-03-10 12:20:03,072 - INFO - Checking 한화시스템(272210): Price=154700.0, Buy=88800.0, PnL=74.21%, Held=48 days, 12:20:03.072953
+2026-03-10 12:20:03,572 - INFO - Checking 이수스페셜티케미컬(457190): Price=98600.0, Buy=96600.0, PnL=2.07%, Held=46 days, 12:20:03.572835
+2026-03-10 12:20:04,070 - INFO - Checking 유진로봇(056080): Price=30400.0, Buy=31850.0, PnL=-4.55%, Held=43 days, 12:20:04.070777
+2026-03-10 12:20:04,602 - INFO - Checking 인텔리안테크(189300): Price=138000.0, Buy=128400.0, PnL=7.48%, Held=29 days, 12:20:04.602648
+2026-03-10 12:20:05,096 - INFO - Checking 에이플러스에셋(244920): Price=12710.0, Buy=10850.0, PnL=17.14%, Held=42 days, 12:20:05.096359
+2026-03-10 12:20:05,513 - INFO - Checking 한화갤러리아(452260): Price=2810.0, Buy=2225.0, PnL=26.29%, Held=26 days, 12:20:05.513059
+2026-03-10 12:20:06,081 - INFO - Checking 한전기술(052690): Price=158900.0, Buy=151600.0, PnL=4.82%, Held=19 days, 12:20:06.081565
+2026-03-10 12:20:06,596 - INFO - Checking 휴림로봇(090710): Price=12800.0, Buy=14290.0, PnL=-10.43%, Held=18 days, 12:20:06.596355
+2026-03-10 12:20:07,093 - INFO - Checking 화신(010690): Price=12810.0, Buy=11550.0, PnL=10.91%, Held=6 days, 12:20:07.093356
+2026-03-10 12:20:07,625 - INFO - Checking 대원전선(006340): Price=5420.0, Buy=5430.0, PnL=-0.18%, Held=5 days, 12:20:07.625565
+2026-03-10 12:20:08,176 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 12:20:08.176148
+2026-03-10 12:20:08,177 - INFO - No exit signals detected.
+2026-03-10 12:20:08,177 - INFO - Exit Monitor Finished.
+2026-03-10 12:20:08,177 - INFO - Triggering Portfolio Calculation...
+2026-03-10 12:20:23,458 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 12:20:23,458 - INFO - 2026-03-10 12:20:10,055 - INFO - Starting Portfolio Calculation...
+2026-03-10 12:20:23,293 - INFO - Portfolio status updated. Total Value: 90,555,000
+
+2026-03-10 12:30:02,176 - INFO - Starting Exit Monitor...
+2026-03-10 12:30:02,640 - INFO - Checking 한화시스템(272210): Price=154300.0, Buy=88800.0, PnL=73.76%, Held=48 days, 12:30:02.640919
+2026-03-10 12:30:03,112 - INFO - Checking 이수스페셜티케미컬(457190): Price=98300.0, Buy=96600.0, PnL=1.76%, Held=46 days, 12:30:03.112265
+2026-03-10 12:30:03,707 - INFO - Checking 유진로봇(056080): Price=30200.0, Buy=31850.0, PnL=-5.18%, Held=43 days, 12:30:03.707963
+2026-03-10 12:30:04,270 - INFO - Checking 인텔리안테크(189300): Price=137200.0, Buy=128400.0, PnL=6.85%, Held=29 days, 12:30:04.270746
+2026-03-10 12:30:04,846 - INFO - Checking 에이플러스에셋(244920): Price=12680.0, Buy=10850.0, PnL=16.87%, Held=42 days, 12:30:04.846611
+2026-03-10 12:30:05,360 - INFO - Checking 한화갤러리아(452260): Price=2805.0, Buy=2225.0, PnL=26.07%, Held=26 days, 12:30:05.360926
+2026-03-10 12:30:05,869 - INFO - Checking 한전기술(052690): Price=157900.0, Buy=151600.0, PnL=4.16%, Held=19 days, 12:30:05.869803
+2026-03-10 12:30:06,445 - INFO - Checking 휴림로봇(090710): Price=12750.0, Buy=14290.0, PnL=-10.78%, Held=18 days, 12:30:06.445092
+2026-03-10 12:30:06,952 - INFO - Checking 화신(010690): Price=12760.0, Buy=11550.0, PnL=10.48%, Held=6 days, 12:30:06.952706
+2026-03-10 12:30:07,516 - INFO - Checking 대원전선(006340): Price=5420.0, Buy=5430.0, PnL=-0.18%, Held=5 days, 12:30:07.516766
+2026-03-10 12:30:08,050 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 12:30:08.050850
+2026-03-10 12:30:08,050 - INFO - No exit signals detected.
+2026-03-10 12:30:08,051 - INFO - Exit Monitor Finished.
+2026-03-10 12:30:08,051 - INFO - Triggering Portfolio Calculation...
+2026-03-10 12:30:25,712 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 12:30:25,712 - INFO - 2026-03-10 12:30:09,999 - INFO - Starting Portfolio Calculation...
+2026-03-10 12:30:25,503 - INFO - Portfolio status updated. Total Value: 90,227,000
+
+2026-03-10 12:40:02,223 - INFO - Starting Exit Monitor...
+2026-03-10 12:40:02,717 - INFO - Checking 한화시스템(272210): Price=153000.0, Buy=88800.0, PnL=72.30%, Held=48 days, 12:40:02.717941
+2026-03-10 12:40:03,188 - INFO - Checking 이수스페셜티케미컬(457190): Price=97600.0, Buy=96600.0, PnL=1.04%, Held=46 days, 12:40:03.188882
+2026-03-10 12:40:03,768 - INFO - Checking 유진로봇(056080): Price=30050.0, Buy=31850.0, PnL=-5.65%, Held=43 days, 12:40:03.768770
+2026-03-10 12:40:04,405 - INFO - Checking 인텔리안테크(189300): Price=134100.0, Buy=128400.0, PnL=4.44%, Held=29 days, 12:40:04.405938
+2026-03-10 12:40:04,917 - INFO - Checking 에이플러스에셋(244920): Price=12630.0, Buy=10850.0, PnL=16.41%, Held=42 days, 12:40:04.917716
+2026-03-10 12:40:05,483 - INFO - Checking 한화갤러리아(452260): Price=2780.0, Buy=2225.0, PnL=24.94%, Held=26 days, 12:40:05.483983
+2026-03-10 12:40:06,076 - INFO - Checking 한전기술(052690): Price=157100.0, Buy=151600.0, PnL=3.63%, Held=19 days, 12:40:06.076294
+2026-03-10 12:40:06,703 - INFO - Checking 휴림로봇(090710): Price=12680.0, Buy=14290.0, PnL=-11.27%, Held=18 days, 12:40:06.703144
+2026-03-10 12:40:07,219 - INFO - Checking 화신(010690): Price=12720.0, Buy=11550.0, PnL=10.13%, Held=6 days, 12:40:07.219982
+2026-03-10 12:40:07,794 - INFO - Checking 대원전선(006340): Price=5380.0, Buy=5430.0, PnL=-0.92%, Held=5 days, 12:40:07.794684
+2026-03-10 12:40:08,399 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 12:40:08.399401
+2026-03-10 12:40:08,400 - INFO - No exit signals detected.
+2026-03-10 12:40:08,400 - INFO - Exit Monitor Finished.
+2026-03-10 12:40:08,401 - INFO - Triggering Portfolio Calculation...
+2026-03-10 12:40:26,892 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 12:40:26,893 - INFO - 2026-03-10 12:40:10,511 - INFO - Starting Portfolio Calculation...
+2026-03-10 12:40:26,687 - INFO - Portfolio status updated. Total Value: 89,462,000
+
+2026-03-10 12:50:02,158 - INFO - Starting Exit Monitor...
+2026-03-10 12:50:02,635 - INFO - Checking 한화시스템(272210): Price=154600.0, Buy=88800.0, PnL=74.10%, Held=48 days, 12:50:02.635759
+2026-03-10 12:50:03,100 - INFO - Checking 이수스페셜티케미컬(457190): Price=96500.0, Buy=96600.0, PnL=-0.10%, Held=46 days, 12:50:03.100801
+2026-03-10 12:50:03,680 - INFO - Checking 유진로봇(056080): Price=29800.0, Buy=31850.0, PnL=-6.44%, Held=43 days, 12:50:03.680530
+2026-03-10 12:50:04,256 - INFO - Checking 인텔리안테크(189300): Price=133000.0, Buy=128400.0, PnL=3.58%, Held=29 days, 12:50:04.256810
+2026-03-10 12:50:04,805 - INFO - Checking 에이플러스에셋(244920): Price=12640.0, Buy=10850.0, PnL=16.50%, Held=42 days, 12:50:04.805905
+2026-03-10 12:50:05,280 - INFO - Checking 한화갤러리아(452260): Price=2770.0, Buy=2225.0, PnL=24.49%, Held=26 days, 12:50:05.278907
+2026-03-10 12:50:05,922 - INFO - Checking 한전기술(052690): Price=155100.0, Buy=151600.0, PnL=2.31%, Held=19 days, 12:50:05.922765
+2026-03-10 12:50:06,516 - INFO - Checking 휴림로봇(090710): Price=12570.0, Buy=14290.0, PnL=-12.04%, Held=18 days, 12:50:06.516669
+2026-03-10 12:50:07,035 - INFO - Checking 화신(010690): Price=12620.0, Buy=11550.0, PnL=9.26%, Held=6 days, 12:50:07.035318
+2026-03-10 12:50:07,666 - INFO - Checking 대원전선(006340): Price=5320.0, Buy=5430.0, PnL=-2.03%, Held=5 days, 12:50:07.666973
+2026-03-10 12:50:08,264 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 12:50:08.264542
+2026-03-10 12:50:08,264 - INFO - No exit signals detected.
+2026-03-10 12:50:08,264 - INFO - Exit Monitor Finished.
+2026-03-10 12:50:08,264 - INFO - Triggering Portfolio Calculation...
+2026-03-10 12:50:25,322 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 12:50:25,324 - INFO - 2026-03-10 12:50:10,247 - INFO - Starting Portfolio Calculation...
+2026-03-10 12:50:25,116 - INFO - Portfolio status updated. Total Value: 89,124,000
+
+2026-03-10 13:00:01,791 - INFO - Starting Exit Monitor...
+2026-03-10 13:00:02,312 - INFO - Checking 한화시스템(272210): Price=155200.0, Buy=88800.0, PnL=74.77%, Held=48 days, 13:00:02.312158
+2026-03-10 13:00:02,776 - INFO - Checking 이수스페셜티케미컬(457190): Price=97000.0, Buy=96600.0, PnL=0.41%, Held=46 days, 13:00:02.776367
+2026-03-10 13:00:03,254 - INFO - Checking 유진로봇(056080): Price=30100.0, Buy=31850.0, PnL=-5.49%, Held=43 days, 13:00:03.254288
+2026-03-10 13:00:03,853 - INFO - Checking 인텔리안테크(189300): Price=133600.0, Buy=128400.0, PnL=4.05%, Held=29 days, 13:00:03.853043
+2026-03-10 13:00:04,355 - INFO - Checking 에이플러스에셋(244920): Price=12710.0, Buy=10850.0, PnL=17.14%, Held=42 days, 13:00:04.352755
+2026-03-10 13:00:04,858 - INFO - Checking 한화갤러리아(452260): Price=2800.0, Buy=2225.0, PnL=25.84%, Held=26 days, 13:00:04.858287
+2026-03-10 13:00:05,434 - INFO - Checking 한전기술(052690): Price=156200.0, Buy=151600.0, PnL=3.03%, Held=19 days, 13:00:05.434190
+2026-03-10 13:00:06,033 - INFO - Checking 휴림로봇(090710): Price=12680.0, Buy=14290.0, PnL=-11.27%, Held=18 days, 13:00:06.033141
+2026-03-10 13:00:06,526 - INFO - Checking 화신(010690): Price=12720.0, Buy=11550.0, PnL=10.13%, Held=6 days, 13:00:06.526125
+2026-03-10 13:00:07,122 - INFO - Checking 대원전선(006340): Price=5350.0, Buy=5430.0, PnL=-1.47%, Held=5 days, 13:00:07.122692
+2026-03-10 13:00:07,730 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 13:00:07.730313
+2026-03-10 13:00:07,730 - INFO - No exit signals detected.
+2026-03-10 13:00:07,730 - INFO - Exit Monitor Finished.
+2026-03-10 13:00:07,731 - INFO - Triggering Portfolio Calculation...
+2026-03-10 13:00:24,427 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 13:00:24,429 - INFO - 2026-03-10 13:00:09,430 - INFO - Starting Portfolio Calculation...
+2026-03-10 13:00:24,206 - INFO - Portfolio status updated. Total Value: 89,621,000
+
+2026-03-10 13:10:01,790 - INFO - Starting Exit Monitor...
+2026-03-10 13:10:02,261 - INFO - Checking 한화시스템(272210): Price=155700.0, Buy=88800.0, PnL=75.34%, Held=48 days, 13:10:02.261224
+2026-03-10 13:10:02,723 - INFO - Checking 이수스페셜티케미컬(457190): Price=97300.0, Buy=96600.0, PnL=0.72%, Held=46 days, 13:10:02.723884
+2026-03-10 13:10:03,277 - INFO - Checking 유진로봇(056080): Price=29950.0, Buy=31850.0, PnL=-5.97%, Held=43 days, 13:10:03.277901
+2026-03-10 13:10:03,857 - INFO - Checking 인텔리안테크(189300): Price=133900.0, Buy=128400.0, PnL=4.28%, Held=29 days, 13:10:03.857686
+2026-03-10 13:10:04,285 - INFO - Checking 에이플러스에셋(244920): Price=12640.0, Buy=10850.0, PnL=16.50%, Held=42 days, 13:10:04.285302
+2026-03-10 13:10:04,847 - INFO - Checking 한화갤러리아(452260): Price=2790.0, Buy=2225.0, PnL=25.39%, Held=26 days, 13:10:04.847299
+2026-03-10 13:10:05,366 - INFO - Checking 한전기술(052690): Price=156300.0, Buy=151600.0, PnL=3.10%, Held=19 days, 13:10:05.366837
+2026-03-10 13:10:05,852 - INFO - Checking 휴림로봇(090710): Price=12640.0, Buy=14290.0, PnL=-11.55%, Held=18 days, 13:10:05.852838
+2026-03-10 13:10:06,443 - INFO - Checking 화신(010690): Price=12710.0, Buy=11550.0, PnL=10.04%, Held=6 days, 13:10:06.443795
+2026-03-10 13:10:06,985 - INFO - Checking 대원전선(006340): Price=5350.0, Buy=5430.0, PnL=-1.47%, Held=5 days, 13:10:06.985130
+2026-03-10 13:10:07,504 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 13:10:07.504115
+2026-03-10 13:10:07,504 - INFO - No exit signals detected.
+2026-03-10 13:10:07,504 - INFO - Exit Monitor Finished.
+2026-03-10 13:10:07,504 - INFO - Triggering Portfolio Calculation...
+2026-03-10 13:10:23,918 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 13:10:23,918 - INFO - 2026-03-10 13:10:09,147 - INFO - Starting Portfolio Calculation...
+2026-03-10 13:10:23,684 - INFO - Portfolio status updated. Total Value: 89,602,000
+
+2026-03-10 13:20:01,766 - INFO - Starting Exit Monitor...
+2026-03-10 13:20:02,240 - INFO - Checking 한화시스템(272210): Price=155400.0, Buy=88800.0, PnL=75.00%, Held=48 days, 13:20:02.240186
+2026-03-10 13:20:02,756 - INFO - Checking 이수스페셜티케미컬(457190): Price=97400.0, Buy=96600.0, PnL=0.83%, Held=46 days, 13:20:02.756460
+2026-03-10 13:20:03,267 - INFO - Checking 유진로봇(056080): Price=30100.0, Buy=31850.0, PnL=-5.49%, Held=43 days, 13:20:03.267176
+2026-03-10 13:20:03,913 - INFO - Checking 인텔리안테크(189300): Price=134600.0, Buy=128400.0, PnL=4.83%, Held=29 days, 13:20:03.913625
+2026-03-10 13:20:04,446 - INFO - Checking 에이플러스에셋(244920): Price=12600.0, Buy=10850.0, PnL=16.13%, Held=42 days, 13:20:04.446245
+2026-03-10 13:20:05,002 - INFO - Checking 한화갤러리아(452260): Price=2770.0, Buy=2225.0, PnL=24.49%, Held=26 days, 13:20:05.002825
+2026-03-10 13:20:05,541 - INFO - Checking 한전기술(052690): Price=157200.0, Buy=151600.0, PnL=3.69%, Held=19 days, 13:20:05.541599
+2026-03-10 13:20:06,144 - INFO - Checking 휴림로봇(090710): Price=12670.0, Buy=14290.0, PnL=-11.34%, Held=18 days, 13:20:06.144028
+2026-03-10 13:20:06,657 - INFO - Checking 화신(010690): Price=12710.0, Buy=11550.0, PnL=10.04%, Held=6 days, 13:20:06.657473
+2026-03-10 13:20:07,234 - INFO - Checking 대원전선(006340): Price=5350.0, Buy=5430.0, PnL=-1.47%, Held=5 days, 13:20:07.234186
+2026-03-10 13:20:07,793 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 13:20:07.793794
+2026-03-10 13:20:07,793 - INFO - No exit signals detected.
+2026-03-10 13:20:07,796 - INFO - Exit Monitor Finished.
+2026-03-10 13:20:07,796 - INFO - Triggering Portfolio Calculation...
+2026-03-10 13:20:24,206 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 13:20:24,206 - INFO - 2026-03-10 13:20:09,358 - INFO - Starting Portfolio Calculation...
+2026-03-10 13:20:24,018 - INFO - Portfolio status updated. Total Value: 89,689,000
+
+2026-03-10 13:30:01,921 - INFO - Starting Exit Monitor...
+2026-03-10 13:30:02,438 - INFO - Checking 한화시스템(272210): Price=154000.0, Buy=88800.0, PnL=73.42%, Held=48 days, 13:30:02.438896
+2026-03-10 13:30:02,869 - INFO - Checking 이수스페셜티케미컬(457190): Price=97700.0, Buy=96600.0, PnL=1.14%, Held=46 days, 13:30:02.869661
+2026-03-10 13:30:03,412 - INFO - Checking 유진로봇(056080): Price=30050.0, Buy=31850.0, PnL=-5.65%, Held=43 days, 13:30:03.412134
+2026-03-10 13:30:03,988 - INFO - Checking 인텔리안테크(189300): Price=134400.0, Buy=128400.0, PnL=4.67%, Held=29 days, 13:30:03.988890
+2026-03-10 13:30:04,463 - INFO - Checking 에이플러스에셋(244920): Price=12570.0, Buy=10850.0, PnL=15.85%, Held=42 days, 13:30:04.463112
+2026-03-10 13:30:04,984 - INFO - Checking 한화갤러리아(452260): Price=2790.0, Buy=2225.0, PnL=25.39%, Held=26 days, 13:30:04.984169
+2026-03-10 13:30:05,650 - INFO - Checking 한전기술(052690): Price=158400.0, Buy=151600.0, PnL=4.49%, Held=19 days, 13:30:05.650833
+2026-03-10 13:30:06,181 - INFO - Checking 휴림로봇(090710): Price=12650.0, Buy=14290.0, PnL=-11.48%, Held=18 days, 13:30:06.181317
+2026-03-10 13:30:06,722 - INFO - Checking 화신(010690): Price=12760.0, Buy=11550.0, PnL=10.48%, Held=6 days, 13:30:06.722699
+2026-03-10 13:30:07,256 - INFO - Checking 대원전선(006340): Price=5350.0, Buy=5430.0, PnL=-1.47%, Held=5 days, 13:30:07.256454
+2026-03-10 13:30:07,823 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 13:30:07.822561
+2026-03-10 13:30:07,823 - INFO - No exit signals detected.
+2026-03-10 13:30:07,823 - INFO - Exit Monitor Finished.
+2026-03-10 13:30:07,823 - INFO - Triggering Portfolio Calculation...
+2026-03-10 13:30:24,335 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 13:30:24,335 - INFO - 2026-03-10 13:30:09,421 - INFO - Starting Portfolio Calculation...
+2026-03-10 13:30:24,166 - INFO - Portfolio status updated. Total Value: 89,689,000
+
+2026-03-10 13:40:01,800 - INFO - Starting Exit Monitor...
+2026-03-10 13:40:02,266 - INFO - Checking 한화시스템(272210): Price=153600.0, Buy=88800.0, PnL=72.97%, Held=48 days, 13:40:02.266489
+2026-03-10 13:40:02,752 - INFO - Checking 이수스페셜티케미컬(457190): Price=97900.0, Buy=96600.0, PnL=1.35%, Held=46 days, 13:40:02.752649
+2026-03-10 13:40:03,272 - INFO - Checking 유진로봇(056080): Price=30000.0, Buy=31850.0, PnL=-5.81%, Held=43 days, 13:40:03.272399
+2026-03-10 13:40:03,911 - INFO - Checking 인텔리안테크(189300): Price=135600.0, Buy=128400.0, PnL=5.61%, Held=29 days, 13:40:03.911246
+2026-03-10 13:40:04,440 - INFO - Checking 에이플러스에셋(244920): Price=12600.0, Buy=10850.0, PnL=16.13%, Held=42 days, 13:40:04.440342
+2026-03-10 13:40:04,939 - INFO - Checking 한화갤러리아(452260): Price=2780.0, Buy=2225.0, PnL=24.94%, Held=26 days, 13:40:04.939490
+2026-03-10 13:40:05,459 - INFO - Checking 한전기술(052690): Price=157800.0, Buy=151600.0, PnL=4.09%, Held=19 days, 13:40:05.459838
+2026-03-10 13:40:06,061 - INFO - Checking 휴림로봇(090710): Price=12730.0, Buy=14290.0, PnL=-10.92%, Held=18 days, 13:40:06.061174
+2026-03-10 13:40:06,620 - INFO - Checking 화신(010690): Price=12770.0, Buy=11550.0, PnL=10.56%, Held=6 days, 13:40:06.620840
+2026-03-10 13:40:07,266 - INFO - Checking 대원전선(006340): Price=5320.0, Buy=5430.0, PnL=-2.03%, Held=5 days, 13:40:07.266701
+2026-03-10 13:40:07,788 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 13:40:07.788818
+2026-03-10 13:40:07,788 - INFO - No exit signals detected.
+2026-03-10 13:40:07,788 - INFO - Exit Monitor Finished.
+2026-03-10 13:40:07,788 - INFO - Triggering Portfolio Calculation...
+2026-03-10 13:40:24,550 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 13:40:24,550 - INFO - 2026-03-10 13:40:09,406 - INFO - Starting Portfolio Calculation...
+2026-03-10 13:40:24,323 - INFO - Portfolio status updated. Total Value: 89,767,000
+
+2026-03-10 13:50:01,913 - INFO - Starting Exit Monitor...
+2026-03-10 13:50:02,454 - INFO - Checking 한화시스템(272210): Price=153400.0, Buy=88800.0, PnL=72.75%, Held=48 days, 13:50:02.454387
+2026-03-10 13:50:02,945 - INFO - Checking 이수스페셜티케미컬(457190): Price=97900.0, Buy=96600.0, PnL=1.35%, Held=46 days, 13:50:02.945111
+2026-03-10 13:50:03,528 - INFO - Checking 유진로봇(056080): Price=30050.0, Buy=31850.0, PnL=-5.65%, Held=43 days, 13:50:03.528971
+2026-03-10 13:50:04,062 - INFO - Checking 인텔리안테크(189300): Price=136200.0, Buy=128400.0, PnL=6.07%, Held=29 days, 13:50:04.062740
+2026-03-10 13:50:04,747 - INFO - Checking 에이플러스에셋(244920): Price=12590.0, Buy=10850.0, PnL=16.04%, Held=42 days, 13:50:04.747439
+2026-03-10 13:50:05,256 - INFO - Checking 한화갤러리아(452260): Price=2780.0, Buy=2225.0, PnL=24.94%, Held=26 days, 13:50:05.256781
+2026-03-10 13:50:05,826 - INFO - Checking 한전기술(052690): Price=157500.0, Buy=151600.0, PnL=3.89%, Held=19 days, 13:50:05.826931
+2026-03-10 13:50:06,380 - INFO - Checking 휴림로봇(090710): Price=12650.0, Buy=14290.0, PnL=-11.48%, Held=18 days, 13:50:06.380852
+2026-03-10 13:50:07,014 - INFO - Checking 화신(010690): Price=12720.0, Buy=11550.0, PnL=10.13%, Held=6 days, 13:50:07.014422
+2026-03-10 13:50:07,481 - INFO - Checking 대원전선(006340): Price=5300.0, Buy=5430.0, PnL=-2.39%, Held=5 days, 13:50:07.481367
+2026-03-10 13:50:07,993 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 13:50:07.993721
+2026-03-10 13:50:07,993 - INFO - No exit signals detected.
+2026-03-10 13:50:07,993 - INFO - Exit Monitor Finished.
+2026-03-10 13:50:07,993 - INFO - Triggering Portfolio Calculation...
+2026-03-10 13:50:24,929 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 13:50:24,929 - INFO - 2026-03-10 13:50:09,777 - INFO - Starting Portfolio Calculation...
+2026-03-10 13:50:24,747 - INFO - Portfolio status updated. Total Value: 89,717,000
+
+2026-03-10 14:00:01,847 - INFO - Starting Exit Monitor...
+2026-03-10 14:00:02,320 - INFO - Checking 한화시스템(272210): Price=154400.0, Buy=88800.0, PnL=73.87%, Held=48 days, 14:00:02.320990
+2026-03-10 14:00:02,766 - INFO - Checking 이수스페셜티케미컬(457190): Price=97700.0, Buy=96600.0, PnL=1.14%, Held=46 days, 14:00:02.766814
+2026-03-10 14:00:03,288 - INFO - Checking 유진로봇(056080): Price=30050.0, Buy=31850.0, PnL=-5.65%, Held=43 days, 14:00:03.288613
+2026-03-10 14:00:03,906 - INFO - Checking 인텔리안테크(189300): Price=136000.0, Buy=128400.0, PnL=5.92%, Held=29 days, 14:00:03.906881
+2026-03-10 14:00:04,420 - INFO - Checking 에이플러스에셋(244920): Price=12590.0, Buy=10850.0, PnL=16.04%, Held=42 days, 14:00:04.420626
+2026-03-10 14:00:04,972 - INFO - Checking 한화갤러리아(452260): Price=2775.0, Buy=2225.0, PnL=24.72%, Held=26 days, 14:00:04.972665
+2026-03-10 14:00:05,535 - INFO - Checking 한전기술(052690): Price=157200.0, Buy=151600.0, PnL=3.69%, Held=19 days, 14:00:05.535387
+2026-03-10 14:00:06,188 - INFO - Checking 휴림로봇(090710): Price=12680.0, Buy=14290.0, PnL=-11.27%, Held=18 days, 14:00:06.188831
+2026-03-10 14:00:06,702 - INFO - Checking 화신(010690): Price=12760.0, Buy=11550.0, PnL=10.48%, Held=6 days, 14:00:06.702551
+2026-03-10 14:00:07,261 - INFO - Checking 대원전선(006340): Price=5300.0, Buy=5430.0, PnL=-2.39%, Held=5 days, 14:00:07.261524
+2026-03-10 14:00:07,804 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 14:00:07.804419
+2026-03-10 14:00:07,804 - INFO - No exit signals detected.
+2026-03-10 14:00:07,804 - INFO - Exit Monitor Finished.
+2026-03-10 14:00:07,804 - INFO - Triggering Portfolio Calculation...
+2026-03-10 14:00:24,685 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 14:00:24,685 - INFO - 2026-03-10 14:00:09,540 - INFO - Starting Portfolio Calculation...
+2026-03-10 14:00:24,485 - INFO - Portfolio status updated. Total Value: 89,749,000
+
+2026-03-10 14:10:01,750 - INFO - Starting Exit Monitor...
+2026-03-10 14:10:02,253 - INFO - Checking 한화시스템(272210): Price=153700.0, Buy=88800.0, PnL=73.09%, Held=48 days, 14:10:02.253061
+2026-03-10 14:10:02,710 - INFO - Checking 이수스페셜티케미컬(457190): Price=98300.0, Buy=96600.0, PnL=1.76%, Held=46 days, 14:10:02.710301
+2026-03-10 14:10:03,212 - INFO - Checking 유진로봇(056080): Price=30200.0, Buy=31850.0, PnL=-5.18%, Held=43 days, 14:10:03.212322
+2026-03-10 14:10:03,827 - INFO - Checking 인텔리안테크(189300): Price=137000.0, Buy=128400.0, PnL=6.70%, Held=29 days, 14:10:03.827531
+2026-03-10 14:10:04,335 - INFO - Checking 에이플러스에셋(244920): Price=12560.0, Buy=10850.0, PnL=15.76%, Held=42 days, 14:10:04.335620
+2026-03-10 14:10:04,812 - INFO - Checking 한화갤러리아(452260): Price=2780.0, Buy=2225.0, PnL=24.94%, Held=26 days, 14:10:04.812529
+2026-03-10 14:10:05,352 - INFO - Checking 한전기술(052690): Price=157600.0, Buy=151600.0, PnL=3.96%, Held=19 days, 14:10:05.352889
+2026-03-10 14:10:05,888 - INFO - Checking 휴림로봇(090710): Price=12710.0, Buy=14290.0, PnL=-11.06%, Held=18 days, 14:10:05.888966
+2026-03-10 14:10:06,486 - INFO - Checking 화신(010690): Price=12830.0, Buy=11550.0, PnL=11.08%, Held=6 days, 14:10:06.486548
+2026-03-10 14:10:06,977 - INFO - Checking 대원전선(006340): Price=5300.0, Buy=5430.0, PnL=-2.39%, Held=5 days, 14:10:06.977908
+2026-03-10 14:10:07,579 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 14:10:07.579085
+2026-03-10 14:10:07,579 - INFO - No exit signals detected.
+2026-03-10 14:10:07,579 - INFO - Exit Monitor Finished.
+2026-03-10 14:10:07,579 - INFO - Triggering Portfolio Calculation...
+2026-03-10 14:10:24,413 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 14:10:24,413 - INFO - 2026-03-10 14:10:09,231 - INFO - Starting Portfolio Calculation...
+2026-03-10 14:10:24,212 - INFO - Portfolio status updated. Total Value: 89,864,000
+
+2026-03-10 14:20:01,770 - INFO - Starting Exit Monitor...
+2026-03-10 14:20:02,220 - INFO - Checking 한화시스템(272210): Price=153700.0, Buy=88800.0, PnL=73.09%, Held=48 days, 14:20:02.220784
+2026-03-10 14:20:02,716 - INFO - Checking 이수스페셜티케미컬(457190): Price=98200.0, Buy=96600.0, PnL=1.66%, Held=46 days, 14:20:02.716599
+2026-03-10 14:20:03,231 - INFO - Checking 유진로봇(056080): Price=30150.0, Buy=31850.0, PnL=-5.34%, Held=43 days, 14:20:03.231243
+2026-03-10 14:20:03,819 - INFO - Checking 인텔리안테크(189300): Price=136700.0, Buy=128400.0, PnL=6.46%, Held=29 days, 14:20:03.819884
+2026-03-10 14:20:04,322 - INFO - Checking 에이플러스에셋(244920): Price=12580.0, Buy=10850.0, PnL=15.94%, Held=42 days, 14:20:04.322606
+2026-03-10 14:20:04,794 - INFO - Checking 한화갤러리아(452260): Price=2790.0, Buy=2225.0, PnL=25.39%, Held=26 days, 14:20:04.794209
+2026-03-10 14:20:05,386 - INFO - Checking 한전기술(052690): Price=158200.0, Buy=151600.0, PnL=4.35%, Held=19 days, 14:20:05.386006
+2026-03-10 14:20:05,920 - INFO - Checking 휴림로봇(090710): Price=12720.0, Buy=14290.0, PnL=-10.99%, Held=18 days, 14:20:05.920651
+2026-03-10 14:20:06,456 - INFO - Checking 화신(010690): Price=12810.0, Buy=11550.0, PnL=10.91%, Held=6 days, 14:20:06.456632
+2026-03-10 14:20:06,993 - INFO - Checking 대원전선(006340): Price=5310.0, Buy=5430.0, PnL=-2.21%, Held=5 days, 14:20:06.993760
+2026-03-10 14:20:07,562 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 14:20:07.562038
+2026-03-10 14:20:07,562 - INFO - No exit signals detected.
+2026-03-10 14:20:07,562 - INFO - Exit Monitor Finished.
+2026-03-10 14:20:07,562 - INFO - Triggering Portfolio Calculation...
+2026-03-10 14:20:24,012 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 14:20:24,012 - INFO - 2026-03-10 14:20:09,183 - INFO - Starting Portfolio Calculation...
+2026-03-10 14:20:23,841 - INFO - Portfolio status updated. Total Value: 89,933,000
+
+2026-03-10 14:30:01,892 - INFO - Starting Exit Monitor...
+2026-03-10 14:30:02,379 - INFO - Checking 한화시스템(272210): Price=153600.0, Buy=88800.0, PnL=72.97%, Held=48 days, 14:30:02.379198
+2026-03-10 14:30:02,888 - INFO - Checking 이수스페셜티케미컬(457190): Price=98700.0, Buy=96600.0, PnL=2.17%, Held=46 days, 14:30:02.888485
+2026-03-10 14:30:03,385 - INFO - Checking 유진로봇(056080): Price=30050.0, Buy=31850.0, PnL=-5.65%, Held=43 days, 14:30:03.385960
+2026-03-10 14:30:03,949 - INFO - Checking 인텔리안테크(189300): Price=136000.0, Buy=128400.0, PnL=5.92%, Held=29 days, 14:30:03.949167
+2026-03-10 14:30:04,543 - INFO - Checking 에이플러스에셋(244920): Price=12640.0, Buy=10850.0, PnL=16.50%, Held=42 days, 14:30:04.543011
+2026-03-10 14:30:05,020 - INFO - Checking 한화갤러리아(452260): Price=2792.0, Buy=2225.0, PnL=25.48%, Held=26 days, 14:30:05.020538
+2026-03-10 14:30:05,604 - INFO - Checking 한전기술(052690): Price=158800.0, Buy=151600.0, PnL=4.75%, Held=19 days, 14:30:05.604270
+2026-03-10 14:30:06,293 - INFO - Checking 휴림로봇(090710): Price=12730.0, Buy=14290.0, PnL=-10.92%, Held=18 days, 14:30:06.293871
+2026-03-10 14:30:06,891 - INFO - Checking 화신(010690): Price=12800.0, Buy=11550.0, PnL=10.82%, Held=6 days, 14:30:06.891484
+2026-03-10 14:30:07,411 - INFO - Checking 대원전선(006340): Price=5290.0, Buy=5430.0, PnL=-2.58%, Held=5 days, 14:30:07.411125
+2026-03-10 14:30:07,981 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 14:30:07.981666
+2026-03-10 14:30:07,981 - INFO - No exit signals detected.
+2026-03-10 14:30:07,981 - INFO - Exit Monitor Finished.
+2026-03-10 14:30:07,981 - INFO - Triggering Portfolio Calculation...
+2026-03-10 14:30:25,037 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 14:30:25,037 - INFO - 2026-03-10 14:30:09,619 - INFO - Starting Portfolio Calculation...
+2026-03-10 14:30:24,836 - INFO - Portfolio status updated. Total Value: 90,004,000
+
+2026-03-10 14:40:01,704 - INFO - Starting Exit Monitor...
+2026-03-10 14:40:02,208 - INFO - Checking 한화시스템(272210): Price=154800.0, Buy=88800.0, PnL=74.32%, Held=48 days, 14:40:02.208241
+2026-03-10 14:40:02,638 - INFO - Checking 이수스페셜티케미컬(457190): Price=98500.0, Buy=96600.0, PnL=1.97%, Held=46 days, 14:40:02.638201
+2026-03-10 14:40:03,141 - INFO - Checking 유진로봇(056080): Price=30050.0, Buy=31850.0, PnL=-5.65%, Held=43 days, 14:40:03.141073
+2026-03-10 14:40:03,753 - INFO - Checking 인텔리안테크(189300): Price=136200.0, Buy=128400.0, PnL=6.07%, Held=29 days, 14:40:03.753630
+2026-03-10 14:40:04,225 - INFO - Checking 에이플러스에셋(244920): Price=12670.0, Buy=10850.0, PnL=16.77%, Held=42 days, 14:40:04.225641
+2026-03-10 14:40:04,754 - INFO - Checking 한화갤러리아(452260): Price=2780.0, Buy=2225.0, PnL=24.94%, Held=26 days, 14:40:04.754505
+2026-03-10 14:40:05,341 - INFO - Checking 한전기술(052690): Price=160300.0, Buy=151600.0, PnL=5.74%, Held=19 days, 14:40:05.341020
+2026-03-10 14:40:05,950 - INFO - Checking 휴림로봇(090710): Price=12710.0, Buy=14290.0, PnL=-11.06%, Held=18 days, 14:40:05.950600
+2026-03-10 14:40:06,431 - INFO - Checking 화신(010690): Price=12790.0, Buy=11550.0, PnL=10.74%, Held=6 days, 14:40:06.431999
+2026-03-10 14:40:07,142 - INFO - Checking 대원전선(006340): Price=5320.0, Buy=5430.0, PnL=-2.03%, Held=5 days, 14:40:07.142469
+2026-03-10 14:40:07,701 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 14:40:07.701644
+2026-03-10 14:40:07,701 - INFO - No exit signals detected.
+2026-03-10 14:40:07,701 - INFO - Exit Monitor Finished.
+2026-03-10 14:40:07,701 - INFO - Triggering Portfolio Calculation...
+2026-03-10 14:40:23,752 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 14:40:23,752 - INFO - 2026-03-10 14:40:09,418 - INFO - Starting Portfolio Calculation...
+2026-03-10 14:40:23,555 - INFO - Portfolio status updated. Total Value: 90,285,000
+
+2026-03-10 14:50:01,723 - INFO - Starting Exit Monitor...
+2026-03-10 14:50:02,190 - INFO - Checking 한화시스템(272210): Price=154700.0, Buy=88800.0, PnL=74.21%, Held=48 days, 14:50:02.190940
+2026-03-10 14:50:02,643 - INFO - Checking 이수스페셜티케미컬(457190): Price=98100.0, Buy=96600.0, PnL=1.55%, Held=46 days, 14:50:02.643491
+2026-03-10 14:50:03,197 - INFO - Checking 유진로봇(056080): Price=30000.0, Buy=31850.0, PnL=-5.81%, Held=43 days, 14:50:03.197178
+2026-03-10 14:50:03,883 - INFO - Checking 인텔리안테크(189300): Price=136000.0, Buy=128400.0, PnL=5.92%, Held=29 days, 14:50:03.883501
+2026-03-10 14:50:04,432 - INFO - Checking 에이플러스에셋(244920): Price=12720.0, Buy=10850.0, PnL=17.24%, Held=42 days, 14:50:04.432811
+2026-03-10 14:50:04,943 - INFO - Checking 한화갤러리아(452260): Price=2775.0, Buy=2225.0, PnL=24.72%, Held=26 days, 14:50:04.943427
+2026-03-10 14:50:05,505 - INFO - Checking 한전기술(052690): Price=159900.0, Buy=151600.0, PnL=5.47%, Held=19 days, 14:50:05.505951
+2026-03-10 14:50:06,114 - INFO - Checking 휴림로봇(090710): Price=12720.0, Buy=14290.0, PnL=-10.99%, Held=18 days, 14:50:06.113241
+2026-03-10 14:50:06,614 - INFO - Checking 화신(010690): Price=12780.0, Buy=11550.0, PnL=10.65%, Held=6 days, 14:50:06.614166
+2026-03-10 14:50:07,157 - INFO - Checking 대원전선(006340): Price=5320.0, Buy=5430.0, PnL=-2.03%, Held=5 days, 14:50:07.157394
+2026-03-10 14:50:07,704 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 14:50:07.704434
+2026-03-10 14:50:07,704 - INFO - No exit signals detected.
+2026-03-10 14:50:07,704 - INFO - Exit Monitor Finished.
+2026-03-10 14:50:07,704 - INFO - Triggering Portfolio Calculation...
+2026-03-10 14:50:24,094 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 14:50:24,094 - INFO - 2026-03-10 14:50:09,313 - INFO - Starting Portfolio Calculation...
+2026-03-10 14:50:23,917 - INFO - Portfolio status updated. Total Value: 90,204,000
+
+2026-03-10 15:00:01,997 - INFO - Starting Exit Monitor...
+2026-03-10 15:00:02,479 - INFO - Checking 한화시스템(272210): Price=156000.0, Buy=88800.0, PnL=75.68%, Held=48 days, 15:00:02.474511
+2026-03-10 15:00:02,984 - INFO - Checking 이수스페셜티케미컬(457190): Price=98200.0, Buy=96600.0, PnL=1.66%, Held=46 days, 15:00:02.984657
+2026-03-10 15:00:03,517 - INFO - Checking 유진로봇(056080): Price=30050.0, Buy=31850.0, PnL=-5.65%, Held=43 days, 15:00:03.517975
+2026-03-10 15:00:04,113 - INFO - Checking 인텔리안테크(189300): Price=136400.0, Buy=128400.0, PnL=6.23%, Held=29 days, 15:00:04.113069
+2026-03-10 15:00:04,674 - INFO - Checking 에이플러스에셋(244920): Price=12610.0, Buy=10850.0, PnL=16.22%, Held=42 days, 15:00:04.674294
+2026-03-10 15:00:05,203 - INFO - Checking 한화갤러리아(452260): Price=2770.0, Buy=2225.0, PnL=24.49%, Held=26 days, 15:00:05.203481
+2026-03-10 15:00:05,818 - INFO - Checking 한전기술(052690): Price=160900.0, Buy=151600.0, PnL=6.13%, Held=19 days, 15:00:05.818507
+2026-03-10 15:00:06,368 - INFO - Checking 휴림로봇(090710): Price=12710.0, Buy=14290.0, PnL=-11.06%, Held=18 days, 15:00:06.368720
+2026-03-10 15:00:06,924 - INFO - Checking 화신(010690): Price=12820.0, Buy=11550.0, PnL=11.00%, Held=6 days, 15:00:06.924617
+2026-03-10 15:00:07,450 - INFO - Checking 대원전선(006340): Price=5330.0, Buy=5430.0, PnL=-1.84%, Held=5 days, 15:00:07.450548
+2026-03-10 15:00:08,135 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 15:00:08.135294
+2026-03-10 15:00:08,135 - INFO - No exit signals detected.
+2026-03-10 15:00:08,135 - INFO - Exit Monitor Finished.
+2026-03-10 15:00:08,136 - INFO - Triggering Portfolio Calculation...
+2026-03-10 15:00:25,108 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 15:00:25,108 - INFO - 2026-03-10 15:00:09,918 - INFO - Starting Portfolio Calculation...
+2026-03-10 15:00:24,904 - INFO - Portfolio status updated. Total Value: 90,373,000
+
+2026-03-10 15:10:01,839 - INFO - Starting Exit Monitor...
+2026-03-10 15:10:02,387 - INFO - Checking 한화시스템(272210): Price=156600.0, Buy=88800.0, PnL=76.35%, Held=48 days, 15:10:02.387380
+2026-03-10 15:10:02,853 - INFO - Checking 이수스페셜티케미컬(457190): Price=99100.0, Buy=96600.0, PnL=2.59%, Held=46 days, 15:10:02.853745
+2026-03-10 15:10:03,437 - INFO - Checking 유진로봇(056080): Price=29950.0, Buy=31850.0, PnL=-5.97%, Held=43 days, 15:10:03.437253
+2026-03-10 15:10:04,032 - INFO - Checking 인텔리안테크(189300): Price=135600.0, Buy=128400.0, PnL=5.61%, Held=29 days, 15:10:04.032891
+2026-03-10 15:10:04,583 - INFO - Checking 에이플러스에셋(244920): Price=12610.0, Buy=10850.0, PnL=16.22%, Held=42 days, 15:10:04.583232
+2026-03-10 15:10:05,049 - INFO - Checking 한화갤러리아(452260): Price=2767.0, Buy=2225.0, PnL=24.36%, Held=26 days, 15:10:05.049044
+2026-03-10 15:10:05,632 - INFO - Checking 한전기술(052690): Price=160600.0, Buy=151600.0, PnL=5.94%, Held=19 days, 15:10:05.632804
+2026-03-10 15:10:06,191 - INFO - Checking 휴림로봇(090710): Price=12720.0, Buy=14290.0, PnL=-10.99%, Held=18 days, 15:10:06.191376
+2026-03-10 15:10:06,812 - INFO - Checking 화신(010690): Price=12770.0, Buy=11550.0, PnL=10.56%, Held=6 days, 15:10:06.812028
+2026-03-10 15:10:07,410 - INFO - Checking 대원전선(006340): Price=5410.0, Buy=5430.0, PnL=-0.37%, Held=5 days, 15:10:07.410305
+2026-03-10 15:10:08,024 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 15:10:08.024545
+2026-03-10 15:10:08,024 - INFO - No exit signals detected.
+2026-03-10 15:10:08,024 - INFO - Exit Monitor Finished.
+2026-03-10 15:10:08,024 - INFO - Triggering Portfolio Calculation...
+2026-03-10 15:10:24,822 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 15:10:24,822 - INFO - 2026-03-10 15:10:09,692 - INFO - Starting Portfolio Calculation...
+2026-03-10 15:10:24,627 - INFO - Portfolio status updated. Total Value: 90,439,000
+
+2026-03-10 15:20:01,869 - INFO - Starting Exit Monitor...
+2026-03-10 15:20:02,360 - INFO - Checking 한화시스템(272210): Price=155900.0, Buy=88800.0, PnL=75.56%, Held=48 days, 15:20:02.360027
+2026-03-10 15:20:02,823 - INFO - Checking 이수스페셜티케미컬(457190): Price=98900.0, Buy=96600.0, PnL=2.38%, Held=46 days, 15:20:02.823593
+2026-03-10 15:20:03,366 - INFO - Checking 유진로봇(056080): Price=30200.0, Buy=31850.0, PnL=-5.18%, Held=43 days, 15:20:03.366085
+2026-03-10 15:20:03,983 - INFO - Checking 인텔리안테크(189300): Price=135900.0, Buy=128400.0, PnL=5.84%, Held=29 days, 15:20:03.983116
+2026-03-10 15:20:04,642 - INFO - Checking 에이플러스에셋(244920): Price=12600.0, Buy=10850.0, PnL=16.13%, Held=42 days, 15:20:04.642048
+2026-03-10 15:20:05,101 - INFO - Checking 한화갤러리아(452260): Price=2770.0, Buy=2225.0, PnL=24.49%, Held=26 days, 15:20:05.101214
+2026-03-10 15:20:05,667 - INFO - Checking 한전기술(052690): Price=160300.0, Buy=151600.0, PnL=5.74%, Held=19 days, 15:20:05.667523
+2026-03-10 15:20:06,254 - INFO - Checking 휴림로봇(090710): Price=12700.0, Buy=14290.0, PnL=-11.13%, Held=18 days, 15:20:06.254381
+2026-03-10 15:20:06,796 - INFO - Checking 화신(010690): Price=12800.0, Buy=11550.0, PnL=10.82%, Held=6 days, 15:20:06.796364
+2026-03-10 15:20:07,324 - INFO - Checking 대원전선(006340): Price=5390.0, Buy=5430.0, PnL=-0.74%, Held=5 days, 15:20:07.324574
+2026-03-10 15:20:07,879 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 15:20:07.879584
+2026-03-10 15:20:07,881 - INFO - No exit signals detected.
+2026-03-10 15:20:07,881 - INFO - Exit Monitor Finished.
+2026-03-10 15:20:07,881 - INFO - Triggering Portfolio Calculation...
+2026-03-10 15:20:24,822 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 15:20:24,822 - INFO - 2026-03-10 15:20:09,577 - INFO - Starting Portfolio Calculation...
+2026-03-10 15:20:24,653 - INFO - Portfolio status updated. Total Value: 90,316,000
+
+2026-03-10 15:30:01,858 - INFO - Starting Exit Monitor...
+2026-03-10 15:30:02,357 - INFO - Checking 한화시스템(272210): Price=156100.0, Buy=88800.0, PnL=75.79%, Held=48 days, 15:30:02.357045
+2026-03-10 15:30:02,835 - INFO - Checking 이수스페셜티케미컬(457190): Price=98900.0, Buy=96600.0, PnL=2.38%, Held=46 days, 15:30:02.835366
+2026-03-10 15:30:03,372 - INFO - Checking 유진로봇(056080): Price=30100.0, Buy=31850.0, PnL=-5.49%, Held=43 days, 15:30:03.372079
+2026-03-10 15:30:03,950 - INFO - Checking 인텔리안테크(189300): Price=135500.0, Buy=128400.0, PnL=5.53%, Held=29 days, 15:30:03.950218
+2026-03-10 15:30:04,505 - INFO - Checking 에이플러스에셋(244920): Price=12610.0, Buy=10850.0, PnL=16.22%, Held=42 days, 15:30:04.505811
+2026-03-10 15:30:05,021 - INFO - Checking 한화갤러리아(452260): Price=2765.0, Buy=2225.0, PnL=24.27%, Held=26 days, 15:30:05.021012
+2026-03-10 15:30:05,666 - INFO - Checking 한전기술(052690): Price=160100.0, Buy=151600.0, PnL=5.61%, Held=19 days, 15:30:05.666071
+2026-03-10 15:30:06,353 - INFO - Checking 휴림로봇(090710): Price=12710.0, Buy=14290.0, PnL=-11.06%, Held=18 days, 15:30:06.353455
+2026-03-10 15:30:06,959 - INFO - Checking 화신(010690): Price=12780.0, Buy=11550.0, PnL=10.65%, Held=6 days, 15:30:06.959303
+2026-03-10 15:30:07,575 - INFO - Checking 대원전선(006340): Price=5370.0, Buy=5430.0, PnL=-1.10%, Held=5 days, 15:30:07.575050
+2026-03-10 15:30:08,100 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 15:30:08.100718
+2026-03-10 15:30:08,101 - INFO - No exit signals detected.
+2026-03-10 15:30:08,101 - INFO - Exit Monitor Finished.
+2026-03-10 15:30:08,101 - INFO - Triggering Portfolio Calculation...
+2026-03-10 15:30:25,296 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 15:30:25,296 - INFO - 2026-03-10 15:30:09,835 - INFO - Starting Portfolio Calculation...
+2026-03-10 15:30:25,114 - INFO - Portfolio status updated. Total Value: 90,289,000
+
+2026-03-10 15:40:01,860 - INFO - Starting Exit Monitor...
+2026-03-10 15:40:02,442 - INFO - Checking 한화시스템(272210): Price=156200.0, Buy=88800.0, PnL=75.90%, Held=48 days, 15:40:02.442474
+2026-03-10 15:40:02,981 - INFO - Checking 이수스페셜티케미컬(457190): Price=99000.0, Buy=96600.0, PnL=2.48%, Held=46 days, 15:40:02.981141
+2026-03-10 15:40:03,575 - INFO - Checking 유진로봇(056080): Price=30100.0, Buy=31850.0, PnL=-5.49%, Held=43 days, 15:40:03.575979
+2026-03-10 15:40:05,438 - INFO - Checking 인텔리안테크(189300): Price=136000.0, Buy=128400.0, PnL=5.92%, Held=29 days, 15:40:05.438227
+2026-03-10 15:40:07,667 - INFO - Checking 에이플러스에셋(244920): Price=12520.0, Buy=10850.0, PnL=15.39%, Held=42 days, 15:40:07.667211
+2026-03-10 15:40:10,016 - INFO - Checking 한화갤러리아(452260): Price=2765.0, Buy=2225.0, PnL=24.27%, Held=26 days, 15:40:10.016995
+2026-03-10 15:40:12,536 - INFO - Checking 한전기술(052690): Price=160000.0, Buy=151600.0, PnL=5.54%, Held=19 days, 15:40:12.536726
+2026-03-10 15:40:14,901 - INFO - Checking 휴림로봇(090710): Price=12710.0, Buy=14290.0, PnL=-11.06%, Held=18 days, 15:40:14.901455
+2026-03-10 15:40:17,333 - INFO - Checking 화신(010690): Price=12740.0, Buy=11550.0, PnL=10.30%, Held=6 days, 15:40:17.333073
+2026-03-10 15:40:19,695 - INFO - Checking 대원전선(006340): Price=5370.0, Buy=5430.0, PnL=-1.10%, Held=5 days, 15:40:19.695262
+2026-03-10 15:40:22,366 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 15:40:22.366208
+2026-03-10 15:40:22,366 - INFO - No exit signals detected.
+2026-03-10 15:40:22,366 - INFO - Exit Monitor Finished.
+2026-03-10 15:40:22,367 - INFO - Triggering Portfolio Calculation...
+2026-03-10 15:41:33,359 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 15:41:33,359 - INFO - 2026-03-10 15:40:26,623 - INFO - Starting Portfolio Calculation...
+2026-03-10 15:41:33,011 - INFO - Portfolio status updated. Total Value: 90,255,000
+
+2026-03-10 15:50:02,095 - INFO - Starting Exit Monitor...
+2026-03-10 15:50:02,673 - INFO - Checking 한화시스템(272210): Price=156200.0, Buy=88800.0, PnL=75.90%, Held=48 days, 15:50:02.673989
+2026-03-10 15:50:03,292 - INFO - Checking 이수스페셜티케미컬(457190): Price=99000.0, Buy=96600.0, PnL=2.48%, Held=46 days, 15:50:03.292970
+2026-03-10 15:50:03,905 - INFO - Checking 유진로봇(056080): Price=30100.0, Buy=31850.0, PnL=-5.49%, Held=43 days, 15:50:03.905499
+2026-03-10 15:50:04,501 - INFO - Checking 인텔리안테크(189300): Price=136000.0, Buy=128400.0, PnL=5.92%, Held=29 days, 15:50:04.501428
+2026-03-10 15:50:05,095 - INFO - Checking 에이플러스에셋(244920): Price=12520.0, Buy=10850.0, PnL=15.39%, Held=42 days, 15:50:05.095421
+2026-03-10 15:50:05,805 - INFO - Checking 한화갤러리아(452260): Price=2765.0, Buy=2225.0, PnL=24.27%, Held=26 days, 15:50:05.805770
+2026-03-10 15:50:06,424 - INFO - Checking 한전기술(052690): Price=160000.0, Buy=151600.0, PnL=5.54%, Held=19 days, 15:50:06.424697
+2026-03-10 15:50:07,119 - INFO - Checking 휴림로봇(090710): Price=12710.0, Buy=14290.0, PnL=-11.06%, Held=18 days, 15:50:07.119706
+2026-03-10 15:50:07,832 - INFO - Checking 화신(010690): Price=12740.0, Buy=11550.0, PnL=10.30%, Held=6 days, 15:50:07.832566
+2026-03-10 15:50:08,531 - INFO - Checking 대원전선(006340): Price=5370.0, Buy=5430.0, PnL=-1.10%, Held=5 days, 15:50:08.531965
+2026-03-10 15:50:09,261 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 15:50:09.261288
+2026-03-10 15:50:09,261 - INFO - No exit signals detected.
+2026-03-10 15:50:09,261 - INFO - Exit Monitor Finished.
+2026-03-10 15:50:09,261 - INFO - Triggering Portfolio Calculation...
+2026-03-10 15:50:29,128 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 15:50:29,129 - INFO - 2026-03-10 15:50:11,036 - INFO - Starting Portfolio Calculation...
+2026-03-10 15:50:28,919 - INFO - Portfolio status updated. Total Value: 90,255,000
+
+2026-03-10 18:00:01,827 - INFO - Starting Exit Monitor...
+2026-03-10 18:00:02,417 - INFO - Checking 한화시스템(272210): Price=156200.0, Buy=88800.0, PnL=75.90%, Held=48 days, 18:00:02.417170
+2026-03-10 18:00:02,898 - INFO - Checking 이수스페셜티케미컬(457190): Price=99000.0, Buy=96600.0, PnL=2.48%, Held=46 days, 18:00:02.898285
+2026-03-10 18:00:03,381 - INFO - Checking 유진로봇(056080): Price=30100.0, Buy=31850.0, PnL=-5.49%, Held=43 days, 18:00:03.381715
+2026-03-10 18:00:03,993 - INFO - Checking 인텔리안테크(189300): Price=136000.0, Buy=128400.0, PnL=5.92%, Held=29 days, 18:00:03.993423
+2026-03-10 18:00:04,556 - INFO - Checking 에이플러스에셋(244920): Price=12520.0, Buy=10850.0, PnL=15.39%, Held=42 days, 18:00:04.556233
+2026-03-10 18:00:05,023 - INFO - Checking 한화갤러리아(452260): Price=2765.0, Buy=2225.0, PnL=24.27%, Held=26 days, 18:00:05.023640
+2026-03-10 18:00:05,557 - INFO - Checking 한전기술(052690): Price=160000.0, Buy=151600.0, PnL=5.54%, Held=19 days, 18:00:05.557264
+2026-03-10 18:00:06,140 - INFO - Checking 휴림로봇(090710): Price=12710.0, Buy=14290.0, PnL=-11.06%, Held=18 days, 18:00:06.140358
+2026-03-10 18:00:06,656 - INFO - Checking 화신(010690): Price=12740.0, Buy=11550.0, PnL=10.30%, Held=6 days, 18:00:06.656741
+2026-03-10 18:00:07,164 - INFO - Checking 대원전선(006340): Price=5370.0, Buy=5430.0, PnL=-1.10%, Held=5 days, 18:00:07.164416
+2026-03-10 18:00:07,764 - INFO - Checking RF머트리얼즈(327260): Price=60800.0, Buy=51900.0, PnL=17.15%, Held=4 days, 18:00:07.764951
+2026-03-10 18:00:07,764 - INFO - No exit signals detected.
+2026-03-10 18:00:07,764 - INFO - Exit Monitor Finished.
+2026-03-10 18:00:07,765 - INFO - Triggering Portfolio Calculation...
+2026-03-10 18:00:24,418 - INFO - Portfolio Calculation completed successfully.
+2026-03-10 18:00:24,418 - INFO - 2026-03-10 18:00:09,421 - INFO - Starting Portfolio Calculation...
+2026-03-10 18:00:24,237 - INFO - Portfolio status updated. Total Value: 90,255,000
+
+2026-03-16 17:52:14,621 - INFO - Starting Exit Monitor...
+2026-03-16 17:52:15,084 - INFO - Checking 한화시스템(272210): Price=140000.0, Buy=88800.0, PnL=57.66%, Held=54 days, 17:52:15.084577
+2026-03-16 17:52:15,510 - INFO - Checking 이수스페셜티케미컬(457190): Price=89500.0, Buy=96600.0, PnL=-7.35%, Held=52 days, 17:52:15.510050
+2026-03-16 17:52:15,979 - INFO - Checking 유진로봇(056080): Price=27700.0, Buy=31850.0, PnL=-13.03%, Held=49 days, 17:52:15.979279
+2026-03-16 17:52:16,428 - INFO - Checking 휴림로봇(090710): Price=11960.0, Buy=14290.0, PnL=-16.31%, Held=24 days, 17:52:16.428228
+2026-03-16 17:52:16,925 - INFO - Checking 한화에어로스페이스(012450): Price=1476000.0, Buy=1410000.0, PnL=4.68%, Held=5 days, 17:52:16.925293
+2026-03-16 17:52:17,378 - INFO - Checking 한미반도체(042700): Price=300000.0, Buy=305500.0, PnL=-1.80%, Held=3 days, 17:52:17.378213
+2026-03-16 17:52:17,844 - INFO - Checking 오이솔루션(138080): Price=34150.0, Buy=32050.0, PnL=6.55%, Held=4 days, 17:52:17.844004
+2026-03-16 17:52:17,844 - INFO - No exit signals detected.
+2026-03-16 17:52:17,844 - INFO - Exit Monitor Finished.
+2026-03-16 17:52:17,844 - INFO - Triggering Portfolio Calculation...
+2026-03-16 17:52:32,259 - INFO - Portfolio Calculation completed successfully.
+2026-03-16 17:52:32,259 - INFO - 2026-03-16 17:52:19,698 - INFO - Starting Portfolio Calculation...
+2026-03-16 17:52:32,040 - INFO - Portfolio status updated. Total Value: 75,091,000
+
+2026-03-16 18:00:02,782 - INFO - Starting Exit Monitor...
+2026-03-16 18:00:05,210 - INFO - Checking 한화시스템(272210): Price=140000.0, Buy=88800.0, PnL=57.66%, Held=54 days, 18:00:05.210125
+2026-03-16 18:00:08,088 - INFO - Checking 이수스페셜티케미컬(457190): Price=89500.0, Buy=96600.0, PnL=-7.35%, Held=52 days, 18:00:08.088598
+2026-03-16 18:00:10,616 - INFO - Checking 유진로봇(056080): Price=27700.0, Buy=31850.0, PnL=-13.03%, Held=49 days, 18:00:10.615533
+2026-03-16 18:00:13,473 - INFO - Checking 휴림로봇(090710): Price=11960.0, Buy=14290.0, PnL=-16.31%, Held=24 days, 18:00:13.473480
+2026-03-16 18:00:16,016 - INFO - Checking 한화에어로스페이스(012450): Price=1476000.0, Buy=1410000.0, PnL=4.68%, Held=5 days, 18:00:16.016866
+2026-03-16 18:00:18,706 - INFO - Checking 한미반도체(042700): Price=300000.0, Buy=305500.0, PnL=-1.80%, Held=3 days, 18:00:18.706862
+2026-03-16 18:00:21,273 - INFO - Checking 오이솔루션(138080): Price=34150.0, Buy=32050.0, PnL=6.55%, Held=4 days, 18:00:21.273623
+2026-03-16 18:00:21,273 - INFO - No exit signals detected.
+2026-03-16 18:00:21,273 - INFO - Exit Monitor Finished.
+2026-03-16 18:00:21,273 - INFO - Triggering Portfolio Calculation...
+2026-03-16 18:01:34,249 - INFO - Portfolio Calculation completed successfully.
+2026-03-16 18:01:34,249 - INFO - 2026-03-16 18:00:23,537 - INFO - Starting Portfolio Calculation...
+2026-03-16 18:01:33,962 - INFO - Portfolio status updated. Total Value: 75,091,000
+
+2026-03-19 10:30:06,408 - INFO - Starting Exit Monitor...
+2026-03-19 10:30:07,138 - INFO - Checking 한화시스템(272210): Price=140600.0, Buy=88800.0, PnL=58.33%, Held=57 days, 10:30:07.138664
+2026-03-19 10:30:07,649 - INFO - Checking 이수스페셜티케미컬(457190): Price=91900.0, Buy=96600.0, PnL=-4.87%, Held=55 days, 10:30:07.649289
+2026-03-19 10:30:08,161 - INFO - Checking 유진로봇(056080): Price=28500.0, Buy=31850.0, PnL=-10.52%, Held=52 days, 10:30:08.161225
+2026-03-19 10:30:08,678 - INFO - Checking 휴림로봇(090710): Price=14250.0, Buy=14290.0, PnL=-0.28%, Held=27 days, 10:30:08.678106
+2026-03-19 10:30:09,164 - INFO - Checking 한화에어로스페이스(012450): Price=1368000.0, Buy=1410000.0, PnL=-2.98%, Held=8 days, 10:30:09.164659
+2026-03-19 10:30:09,688 - INFO - Checking 한미반도체(042700): Price=303000.0, Buy=305500.0, PnL=-0.82%, Held=6 days, 10:30:09.688029
+2026-03-19 10:30:10,234 - INFO - Checking 오이솔루션(138080): Price=31950.0, Buy=32050.0, PnL=-0.31%, Held=7 days, 10:30:10.234019
+2026-03-19 10:30:10,703 - INFO - Checking 대주전자재료(078600): Price=121300.0, Buy=110700.0, PnL=9.58%, Held=3 days, 10:30:10.703992
+2026-03-19 10:30:11,204 - INFO - Checking 에스피지(058610): Price=123100.0, Buy=125000.0, PnL=-1.52%, Held=2 days, 10:30:11.204301
+2026-03-19 10:30:11,699 - INFO - Checking 한미반도체(042700): Price=303000.0, Buy=300000.0, PnL=1.00%, Held=3 days, 10:30:11.699291
+2026-03-19 10:30:11,699 - INFO - No exit signals detected.
+2026-03-19 10:30:11,699 - INFO - Exit Monitor Finished.
+2026-03-19 10:30:11,699 - INFO - Triggering Portfolio Calculation...
+2026-03-19 10:30:32,114 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 10:30:32,114 - INFO - 2026-03-19 10:30:13,594 - INFO - Starting Portfolio Calculation...
+2026-03-19 10:30:31,928 - INFO - Portfolio status updated. Total Value: 126,973,000
+
+2026-03-19 10:40:02,218 - INFO - Starting Exit Monitor...
+2026-03-19 10:40:02,678 - INFO - Checking 한화시스템(272210): Price=141600.0, Buy=88800.0, PnL=59.46%, Held=57 days, 10:40:02.678347
+2026-03-19 10:40:03,114 - INFO - Checking 이수스페셜티케미컬(457190): Price=91900.0, Buy=96600.0, PnL=-4.87%, Held=55 days, 10:40:03.114389
+2026-03-19 10:40:03,687 - INFO - Checking 유진로봇(056080): Price=28550.0, Buy=31850.0, PnL=-10.36%, Held=52 days, 10:40:03.687879
+2026-03-19 10:40:04,245 - INFO - Checking 휴림로봇(090710): Price=14280.0, Buy=14290.0, PnL=-0.07%, Held=27 days, 10:40:04.245921
+2026-03-19 10:40:04,725 - INFO - Checking 한화에어로스페이스(012450): Price=1374000.0, Buy=1410000.0, PnL=-2.55%, Held=8 days, 10:40:04.725146
+2026-03-19 10:40:05,237 - INFO - Checking 한미반도체(042700): Price=304000.0, Buy=305500.0, PnL=-0.49%, Held=6 days, 10:40:05.236260
+2026-03-19 10:40:05,795 - INFO - Checking 오이솔루션(138080): Price=32200.0, Buy=32050.0, PnL=0.47%, Held=7 days, 10:40:05.795949
+2026-03-19 10:40:06,283 - INFO - Checking 대주전자재료(078600): Price=121700.0, Buy=110700.0, PnL=9.94%, Held=3 days, 10:40:06.283456
+2026-03-19 10:40:06,870 - INFO - Checking 에스피지(058610): Price=123200.0, Buy=125000.0, PnL=-1.44%, Held=2 days, 10:40:06.870944
+2026-03-19 10:40:07,488 - INFO - Checking 한미반도체(042700): Price=304000.0, Buy=300000.0, PnL=1.33%, Held=3 days, 10:40:07.488785
+2026-03-19 10:40:07,488 - INFO - No exit signals detected.
+2026-03-19 10:40:07,488 - INFO - Exit Monitor Finished.
+2026-03-19 10:40:07,488 - INFO - Triggering Portfolio Calculation...
+2026-03-19 10:40:29,846 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 10:40:29,846 - INFO - 2026-03-19 10:40:09,694 - INFO - Starting Portfolio Calculation...
+2026-03-19 10:40:29,679 - INFO - Portfolio status updated. Total Value: 127,545,000
+
+2026-03-19 10:50:01,951 - INFO - Starting Exit Monitor...
+2026-03-19 10:50:02,426 - INFO - Checking 한화시스템(272210): Price=141000.0, Buy=88800.0, PnL=58.78%, Held=57 days, 10:50:02.426797
+2026-03-19 10:50:02,843 - INFO - Checking 이수스페셜티케미컬(457190): Price=92000.0, Buy=96600.0, PnL=-4.76%, Held=55 days, 10:50:02.843468
+2026-03-19 10:50:03,442 - INFO - Checking 유진로봇(056080): Price=28650.0, Buy=31850.0, PnL=-10.05%, Held=52 days, 10:50:03.442542
+2026-03-19 10:50:03,926 - INFO - Checking 휴림로봇(090710): Price=14250.0, Buy=14290.0, PnL=-0.28%, Held=27 days, 10:50:03.926941
+2026-03-19 10:50:04,401 - INFO - Checking 한화에어로스페이스(012450): Price=1373000.0, Buy=1410000.0, PnL=-2.62%, Held=8 days, 10:50:04.401711
+2026-03-19 10:50:04,910 - INFO - Checking 한미반도체(042700): Price=303500.0, Buy=305500.0, PnL=-0.65%, Held=6 days, 10:50:04.910332
+2026-03-19 10:50:05,482 - INFO - Checking 오이솔루션(138080): Price=32000.0, Buy=32050.0, PnL=-0.16%, Held=7 days, 10:50:05.482790
+2026-03-19 10:50:05,983 - INFO - Checking 대주전자재료(078600): Price=121300.0, Buy=110700.0, PnL=9.58%, Held=3 days, 10:50:05.983019
+2026-03-19 10:50:06,448 - INFO - Checking 에스피지(058610): Price=123900.0, Buy=125000.0, PnL=-0.88%, Held=2 days, 10:50:06.447863
+2026-03-19 10:50:07,026 - INFO - Checking 한미반도체(042700): Price=303500.0, Buy=300000.0, PnL=1.17%, Held=3 days, 10:50:07.026840
+2026-03-19 10:50:07,026 - INFO - No exit signals detected.
+2026-03-19 10:50:07,026 - INFO - Exit Monitor Finished.
+2026-03-19 10:50:07,026 - INFO - Triggering Portfolio Calculation...
+2026-03-19 10:50:25,505 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 10:50:25,505 - INFO - 2026-03-19 10:50:08,867 - INFO - Starting Portfolio Calculation...
+2026-03-19 10:50:25,352 - INFO - Portfolio status updated. Total Value: 127,271,000
+
+2026-03-19 11:00:01,648 - INFO - Starting Exit Monitor...
+2026-03-19 11:00:02,125 - INFO - Checking 한화시스템(272210): Price=140500.0, Buy=88800.0, PnL=58.22%, Held=57 days, 11:00:02.125034
+2026-03-19 11:00:02,582 - INFO - Checking 이수스페셜티케미컬(457190): Price=92500.0, Buy=96600.0, PnL=-4.24%, Held=55 days, 11:00:02.582998
+2026-03-19 11:00:03,077 - INFO - Checking 유진로봇(056080): Price=28800.0, Buy=31850.0, PnL=-9.58%, Held=52 days, 11:00:03.077944
+2026-03-19 11:00:03,652 - INFO - Checking 휴림로봇(090710): Price=14410.0, Buy=14290.0, PnL=0.84%, Held=27 days, 11:00:03.652520
+2026-03-19 11:00:04,179 - INFO - Checking 한화에어로스페이스(012450): Price=1373000.0, Buy=1410000.0, PnL=-2.62%, Held=8 days, 11:00:04.179669
+2026-03-19 11:00:04,668 - INFO - Checking 한미반도체(042700): Price=304500.0, Buy=305500.0, PnL=-0.33%, Held=6 days, 11:00:04.668029
+2026-03-19 11:00:05,161 - INFO - Checking 오이솔루션(138080): Price=32300.0, Buy=32050.0, PnL=0.78%, Held=7 days, 11:00:05.161963
+2026-03-19 11:00:05,768 - INFO - Checking 대주전자재료(078600): Price=121800.0, Buy=110700.0, PnL=10.03%, Held=3 days, 11:00:05.768795
+2026-03-19 11:00:06,266 - INFO - Checking 에스피지(058610): Price=124800.0, Buy=125000.0, PnL=-0.16%, Held=2 days, 11:00:06.266481
+2026-03-19 11:00:06,723 - INFO - Checking 한미반도체(042700): Price=304500.0, Buy=300000.0, PnL=1.50%, Held=3 days, 11:00:06.723317
+2026-03-19 11:00:06,723 - INFO - No exit signals detected.
+2026-03-19 11:00:06,723 - INFO - Exit Monitor Finished.
+2026-03-19 11:00:06,723 - INFO - Triggering Portfolio Calculation...
+2026-03-19 11:00:25,517 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 11:00:25,517 - INFO - 2026-03-19 11:00:08,343 - INFO - Starting Portfolio Calculation...
+2026-03-19 11:00:25,360 - INFO - Portfolio status updated. Total Value: 127,696,000
+
+2026-03-19 11:10:01,788 - INFO - Starting Exit Monitor...
+2026-03-19 11:10:02,317 - INFO - Checking 한화시스템(272210): Price=140400.0, Buy=88800.0, PnL=58.11%, Held=57 days, 11:10:02.317272
+2026-03-19 11:10:02,798 - INFO - Checking 이수스페셜티케미컬(457190): Price=93000.0, Buy=96600.0, PnL=-3.73%, Held=55 days, 11:10:02.798395
+2026-03-19 11:10:03,311 - INFO - Checking 유진로봇(056080): Price=28800.0, Buy=31850.0, PnL=-9.58%, Held=52 days, 11:10:03.311632
+2026-03-19 11:10:03,904 - INFO - Checking 휴림로봇(090710): Price=14420.0, Buy=14290.0, PnL=0.91%, Held=27 days, 11:10:03.904739
+2026-03-19 11:10:04,481 - INFO - Checking 한화에어로스페이스(012450): Price=1373000.0, Buy=1410000.0, PnL=-2.62%, Held=8 days, 11:10:04.480073
+2026-03-19 11:10:05,096 - INFO - Checking 한미반도체(042700): Price=305500.0, Buy=305500.0, PnL=0.00%, Held=6 days, 11:10:05.096012
+2026-03-19 11:10:05,643 - INFO - Checking 오이솔루션(138080): Price=31650.0, Buy=32050.0, PnL=-1.25%, Held=7 days, 11:10:05.643678
+2026-03-19 11:10:06,210 - INFO - Checking 대주전자재료(078600): Price=122000.0, Buy=110700.0, PnL=10.21%, Held=3 days, 11:10:06.210153
+2026-03-19 11:10:06,807 - INFO - Checking 에스피지(058610): Price=125200.0, Buy=125000.0, PnL=0.16%, Held=2 days, 11:10:06.807963
+2026-03-19 11:10:07,423 - INFO - Checking 한미반도체(042700): Price=305500.0, Buy=300000.0, PnL=1.83%, Held=3 days, 11:10:07.423223
+2026-03-19 11:10:07,423 - INFO - No exit signals detected.
+2026-03-19 11:10:07,423 - INFO - Exit Monitor Finished.
+2026-03-19 11:10:07,425 - INFO - Triggering Portfolio Calculation...
+2026-03-19 11:10:27,048 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 11:10:27,048 - INFO - 2026-03-19 11:10:09,082 - INFO - Starting Portfolio Calculation...
+2026-03-19 11:10:26,895 - INFO - Portfolio status updated. Total Value: 128,024,000
+
+2026-03-19 11:20:01,854 - INFO - Starting Exit Monitor...
+2026-03-19 11:20:02,336 - INFO - Checking 한화시스템(272210): Price=140100.0, Buy=88800.0, PnL=57.77%, Held=57 days, 11:20:02.336579
+2026-03-19 11:20:02,841 - INFO - Checking 이수스페셜티케미컬(457190): Price=92600.0, Buy=96600.0, PnL=-4.14%, Held=55 days, 11:20:02.841984
+2026-03-19 11:20:03,374 - INFO - Checking 유진로봇(056080): Price=28600.0, Buy=31850.0, PnL=-10.20%, Held=52 days, 11:20:03.374035
+2026-03-19 11:20:03,988 - INFO - Checking 휴림로봇(090710): Price=14330.0, Buy=14290.0, PnL=0.28%, Held=27 days, 11:20:03.988419
+2026-03-19 11:20:04,551 - INFO - Checking 한화에어로스페이스(012450): Price=1373000.0, Buy=1410000.0, PnL=-2.62%, Held=8 days, 11:20:04.551992
+2026-03-19 11:20:05,116 - INFO - Checking 한미반도체(042700): Price=306500.0, Buy=305500.0, PnL=0.33%, Held=6 days, 11:20:05.116849
+2026-03-19 11:20:05,623 - INFO - Checking 오이솔루션(138080): Price=32150.0, Buy=32050.0, PnL=0.31%, Held=7 days, 11:20:05.623133
+2026-03-19 11:20:06,189 - INFO - Checking 대주전자재료(078600): Price=120600.0, Buy=110700.0, PnL=8.94%, Held=3 days, 11:20:06.189996
+2026-03-19 11:20:06,778 - INFO - Checking 에스피지(058610): Price=124400.0, Buy=125000.0, PnL=-0.48%, Held=2 days, 11:20:06.778873
+2026-03-19 11:20:07,324 - INFO - Checking 한미반도체(042700): Price=306500.0, Buy=300000.0, PnL=2.17%, Held=3 days, 11:20:07.324377
+2026-03-19 11:20:07,324 - INFO - No exit signals detected.
+2026-03-19 11:20:07,324 - INFO - Exit Monitor Finished.
+2026-03-19 11:20:07,325 - INFO - Triggering Portfolio Calculation...
+2026-03-19 11:20:27,467 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 11:20:27,467 - INFO - 2026-03-19 11:20:09,022 - INFO - Starting Portfolio Calculation...
+2026-03-19 11:20:27,299 - INFO - Portfolio status updated. Total Value: 128,044,000
+
+2026-03-19 11:30:01,702 - INFO - Starting Exit Monitor...
+2026-03-19 11:30:02,176 - INFO - Checking 한화시스템(272210): Price=140000.0, Buy=88800.0, PnL=57.66%, Held=57 days, 11:30:02.176771
+2026-03-19 11:30:02,625 - INFO - Checking 이수스페셜티케미컬(457190): Price=93200.0, Buy=96600.0, PnL=-3.52%, Held=55 days, 11:30:02.623839
+2026-03-19 11:30:03,155 - INFO - Checking 유진로봇(056080): Price=28900.0, Buy=31850.0, PnL=-9.26%, Held=52 days, 11:30:03.155367
+2026-03-19 11:30:03,708 - INFO - Checking 휴림로봇(090710): Price=14390.0, Buy=14290.0, PnL=0.70%, Held=27 days, 11:30:03.708382
+2026-03-19 11:30:04,336 - INFO - Checking 한화에어로스페이스(012450): Price=1374000.0, Buy=1410000.0, PnL=-2.55%, Held=8 days, 11:30:04.336953
+2026-03-19 11:30:04,871 - INFO - Checking 한미반도체(042700): Price=308000.0, Buy=305500.0, PnL=0.82%, Held=6 days, 11:30:04.861952
+2026-03-19 11:30:05,473 - INFO - Checking 오이솔루션(138080): Price=31800.0, Buy=32050.0, PnL=-0.78%, Held=7 days, 11:30:05.473341
+2026-03-19 11:30:06,027 - INFO - Checking 대주전자재료(078600): Price=120800.0, Buy=110700.0, PnL=9.12%, Held=3 days, 11:30:06.027273
+2026-03-19 11:30:06,611 - INFO - Checking 에스피지(058610): Price=124700.0, Buy=125000.0, PnL=-0.24%, Held=2 days, 11:30:06.611899
+2026-03-19 11:30:07,193 - INFO - Checking 한미반도체(042700): Price=308000.0, Buy=300000.0, PnL=2.67%, Held=3 days, 11:30:07.193453
+2026-03-19 11:30:07,193 - INFO - No exit signals detected.
+2026-03-19 11:30:07,193 - INFO - Exit Monitor Finished.
+2026-03-19 11:30:07,193 - INFO - Triggering Portfolio Calculation...
+2026-03-19 11:30:27,136 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 11:30:27,136 - INFO - 2026-03-19 11:30:08,813 - INFO - Starting Portfolio Calculation...
+2026-03-19 11:30:26,920 - INFO - Portfolio status updated. Total Value: 128,300,000
+
+2026-03-19 11:40:01,775 - INFO - Starting Exit Monitor...
+2026-03-19 11:40:02,290 - INFO - Checking 한화시스템(272210): Price=139700.0, Buy=88800.0, PnL=57.32%, Held=57 days, 11:40:02.290069
+2026-03-19 11:40:02,727 - INFO - Checking 이수스페셜티케미컬(457190): Price=93100.0, Buy=96600.0, PnL=-3.62%, Held=55 days, 11:40:02.727979
+2026-03-19 11:40:03,307 - INFO - Checking 유진로봇(056080): Price=28825.0, Buy=31850.0, PnL=-9.50%, Held=52 days, 11:40:03.307479
+2026-03-19 11:40:03,852 - INFO - Checking 휴림로봇(090710): Price=14360.0, Buy=14290.0, PnL=0.49%, Held=27 days, 11:40:03.852477
+2026-03-19 11:40:04,389 - INFO - Checking 한화에어로스페이스(012450): Price=1374000.0, Buy=1410000.0, PnL=-2.55%, Held=8 days, 11:40:04.389961
+2026-03-19 11:40:04,954 - INFO - Checking 한미반도체(042700): Price=311500.0, Buy=305500.0, PnL=1.96%, Held=6 days, 11:40:04.954296
+2026-03-19 11:40:05,451 - INFO - Checking 오이솔루션(138080): Price=31700.0, Buy=32050.0, PnL=-1.09%, Held=7 days, 11:40:05.451697
+2026-03-19 11:40:05,958 - INFO - Checking 대주전자재료(078600): Price=121500.0, Buy=110700.0, PnL=9.76%, Held=3 days, 11:40:05.958850
+2026-03-19 11:40:06,612 - INFO - Checking 에스피지(058610): Price=124600.0, Buy=125000.0, PnL=-0.32%, Held=2 days, 11:40:06.612416
+2026-03-19 11:40:07,143 - INFO - Checking 한미반도체(042700): Price=311500.0, Buy=300000.0, PnL=3.83%, Held=3 days, 11:40:07.143638
+2026-03-19 11:40:07,143 - INFO - No exit signals detected.
+2026-03-19 11:40:07,143 - INFO - Exit Monitor Finished.
+2026-03-19 11:40:07,143 - INFO - Triggering Portfolio Calculation...
+2026-03-19 11:40:25,602 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 11:40:25,602 - INFO - 2026-03-19 11:40:08,746 - INFO - Starting Portfolio Calculation...
+2026-03-19 11:40:25,433 - INFO - Portfolio status updated. Total Value: 128,961,500
+
+2026-03-19 11:50:01,847 - INFO - Starting Exit Monitor...
+2026-03-19 11:50:02,364 - INFO - Checking 한화시스템(272210): Price=139900.0, Buy=88800.0, PnL=57.55%, Held=57 days, 11:50:02.364215
+2026-03-19 11:50:02,826 - INFO - Checking 이수스페셜티케미컬(457190): Price=93100.0, Buy=96600.0, PnL=-3.62%, Held=55 days, 11:50:02.826782
+2026-03-19 11:50:03,384 - INFO - Checking 유진로봇(056080): Price=28800.0, Buy=31850.0, PnL=-9.58%, Held=52 days, 11:50:03.384044
+2026-03-19 11:50:03,888 - INFO - Checking 휴림로봇(090710): Price=14360.0, Buy=14290.0, PnL=0.49%, Held=27 days, 11:50:03.888320
+2026-03-19 11:50:04,385 - INFO - Checking 한화에어로스페이스(012450): Price=1372000.0, Buy=1410000.0, PnL=-2.70%, Held=8 days, 11:50:04.385612
+2026-03-19 11:50:04,835 - INFO - Checking 한미반도체(042700): Price=310000.0, Buy=305500.0, PnL=1.47%, Held=6 days, 11:50:04.835736
+2026-03-19 11:50:05,373 - INFO - Checking 오이솔루션(138080): Price=31750.0, Buy=32050.0, PnL=-0.94%, Held=7 days, 11:50:05.373412
+2026-03-19 11:50:05,916 - INFO - Checking 대주전자재료(078600): Price=120800.0, Buy=110700.0, PnL=9.12%, Held=3 days, 11:50:05.916842
+2026-03-19 11:50:06,398 - INFO - Checking 에스피지(058610): Price=124900.0, Buy=125000.0, PnL=-0.08%, Held=2 days, 11:50:06.398315
+2026-03-19 11:50:06,890 - INFO - Checking 한미반도체(042700): Price=310000.0, Buy=300000.0, PnL=3.33%, Held=3 days, 11:50:06.890610
+2026-03-19 11:50:06,890 - INFO - No exit signals detected.
+2026-03-19 11:50:06,890 - INFO - Exit Monitor Finished.
+2026-03-19 11:50:06,890 - INFO - Triggering Portfolio Calculation...
+2026-03-19 11:50:25,721 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 11:50:25,722 - INFO - 2026-03-19 11:50:08,515 - INFO - Starting Portfolio Calculation...
+2026-03-19 11:50:25,554 - INFO - Portfolio status updated. Total Value: 128,682,000
+
+2026-03-19 12:00:01,761 - INFO - Starting Exit Monitor...
+2026-03-19 12:00:02,246 - INFO - Checking 한화시스템(272210): Price=140200.0, Buy=88800.0, PnL=57.88%, Held=57 days, 12:00:02.246386
+2026-03-19 12:00:02,756 - INFO - Checking 이수스페셜티케미컬(457190): Price=93300.0, Buy=96600.0, PnL=-3.42%, Held=55 days, 12:00:02.756873
+2026-03-19 12:00:03,365 - INFO - Checking 유진로봇(056080): Price=28900.0, Buy=31850.0, PnL=-9.26%, Held=52 days, 12:00:03.365079
+2026-03-19 12:00:03,894 - INFO - Checking 휴림로봇(090710): Price=14360.0, Buy=14290.0, PnL=0.49%, Held=27 days, 12:00:03.894226
+2026-03-19 12:00:04,394 - INFO - Checking 한화에어로스페이스(012450): Price=1375000.0, Buy=1410000.0, PnL=-2.48%, Held=8 days, 12:00:04.394432
+2026-03-19 12:00:04,952 - INFO - Checking 한미반도체(042700): Price=310500.0, Buy=305500.0, PnL=1.64%, Held=6 days, 12:00:04.952184
+2026-03-19 12:00:05,478 - INFO - Checking 오이솔루션(138080): Price=31900.0, Buy=32050.0, PnL=-0.47%, Held=7 days, 12:00:05.478282
+2026-03-19 12:00:05,985 - INFO - Checking 대주전자재료(078600): Price=121300.0, Buy=110700.0, PnL=9.58%, Held=3 days, 12:00:05.985700
+2026-03-19 12:00:06,505 - INFO - Checking 에스피지(058610): Price=125200.0, Buy=125000.0, PnL=0.16%, Held=2 days, 12:00:06.505720
+2026-03-19 12:00:07,073 - INFO - Checking 한미반도체(042700): Price=310500.0, Buy=300000.0, PnL=3.50%, Held=3 days, 12:00:07.073123
+2026-03-19 12:00:07,073 - INFO - No exit signals detected.
+2026-03-19 12:00:07,073 - INFO - Exit Monitor Finished.
+2026-03-19 12:00:07,073 - INFO - Triggering Portfolio Calculation...
+2026-03-19 12:00:26,430 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 12:00:26,430 - INFO - 2026-03-19 12:00:08,644 - INFO - Starting Portfolio Calculation...
+2026-03-19 12:00:26,179 - INFO - Portfolio status updated. Total Value: 128,931,000
+
+2026-03-19 12:10:01,904 - INFO - Starting Exit Monitor...
+2026-03-19 12:10:02,400 - INFO - Checking 한화시스템(272210): Price=140000.0, Buy=88800.0, PnL=57.66%, Held=57 days, 12:10:02.400905
+2026-03-19 12:10:02,941 - INFO - Checking 이수스페셜티케미컬(457190): Price=93600.0, Buy=96600.0, PnL=-3.11%, Held=55 days, 12:10:02.941051
+2026-03-19 12:10:03,523 - INFO - Checking 유진로봇(056080): Price=28800.0, Buy=31850.0, PnL=-9.58%, Held=52 days, 12:10:03.523102
+2026-03-19 12:10:04,186 - INFO - Checking 휴림로봇(090710): Price=14370.0, Buy=14290.0, PnL=0.56%, Held=27 days, 12:10:04.186340
+2026-03-19 12:10:04,783 - INFO - Checking 한화에어로스페이스(012450): Price=1376000.0, Buy=1410000.0, PnL=-2.41%, Held=8 days, 12:10:04.783570
+2026-03-19 12:10:05,404 - INFO - Checking 한미반도체(042700): Price=310000.0, Buy=305500.0, PnL=1.47%, Held=6 days, 12:10:05.404033
+2026-03-19 12:10:05,969 - INFO - Checking 오이솔루션(138080): Price=31550.0, Buy=32050.0, PnL=-1.56%, Held=7 days, 12:10:05.969532
+2026-03-19 12:10:06,517 - INFO - Checking 대주전자재료(078600): Price=121800.0, Buy=110700.0, PnL=10.03%, Held=3 days, 12:10:06.517021
+2026-03-19 12:10:07,169 - INFO - Checking 에스피지(058610): Price=125000.0, Buy=125000.0, PnL=0.00%, Held=2 days, 12:10:07.169135
+2026-03-19 12:10:07,787 - INFO - Checking 한미반도체(042700): Price=310000.0, Buy=300000.0, PnL=3.33%, Held=3 days, 12:10:07.787923
+2026-03-19 12:10:07,787 - INFO - No exit signals detected.
+2026-03-19 12:10:07,787 - INFO - Exit Monitor Finished.
+2026-03-19 12:10:07,787 - INFO - Triggering Portfolio Calculation...
+2026-03-19 12:10:28,363 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 12:10:28,363 - INFO - 2026-03-19 12:10:09,471 - INFO - Starting Portfolio Calculation...
+2026-03-19 12:10:28,174 - INFO - Portfolio status updated. Total Value: 128,936,000
+
+2026-03-19 12:20:01,702 - INFO - Starting Exit Monitor...
+2026-03-19 12:20:02,195 - INFO - Checking 한화시스템(272210): Price=140000.0, Buy=88800.0, PnL=57.66%, Held=57 days, 12:20:02.195591
+2026-03-19 12:20:02,744 - INFO - Checking 이수스페셜티케미컬(457190): Price=93700.0, Buy=96600.0, PnL=-3.00%, Held=55 days, 12:20:02.744860
+2026-03-19 12:20:03,280 - INFO - Checking 유진로봇(056080): Price=28950.0, Buy=31850.0, PnL=-9.11%, Held=52 days, 12:20:03.280453
+2026-03-19 12:20:03,859 - INFO - Checking 휴림로봇(090710): Price=14470.0, Buy=14290.0, PnL=1.26%, Held=27 days, 12:20:03.859379
+2026-03-19 12:20:04,458 - INFO - Checking 한화에어로스페이스(012450): Price=1378000.0, Buy=1410000.0, PnL=-2.27%, Held=8 days, 12:20:04.458769
+2026-03-19 12:20:05,063 - INFO - Checking 한미반도체(042700): Price=313000.0, Buy=305500.0, PnL=2.45%, Held=6 days, 12:20:05.063351
+2026-03-19 12:20:05,571 - INFO - Checking 오이솔루션(138080): Price=31750.0, Buy=32050.0, PnL=-0.94%, Held=7 days, 12:20:05.571732
+2026-03-19 12:20:06,101 - INFO - Checking 대주전자재료(078600): Price=121900.0, Buy=110700.0, PnL=10.12%, Held=3 days, 12:20:06.101656
+2026-03-19 12:20:06,626 - INFO - Checking 에스피지(058610): Price=124900.0, Buy=125000.0, PnL=-0.08%, Held=2 days, 12:20:06.626925
+2026-03-19 12:20:07,198 - INFO - Checking 한미반도체(042700): Price=313000.0, Buy=300000.0, PnL=4.33%, Held=3 days, 12:20:07.198543
+2026-03-19 12:20:07,198 - INFO - No exit signals detected.
+2026-03-19 12:20:07,198 - INFO - Exit Monitor Finished.
+2026-03-19 12:20:07,198 - INFO - Triggering Portfolio Calculation...
+2026-03-19 12:20:27,081 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 12:20:27,081 - INFO - 2026-03-19 12:20:08,803 - INFO - Starting Portfolio Calculation...
+2026-03-19 12:20:26,886 - INFO - Portfolio status updated. Total Value: 129,414,000
+
+2026-03-19 12:30:01,742 - INFO - Starting Exit Monitor...
+2026-03-19 12:30:02,232 - INFO - Checking 한화시스템(272210): Price=140100.0, Buy=88800.0, PnL=57.77%, Held=57 days, 12:30:02.232499
+2026-03-19 12:30:02,727 - INFO - Checking 이수스페셜티케미컬(457190): Price=93700.0, Buy=96600.0, PnL=-3.00%, Held=55 days, 12:30:02.727008
+2026-03-19 12:30:03,304 - INFO - Checking 유진로봇(056080): Price=29000.0, Buy=31850.0, PnL=-8.95%, Held=52 days, 12:30:03.303117
+2026-03-19 12:30:03,888 - INFO - Checking 휴림로봇(090710): Price=14420.0, Buy=14290.0, PnL=0.91%, Held=27 days, 12:30:03.888337
+2026-03-19 12:30:04,454 - INFO - Checking 한화에어로스페이스(012450): Price=1378000.0, Buy=1410000.0, PnL=-2.27%, Held=8 days, 12:30:04.454377
+2026-03-19 12:30:05,055 - INFO - Checking 한미반도체(042700): Price=311500.0, Buy=305500.0, PnL=1.96%, Held=6 days, 12:30:05.055636
+2026-03-19 12:30:05,593 - INFO - Checking 오이솔루션(138080): Price=31700.0, Buy=32050.0, PnL=-1.09%, Held=7 days, 12:30:05.593693
+2026-03-19 12:30:06,161 - INFO - Checking 대주전자재료(078600): Price=121800.0, Buy=110700.0, PnL=10.03%, Held=3 days, 12:30:06.161883
+2026-03-19 12:30:06,736 - INFO - Checking 에스피지(058610): Price=125200.0, Buy=125000.0, PnL=0.16%, Held=2 days, 12:30:06.736629
+2026-03-19 12:30:07,282 - INFO - Checking 한미반도체(042700): Price=311500.0, Buy=300000.0, PnL=3.83%, Held=3 days, 12:30:07.282883
+2026-03-19 12:30:07,282 - INFO - No exit signals detected.
+2026-03-19 12:30:07,282 - INFO - Exit Monitor Finished.
+2026-03-19 12:30:07,282 - INFO - Triggering Portfolio Calculation...
+2026-03-19 12:30:27,779 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 12:30:27,780 - INFO - 2026-03-19 12:30:08,921 - INFO - Starting Portfolio Calculation...
+2026-03-19 12:30:27,598 - INFO - Portfolio status updated. Total Value: 129,115,000
+
+2026-03-19 12:40:02,136 - INFO - Starting Exit Monitor...
+2026-03-19 12:40:02,711 - INFO - Checking 한화시스템(272210): Price=139800.0, Buy=88800.0, PnL=57.43%, Held=57 days, 12:40:02.711795
+2026-03-19 12:40:03,199 - INFO - Checking 이수스페셜티케미컬(457190): Price=93100.0, Buy=96600.0, PnL=-3.62%, Held=55 days, 12:40:03.199469
+2026-03-19 12:40:03,863 - INFO - Checking 유진로봇(056080): Price=28850.0, Buy=31850.0, PnL=-9.42%, Held=52 days, 12:40:03.863858
+2026-03-19 12:40:04,763 - INFO - Checking 휴림로봇(090710): Price=14330.0, Buy=14290.0, PnL=0.28%, Held=27 days, 12:40:04.763397
+2026-03-19 12:40:05,362 - INFO - Checking 한화에어로스페이스(012450): Price=1376000.0, Buy=1410000.0, PnL=-2.41%, Held=8 days, 12:40:05.362549
+2026-03-19 12:40:05,995 - INFO - Checking 한미반도체(042700): Price=309500.0, Buy=305500.0, PnL=1.31%, Held=6 days, 12:40:05.995988
+2026-03-19 12:40:06,669 - INFO - Checking 오이솔루션(138080): Price=31500.0, Buy=32050.0, PnL=-1.72%, Held=7 days, 12:40:06.669196
+2026-03-19 12:40:07,398 - INFO - Checking 대주전자재료(078600): Price=121200.0, Buy=110700.0, PnL=9.49%, Held=3 days, 12:40:07.398079
+2026-03-19 12:40:08,058 - INFO - Checking 에스피지(058610): Price=124500.0, Buy=125000.0, PnL=-0.40%, Held=2 days, 12:40:08.058088
+2026-03-19 12:40:08,669 - INFO - Checking 한미반도체(042700): Price=309500.0, Buy=300000.0, PnL=3.17%, Held=3 days, 12:40:08.669562
+2026-03-19 12:40:08,669 - INFO - No exit signals detected.
+2026-03-19 12:40:08,669 - INFO - Exit Monitor Finished.
+2026-03-19 12:40:08,669 - INFO - Triggering Portfolio Calculation...
+2026-03-19 12:40:33,374 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 12:40:33,374 - INFO - 2026-03-19 12:40:10,615 - INFO - Starting Portfolio Calculation...
+2026-03-19 12:40:33,103 - INFO - Portfolio status updated. Total Value: 128,644,000
+
+2026-03-19 12:50:01,765 - INFO - Starting Exit Monitor...
+2026-03-19 12:50:02,257 - INFO - Checking 한화시스템(272210): Price=139900.0, Buy=88800.0, PnL=57.55%, Held=57 days, 12:50:02.257551
+2026-03-19 12:50:02,712 - INFO - Checking 이수스페셜티케미컬(457190): Price=93100.0, Buy=96600.0, PnL=-3.62%, Held=55 days, 12:50:02.712212
+2026-03-19 12:50:03,258 - INFO - Checking 유진로봇(056080): Price=28800.0, Buy=31850.0, PnL=-9.58%, Held=52 days, 12:50:03.258580
+2026-03-19 12:50:03,801 - INFO - Checking 휴림로봇(090710): Price=14300.0, Buy=14290.0, PnL=0.07%, Held=27 days, 12:50:03.801930
+2026-03-19 12:50:04,451 - INFO - Checking 한화에어로스페이스(012450): Price=1376000.0, Buy=1410000.0, PnL=-2.41%, Held=8 days, 12:50:04.450014
+2026-03-19 12:50:05,118 - INFO - Checking 한미반도체(042700): Price=309000.0, Buy=305500.0, PnL=1.15%, Held=6 days, 12:50:05.118099
+2026-03-19 12:50:05,668 - INFO - Checking 오이솔루션(138080): Price=31400.0, Buy=32050.0, PnL=-2.03%, Held=7 days, 12:50:05.668357
+2026-03-19 12:50:06,257 - INFO - Checking 대주전자재료(078600): Price=121400.0, Buy=110700.0, PnL=9.67%, Held=3 days, 12:50:06.257513
+2026-03-19 12:50:06,887 - INFO - Checking 에스피지(058610): Price=124500.0, Buy=125000.0, PnL=-0.40%, Held=2 days, 12:50:06.887277
+2026-03-19 12:50:07,499 - INFO - Checking 한미반도체(042700): Price=309000.0, Buy=300000.0, PnL=3.00%, Held=3 days, 12:50:07.499708
+2026-03-19 12:50:07,499 - INFO - No exit signals detected.
+2026-03-19 12:50:07,499 - INFO - Exit Monitor Finished.
+2026-03-19 12:50:07,499 - INFO - Triggering Portfolio Calculation...
+2026-03-19 12:50:28,126 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 12:50:28,126 - INFO - 2026-03-19 12:50:09,155 - INFO - Starting Portfolio Calculation...
+2026-03-19 12:50:27,925 - INFO - Portfolio status updated. Total Value: 128,581,000
+
+2026-03-19 13:00:01,910 - INFO - Starting Exit Monitor...
+2026-03-19 13:00:02,667 - INFO - Checking 한화시스템(272210): Price=140100.0, Buy=88800.0, PnL=57.77%, Held=57 days, 13:00:02.667453
+2026-03-19 13:00:03,168 - INFO - Checking 이수스페셜티케미컬(457190): Price=93000.0, Buy=96600.0, PnL=-3.73%, Held=55 days, 13:00:03.168745
+2026-03-19 13:00:03,793 - INFO - Checking 유진로봇(056080): Price=28650.0, Buy=31850.0, PnL=-10.05%, Held=52 days, 13:00:03.793737
+2026-03-19 13:00:04,364 - INFO - Checking 휴림로봇(090710): Price=14325.0, Buy=14290.0, PnL=0.24%, Held=27 days, 13:00:04.364553
+2026-03-19 13:00:04,926 - INFO - Checking 한화에어로스페이스(012450): Price=1376000.0, Buy=1410000.0, PnL=-2.41%, Held=8 days, 13:00:04.926638
+2026-03-19 13:00:05,451 - INFO - Checking 한미반도체(042700): Price=309000.0, Buy=305500.0, PnL=1.15%, Held=6 days, 13:00:05.451854
+2026-03-19 13:00:05,971 - INFO - Checking 오이솔루션(138080): Price=31300.0, Buy=32050.0, PnL=-2.34%, Held=7 days, 13:00:05.971453
+2026-03-19 13:00:06,502 - INFO - Checking 대주전자재료(078600): Price=121600.0, Buy=110700.0, PnL=9.85%, Held=3 days, 13:00:06.502637
+2026-03-19 13:00:07,029 - INFO - Checking 에스피지(058610): Price=124500.0, Buy=125000.0, PnL=-0.40%, Held=2 days, 13:00:07.029020
+2026-03-19 13:00:07,502 - INFO - Checking 한미반도체(042700): Price=309000.0, Buy=300000.0, PnL=3.00%, Held=3 days, 13:00:07.502056
+2026-03-19 13:00:07,502 - INFO - No exit signals detected.
+2026-03-19 13:00:07,503 - INFO - Exit Monitor Finished.
+2026-03-19 13:00:07,503 - INFO - Triggering Portfolio Calculation...
+2026-03-19 13:00:27,441 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 13:00:27,441 - INFO - 2026-03-19 13:00:09,273 - INFO - Starting Portfolio Calculation...
+2026-03-19 13:00:27,212 - INFO - Portfolio status updated. Total Value: 128,368,000
+
+2026-03-19 13:10:01,852 - INFO - Starting Exit Monitor...
+2026-03-19 13:10:02,332 - INFO - Checking 한화시스템(272210): Price=140400.0, Buy=88800.0, PnL=58.11%, Held=57 days, 13:10:02.332400
+2026-03-19 13:10:02,767 - INFO - Checking 이수스페셜티케미컬(457190): Price=92800.0, Buy=96600.0, PnL=-3.93%, Held=55 days, 13:10:02.767306
+2026-03-19 13:10:03,298 - INFO - Checking 유진로봇(056080): Price=28650.0, Buy=31850.0, PnL=-10.05%, Held=52 days, 13:10:03.298626
+2026-03-19 13:10:03,826 - INFO - Checking 휴림로봇(090710): Price=14310.0, Buy=14290.0, PnL=0.14%, Held=27 days, 13:10:03.826952
+2026-03-19 13:10:04,376 - INFO - Checking 한화에어로스페이스(012450): Price=1378000.0, Buy=1410000.0, PnL=-2.27%, Held=8 days, 13:10:04.376860
+2026-03-19 13:10:04,922 - INFO - Checking 한미반도체(042700): Price=307000.0, Buy=305500.0, PnL=0.49%, Held=6 days, 13:10:04.922697
+2026-03-19 13:10:05,376 - INFO - Checking 오이솔루션(138080): Price=31200.0, Buy=32050.0, PnL=-2.65%, Held=7 days, 13:10:05.376787
+2026-03-19 13:10:05,928 - INFO - Checking 대주전자재료(078600): Price=120600.0, Buy=110700.0, PnL=8.94%, Held=3 days, 13:10:05.928834
+2026-03-19 13:10:06,471 - INFO - Checking 에스피지(058610): Price=124300.0, Buy=125000.0, PnL=-0.56%, Held=2 days, 13:10:06.471342
+2026-03-19 13:10:06,943 - INFO - Checking 한미반도체(042700): Price=307000.0, Buy=300000.0, PnL=2.33%, Held=3 days, 13:10:06.943578
+2026-03-19 13:10:06,943 - INFO - No exit signals detected.
+2026-03-19 13:10:06,943 - INFO - Exit Monitor Finished.
+2026-03-19 13:10:06,943 - INFO - Triggering Portfolio Calculation...
+2026-03-19 13:10:26,072 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 13:10:26,072 - INFO - 2026-03-19 13:10:08,776 - INFO - Starting Portfolio Calculation...
+2026-03-19 13:10:25,911 - INFO - Portfolio status updated. Total Value: 127,870,000
+
+2026-03-19 13:20:01,777 - INFO - Starting Exit Monitor...
+2026-03-19 13:20:02,252 - INFO - Checking 한화시스템(272210): Price=140200.0, Buy=88800.0, PnL=57.88%, Held=57 days, 13:20:02.252057
+2026-03-19 13:20:02,729 - INFO - Checking 이수스페셜티케미컬(457190): Price=92500.0, Buy=96600.0, PnL=-4.24%, Held=55 days, 13:20:02.729632
+2026-03-19 13:20:03,247 - INFO - Checking 유진로봇(056080): Price=28600.0, Buy=31850.0, PnL=-10.20%, Held=52 days, 13:20:03.247534
+2026-03-19 13:20:03,826 - INFO - Checking 휴림로봇(090710): Price=14290.0, Buy=14290.0, PnL=0.00%, Held=27 days, 13:20:03.826738
+2026-03-19 13:20:04,351 - INFO - Checking 한화에어로스페이스(012450): Price=1371000.0, Buy=1410000.0, PnL=-2.77%, Held=8 days, 13:20:04.351970
+2026-03-19 13:20:04,901 - INFO - Checking 한미반도체(042700): Price=306000.0, Buy=305500.0, PnL=0.16%, Held=6 days, 13:20:04.901957
+2026-03-19 13:20:05,523 - INFO - Checking 오이솔루션(138080): Price=31200.0, Buy=32050.0, PnL=-2.65%, Held=7 days, 13:20:05.522195
+2026-03-19 13:20:06,023 - INFO - Checking 에스피지(058610): Price=124000.0, Buy=125000.0, PnL=-0.80%, Held=2 days, 13:20:06.023552
+2026-03-19 13:20:06,571 - INFO - Checking 한미반도체(042700): Price=306000.0, Buy=300000.0, PnL=2.00%, Held=3 days, 13:20:06.571444
+2026-03-19 13:20:06,571 - INFO - No exit signals detected.
+2026-03-19 13:20:06,571 - INFO - Exit Monitor Finished.
+2026-03-19 13:20:06,571 - INFO - Triggering Portfolio Calculation...
+2026-03-19 13:20:26,702 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 13:20:26,702 - INFO - 2026-03-19 13:20:08,197 - INFO - Starting Portfolio Calculation...
+2026-03-19 13:20:26,487 - INFO - Portfolio status updated. Total Value: 117,993,000
+
+2026-03-19 13:30:01,781 - INFO - Starting Exit Monitor...
+2026-03-19 13:30:02,240 - INFO - Checking 한화시스템(272210): Price=140600.0, Buy=88800.0, PnL=58.33%, Held=57 days, 13:30:02.240438
+2026-03-19 13:30:02,690 - INFO - Checking 이수스페셜티케미컬(457190): Price=92000.0, Buy=96600.0, PnL=-4.76%, Held=55 days, 13:30:02.690149
+2026-03-19 13:30:03,243 - INFO - Checking 유진로봇(056080): Price=28550.0, Buy=31850.0, PnL=-10.36%, Held=52 days, 13:30:03.243321
+2026-03-19 13:30:03,843 - INFO - Checking 휴림로봇(090710): Price=14260.0, Buy=14290.0, PnL=-0.21%, Held=27 days, 13:30:03.843520
+2026-03-19 13:30:04,426 - INFO - Checking 한화에어로스페이스(012450): Price=1370000.0, Buy=1410000.0, PnL=-2.84%, Held=8 days, 13:30:04.426971
+2026-03-19 13:30:05,012 - INFO - Checking 한미반도체(042700): Price=306500.0, Buy=305500.0, PnL=0.33%, Held=6 days, 13:30:05.012306
+2026-03-19 13:30:05,561 - INFO - Checking 오이솔루션(138080): Price=31100.0, Buy=32050.0, PnL=-2.96%, Held=7 days, 13:30:05.561681
+2026-03-19 13:30:06,122 - INFO - Checking 에스피지(058610): Price=124000.0, Buy=125000.0, PnL=-0.80%, Held=2 days, 13:30:06.122991
+2026-03-19 13:30:06,692 - INFO - Checking 한미반도체(042700): Price=306500.0, Buy=300000.0, PnL=2.17%, Held=3 days, 13:30:06.692589
+2026-03-19 13:30:06,693 - INFO - No exit signals detected.
+2026-03-19 13:30:06,693 - INFO - Exit Monitor Finished.
+2026-03-19 13:30:06,693 - INFO - Triggering Portfolio Calculation...
+2026-03-19 13:30:26,199 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 13:30:26,199 - INFO - 2026-03-19 13:30:08,405 - INFO - Starting Portfolio Calculation...
+2026-03-19 13:30:26,033 - INFO - Portfolio status updated. Total Value: 118,031,000
+
+2026-03-19 13:40:01,762 - INFO - Starting Exit Monitor...
+2026-03-19 13:40:02,290 - INFO - Checking 한화시스템(272210): Price=140200.0, Buy=88800.0, PnL=57.88%, Held=57 days, 13:40:02.290246
+2026-03-19 13:40:02,761 - INFO - Checking 이수스페셜티케미컬(457190): Price=92000.0, Buy=96600.0, PnL=-4.76%, Held=55 days, 13:40:02.761820
+2026-03-19 13:40:03,301 - INFO - Checking 유진로봇(056080): Price=28550.0, Buy=31850.0, PnL=-10.36%, Held=52 days, 13:40:03.301937
+2026-03-19 13:40:03,895 - INFO - Checking 휴림로봇(090710): Price=14260.0, Buy=14290.0, PnL=-0.21%, Held=27 days, 13:40:03.895715
+2026-03-19 13:40:04,411 - INFO - Checking 한화에어로스페이스(012450): Price=1370000.0, Buy=1410000.0, PnL=-2.84%, Held=8 days, 13:40:04.411969
+2026-03-19 13:40:04,986 - INFO - Checking 오이솔루션(138080): Price=31000.0, Buy=32050.0, PnL=-3.28%, Held=7 days, 13:40:04.986997
+2026-03-19 13:40:05,473 - INFO - Checking 에스피지(058610): Price=123600.0, Buy=125000.0, PnL=-1.12%, Held=2 days, 13:40:05.473996
+2026-03-19 13:40:06,054 - INFO - Checking 한미반도체(042700): Price=306000.0, Buy=300000.0, PnL=2.00%, Held=3 days, 13:40:06.054287
+2026-03-19 13:40:06,054 - INFO - No exit signals detected.
+2026-03-19 13:40:06,055 - INFO - Exit Monitor Finished.
+2026-03-19 13:40:06,055 - INFO - Triggering Portfolio Calculation...
+2026-03-19 13:40:25,385 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 13:40:25,385 - INFO - 2026-03-19 13:40:08,511 - INFO - Starting Portfolio Calculation...
+2026-03-19 13:40:25,227 - INFO - Portfolio status updated. Total Value: 87,280,000
+
+2026-03-19 13:50:02,385 - INFO - Starting Exit Monitor...
+2026-03-19 13:50:02,997 - INFO - Checking 한화시스템(272210): Price=140200.0, Buy=88800.0, PnL=57.88%, Held=57 days, 13:50:02.997643
+2026-03-19 13:50:03,543 - INFO - Checking 이수스페셜티케미컬(457190): Price=91900.0, Buy=96600.0, PnL=-4.87%, Held=55 days, 13:50:03.543429
+2026-03-19 13:50:04,164 - INFO - Checking 유진로봇(056080): Price=28550.0, Buy=31850.0, PnL=-10.36%, Held=52 days, 13:50:04.164363
+2026-03-19 13:50:04,712 - INFO - Checking 휴림로봇(090710): Price=14230.0, Buy=14290.0, PnL=-0.42%, Held=27 days, 13:50:04.712063
+2026-03-19 13:50:05,248 - INFO - Checking 한화에어로스페이스(012450): Price=1368000.0, Buy=1410000.0, PnL=-2.98%, Held=8 days, 13:50:05.248433
+2026-03-19 13:50:05,825 - INFO - Checking 오이솔루션(138080): Price=31000.0, Buy=32050.0, PnL=-3.28%, Held=7 days, 13:50:05.825299
+2026-03-19 13:50:06,344 - INFO - Checking 에스피지(058610): Price=123700.0, Buy=125000.0, PnL=-1.04%, Held=2 days, 13:50:06.344238
+2026-03-19 13:50:06,940 - INFO - Checking 한미반도체(042700): Price=305500.0, Buy=300000.0, PnL=1.83%, Held=3 days, 13:50:06.940959
+2026-03-19 13:50:06,940 - INFO - No exit signals detected.
+2026-03-19 13:50:06,940 - INFO - Exit Monitor Finished.
+2026-03-19 13:50:06,940 - INFO - Triggering Portfolio Calculation...
+2026-03-19 13:50:26,643 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 13:50:26,643 - INFO - 2026-03-19 13:50:08,842 - INFO - Starting Portfolio Calculation...
+2026-03-19 13:50:26,440 - INFO - Portfolio status updated. Total Value: 87,244,000
+
+2026-03-19 18:00:02,586 - INFO - Starting Exit Monitor...
+2026-03-19 18:00:03,342 - INFO - Checking 한화시스템(272210): Price=141000.0, Buy=88800.0, PnL=58.78%, Held=57 days, 18:00:03.342557
+2026-03-19 18:00:04,025 - INFO - Checking 이수스페셜티케미컬(457190): Price=92300.0, Buy=96600.0, PnL=-4.45%, Held=55 days, 18:00:04.025401
+2026-03-19 18:00:04,574 - INFO - Checking 유진로봇(056080): Price=28600.0, Buy=31850.0, PnL=-10.20%, Held=52 days, 18:00:04.574914
+2026-03-19 18:00:05,095 - INFO - Checking 휴림로봇(090710): Price=14330.0, Buy=14290.0, PnL=0.28%, Held=27 days, 18:00:05.095517
+2026-03-19 18:00:05,651 - INFO - Checking 한화에어로스페이스(012450): Price=1375000.0, Buy=1410000.0, PnL=-2.48%, Held=8 days, 18:00:05.651870
+2026-03-19 18:00:06,234 - INFO - Checking 오이솔루션(138080): Price=31600.0, Buy=32050.0, PnL=-1.40%, Held=7 days, 18:00:06.234332
+2026-03-19 18:00:07,020 - INFO - Checking 에스피지(058610): Price=123200.0, Buy=125000.0, PnL=-1.44%, Held=2 days, 18:00:07.020389
+2026-03-19 18:00:07,590 - INFO - Checking 한미반도체(042700): Price=307000.0, Buy=300000.0, PnL=2.33%, Held=3 days, 18:00:07.590295
+2026-03-19 18:00:07,591 - INFO - No exit signals detected.
+2026-03-19 18:00:07,591 - INFO - Exit Monitor Finished.
+2026-03-19 18:00:07,591 - INFO - Triggering Portfolio Calculation...
+2026-03-19 18:00:25,946 - INFO - Portfolio Calculation completed successfully.
+2026-03-19 18:00:25,946 - INFO - 2026-03-19 18:00:09,184 - INFO - Starting Portfolio Calculation...
+2026-03-19 18:00:25,746 - INFO - Portfolio status updated. Total Value: 87,553,000
+
+2026-03-20 18:00:02,707 - INFO - Starting exit monitor...
+2026-03-20 18:00:03,000 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-20 18:00:03,004 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-20 18:00:03,007 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=1000 "HTTP/1.1 200 OK"
+2026-03-22 22:25:42,882 - INFO - Starting exit monitor...
+2026-03-22 22:25:43,170 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,177 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,181 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,189 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,193 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,196 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,198 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,201 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,205 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,208 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,210 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,212 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,215 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:25:43,215 - INFO - No exit conditions met.
+2026-03-22 22:35:42,300 - INFO - Starting exit monitor...
+2026-03-22 22:35:42,583 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,587 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,592 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,600 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,602 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,605 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,608 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,610 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,612 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,616 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,619 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,623 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,625 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,629 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22005930%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,630 - INFO - ALERT TRIGGERED: [Take Profit] 삼성전자(테스트) - PnL: +184.86%
+Current Price: 199,400
+2026-03-22 22:35:42,670 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,675 - INFO - Loaded 31 valid portfolio items from PB.
+2026-03-22 22:35:42,677 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22000990%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,678 - INFO -   Processed DB하이텍 (000990): Current=88,100, P&L=-14.47%
+2026-03-22 22:35:42,682 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22272210%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,683 - INFO -   Processed 한화시스템 (272210): Current=136,000, P&L=50.28%
+2026-03-22 22:35:42,687 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22272210%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,688 - INFO -   Processed 한화시스템 (272210): Current=136,000, P&L=53.15%
+2026-03-22 22:35:42,690 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22457190%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,691 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=91,200, P&L=-5.59%
+2026-03-22 22:35:42,692 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22056080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,693 - INFO -   Processed 유진로봇 (056080): Current=28,900, P&L=-9.26%
+2026-03-22 22:35:42,695 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22244920%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,695 - INFO -   Processed 에이플러스에셋 (244920): Current=12,000, P&L=10.60%
+2026-03-22 22:35:42,698 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,698 - INFO -   Processed 경인양행 (012610): Current=4,230, P&L=-12.51%
+2026-03-22 22:35:42,701 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22189300%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,701 - INFO -   Processed 인텔리안테크 (189300): Current=121,500, P&L=-5.37%
+2026-03-22 22:35:42,704 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22244920%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,705 - INFO -   Processed 에이플러스에셋 (244920): Current=12,000, P&L=10.60%
+2026-03-22 22:35:42,708 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22452260%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,709 - INFO -   Processed 한화갤러리아 (452260): Current=2,670, P&L=20.00%
+2026-03-22 22:35:42,713 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22052690%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,714 - INFO -   Processed 한전기술 (052690): Current=175,500, P&L=15.77%
+2026-03-22 22:35:42,718 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22090710%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,718 - INFO -   Processed 휴림로봇 (090710): Current=14,020, P&L=-1.89%
+2026-03-22 22:35:42,721 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22010690%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,722 - INFO -   Processed 화신 (010690): Current=12,250, P&L=6.06%
+2026-03-22 22:35:42,725 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22006340%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,726 - INFO -   Processed 대원전선 (006340): Current=6,410, P&L=18.05%
+2026-03-22 22:35:42,729 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22327260%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,729 - INFO -   Processed RF머트리얼즈 (327260): Current=73,900, P&L=42.39%
+2026-03-22 22:35:42,733 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,734 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,320,000, P&L=-6.38%
+2026-03-22 22:35:42,737 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,737 - INFO -   Processed 한미반도체 (042700): Current=309,500, P&L=1.31%
+2026-03-22 22:35:42,740 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,740 - INFO -   Processed 오이솔루션 (138080): Current=33,900, P&L=5.77%
+2026-03-22 22:35:42,743 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22078600%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,744 - INFO -   Processed 대주전자재료 (078600): Current=126,200, P&L=14.00%
+2026-03-22 22:35:42,746 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,746 - INFO -   Processed 에스피지 (058610): Current=120,500, P&L=-3.60%
+2026-03-22 22:35:42,750 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,751 - INFO -   Processed 한미반도체 (042700): Current=309,500, P&L=3.17%
+2026-03-22 22:35:42,753 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22452260%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,753 - INFO -   Processed 한화갤러리아 (452260): Current=2,670, P&L=20.00%
+2026-03-22 22:35:42,756 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22327260%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,757 - INFO -   Processed RF머트리얼즈 (327260): Current=73,900, P&L=57.91%
+2026-03-22 22:35:42,759 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22036170%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,760 - INFO -   Processed 에이치엠넥스 (036170): Current=4,920, P&L=42.40%
+2026-03-22 22:35:42,762 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,763 - INFO -   Processed 기가비스 (420770): Current=78,700, P&L=1.81%
+2026-03-22 22:35:42,766 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,766 - INFO -   Processed 한섬 (020000): Current=26,800, P&L=5.93%
+2026-03-22 22:35:42,768 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,769 - INFO -   Processed 피에스케이홀딩스 (031980): Current=111,400, P&L=0.00%
+2026-03-22 22:35:42,772 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,773 - INFO -   Processed 네오셈 (253590): Current=19,100, P&L=0.00%
+2026-03-22 22:35:42,775 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,776 - INFO -   Processed 코오롱ENP (138490): Current=13,300, P&L=0.00%
+2026-03-22 22:35:42,779 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,779 - INFO -   Processed 광동제약 (009290): Current=9,230, P&L=0.00%
+2026-03-22 22:35:42,781 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22005930%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,781 - INFO -   Processed 삼성전자(테스트) (005930): Current=199,400, P&L=184.86%
+2026-03-22 22:35:42,785 - INFO - Portfolio status saved to E:\Downloads\Antigravity Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-03-22 22:35:42,791 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-22 22:35:42,802 - INFO - Portfolio status updated in PB.
+2026-03-22 22:35:42,802 - INFO - Analysis complete. Total Value: 251,247,600
+2026-03-23 11:20:08,639 - INFO - Starting exit monitor...
+2026-03-23 11:20:09,004 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,015 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,023 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,039 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,046 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,056 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,060 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,065 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,073 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,076 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,086 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,090 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,094 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:20:09,095 - INFO - No exit conditions met.
+2026-03-23 11:30:02,486 - INFO - Starting exit monitor...
+2026-03-23 11:30:02,802 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,806 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,810 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,816 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,818 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,821 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,824 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,826 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,828 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,830 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,833 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,835 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,837 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:30:02,837 - INFO - No exit conditions met.
+2026-03-23 11:40:03,180 - INFO - Starting exit monitor...
+2026-03-23 11:40:03,469 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,473 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,478 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,486 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,489 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,493 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,502 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,505 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,509 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,512 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,514 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,518 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,521 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:40:03,522 - INFO - No exit conditions met.
+2026-03-23 11:50:02,797 - INFO - Starting exit monitor...
+2026-03-23 11:50:03,160 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,166 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,180 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,195 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,207 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,214 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,225 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,237 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,241 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,251 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,280 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,284 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,292 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 11:50:03,293 - INFO - No exit conditions met.
+2026-03-23 12:00:02,766 - INFO - Starting exit monitor...
+2026-03-23 12:00:03,057 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,062 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,066 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,076 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,080 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,083 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,087 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,095 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,099 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,103 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,107 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,110 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,113 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:00:03,115 - INFO - No exit conditions met.
+2026-03-23 12:10:02,625 - INFO - Starting exit monitor...
+2026-03-23 12:10:02,907 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,913 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,918 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,928 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,933 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,936 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,940 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,945 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,949 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,954 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,959 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,962 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,966 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:10:02,967 - INFO - No exit conditions met.
+2026-03-23 12:20:02,814 - INFO - Starting exit monitor...
+2026-03-23 12:20:03,118 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,136 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,141 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,149 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,153 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,156 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,159 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,162 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,165 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,169 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,171 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,174 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,177 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:20:03,178 - INFO - No exit conditions met.
+2026-03-23 12:30:02,982 - INFO - Starting exit monitor...
+2026-03-23 12:30:03,263 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,270 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,277 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,289 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,295 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,300 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,304 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,308 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,312 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,316 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,324 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,340 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,344 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:30:03,345 - INFO - No exit conditions met.
+2026-03-23 12:40:04,340 - INFO - Starting exit monitor...
+2026-03-23 12:40:04,674 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,680 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,685 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,698 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,703 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,708 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,719 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,724 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,730 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,735 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,744 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,748 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,754 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:40:04,754 - INFO - No exit conditions met.
+2026-03-23 12:50:02,627 - INFO - Starting exit monitor...
+2026-03-23 12:50:02,924 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,929 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,934 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,942 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,946 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,948 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,951 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,954 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,956 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,959 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,962 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,964 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,967 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-23 12:50:02,967 - INFO - No exit conditions met.
+2026-03-23 14:13:06,515 - INFO - Starting exit monitor...
+2026-03-23 14:13:06,814 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 14:13:06,820 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 14:13:06,826 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 14:13:11,396 - INFO - No exit conditions met.
+2026-03-23 14:20:02,821 - INFO - Starting exit monitor...
+2026-03-23 14:20:03,139 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-23 14:20:03,145 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-23 14:20:03,149 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-23 14:20:08,527 - INFO - No exit conditions met.
+2026-03-26 15:20:06,975 - INFO - Starting exit monitor...
+2026-03-26 15:20:07,299 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-26 15:20:07,309 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-26 15:20:07,316 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-26 15:20:16,166 - INFO - No exit conditions met.
+2026-03-26 15:30:03,141 - INFO - Starting exit monitor...
+2026-03-26 15:30:03,447 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-26 15:30:03,452 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-26 15:30:03,458 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-26 15:30:09,081 - INFO - No exit conditions met.
+2026-03-26 15:40:03,480 - INFO - Starting exit monitor...
+2026-03-26 15:40:03,785 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-26 15:40:03,790 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-26 15:40:03,799 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-26 15:40:10,628 - INFO - No exit conditions met.
+2026-03-26 15:50:02,994 - INFO - Starting exit monitor...
+2026-03-26 15:50:03,318 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,326 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,330 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,531 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,534 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,537 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,541 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,544 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,547 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,550 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,552 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,554 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,557 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 15:50:03,558 - INFO - No exit conditions met.
+2026-03-26 18:00:02,203 - INFO - Starting exit monitor...
+2026-03-26 18:00:02,476 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,481 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,486 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,591 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22012450%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,593 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138080%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,595 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22058610%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,598 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22042700%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,600 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22420770%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,602 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22020000%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,604 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22031980%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,606 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22253590%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,609 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22138490%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,611 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22009290%22&sort=-date&page=1&perPage=1 "HTTP/1.1 200 OK"
+2026-03-26 18:00:02,611 - INFO - No exit conditions met.
+2026-04-02 11:00:07,969 - INFO - Starting exit monitor...
+2026-04-02 11:00:08,289 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-02 11:00:08,295 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-02 11:00:08,301 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-02 11:00:11,224 - INFO - No exit conditions met.
+2026-04-02 11:10:03,573 - INFO - Starting exit monitor...
+2026-04-02 11:10:03,882 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-02 11:10:03,886 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-02 11:10:03,892 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-02 11:10:07,334 - INFO - No exit conditions met.
+2026-04-02 11:20:03,444 - INFO - Starting exit monitor...
+2026-04-02 11:20:03,785 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-02 11:20:03,789 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-02 11:20:03,793 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-02 11:20:07,092 - INFO - No exit conditions met.

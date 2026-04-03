@@ -1,0 +1,35 @@
+# Dependencies (will be installed fresh in container)
+venv/
+frontend/node_modules/
+frontend/.next/
+
+# Git
+.git/
+.gitignore
+
+# IDE / Editor
+.vscode/
+.agent/
+
+# Debug files
+*.log
+debug_*.txt
+debug_*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs (not needed in container)
+docs/
+skills/
+
+# Results data (mounted as volume)
+# Scripts/data/
+# Scripts/results/

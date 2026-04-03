@@ -1,0 +1,9 @@
+﻿ticker,name,market,close,contractions_count,contractions_history,last_depth_pct,volume_dry_up,vol_ratio,vcp_score,jump_score,note
+00781K,코리아써키트2우B,KOSPI,11350,5,"[1.6, 4.5, 7.9, 25.1, 5.8]",5.84,True,0.46,80,80,VCP Pattern Detected
+049630,재영솔루텍,KOSDAQ,4790,8,"[11.0, 20.3, 8.2, 6.9, 21.8, 25.0, 16.4, 8.0]",8.05,True,0.25,80,50,VCP Pattern Detected
+023810,인팩,KOSPI,12320,6,"[3.1, 10.2, 0.0, 10.7, 3.3, 2.6]",2.59,False,1.85,60,80,VCP Pattern Detected
+011210,현대위아,KOSPI,89000,8,"[7.7, 1.9, 1.4, 11.9, 3.6, 8.1, 5.9, 3.1]",3.12,False,3.44,60,60,VCP Pattern Detected
+086280,현대글로비스,KOSPI,257500,7,"[5.4, 3.2, 15.6, 3.2, 15.3, 6.5, 3.7]",3.72,False,3.25,60,60,VCP Pattern Detected
+012205,계양전기우,KOSPI,10050,6,"[5.0, 0.0, 17.3, 4.4, 5.8, 5.2]",5.17,False,3.48,50,60,VCP Pattern Detected
+014910,성문전자,KOSPI,2815,5,"[9.8, 4.6, 4.4, 12.4, 5.9]",5.95,False,4.7,50,60,VCP Pattern Detected
+295310,에이치브이엠,KOSDAQ,79500,6,"[19.8, 14.7, 7.2, 17.6, 10.3, 7.9]",7.92,False,1.03,50,30,VCP Pattern Detected

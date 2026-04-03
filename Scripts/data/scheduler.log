@@ -1,0 +1,9 @@
+2026-02-09 19:25:18,353 - [SCHEDULER] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 19:25:18,354 - [SCHEDULER] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 19:25:18,354 - [SCHEDULER] - INFO - Scheduler started.
+2026-02-09 19:25:18,354 - [SCHEDULER] - INFO - - Market Monitor: Mon-Fri 09:00-15:XX every 10 mins
+2026-02-09 19:25:18,354 - [SCHEDULER] - INFO - - Post-Market: Mon-Fri 18:00
+2026-02-09 19:25:18,354 - [SCHEDULER] - INFO - Press Ctrl+C to exit.
+2026-02-09 19:25:18,358 - [SCHEDULER] - INFO - Added job "job_exit_monitor" to job store "default"
+2026-02-09 19:25:18,358 - [SCHEDULER] - INFO - Added job "job_exit_monitor" to job store "default"
+2026-02-09 19:25:18,362 - [SCHEDULER] - INFO - Scheduler started

@@ -1,0 +1,12 @@
+﻿ticker,name,market,close,contractions_count,contractions_history,last_depth_pct,volume_dry_up,vol_ratio,vcp_score,jump_score,note
+00781K,코리아써키트2우B,KOSPI,13130,5,"[1.6, 4.5, 7.9, 25.1, 5.8]",5.84,True,0.58,70,80,VCP Pattern Detected
+049630,재영솔루텍,KOSDAQ,5840,8,"[11.0, 20.3, 8.2, 6.9, 21.8, 25.0, 16.4, 8.0]",8.05,True,0.61,70,50,VCP Pattern Detected
+023810,인팩,KOSPI,9950,6,"[3.1, 10.2, 0.0, 10.7, 3.3, 2.6]",2.59,False,2.14,60,80,VCP Pattern Detected
+005850,에스엘,KOSPI,56300,8,"[3.5, 2.1, 4.7, 7.7, 4.7, 7.2, 8.8, 4.5]",4.47,False,3.07,60,60,VCP Pattern Detected
+012860,모베이스전자,KOSDAQ,4040,8,"[2.9, 4.2, 0.0, 6.8, 4.5, 6.0, 6.0, 2.0]",2.04,False,3.66,60,80,VCP Pattern Detected
+321370,센서뷰,KOSDAQ,2920,4,"[13.4, 15.5, 36.7, 5.9]",5.92,False,2.92,60,60,VCP Pattern Detected
+457190,이수스페셜티케미컬,KOSPI,96600,6,"[14.9, 9.3, 12.1, 12.6, 19.7, 7.4]",7.41,False,4.68,50,30,VCP Pattern Detected
+047810,한국항공우주,KOSPI,162900,7,"[8.9, 16.9, 10.9, 7.6, 4.4, 7.3, 6.4]",6.42,False,1.19,50,30,VCP Pattern Detected
+295310,에이치브이엠,KOSDAQ,90100,5,"[14.7, 7.2, 17.6, 10.3, 7.9]",7.92,False,1.33,50,30,VCP Pattern Detected
+464080,에스오에스랩,KOSDAQ,24800,7,"[22.0, 5.7, 0.0, 20.6, 4.1, 22.4, 5.8]",5.78,False,1.73,50,60,VCP Pattern Detected
+376270,HEM파마,KOSDAQ,68000,8,"[7.6, 2.6, 6.3, 3.2, 5.5, 10.5, 23.3, 7.0]",6.99,False,0.95,50,30,VCP Pattern Detected

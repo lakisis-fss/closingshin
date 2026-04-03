@@ -1,0 +1,42 @@
+{
+  "USD_KRW": 1495.75,
+  "WTI": 96.79000091552734,
+  "Sectors": {
+    "Semiconductor": -1.6,
+    "Secondary_Battery": -2.56,
+    "Automobile": 0.16,
+    "Healthcare": -2.38,
+    "Finance": -2.72
+  },
+  "KOSPI_Net": {
+    "Date": "2026-03-19",
+    "Individual": 2411600000000,
+    "Foreigner": -1876000000000,
+    "Institution": -664900000000
+  },
+  "KOSDAQ_Net": {
+    "Date": "2026-03-19",
+    "Individual": 501800000000,
+    "Foreigner": -200400000000,
+    "Institution": -261200000000
+  },
+  "Funds": {
+    "Customer_Deposit": 0,
+    "Credit_Balance": 0,
+    "Date": "2026-03-19"
+  },
+  "ADR": {
+    "Date": "2026-03-19",
+    "Source": "Naver",
+    "KOSPI": 0,
+    "KOSDAQ": 0,
+    "Counts": {
+      "KOSPI_Up": 0,
+      "KOSPI_Down": 0,
+      "KOSDAQ_Up": 0,
+      "KOSDAQ_Down": 0
+    }
+  },
+  "History": [],
+  "timestamp": "2026-03-19 23:50:02"
+}

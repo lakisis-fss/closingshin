@@ -1,0 +1,10 @@
+[2026-03-21 18:27:19.468085] 자동 시장 데이터 동기화 체크 중...
+[2026-03-21 21:04:14.447899] 동기화 중 오류 발생 (무시하고 스캔 진행): Command '['E:\\Downloads\\Antigravity Project\\ClosingSHIN\\venv\\Scripts\\pythonw.exe', 'E:\\Downloads\\Antigravity Project\\ClosingSHIN\\Scripts\\08_sync_market_data.py']' returned non-zero exit status 1073807364.
+[2026-03-21 21:04:14.558212] VCP 통합 스캔 시작 (Target Date: 20260319)
+[2026-03-21 21:04:14.626960] 대상 종목 선별 작업 시작 (Batch 모드)...
+[PB Error] Authentication failed: Message: General request error. Original error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다
+URL: N/A
+Status: N/A
+Data: N/A
+Is Abort: False
+Original Error: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다

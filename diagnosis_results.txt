@@ -1,0 +1,32 @@
+[2026-02-19 20:24:55.932155] Diagnosing Missing VCP Targets for 20260219
+
+--- 1. Performance Check (Top 30 Candidates Filter) ---
+Standard: Top 30 highest gainers over last 50 days (LOOKBACK_DAYS=50)
+
+Scanning 삼성E&A (028050)...
+  -> 50-day return: 41.21% (Price: 24750 -> 34950)
+  -> Trend Check: PASS (상승 추세)
+  -> VCP Pattern: PASS (VCP 후보)
+    - Contractions: [4.0, 5.3, 15.7, 4.6, 5.4, 8.1, 4.1, 4.2]
+    - Last Depth: 4.20%
+
+Scanning 팬오션 (028670)...
+  -> 50-day return: 36.54% (Price: 4050 -> 5530)
+  -> Trend Check: PASS (상승 추세)
+  -> VCP Pattern: FAIL (패턴 미완성)
+    - Contractions: [14.8, 8.6, 5.5, 3.6, 1.1, 13.4]
+    - Last Depth: 13.36%
+
+Scanning 엘앤씨바이오 (290650)...
+  -> 50-day return: 78.43% (Price: 66300 -> 118300)
+  -> Trend Check: PASS (상승 추세)
+  -> VCP Pattern: PASS (VCP 후보)
+    - Contractions: [27.3, 7.3, 14.7, 10.0, 3.6, 27.8, 9.5]
+    - Last Depth: 9.54%
+
+Scanning 현대바이오 (048410)...
+  -> 50-day return: 153.51% (Price: 5420 -> 13740)
+  -> Trend Check: PASS (상승 추세)
+  -> VCP Pattern: FAIL (패턴 미완성)
+    - Contractions: [14.4, 4.3, 10.9, 5.1, 8.1, 15.2, 14.4, 8.4, 4.2, 15.7]
+    - Last Depth: 15.73%

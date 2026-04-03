@@ -1,0 +1,9 @@
+{
+    "desktop_notification": true,
+    "telegram": {
+        "bot_token": "",
+        "chat_id": "",
+        "enabled": false
+    },
+    "alert_cooldown_minutes": 60
+}

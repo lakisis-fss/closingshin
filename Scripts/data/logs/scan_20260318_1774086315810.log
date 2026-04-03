@@ -1,0 +1,12 @@
+[2026-03-21 18:45:21.210543] 자동 시장 데이터 동기화 체크 중...
+[2026-03-21 19:49:41.503855] 동기화 확인 완료.
+[2026-03-21 19:49:41.511406] VCP 통합 스캔 시작 (Target Date: 20260318)
+[2026-03-21 19:49:41.541573] 대상 종목 선별 작업 시작 (Batch 모드)...
+[PB Error] Query failed (ohlcv): Message: Response error. Status code:400
+URL: http://127.0.0.1:8090/api/collections/ohlcv/records?filter=code%3D%22005930%22&sort=-date&page=1&perPage=100
+Status: 400
+Data: {'data': {}, 'message': 'Something went wrong while processing your request.', 'status': 400}
+Is Abort: False
+Original Error: N/A
+[오류] 데이터 부족으로 선별 불가
+[오류] 대상 종목을 선정하지 못했습니다.

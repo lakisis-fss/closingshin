@@ -1,0 +1,279 @@
+
+import os
+import sys
+import pandas as pd
+import numpy as np
+from datetime import datetime, timedelta
+from pykrx import stock
+import time
+import warnings
+import argparse
+
+warnings.filterwarnings('ignore')
+
+# -----------------------------------------------------------------------------
+# 설정
+# -----------------------------------------------------------------------------
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+RESULT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='VCP Scanner - Mark Minervini Style')
+    parser.add_argument('--date', type=str, default=None,
+                        help='Target date in YYYYMMDD format (default: today)')
+    return parser.parse_args()
+
+args = parse_args()
+TODAY = args.date if args.date else datetime.now().strftime("%Y%m%d")
+
+# VCP 파라미터
+MIN_CONTRACTIONS = 2      # 최소 축소 횟수 (2T 이상)
+MAX_DEPTH_1ST = 0.35      # 1차 조정 최대 깊이 (35% 이상 하락은 제외)
+MIN_DEPTH_LAST = 0.02     # 마지막 조정 최소 깊이 (너무 작으면 노이즈)
+MAX_DEPTH_LAST = 0.10     # 마지막 조정 최대 깊이 (10% 이내로 타이트해야 함)
+
+def ensure_dir(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+def get_target_file_path():
+    """가장 최근에 생성된 타겟 리스트 파일을 찾습니다."""
+    files = [f for f in os.listdir(DATA_DIR) if f.startswith("target_list_") and f.endswith(".csv")]
+    if not files:
+        return None
+    files.sort(reverse=True) # 최신 날짜 순
+    return os.path.join(DATA_DIR, files[0])
+
+def check_trend(df):
+    """
+    Mark Minervini의 추세 템플릿 검증
+    1. 현재 주가 > 150일, 200일 이동평균선
+    2. 150일 MA > 200일 MA
+    3. 200일 MA가 상승 추세 (최근 1개월) -> 생략 가능하거나 완화
+    4. 50일 MA > 150일, 200일 MA
+    5. 현재 주가 > 50일 MA (건전한 조정 중엔 일시 이탈 가능하므로 필수는 아님, 여기선 확인)
+    """
+    if len(df) < 200:
+        return False, "데이터 부족 (200일 미만)"
+    
+    current_price = df['종가'].iloc[-1]
+    ma50 = df['ma50'].iloc[-1]
+    ma150 = df['ma150'].iloc[-1]
+    ma200 = df['ma200'].iloc[-1]
+    
+    # 간소화된 추세 로직
+    if current_price < ma200:
+        return False, "200일선 아래 (장기 하락세)"
+    
+    if not (ma50 > ma150 > ma200):
+        # 엄격한 정배열이 아니더라도 200일선 위에 있으면 일단 패스할 수도 있지만
+        # VCP는 강한 종목을 찾으므로 정배열 권장
+        return False, "이평선 역배열 (50>150>200 미충족)"
+        
+    return True, "상승 추세"
+
+def find_contractions(df):
+    """
+    고점과 저점 파동을 찾아 VCP 패턴(Contractions)을 분석합니다.
+    단순화된 알고리즘:
+    1. 최근 6개월 데이터 집중
+    2. 로컬 고점(Peaks) 탐색
+    3. 고점-고점 사이의 최저점(Trough) 탐색
+    4. 변동폭(Depth) 계산: (고점 - 저점) / 고점
+    5. 변동폭이 시간 흐름에 따라 줄어드는지 확인
+    """
+    # 최근 120일 (약 6개월)
+    sub_df = df.iloc[-120:].copy()
+    if len(sub_df) < 60:
+        return [], 0, "데이터 부족"
+
+    prices = sub_df['종가'].values
+    dates = sub_df.index
+    
+    # 로컬 고점 찾기 (단순한 방법: 좌우 5일보다 높은 날)
+    # scipy.signal.find_peaks 대신 간단 구현
+    peaks = []
+    for i in range(5, len(prices)-5):
+        if prices[i] == max(prices[i-5:i+6]):
+            peaks.append((i, prices[i]))
+            
+    # 유효한 파동 찾기
+    contractions = []
+    if len(peaks) < 2:
+        return contractions, 0.0, "파동 부족"
+
+    # 마지막 고점부터 역순으로 추적하면서 조정폭 계산
+    # 하지만 VCP는 [큰 조정] -> [작은 조정] 순서여야 함.
+    # 단순화: 인접한 두 고점 사이의 최저점을 찾아서 조정폭 계산
+    
+    valid_adjustments = []
+    
+    for k in range(len(peaks)-1):
+        p1_idx, p1_val = peaks[k]
+        p2_idx, p2_val = peaks[k+1]
+        
+        # 두 고점 사이의 최저점
+        interval_prices = prices[p1_idx:p2_idx]
+        if len(interval_prices) == 0: continue
+        
+        min_val = min(interval_prices)
+        depth = (p1_val - min_val) / p1_val
+        valid_adjustments.append(depth)
+
+    # 최근 조정폭 확인 (Pivot 직전)
+    # 현재 가격이 마지막 고점 근처 혹은 약간 아래여야 VCP 완성형
+    last_peak_idx, last_peak_val = peaks[-1]
+    last_close = prices[-1]
+    
+    # 마지막 고점 이후 현재까지의 조정폭
+    current_depth = (last_peak_val - min(prices[last_peak_idx:], default=last_close)) / last_peak_val
+    valid_adjustments.append(current_depth)
+    
+    # VCP 조건: 조정폭이 점차 줄어들어야 함 (T)
+    # 예: 0.20 -> 0.10 -> 0.03
+    
+    pattern_score = 0
+    is_vcp = False
+    
+    if len(valid_adjustments) >= MIN_CONTRACTIONS:
+        # 마지막 조정폭이 타이트한가?
+        if MIN_DEPTH_LAST <= valid_adjustments[-1] <= MAX_DEPTH_LAST:
+            # 이전 조정폭들이 줄어드는 추세인가?
+            # 완벽하게 매번 줄지 않아도 전반적으로 줄어들면 인정
+            # 최근 것(마지막)이 그 전 것보다 작으면 일단 긍정적
+            if valid_adjustments[-1] < valid_adjustments[-2]:
+                is_vcp = True
+    
+    return valid_adjustments, valid_adjustments[-1], "VCP 후보" if is_vcp else "패턴 미완성"
+
+def main():
+    print(f"[{datetime.now()}] VCP 스캔 시작...")
+    ensure_dir(RESULT_DIR)
+    
+    target_file = get_target_file_path()
+    if not target_file:
+        print("[오류] 대상 종목 파일이 없습니다. 01_select_targets.py를 먼저 실행하세요.")
+        return
+
+    print(f"대상 파일 로드: {target_file}")
+    targets = pd.read_csv(target_file)
+    
+    results = []
+    
+    # 최근 1년 날짜 계산
+    end_date = TODAY
+    start_date = (datetime.strptime(end_date, "%Y%m%d") - timedelta(days=365)).strftime("%Y%m%d")
+    
+    total = len(targets)
+    print(f"총 {total}개 종목 스캔 중...")
+    
+    for i, row in targets.iterrows():
+        ticker = str(row['Ticker']).zfill(6) # 6자리 문자열 포맷팅 (안전하게 처리)
+        name = row['종목명']
+        market = row['Market']
+        
+        try:
+            # 주가 데이터 수집
+            df = stock.get_market_ohlcv_by_date(start_date, end_date, ticker)
+            
+            # 거래 정지 등으로 데이터가 없을 경우
+            if df.empty:
+                continue
+
+            # 이평선 계산
+            df['ma50'] = df['종가'].rolling(window=50).mean()
+            df['ma150'] = df['종가'].rolling(window=150).mean()
+            df['ma200'] = df['종가'].rolling(window=200).mean()
+            
+            # 1. 추세 필터링
+            is_uptrend, trend_msg = check_trend(df)
+            if not is_uptrend:
+                # 추세가 안 좋으면 스킵 (로그는 남길 수 있음)
+                # print(f"[{i+1}/{total}] {name}: {trend_msg}")
+                continue
+                
+            # 2. VCP 패턴 분석
+            contractions, last_depth, pattern_msg = find_contractions(df)
+            
+            if pattern_msg == "VCP 후보":
+                # 거래량 말라붙음 확인 (최근 5일 평균 거래량이 50일 평균의 70% 미만?)
+                vol_ma50 = df['거래량'].iloc[-50:].mean()
+                vol_recent = df['거래량'].iloc[-5:].mean()
+                
+                vol_ratio = vol_recent / vol_ma50 if vol_ma50 > 0 else 1.0
+                vol_dry_up = vol_ratio < 0.8 # 80% 미만이면 건조하다고 판단
+                
+                # 3. Hybrid Scoring Calculation
+                # (1) Balanced Score (100점 만점)
+                # - Tightness (40점): 5% 미만 40점, 10% 미만 30점, 그 외 10점
+                b_tight_score = 40 if (last_depth * 100) < 5 else (30 if (last_depth * 100) < 10 else 10)
+                
+                # - Volume (30점): Dry Up(20점) + Ratio < 0.5(10점)
+                b_vol_score = 0
+                if vol_dry_up: b_vol_score += 20
+                if vol_ratio < 0.5: b_vol_score += 10
+                
+                # - Contraction Count (30점): 3~4회 30점, 그 외 20점
+                b_count_score = 30 if 3 <= len(contractions) <= 4 else 20
+                
+                vcp_score = b_tight_score + b_vol_score + b_count_score
+                
+                # (2) Jump Score (급등 가능성, 100점 만점)
+                # - 오직 Tightness에 집중
+                j_tight_score = 0
+                ld_pct = last_depth * 100
+                if ld_pct < 3: j_tight_score = 60    # 3% 미만 (Super Tight)
+                elif ld_pct < 6: j_tight_score = 40  # 6% 미만
+                else: j_tight_score = 10             # 그 외
+                
+                # - 파동 건전성 체크 (점진적 감소) -> 간단히 마지막이 그 전보다 작으면 가산점
+                j_history_score = 0
+                if len(contractions) >= 2 and contractions[-1] < contractions[-2]:
+                    j_history_score = 20
+                
+                # - 거래량 (보조)
+                j_vol_score = 20 if vol_dry_up else 0
+                
+                jump_score = j_tight_score + j_history_score + j_vol_score
+
+                print(f" -> [발견] {name} ({market}): {len(contractions)}진동, 마지막 {last_depth*100:.1f}%, 점수 {vcp_score}점 (Jump {jump_score})")
+                
+                results.append({
+                    'ticker': ticker,
+                    'name': name,
+                    'market': market,
+                    'close': df['종가'].iloc[-1],
+                    'contractions_count': len(contractions),
+                    'contractions_history': str([round(c*100, 1) for c in contractions]),
+                    'last_depth_pct': round(last_depth * 100, 2),
+                    'volume_dry_up': vol_dry_up,
+                    'vol_ratio': round(vol_ratio, 2),
+                    'vcp_score': vcp_score,
+                    'jump_score': jump_score,
+                    'note': 'VCP Pattern Detected'
+                })
+            else:
+                pass
+                # print(f"[{i+1}/{total}] {name}: {pattern_msg}")
+                
+        except Exception as e:
+            print(f"[에러] {name}({ticker}): {e}")
+            continue
+        
+        time.sleep(0.1) # 서버 부하 방지
+        
+    # 결과 저장
+    if results:
+        res_df = pd.DataFrame(results)
+        # 점수 순 정렬 (높은 순)
+        res_df = res_df.sort_values(by='vcp_score', ascending=False)
+        
+        save_path = os.path.join(RESULT_DIR, f"vcp_report_{TODAY}.csv")
+        res_df.to_csv(save_path, index=False, encoding='utf-8-sig')
+        print(f"\n[완료] {len(res_df)}개 VCP 후보 종목 추출 완료.")
+        print(f"결과 파일: {save_path}")
+    else:
+        print("\n[완료] 조건에 맞는 VCP 종목을 찾지 못했습니다.")
+
+if __name__ == "__main__":
+    main()

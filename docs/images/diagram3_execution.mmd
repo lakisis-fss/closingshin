@@ -1,0 +1,19 @@
+flowchart TD
+    START(["시작"])
+    S02["02_scan_vcp.py<br/>(대상선정+VCP스캔)"]
+    S03["03_visualize_vcp.py<br/>(선택적)"]
+    S04["04_collect_news.py"]
+    S05B["05_analyze_news.py"]
+    S05A["05_collect_market_status.py<br/>(독립적)"]
+    S06["06_collect_stock_data.py"]
+    END(["완료"])
+
+    START --> S02
+    S02 -->|"vcp_report 생성"| S03
+    S02 -->|"vcp_report 생성"| S04
+    S02 -->|"vcp_report 생성"| S06
+    S04 -->|"news_report 생성"| S05B
+    S03 --> END
+    S05B --> END
+    S05A --> END
+    S06 --> END

@@ -1,0 +1,309 @@
+{
+    "lastUpdated": "2026-03-22T23:10:21.232846",
+    "totalValue": 249253600.0,
+    "totalCost": 226639600.0,
+    "totalPnL": 22614000.0,
+    "totalPnLPercent": 9.977956191239306,
+    "items": [
+        {
+            "ticker": "000990",
+            "name": "DB하이텍",
+            "currentPrice": 88100.0,
+            "currentValue": 8810000.0,
+            "pnl": -1490000.0,
+            "pnlPercent": -14.466019417475728,
+            "status": "CLOSED",
+            "weight": 3.5345527607224128
+        },
+        {
+            "ticker": "272210",
+            "name": "한화시스템",
+            "currentPrice": 136000.0,
+            "currentValue": 13600000.0,
+            "pnl": 4550000.0,
+            "pnlPercent": 50.27624309392266,
+            "status": "CLOSED",
+            "weight": 5.456290300320638
+        },
+        {
+            "ticker": "272210",
+            "name": "한화시스템",
+            "currentPrice": 136000.0,
+            "currentValue": 13600000.0,
+            "pnl": 4720000.0,
+            "pnlPercent": 53.153153153153156,
+            "status": "CLOSED",
+            "weight": 5.456290300320638
+        },
+        {
+            "ticker": "457190",
+            "name": "이수스페셜티케미컬",
+            "currentPrice": 91200.0,
+            "currentValue": 9120000.0,
+            "pnl": -540000.0,
+            "pnlPercent": -5.590062111801243,
+            "status": "CLOSED",
+            "weight": 3.6589240837444277
+        },
+        {
+            "ticker": "056080",
+            "name": "유진로봇",
+            "currentPrice": 28900.0,
+            "currentValue": 2890000.0,
+            "pnl": -295000.0,
+            "pnlPercent": -9.262166405023548,
+            "status": "CLOSED",
+            "weight": 1.1594616888181353
+        },
+        {
+            "ticker": "244920",
+            "name": "에이플러스에셋",
+            "currentPrice": 12000.0,
+            "currentValue": 1200000.0,
+            "pnl": 115000.0,
+            "pnlPercent": 10.599078341013826,
+            "status": "CLOSED",
+            "weight": 0.4814373794400562
+        },
+        {
+            "ticker": "012610",
+            "name": "경인양행",
+            "currentPrice": 4230.0,
+            "currentValue": 423000.0,
+            "pnl": -60500.0,
+            "pnlPercent": -12.5129265770424,
+            "status": "CLOSED",
+            "weight": 0.16970667625261981
+        },
+        {
+            "ticker": "189300",
+            "name": "인텔리안테크",
+            "currentPrice": 121500.0,
+            "currentValue": 12150000.0,
+            "pnl": -690000.0,
+            "pnlPercent": -5.373831775700935,
+            "status": "CLOSED",
+            "weight": 4.8745534668305694
+        },
+        {
+            "ticker": "244920",
+            "name": "에이플러스에셋",
+            "currentPrice": 12000.0,
+            "currentValue": 12000000.0,
+            "pnl": 1150000.0,
+            "pnlPercent": 10.599078341013826,
+            "status": "CLOSED",
+            "weight": 4.814373794400562
+        },
+        {
+            "ticker": "452260",
+            "name": "한화갤러리아",
+            "currentPrice": 2670.0,
+            "currentValue": 8010000.0,
+            "pnl": 1335000.0,
+            "pnlPercent": 20.0,
+            "status": "CLOSED",
+            "weight": 3.2135945077623753
+        },
+        {
+            "ticker": "052690",
+            "name": "한전기술",
+            "currentPrice": 175500.0,
+            "currentValue": 17550000.0,
+            "pnl": 2390000.0,
+            "pnlPercent": 15.765171503957784,
+            "status": "CLOSED",
+            "weight": 7.041021674310823
+        },
+        {
+            "ticker": "090710",
+            "name": "휴림로봇",
+            "currentPrice": 14020.0,
+            "currentValue": 1402000.0,
+            "pnl": -27000.0,
+            "pnlPercent": -1.8894331700489855,
+            "status": "CLOSED",
+            "weight": 0.5624793383124658
+        },
+        {
+            "ticker": "010690",
+            "name": "화신",
+            "currentPrice": 12250.0,
+            "currentValue": 1225000.0,
+            "pnl": 70000.0,
+            "pnlPercent": 6.0606060606060606,
+            "status": "CLOSED",
+            "weight": 0.4914673248450574
+        },
+        {
+            "ticker": "006340",
+            "name": "대원전선",
+            "currentPrice": 6410.0,
+            "currentValue": 3205000.0,
+            "pnl": 490000.0,
+            "pnlPercent": 18.047882136279927,
+            "status": "CLOSED",
+            "weight": 1.2858390009211502
+        },
+        {
+            "ticker": "327260",
+            "name": "RF머트리얼즈",
+            "currentPrice": 73900.0,
+            "currentValue": 7390000.0,
+            "pnl": 2200000.0,
+            "pnlPercent": 42.38921001926782,
+            "status": "CLOSED",
+            "weight": 2.9648518617183464
+        },
+        {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "currentPrice": 1320000.0,
+            "currentValue": 13200000.0,
+            "pnl": -900000.0,
+            "pnlPercent": -6.382978723404255,
+            "status": "OPEN",
+            "weight": 5.295811173840619
+        },
+        {
+            "ticker": "042700",
+            "name": "한미반도체",
+            "currentPrice": 309500.0,
+            "currentValue": 30950000.0,
+            "pnl": 400000.0,
+            "pnlPercent": 1.309328968903437,
+            "status": "CLOSED",
+            "weight": 12.41707241139145
+        },
+        {
+            "ticker": "138080",
+            "name": "오이솔루션",
+            "currentPrice": 33900.0,
+            "currentValue": 3390000.0,
+            "pnl": 185000.0,
+            "pnlPercent": 5.77223088923557,
+            "status": "OPEN",
+            "weight": 1.360060596918159
+        },
+        {
+            "ticker": "078600",
+            "name": "대주전자재료",
+            "currentPrice": 126200.0,
+            "currentValue": 10096000.0,
+            "pnl": 1240000.0,
+            "pnlPercent": 14.001806684733515,
+            "status": "CLOSED",
+            "weight": 4.050493152355673
+        },
+        {
+            "ticker": "058610",
+            "name": "에스피지",
+            "currentPrice": 120500.0,
+            "currentValue": 12050000.0,
+            "pnl": -450000.0,
+            "pnlPercent": -3.5999999999999996,
+            "status": "OPEN",
+            "weight": 4.8344336852105645
+        },
+        {
+            "ticker": "042700",
+            "name": "한미반도체",
+            "currentPrice": 309500.0,
+            "currentValue": 30950000.0,
+            "pnl": 950000.0,
+            "pnlPercent": 3.166666666666667,
+            "status": "OPEN",
+            "weight": 12.41707241139145
+        },
+        {
+            "ticker": "452260",
+            "name": "한화갤러리아",
+            "currentPrice": 2670.0,
+            "currentValue": 267000.0,
+            "pnl": 44500.0,
+            "pnlPercent": 20.0,
+            "status": "CLOSED",
+            "weight": 0.1071198169254125
+        },
+        {
+            "ticker": "327260",
+            "name": "RF머트리얼즈",
+            "currentPrice": 73900.0,
+            "currentValue": 14780000.0,
+            "pnl": 5420000.0,
+            "pnlPercent": 57.90598290598291,
+            "status": "CLOSED",
+            "weight": 5.929703723436693
+        },
+        {
+            "ticker": "036170",
+            "name": "에이치엠넥스",
+            "currentPrice": 4920.0,
+            "currentValue": 4920000.0,
+            "pnl": 1465000.0,
+            "pnlPercent": 42.40231548480463,
+            "status": "CLOSED",
+            "weight": 1.9738932557042306
+        },
+        {
+            "ticker": "420770",
+            "name": "기가비스",
+            "currentPrice": 78700.0,
+            "currentValue": 2361000.0,
+            "pnl": 42000.0,
+            "pnlPercent": 1.8111254851228977,
+            "status": "OPEN",
+            "weight": 0.9472280440483106
+        },
+        {
+            "ticker": "020000",
+            "name": "한섬",
+            "currentPrice": 26800.0,
+            "currentValue": 5360000.0,
+            "pnl": 300000.0,
+            "pnlPercent": 5.928853754940711,
+            "status": "OPEN",
+            "weight": 2.150420294832251
+        },
+        {
+            "ticker": "031980",
+            "name": "피에스케이홀딩스",
+            "currentPrice": 111400.0,
+            "currentValue": 2228000.0,
+            "pnl": 0.0,
+            "pnlPercent": 0.0,
+            "status": "OPEN",
+            "weight": 0.8938687344937043
+        },
+        {
+            "ticker": "253590",
+            "name": "네오셈",
+            "currentPrice": 19100.0,
+            "currentValue": 2101000.0,
+            "pnl": 0.0,
+            "pnlPercent": 0.0,
+            "status": "OPEN",
+            "weight": 0.8429166118362984
+        },
+        {
+            "ticker": "138490",
+            "name": "코오롱ENP",
+            "currentPrice": 13300.0,
+            "currentValue": 1995000.0,
+            "pnl": 0.0,
+            "pnlPercent": 0.0,
+            "status": "OPEN",
+            "weight": 0.8003896433190935
+        },
+        {
+            "ticker": "009290",
+            "name": "광동제약",
+            "currentPrice": 9230.0,
+            "currentValue": 2030600.0,
+            "pnl": 0.0,
+            "pnlPercent": 0.0,
+            "status": "OPEN",
+            "weight": 0.8146722855758152
+        }
+    ]
+}

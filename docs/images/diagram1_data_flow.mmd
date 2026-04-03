@@ -1,0 +1,45 @@
+flowchart TB
+    subgraph INPUT["입력 데이터"]
+        PYKRX["pykrx API<br/>(한국거래소)"]
+        FDR["FinanceDataReader"]
+        NAVER["Naver News API"]
+        GEMINI["Gemini AI API"]
+    end
+
+    subgraph SCRIPTS["스크립트 파이프라인"]
+        S02["02_scan_vcp.py<br/>(통합 스캔)"]
+        S03["03_visualize_vcp.py"]
+        S04["04_collect_news.py"]
+        S05A["05_collect_market_status.py"]
+        S05B["05_analyze_news.py"]
+        S06["06_collect_stock_data.py"]
+    end
+
+    subgraph DATA["생성 데이터 파일"]
+        D01["target_list_YYYYMMDD.csv<br/>(옵션/디버깅용)"]
+        D02["vcp_report_YYYYMMDD.csv"]
+        D03["charts/YYYYMMDD/*.png"]
+        D04["news_report_YYYYMMDD.csv"]
+        D05A["status_YYYYMMDD.json"]
+        D05B["news_analysis_YYYYMMDD.csv"]
+        D06["stock_info_YYYYMMDD.csv"]
+    end
+
+    PYKRX --> S02
+    S02 -.->|"옵션 저장"| D01
+    S02 --> D02
+    D02 --> S03
+    PYKRX --> S03
+    S03 --> D03
+    D02 --> S04
+    NAVER --> S04
+    S04 --> D04
+    D04 --> S05B
+    GEMINI --> S05B
+    S05B --> D05B
+    PYKRX --> S05A
+    FDR --> S05A
+    S05A --> D05A
+    D02 --> S06
+    PYKRX --> S06
+    S06 --> D06

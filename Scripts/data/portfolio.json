@@ -1,0 +1,833 @@
+[
+  {
+    "ticker": "000990",
+    "name": "DB하이텍",
+    "market": "KOSPI",
+    "buyDate": "2026-02-02",
+    "buyPrice": 103000,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 70 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 60 → +12\n- Supply (30%): 100 → +30\n- Sentiment (30%): N/A → +15\n- Fundamental (10%): 75 → +8\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 7T, Last Depth 4.65%\nVolume Dry-Up: NO\nJump Score: 60",
+    "exitPlan": "",
+    "exitConditions": {
+      "stopLossPercent": 3,
+      "takeProfitPercent": 8,
+      "trailingStopPercent": 3,
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 70,
+      "vcpScore": 60,
+      "supplyScore": 100,
+      "fundamentalScore": 75,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-02-02",
+      "exitPrice": 111240.00000000001,
+      "exitReason": "Take Profit (+8%)",
+      "realizedPnl": 824000.0000000014,
+      "realizedPnlPercent": 8.000000000000014,
+      "lastUpdate": "2026-02-09T12:41:07.490Z"
+    },
+    "id": "1770640867490-z6tprhg",
+    "createdAt": "2026-02-09T12:41:07.490Z",
+    "updatedAt": "2026-02-09T12:41:07.490Z"
+  },
+  {
+    "ticker": "272210",
+    "name": "한화시스템",
+    "market": "KOSPI",
+    "buyDate": "2026-01-20",
+    "buyPrice": 90500,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 69 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 50 → +10\n- Supply (30%): 100 → +30\n- Sentiment (30%): N/A → +15\n- Fundamental (10%): 85 → +9\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 7T, Last Depth 7.48%\nVolume Dry-Up: NO\nJump Score: 30",
+    "exitPlan": "",
+    "exitConditions": {
+      "stopLossPercent": 5,
+      "takeProfitPercent": 8,
+      "trailingStopPercent": 4,
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 69,
+      "vcpScore": 50,
+      "supplyScore": 100,
+      "fundamentalScore": 85,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-01-20",
+      "exitPrice": 89500,
+      "exitReason": "Trailing Stop (-4% from peak)",
+      "realizedPnl": -100000,
+      "realizedPnlPercent": -1.1049723756906076,
+      "lastUpdate": "2026-02-09T12:42:13.552Z"
+    },
+    "id": "1770640933552-840gz87",
+    "createdAt": "2026-02-09T12:42:13.552Z",
+    "updatedAt": "2026-02-09T12:42:13.552Z"
+  },
+  {
+    "ticker": "272210",
+    "name": "한화시스템",
+    "market": "KOSPI",
+    "buyDate": "2026-01-21",
+    "buyPrice": 88800,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 72 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 50 → +10\n- Supply (30%): 100 → +30\n- Sentiment (30%): 60 → +18\n- Fundamental (10%): 85 → +9\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 7T, Last Depth 7.48%\nVolume Dry-Up: NO\nJump Score: 30",
+    "exitPlan": "",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 72,
+      "vcpScore": 50,
+      "supplyScore": 100,
+      "sentimentScore": 60,
+      "fundamentalScore": 85,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "OPEN",
+      "exitDate": null,
+      "exitPrice": 104400,
+      "exitReason": null,
+      "realizedPnl": 1560000,
+      "realizedPnlPercent": 17.56756756756757,
+      "lastUpdate": "2026-02-09T14:13:41.280Z"
+    },
+    "id": "1770646421280-8ozns79",
+    "createdAt": "2026-02-09T14:13:41.280Z",
+    "updatedAt": "2026-02-09T14:13:41.280Z"
+  },
+  {
+    "ticker": "457190",
+    "name": "이수스페셜티케미컬",
+    "market": "KOSPI",
+    "buyDate": "2026-01-23",
+    "buyPrice": 96600,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 66 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 50 → +10\n- Supply (30%): 100 → +30\n- Sentiment (30%): N/A → +15\n- Fundamental (10%): 60 → +6\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 6T, Last Depth 7.41%\nVolume Dry-Up: NO\nJump Score: 30",
+    "exitPlan": "",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 66,
+      "vcpScore": 50,
+      "supplyScore": 100,
+      "fundamentalScore": 60,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "OPEN",
+      "exitDate": null,
+      "exitPrice": 102200,
+      "exitReason": null,
+      "realizedPnl": 560000,
+      "realizedPnlPercent": 5.797101449275362,
+      "lastUpdate": "2026-02-09T14:16:07.567Z"
+    },
+    "id": "1770646567567-m4izwhi",
+    "createdAt": "2026-02-09T14:16:07.567Z",
+    "updatedAt": "2026-02-09T14:16:07.567Z"
+  },
+  {
+    "ticker": "056080",
+    "name": "유진로봇",
+    "market": "KOSDAQ",
+    "buyDate": "2026-01-26",
+    "buyPrice": 31850,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 64 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 50 → +10\n- Supply (30%): 100 → +30\n- Sentiment (30%): N/A → +15\n- Fundamental (10%): 40 → +4\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 7T, Last Depth 5.16%\nVolume Dry-Up: NO\nJump Score: 60",
+    "exitPlan": "",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 64,
+      "vcpScore": 50,
+      "supplyScore": 100,
+      "fundamentalScore": 40,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "OPEN",
+      "exitDate": null,
+      "exitPrice": 37550,
+      "exitReason": null,
+      "realizedPnl": 570000,
+      "realizedPnlPercent": 17.896389324960754,
+      "lastUpdate": "2026-02-09T14:16:33.242Z"
+    },
+    "id": "1770646593242-r3li97d",
+    "createdAt": "2026-02-09T14:16:33.242Z",
+    "updatedAt": "2026-02-09T14:16:33.242Z"
+  },
+  {
+    "ticker": "244920",
+    "name": "에이플러스에셋",
+    "market": "KOSPI",
+    "buyDate": "2026-01-27",
+    "buyPrice": 10850,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 73 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 90 → +18\n- Supply (30%): 100 → +30\n- Sentiment (30%): 52 → +16\n- Fundamental (10%): 40 → +4\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 7T, Last Depth 4.45%\nVolume Dry-Up: YES\nJump Score: 80",
+    "exitPlan": "",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 73,
+      "vcpScore": 90,
+      "supplyScore": 100,
+      "sentimentScore": 52,
+      "fundamentalScore": 40,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-02-25T00:00:00.000Z",
+      "exitPrice": 14450,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 33.17972350230415,
+      "realizedPnl": 360000,
+      "lastUpdate": "2026-02-25T04:39:02.368Z"
+    },
+    "id": "1770646714129-82840hb",
+    "createdAt": "2026-02-09T14:18:34.129Z",
+    "updatedAt": "2026-02-25T04:39:02.381Z"
+  },
+  {
+    "ticker": "012610",
+    "name": "경인양행",
+    "market": "KOSPI",
+    "buyDate": "2026-01-28",
+    "buyPrice": 4835,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 70 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 60 → +12\n- Supply (30%): 100 → +30\n- Sentiment (30%): 55 → +17\n- Fundamental (10%): 60 → +6\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 9T, Last Depth 10%\nVolume Dry-Up: YES\nJump Score: 50",
+    "exitPlan": "",
+    "exitConditions": {
+      "stopLossPercent": 7,
+      "takeProfitPercent": 15,
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 70,
+      "vcpScore": 60,
+      "supplyScore": 100,
+      "sentimentScore": 55,
+      "fundamentalScore": 60,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-02-27T00:00:00.000Z",
+      "exitPrice": 4496.549999999999,
+      "exitReason": "STOP_LOSS",
+      "realizedPnl": -10500,
+      "realizedPnlPercent": -2.1716649431230612,
+      "lastUpdate": "2026-02-09T14:19:31.502Z",
+      "exitYield": -7.000000000000014
+    },
+    "id": "1770646771503-c4b3otv",
+    "createdAt": "2026-02-09T14:19:31.503Z",
+    "updatedAt": "2026-02-09T14:19:31.503Z"
+  },
+  {
+    "ticker": "189300",
+    "name": "인텔리안테크",
+    "market": "KOSDAQ",
+    "buyDate": "2026-02-09",
+    "buyPrice": 128400,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 72 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 50 → +10\n- Supply (30%): 100 → +30\n- Sentiment (30%): 77 → +23\n- Fundamental (10%): 40 → +4\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 7T, Last Depth 7.82%\nVolume Dry-Up: NO\nJump Score: 30",
+    "exitPlan": "",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 72,
+      "vcpScore": 50,
+      "supplyScore": 100,
+      "sentimentScore": 77,
+      "fundamentalScore": 40,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-13T00:00:00.000Z",
+      "exitPrice": 143400,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 11.682242990654206,
+      "realizedPnl": 1500000,
+      "lastUpdate": "2026-03-13T10:36:15.877Z"
+    },
+    "id": "1770647379908-3us9ghh",
+    "createdAt": "2026-02-09T14:29:39.908Z",
+    "updatedAt": "2026-03-13T10:36:15.891Z"
+  },
+  {
+    "ticker": "244920",
+    "name": "에이플러스에셋",
+    "market": "KOSPI",
+    "buyDate": "2026-01-27",
+    "buyPrice": 10850,
+    "quantity": 1000,
+    "memo": "[Total Quant Score]\nTotal Score: 73 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 90 → +18\n- Supply (30%): 100 → +30\n- Sentiment (30%): 53 → +16\n- Fundamental (10%): 40 → +4\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 7T, Last Depth 4.45%\nVolume Dry-Up: YES\nJump Score: 80",
+    "exitPlan": "",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 73,
+      "vcpScore": 90,
+      "supplyScore": 100,
+      "sentimentScore": 53,
+      "fundamentalScore": 40,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-13T00:00:00.000Z",
+      "exitPrice": 12600,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 16.129032258064516,
+      "realizedPnl": 1750000,
+      "lastUpdate": "2026-03-13T10:36:04.534Z"
+    },
+    "id": "1770695503124-naiwb3u",
+    "createdAt": "2026-02-10T03:51:43.124Z",
+    "updatedAt": "2026-03-13T10:36:04.545Z"
+  },
+  {
+    "ticker": "452260",
+    "name": "한화갤러리아",
+    "market": "KOSPI",
+    "buyDate": "2026-02-12",
+    "buyPrice": 2225,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 66 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 70 → +14\n- Supply (30%): 76.3 → +23\n- Sentiment (30%): 65 → +20\n- Fundamental (10%): 40 → +4\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 9T, Last Depth 7.38%\nVolume Dry-Up: YES\nJump Score: 50",
+    "exitPlan": "",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 66,
+      "vcpScore": 70,
+      "supplyScore": 76.3,
+      "sentimentScore": 65,
+      "fundamentalScore": 40,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-02-25T00:00:00.000Z",
+      "exitPrice": 3445,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 54.831460674157306,
+      "realizedPnl": 122000,
+      "lastUpdate": "2026-02-25T04:32:05.917Z"
+    },
+    "id": "1771053764158-2nhva24",
+    "createdAt": "2026-02-14T07:22:44.158Z",
+    "updatedAt": "2026-02-25T04:32:05.937Z"
+  },
+  {
+    "ticker": "452260",
+    "name": "한화갤러리아",
+    "market": "KOSPI",
+    "buyDate": "2026-02-12",
+    "buyPrice": 2225,
+    "quantity": 3000,
+    "memo": "[Total Quant Score]\nTotal Score: 66 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 70 → +14\n- Supply (30%): 76.3 → +23\n- Sentiment (30%): 65 → +20\n- Fundamental (10%): 40 → +4\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 9T, Last Depth 7.38%\nVolume Dry-Up: YES\nJump Score: 50",
+    "exitPlan": "vcp watch 단계",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 66,
+      "vcpScore": 70,
+      "supplyScore": 76.3,
+      "sentimentScore": 65,
+      "fundamentalScore": 40,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-13T00:00:00.000Z",
+      "exitPrice": 2700,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 21.34831460674157,
+      "realizedPnl": 1425000,
+      "lastUpdate": "2026-03-13T10:35:28.000Z"
+    },
+    "id": "1771291847271-ld6agmr",
+    "createdAt": "2026-02-17T01:30:47.271Z",
+    "updatedAt": "2026-03-13T10:35:28.017Z"
+  },
+  {
+    "ticker": "052690",
+    "name": "한전기술",
+    "market": "KOSPI",
+    "buyDate": "2026-02-19",
+    "buyPrice": 151600,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 73 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 90 → +18\n- Supply (30%): 50.8 → +15\n- Sentiment (30%): 90 → +27\n- Fundamental (10%): 75 → +8\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 4T, Last Depth 4.42%\nVolume Dry-Up: YES\nJump Score: 80",
+    "exitPlan": "",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 73,
+      "vcpScore": 90,
+      "supplyScore": 50.8,
+      "sentimentScore": 90,
+      "fundamentalScore": 75,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-13T00:00:00.000Z",
+      "exitPrice": 177700,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 17.216358839050134,
+      "realizedPnl": 2610000,
+      "lastUpdate": "2026-03-13T10:35:52.398Z"
+    },
+    "id": "1771680957103-5i8w713",
+    "createdAt": "2026-02-21T13:35:57.104Z",
+    "updatedAt": "2026-03-13T10:35:52.408Z"
+  },
+  {
+    "ticker": "090710",
+    "name": "휴림로봇",
+    "market": "KOSDAQ",
+    "buyDate": "2026-02-20",
+    "buyPrice": 14290,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 57 (NEUTRAL)\n\n[Score Breakdown]\n- VCP (20%): 90 → +18\n- Supply (30%): 49.6 → +15\n- Sentiment (30%): N/A → +15\n- Fundamental (10%): 40 → +4\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 9T, Last Depth 4.57%\nVolume Dry-Up: YES\nJump Score: 80",
+    "exitPlan": "vcp 스코어 go!",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 57,
+      "vcpScore": 90,
+      "supplyScore": 49.6,
+      "fundamentalScore": 40,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "OPEN",
+      "exitDate": null,
+      "exitPrice": 15190,
+      "exitReason": null,
+      "realizedPnl": 90000,
+      "realizedPnlPercent": 6.298110566829951,
+      "lastUpdate": "2026-02-24T09:42:23.317Z"
+    },
+    "id": "1771926143327-7fub8mp",
+    "createdAt": "2026-02-24T09:42:23.327Z",
+    "updatedAt": "2026-02-24T09:42:23.327Z"
+  },
+  {
+    "ticker": "010690",
+    "name": "화신",
+    "market": "KOSPI",
+    "buyDate": "2026-03-04",
+    "buyPrice": 11550,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 74 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 60 → +12\n- Supply (30%): 100 → +30\n- Sentiment (30%): 63 → +19\n- Fundamental (10%): 80 → +8\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 4T, Last Depth 9.1%\nVolume Dry-Up: NO\nJump Score: 30",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 74,
+      "vcpScore": 60,
+      "supplyScore": 100,
+      "sentimentScore": 63,
+      "fundamentalScore": 80,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-13T00:00:00.000Z",
+      "exitPrice": 12760,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 10.476190476190476,
+      "realizedPnl": 121000,
+      "lastUpdate": "2026-03-13T10:35:47.375Z"
+    },
+    "id": "1772703386965-yxs8nj1",
+    "createdAt": "2026-03-05T09:36:26.965Z",
+    "updatedAt": "2026-03-13T10:35:47.384Z"
+  },
+  {
+    "ticker": "006340",
+    "name": "대원전선",
+    "market": "KOSPI",
+    "buyDate": "2026-03-05",
+    "buyPrice": 5430,
+    "quantity": 500,
+    "memo": "[Total Quant Score]\nTotal Score: 78 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 40 → +8\n- Supply (30%): 100 → +30\n- Sentiment (30%): 95 → +29\n- Fundamental (10%): 60 → +6\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 10T, Last Depth 7.05%\nVolume Dry-Up: NO\nJump Score: 30",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 78,
+      "vcpScore": 40,
+      "supplyScore": 100,
+      "sentimentScore": 95,
+      "fundamentalScore": 60,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-13T00:00:00.000Z",
+      "exitPrice": 5980,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 10.128913443830571,
+      "realizedPnl": 275000,
+      "lastUpdate": "2026-03-13T10:35:45.357Z"
+    },
+    "id": "1772727161090-cr6m9b7",
+    "createdAt": "2026-03-05T16:12:41.090Z",
+    "updatedAt": "2026-03-13T10:35:45.370Z"
+  },
+  {
+    "ticker": "327260",
+    "name": "RF머트리얼즈",
+    "market": "KOSDAQ",
+    "buyDate": "2026-03-06",
+    "buyPrice": 51900,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 73 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 20 → +4\n- Supply (30%): 100 → +30\n- Sentiment (30%): 100 → +30\n- Fundamental (10%): 40 → +4\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 6T, Last Depth 11.55%\nVolume Dry-Up: NO\nJump Score: 30",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 73,
+      "vcpScore": 20,
+      "supplyScore": 100,
+      "sentimentScore": 100,
+      "fundamentalScore": 40,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-13T00:00:00.000Z",
+      "exitPrice": 68800,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 32.5626204238921,
+      "realizedPnl": 1690000,
+      "lastUpdate": "2026-03-13T10:35:41.969Z"
+    },
+    "id": "1772789417047-6afnktc",
+    "createdAt": "2026-03-06T09:30:17.047Z",
+    "updatedAt": "2026-03-13T10:35:41.979Z"
+  },
+  {
+    "ticker": "012450",
+    "name": "한화에어로스페이스",
+    "market": "KOSPI",
+    "buyDate": "2026-03-11",
+    "buyPrice": 1410000,
+    "quantity": 10,
+    "memo": "[Total Quant Score]\nTotal Score: 69 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 50 → +10\n- Supply (30%): 80.3 → +24\n- Sentiment (30%): 65 → +20\n- Fundamental (10%): 95 → +10\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 9T, Last Depth 3.86%\nVolume Dry-Up: NO\nJump Score: 60",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 69,
+      "vcpScore": 50,
+      "supplyScore": 80.3,
+      "sentimentScore": 65,
+      "fundamentalScore": 95,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "OPEN",
+      "exitDate": null,
+      "exitPrice": 1488000,
+      "exitReason": null,
+      "realizedPnl": 780000,
+      "realizedPnlPercent": 5.531914893617021,
+      "lastUpdate": "2026-03-13T12:04:32.761Z"
+    },
+    "id": "1773403472772-o182zcy",
+    "createdAt": "2026-03-13T12:04:32.772Z",
+    "updatedAt": "2026-03-13T12:04:32.772Z"
+  },
+  {
+    "ticker": "042700",
+    "name": "한미반도체",
+    "market": "KOSPI",
+    "buyDate": "2026-03-13",
+    "buyPrice": 305500,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 77 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 70 → +14\n- Supply (30%): 94.7 → +28\n- Sentiment (30%): 68 → +20\n- Fundamental (10%): 95 → +10\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 6T, Last Depth 8.55%\nVolume Dry-Up: YES\nJump Score: 50",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 77,
+      "vcpScore": 70,
+      "supplyScore": 94.7,
+      "sentimentScore": 68,
+      "fundamentalScore": 95,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-19T00:00:00.000Z",
+      "exitPrice": 306500,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 0.32733224222585927,
+      "realizedPnl": 100000,
+      "lastUpdate": "2026-03-19T04:36:50.033Z"
+    },
+    "id": "1773404672809-1hf662t",
+    "createdAt": "2026-03-13T12:24:32.809Z",
+    "updatedAt": "2026-03-19T04:36:50.046Z"
+  },
+  {
+    "ticker": "138080",
+    "name": "오이솔루션",
+    "market": "KOSDAQ",
+    "buyDate": "2026-03-12",
+    "buyPrice": 32050,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 72 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 40 → +8\n- Supply (30%): 100 → +30\n- Sentiment (30%): 90 → +27\n- Fundamental (10%): 20 → +2\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 7T, Last Depth 5.54%\nVolume Dry-Up: NO\nJump Score: 60",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 72,
+      "vcpScore": 40,
+      "supplyScore": 100,
+      "sentimentScore": 90,
+      "fundamentalScore": 20,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "OPEN",
+      "exitDate": null,
+      "exitPrice": 35850,
+      "exitReason": null,
+      "realizedPnl": 380000,
+      "realizedPnlPercent": 11.856474258970358,
+      "lastUpdate": "2026-03-13T12:25:26.205Z"
+    },
+    "id": "1773404726215-kr00tvj",
+    "createdAt": "2026-03-13T12:25:26.215Z",
+    "updatedAt": "2026-03-13T12:25:26.215Z"
+  },
+  {
+    "ticker": "327260",
+    "name": "RF머트리얼즈",
+    "market": "KOSDAQ",
+    "buyDate": "2026-03-09",
+    "buyPrice": 46800,
+    "quantity": 200,
+    "memo": "[Total Quant Score]\nTotal Score: 72 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 20 → +4\n- Supply (30%): 100 → +30\n- Sentiment (30%): 95 → +29\n- Fundamental (10%): 40 → +4\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 6T, Last Depth 11.55%\nVolume Dry-Up: NO\nJump Score: 30",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 72,
+      "vcpScore": 20,
+      "supplyScore": 100,
+      "sentimentScore": 95,
+      "fundamentalScore": 40,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-16T00:00:00.000Z",
+      "exitPrice": 65000,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 38.88888888888889,
+      "realizedPnl": 3640000,
+      "lastUpdate": "2026-03-16T09:56:19.181Z"
+    },
+    "id": "1773654387050-euo6rue",
+    "createdAt": "2026-03-16T09:46:27.050Z",
+    "updatedAt": "2026-03-16T09:56:19.194Z"
+  },
+  {
+    "ticker": "036170",
+    "name": "에이치엠넥스",
+    "market": "KOSDAQ",
+    "buyDate": "2026-03-09",
+    "buyPrice": 3455,
+    "quantity": 1000,
+    "memo": "[Total Quant Score]\nTotal Score: 63 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 40 → +8\n- Supply (30%): 87.2 → +26\n- Sentiment (30%): 68 → +20\n- Fundamental (10%): 40 → +4\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 7T, Last Depth 9.9%\nVolume Dry-Up: NO\nJump Score: 30",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 63,
+      "vcpScore": 40,
+      "supplyScore": 87.2,
+      "sentimentScore": 68,
+      "fundamentalScore": 40,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-16T00:00:00.000Z",
+      "exitPrice": 5250,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 51.953690303907386,
+      "realizedPnl": 1795000,
+      "lastUpdate": "2026-03-16T09:49:56.601Z"
+    },
+    "id": "1773654567208-paj8aej",
+    "createdAt": "2026-03-16T09:49:27.208Z",
+    "updatedAt": "2026-03-16T09:49:56.611Z"
+  },
+  {
+    "ticker": "078600",
+    "name": "대주전자재료",
+    "market": "KOSDAQ",
+    "buyDate": "2026-03-16",
+    "buyPrice": 110700,
+    "quantity": 80,
+    "memo": "[Total Quant Score]\nTotal Score: 77 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 20 → +4\n- Supply (30%): 99.8 → +30\n- Sentiment (30%): 95 → +29\n- Fundamental (10%): 85 → +9\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 6T, Last Depth 10.77%\nVolume Dry-Up: NO\nJump Score: 30",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 77,
+      "vcpScore": 20,
+      "supplyScore": 99.8,
+      "sentimentScore": 95,
+      "fundamentalScore": 85,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "CLOSED",
+      "exitDate": "2026-03-19T00:00:00.000Z",
+      "exitPrice": 120500,
+      "exitReason": "MANUAL_CLOSE (수익 달성 / 수동 청산)",
+      "realizedPnlPercent": 8.85275519421861,
+      "realizedPnl": 784000,
+      "lastUpdate": "2026-03-19T04:11:53.626Z"
+    },
+    "id": "1773838458846-f0bfvte",
+    "createdAt": "2026-03-18T12:54:18.846Z",
+    "updatedAt": "2026-03-19T04:11:53.640Z"
+  },
+  {
+    "ticker": "058610",
+    "name": "에스피지",
+    "market": "KOSDAQ",
+    "buyDate": "2026-03-17",
+    "buyPrice": 125000,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 74 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 70 → +14\n- Supply (30%): 82.7 → +25\n- Sentiment (30%): 80 → +24\n- Fundamental (10%): 60 → +6\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 6T, Last Depth 7.41%\nVolume Dry-Up: YES\nJump Score: 50",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 74,
+      "vcpScore": 70,
+      "supplyScore": 82.7,
+      "sentimentScore": 80,
+      "fundamentalScore": 60,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "OPEN",
+      "exitDate": null,
+      "exitPrice": 127500,
+      "exitReason": null,
+      "realizedPnl": 250000,
+      "realizedPnlPercent": 2,
+      "lastUpdate": "2026-03-18T13:15:46.648Z"
+    },
+    "id": "1773839746657-7jkscyn",
+    "createdAt": "2026-03-18T13:15:46.657Z",
+    "updatedAt": "2026-03-18T13:15:46.657Z"
+  },
+  {
+    "ticker": "042700",
+    "name": "한미반도체",
+    "market": "KOSPI",
+    "buyDate": "2026-03-16",
+    "buyPrice": 300000,
+    "quantity": 100,
+    "memo": "[Total Quant Score]\nTotal Score: 76 (WATCHLIST)\n\n[Score Breakdown]\n- VCP (20%): 50 → +10\n- Supply (30%): 95 → +29\n- Sentiment (30%): 73 → +22\n- Fundamental (10%): 95 → +10\n- Sector/RS (10%): 50 → +5\n\n[VCP Pattern Details]\nPattern: 6T, Last Depth 10.04%\nVolume Dry-Up: YES\nJump Score: 50",
+    "exitPlan": "",
+    "vcp_mode": "Classic",
+    "exitConditions": {
+      "alertEnabled": true
+    },
+    "initialScores": {
+      "totalScore": 76,
+      "vcpScore": 50,
+      "supplyScore": 95,
+      "sentimentScore": 73,
+      "fundamentalScore": 95,
+      "sectorScore": 50
+    },
+    "simulation": {
+      "enabled": true,
+      "status": "OPEN",
+      "exitDate": null,
+      "exitPrice": 311000,
+      "exitReason": null,
+      "realizedPnl": 1100000,
+      "realizedPnlPercent": 3.6666666666666665,
+      "lastUpdate": "2026-03-18T14:19:21.488Z"
+    },
+    "id": "1773843561501-27csw9o",
+    "createdAt": "2026-03-18T14:19:21.502Z",
+    "updatedAt": "2026-03-18T14:19:21.502Z"
+  }
+]

@@ -1,0 +1,20 @@
+--- Deep Comparison for 005930 ---
+Local CSV Header: ['Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'Change']
+Local Last Row: {"Date": "2026-03-18", "Open": 200500, "High": 209000, "Low": 199700, "Close": 208500, "Volume": 24904953, "Change": 0.0752965446106239}
+
+PocketBase Latest Records:
+ID: kmgsv9sne51kkut, Date: 2026-03-20 00:00:00.000Z, Open: 202000, High: 202500, Low: 199000, Close: 199400, Vol: 25527507
+ID: stgcylj9wvxtzyg, Date: 2026-03-19 00:00:00.000Z, Open: 199900, High: 205000, Low: 199600, Close: 200500, Vol: 19884483
+ID: 719fa8b5f6df75c, Date: 2026-03-18 00:00:00.000Z, Open: 200500, High: 209000, Low: 199700, Close: 208500, Vol: 24904953
+ID: ff42604203bd053, Date: 2026-03-17 00:00:00.000Z, Open: 198000, High: 198000, Low: 193100, Close: 193900, Vol: 20300082
+ID: fec8b35956c106a, Date: 2026-03-16 00:00:00.000Z, Open: 184600, High: 189000, Low: 183600, Close: 188700, Vol: 19747901
+ID: 8cd3f4e7344a793, Date: 2026-03-13 00:00:00.000Z, Open: 180000, High: 186200, Low: 179900, Close: 183500, Vol: 19566331
+ID: 1959939ce02d8eb, Date: 2026-03-12 00:00:00.000Z, Open: 186600, High: 190000, Low: 185900, Close: 187900, Vol: 20440753
+ID: 873216316905672, Date: 2026-03-11 00:00:00.000Z, Open: 193000, High: 194800, Low: 187700, Close: 190000, Vol: 24311356
+ID: 0fb2a1158691f73, Date: 2026-03-10 00:00:00.000Z, Open: 187600, High: 191500, Low: 184300, Close: 187900, Vol: 33530170
+ID: 368b5fd7015ea9e, Date: 2026-03-09 00:00:00.000Z, Open: 173500, High: 175500, Low: 167300, Close: 173500, Vol: 43066020
+
+Stock Info for 005930: Name=삼성전자, Sector=N/A, Market=N/A
+
+Tickers in CSV but missing in PB stock_infos: 2459
+Examples of missing tickers: ['016250', '086820', '099430', '119850', '008600', '033200', '042000', '015360', '086900', '251370']

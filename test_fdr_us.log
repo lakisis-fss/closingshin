@@ -1,0 +1,15 @@
+--- NASDAQ-Yahoo (^IXIC, src=yahoo) ---
+  Rows: 9
+  Last: 22152.419921875, Prev: 22152.419921875, Change: 0.0
+--- SOX-Yahoo (^SOX, src=yahoo) ---
+  Rows: 9
+  Last: 7795.12841796875, Prev: 7795.1298828125, Change: -0.00146484375
+--- US10Y-Treasury-Yahoo (^TNX, src=yahoo) ---
+  Rows: 9
+  Last: 4.258999824523926, Prev: 4.258999824523926, Change: 0.0
+--- USD/KRW (USD/KRW, src=None) ---
+  Rows: 8
+  Last: 1484.8699951171875, Prev: 1488.9100341796875, Change: -4.0400390625
+--- WTI_OIL (CL=F, src=yahoo) ---
+  Rows: 9
+  Last: 96.01000213623047, Prev: 96.31999969482422, Change: -0.30999755859375

@@ -20,12 +20,12 @@ interface HoldingsTableProps {
 
 export function HoldingsTable({ holdings, vcpData, stockInfoData, newsAnalysis, statusData, onEdit, onRemove, onRowClick, onClosePosition }: HoldingsTableProps) {
     // State to store fetched historical metrics per ticker
-    const [historyMetrics, setHistoryMetrics] = useState<Record<string, { peakPrice: number, mdd: number, minPrice: number, mae: number }>>({});
+    const [historyMetrics, setHistoryMetrics] = useState<Record<string, { peakPrice: number, mdd: number, minPrice: number, mae: number, lastClose: number }>>({});
 
     // Fetch historical data for open positions
     useEffect(() => {
         const fetchHistories = async () => {
-            const newMetrics: Record<string, { peakPrice: number, mdd: number, minPrice: number, mae: number }> = { ...historyMetrics };
+            const newMetrics: Record<string, { peakPrice: number, mdd: number, minPrice: number, mae: number, lastClose: number }> = { ...historyMetrics };
             let hasUpdates = false;
 
             const fetchPromises = holdings.map(async (item) => {
@@ -89,7 +89,9 @@ export function HoldingsTable({ holdings, vcpData, stockInfoData, newsAnalysis, 
                             const mdd = peakPrice > 0 ? ((currentPrice - peakPrice) / peakPrice) * 100 : 0;
                             const mae = ((minPrice - item.buyPrice) / item.buyPrice) * 100;
 
-                            newMetrics[item.id] = { peakPrice, mdd, minPrice, mae };
+                            const lastClose = data.history[data.history.length - 1].close || closePrice || item.buyPrice;
+
+                            newMetrics[item.id] = { peakPrice, mdd, minPrice, mae, lastClose };
                             hasUpdates = true;
                         }
                     }
@@ -129,16 +131,19 @@ export function HoldingsTable({ holdings, vcpData, stockInfoData, newsAnalysis, 
             }
 
             // Market-based logic:
-            // Always prioritize real-time price from statusData, fallback to closePrice
+            // P1: Always prioritize real-time price from statusData (Market Hours)
+            // P2: Fallback to the most recent closing price from history (After Hours / Weekend)
+            // P3: Fallback to the dashboard's closePrice (Static data)
             if (statusPrice > 0) {
                 currentPrice = statusPrice;
+            } else if (historyMetrics[item.id]?.lastClose > 0) {
+                currentPrice = historyMetrics[item.id].lastClose;
             } else {
                 currentPrice = closePrice || 0;
             }
 
-            // Fallback to buyPrice if we still have nothing (e.g., brand new entry today)
-            // but ONLY if the market is closed and we have no other data
-            if (currentPrice === 0 && !marketOpen) {
+            // Final fallback to buyPrice if we still have absolutely nothing
+            if (currentPrice === 0) {
                 currentPrice = item.buyPrice;
             }
 

@@ -98,6 +98,12 @@ export default function PortfolioPageClient({ vcpData, stockInfoData, availableV
     const handleFetchNewsAnalysisByDate = useCallback(async (date: string): Promise<NewsAnalysis[]> => {
         return fetchNewsAnalysisByDate(date);
     }, []);
+    
+    const handleFetchMarketStatusByDate = useCallback(async (date: string): Promise<any> => {
+        const res = await fetch(`/api/market-status?date=${date}`);
+        if (!res.ok) return null;
+        return res.json();
+    }, []);
 
     const handleFetchStockInfoByDate = useCallback(async (date: string): Promise<StockInfo[]> => {
         return fetchStockInfoByDate(date);
@@ -303,6 +309,7 @@ export default function PortfolioPageClient({ vcpData, stockInfoData, availableV
                 onFetchVcpByDate={handleFetchVcpByDate}
                 onFetchNewsAnalysisByDate={handleFetchNewsAnalysisByDate}
                 onFetchStockInfoByDate={handleFetchStockInfoByDate}
+                onFetchMarketStatusByDate={handleFetchMarketStatusByDate}
             />
 
             <EntryDetailDrawer

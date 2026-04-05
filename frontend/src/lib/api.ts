@@ -88,7 +88,7 @@ export async function getVcpResultsByDate(dateStr: string): Promise<VcpResult[]>
             filter: `date = "${isoDateStart}"`,
             sort: "-relative_strength",
             limit: 200, // Increase limit for candidate lists
-            fields: "id,ticker,name,market,price,change_pct,vcp_score,jump_score,volume_dry_up,last_depth_pct,contractions_count,contractions_history,vol_ratio,relative_strength,date"
+            fields: "id,ticker,name,market,price,change_pct,vcp_score,jump_score,volume_dry_up,last_depth_pct,contractions_count,contractions_history,vol_ratio,relative_strength,pivot_point,pivot_distance_pct,note,consolidation_weeks,date"
         });
         if (!data.items) return [];
 
@@ -113,7 +113,7 @@ export async function getVcpResultByTicker(ticker: string, dateStr: string): Pro
         const data = await fetchFromPB("vcp_reports", { 
             filter: `ticker = "${ticker.padStart(6, '0')}" && date = "${isoDateStart}"`,
             limit: 1,
-            fields: "id,ticker,name,market,price,change_pct,vcp_score,jump_score,volume_dry_up,last_depth_pct,contractions_count,contractions_history,vol_ratio,relative_strength,date"
+            fields: "id,ticker,name,market,price,change_pct,vcp_score,jump_score,volume_dry_up,last_depth_pct,contractions_count,contractions_history,vol_ratio,relative_strength,pivot_point,pivot_distance_pct,note,consolidation_weeks,date"
         });
         
         if (!data.items || data.items.length === 0) return null;

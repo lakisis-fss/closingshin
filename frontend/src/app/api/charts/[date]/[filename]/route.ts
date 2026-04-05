@@ -30,10 +30,11 @@ export async function GET(
             const ticker = parts[parts.length - 1];
             const isoDate = `${date.substring(0, 4)}-${date.substring(4, 6)}-${date.substring(6, 8)} 00:00:00.000Z`;
             
-            const pbUrl = process.env.NEXT_PUBLIC_PB_URL || 'http://127.0.0.1:8090';
+            const pbUrl = process.env.PB_URL || process.env.NEXT_PUBLIC_PB_URL || 'http://127.0.0.1:8090';
             const filter = `date = "${isoDate}" && ticker = "${ticker}"`;
             const checkUrl = `${pbUrl}/api/collections/vcp_charts/records?filter=${encodeURIComponent(filter)}&limit=1`;
             
+            console.log(`[API Proxy] Querying PB: ${checkUrl}`);
             const pbRes = await fetch(checkUrl, { cache: 'no-store' });
             if (pbRes.ok) {
                 const data = await pbRes.json();
@@ -41,8 +42,17 @@ export async function GET(
                     const record = data.items[0];
                     if (record.file) {
                         const pbFileUrl = `${pbUrl}/api/files/${record.collectionId}/${record.id}/${record.file}`;
-                        console.log(`[API] Found chart in PB: ${pbFileUrl}`);
-                        return NextResponse.redirect(pbFileUrl);
+                        console.log(`[API Proxy] Fetching image: ${pbFileUrl}`);
+                        
+                        // Proxy the actual image content
+                        const imageRes = await fetch(pbFileUrl, { cache: 'no-store' });
+                        if (imageRes.ok) {
+                            const blob = await imageRes.blob();
+                            const headers = new Headers();
+                            headers.set("Content-Type", "image/png");
+                            headers.set("Cache-Control", "public, s-maxage=3600");
+                            return new NextResponse(blob, { headers });
+                        }
                     }
                 }
             }

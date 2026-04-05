@@ -5,6 +5,7 @@ import { X, ChevronDown, ChevronUp } from 'lucide-react';
 import { PortfolioItem, VcpResult, StockInfo, NewsAnalysis, ExitConditions } from '@/lib/types';
 import { usePortfolioStore } from '@/lib/portfolioStore';
 import { calculateIntegratedQuantScore, convertSentimentToScore, formatScoreBreakdown, calculateAggregatedSentimentScore } from '@/lib/scoreCalculator';
+import { useQuantStore } from '@/lib/quantStore';
 
 interface AddStockModalProps {
     isOpen: boolean;
@@ -17,6 +18,7 @@ interface AddStockModalProps {
     onFetchVcpByDate?: (date: string) => Promise<VcpResult[]>;
     onFetchNewsAnalysisByDate?: (date: string) => Promise<NewsAnalysis[]>;
     onFetchStockInfoByDate?: (date: string) => Promise<StockInfo[]>;
+    onFetchMarketStatusByDate?: (date: string) => Promise<any>;
 }
 
 export function AddStockModal({
@@ -29,9 +31,11 @@ export function AddStockModal({
     availableVcpDates = [],
     onFetchVcpByDate,
     onFetchNewsAnalysisByDate,
-    onFetchStockInfoByDate
+    onFetchStockInfoByDate,
+    onFetchMarketStatusByDate
 }: AddStockModalProps) {
     const { addStock, updateStock } = usePortfolioStore();
+    const { weights } = useQuantStore();
 
     const [ticker, setTicker] = useState('');
     const [name, setName] = useState('');
@@ -57,6 +61,7 @@ export function AddStockModal({
     const [dateVcpData, setDateVcpData] = useState<VcpResult[]>([]);
     const [dateNewsAnalysisData, setDateNewsAnalysisData] = useState<NewsAnalysis[]>([]);
     const [dateStockInfoData, setDateStockInfoData] = useState<StockInfo[]>([]);
+    const [dateMarketStatus, setDateMarketStatus] = useState<any>(null);
     const [loadingVcp, setLoadingVcp] = useState(false);
 
     const [calculatedScores, setCalculatedScores] = useState<PortfolioItem['initialScores']>();
@@ -131,18 +136,16 @@ export function AddStockModal({
         const fetchData = async () => {
             setLoadingVcp(true);
             try {
-                if (onFetchVcpByDate) {
-                    const vcp = await onFetchVcpByDate(selectedVcpDate);
-                    setDateVcpData(vcp);
-                }
-                if (onFetchNewsAnalysisByDate) {
-                    const news = await onFetchNewsAnalysisByDate(selectedVcpDate);
-                    setDateNewsAnalysisData(news);
-                }
-                if (onFetchStockInfoByDate) {
-                    const info = await onFetchStockInfoByDate(selectedVcpDate);
-                    setDateStockInfoData(info);
-                }
+                const [vcp, news, info, market] = await Promise.all([
+                    onFetchVcpByDate ? onFetchVcpByDate(selectedVcpDate) : Promise.resolve([]),
+                    onFetchNewsAnalysisByDate ? onFetchNewsAnalysisByDate(selectedVcpDate) : Promise.resolve([]),
+                    onFetchStockInfoByDate ? onFetchStockInfoByDate(selectedVcpDate) : Promise.resolve([]),
+                    onFetchMarketStatusByDate ? onFetchMarketStatusByDate(selectedVcpDate) : Promise.resolve(null),
+                ]);
+                setDateVcpData(vcp);
+                setDateNewsAnalysisData(news);
+                setDateStockInfoData(info);
+                setDateMarketStatus(market);
             } catch (error) {
                 console.error("Failed to fetch VCP data for date", selectedVcpDate, error);
             } finally {
@@ -252,8 +255,8 @@ export function AddStockModal({
                 supplyScore,
                 sentimentScore,
                 fundamentalScore,
-                sectorScore: 50,  // Fixed for now
-            });
+                rawRs: vcp.relative_strength,
+            }, (selectedVcpDate ? dateMarketStatus : null), vcp.name, weights);
 
             return {
                 ...vcp,
@@ -267,14 +270,16 @@ export function AddStockModal({
         });
 
         return [...enrichedData].sort((a, b) => (b.total_quant_score || 0) - (a.total_quant_score || 0));
-    }, [dateVcpData, vcpData, stockInfoData, dateNewsAnalysisData, dateStockInfoData, newsAnalysis, selectedVcpDate]);
+    }, [dateVcpData, vcpData, stockInfoData, dateNewsAnalysisData, dateStockInfoData, newsAnalysis, selectedVcpDate, dateMarketStatus, weights]);
 
     const handleSelectVcp = (vcp: VcpResult) => {
         const tickerPadded = String(vcp.ticker).padStart(6, '0');
         setTicker(tickerPadded);
         setName(vcp.name);
         setMarket(vcp.market as 'KOSPI' | 'KOSDAQ');
-        setBuyPrice(String(vcp.close));
+        const price = String(vcp.price || vcp.close || "");
+        setBuyPrice(price);
+        setLastAutoFetchedPrice(price);
         setVcpMode(vcp.vcp_mode);
 
         if (selectedVcpDate) {
@@ -299,8 +304,8 @@ export function AddStockModal({
             supplyScore,
             sentimentScore,
             fundamentalScore,
-            sectorScore: 50,
-        });
+            rawRs: vcp.relative_strength,
+        }, (selectedVcpDate ? dateMarketStatus : null), vcp.name, weights);
 
         // Save Calculated Scores
         setCalculatedScores({

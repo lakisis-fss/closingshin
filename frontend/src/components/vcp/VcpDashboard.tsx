@@ -21,6 +21,7 @@ import {
     calculateAggregatedSentimentScore,
     DEFAULT_WEIGHTS
 } from "@/lib/scoreCalculator";
+import { useQuantStore } from "@/lib/quantStore";
 
 type SortCriteria = 'total' | 'supply' | 'sentiment' | 'fundamental' | 'vcp';
 
@@ -83,8 +84,8 @@ export function VcpDashboard({
     const [showSupplyModal, setShowSupplyModal] = useState(false);
     const [showChartModal, setShowChartModal] = useState(false);
 
-    // Explicitly use weights from scoreCalculator or local state
-    const [weights, setWeights] = useState<QuantWeights>(DEFAULT_WEIGHTS);
+    // Use shared weights store
+    const { weights, setWeights } = useQuantStore();
     const [weightPreset, setWeightPreset] = useState<WeightPreset>('balanced');
 
     // Scan Settings State (Lifted from ScanManager)
@@ -97,29 +98,14 @@ export function VcpDashboard({
         strictTrend: true
     });
 
-    // Fix hydration mismatch & Load Weights
+    // Fix hydration mismatch
     useEffect(() => {
         setTimestamp(Date.now());
-
-        // Load saved weights
-        const saved = localStorage.getItem('quant_weights_v1');
-        if (saved) {
-            try {
-                const parsed = JSON.parse(saved);
-                if (parsed.weights && parsed.preset) {
-                    setWeights(parsed.weights);
-                    setWeightPreset(parsed.preset);
-                }
-            } catch (e) {
-                console.error("Failed to load weights", e);
-            }
-        }
     }, []);
 
     const handleSaveWeights = (newWeights: QuantWeights, newPreset: WeightPreset) => {
         setWeights(newWeights);
         setWeightPreset(newPreset);
-        localStorage.setItem('quant_weights_v1', JSON.stringify({ weights: newWeights, preset: newPreset }));
     };
 
     // Helper: Get score for a candidate based on criteria
@@ -752,7 +738,7 @@ export function VcpDashboard({
                             </button>
                         </div>
                         <div className="flex-1 p-6 bg-gray-50 flex items-center justify-center">
-                            {lastScanned && selectedStock ? (
+                            {selectedStock ? (
                                 (() => {
                                     const selectedCandidate = candidates.find(c => c.code === selectedTicker);
                                     if (!selectedCandidate) return <div className="text-gray-400">Stock Not Found</div>;
@@ -772,8 +758,11 @@ export function VcpDashboard({
                                             onError={(e) => {
                                                 // Fallback if DB image fails (e.g. not migrated yet)
                                                 const target = e.target as HTMLImageElement;
-                                                if (target.src !== fallbackUrl) {
-                                                    target.src = fallbackUrl;
+                                                const fallbackAbsolute = new URL(fallbackUrl, window.location.origin).href;
+                                                // Preventing infinite loop
+                                                if (target.src !== fallbackAbsolute && !target.dataset.fallbackTried) {
+                                                    target.dataset.fallbackTried = "true";
+                                                    target.src = fallbackAbsolute;
                                                 }
                                             }}
                                         />

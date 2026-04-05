@@ -17,10 +17,16 @@ export async function GET(
         });
         
         const chartMap: Record<string, string> = {};
-        const PB_URL = process.env.NEXT_PUBLIC_PB_URL || "http://127.0.0.1:8090";
         
         data.items.forEach((item: any) => {
-            chartMap[item.ticker] = `${PB_URL}/api/files/vcp_charts/${item.id}/${item.file}`;
+            // Encode filename to handle special characters correctly
+            const market = item.market || "UNKNOWN";
+            const name = item.name || "UNKNOWN";
+            const ticker = item.ticker || "";
+            const filename = encodeURIComponent(`${market}_${name}_${ticker}.png`);
+            
+            // Return internal proxy URL instead of direct PB URL
+            chartMap[ticker] = `/api/charts/${date}/${filename}`;
         });
         
         return NextResponse.json(chartMap);

@@ -22553,3 +22553,952 @@
 2026-04-05 19:00:41,143 - INFO - Analysis complete. Total Value: 215,440,800
 2026-04-05 19:00:41,148 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
 2026-04-05 19:00:41,152 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 11:00:28,206 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 11:00:28,223 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 11:00:28,227 - INFO - Loaded 34 valid portfolio items from PB.
+2026-04-06 11:00:28,699 - INFO -   Processed DB하이텍 (000990): Current=92,800, P&L=-9.90%
+2026-04-06 11:00:29,150 - INFO -   Processed 한화시스템 (272210): Current=128,400, P&L=41.88%
+2026-04-06 11:00:29,587 - INFO -   Processed 한화시스템 (272210): Current=128,500, P&L=44.71%
+2026-04-06 11:00:30,076 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=96,800, P&L=0.21%
+2026-04-06 11:00:30,561 - INFO -   Processed 유진로봇 (056080): Current=23,700, P&L=-25.59%
+2026-04-06 11:00:31,030 - INFO -   Processed 에이플러스에셋 (244920): Current=10,480, P&L=-3.41%
+2026-04-06 11:00:31,466 - INFO -   Processed 경인양행 (012610): Current=4,000, P&L=-17.27%
+2026-04-06 11:00:31,920 - INFO -   Processed 인텔리안테크 (189300): Current=111,200, P&L=-13.40%
+2026-04-06 11:00:32,353 - INFO -   Processed 에이플러스에셋 (244920): Current=10,500, P&L=-3.23%
+2026-04-06 11:00:32,791 - INFO -   Processed 한화갤러리아 (452260): Current=2,355, P&L=5.84%
+2026-04-06 11:00:33,240 - INFO -   Processed 한전기술 (052690): Current=160,700, P&L=6.00%
+2026-04-06 11:00:33,705 - INFO -   Processed 휴림로봇 (090710): Current=10,530, P&L=-26.31%
+2026-04-06 11:00:34,166 - INFO -   Processed 화신 (010690): Current=10,590, P&L=-8.31%
+2026-04-06 11:00:34,641 - INFO -   Processed 대원전선 (006340): Current=5,220, P&L=-3.87%
+2026-04-06 11:00:35,091 - INFO -   Processed RF머트리얼즈 (327260): Current=79,700, P&L=53.56%
+2026-04-06 11:00:35,569 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,419,000, P&L=0.64%
+2026-04-06 11:00:36,007 - INFO -   Processed 한미반도체 (042700): Current=253,750, P&L=-16.94%
+2026-04-06 11:00:36,466 - INFO -   Processed 오이솔루션 (138080): Current=42,850, P&L=33.70%
+2026-04-06 11:00:36,924 - INFO -   Processed 대주전자재료 (078600): Current=122,850, P&L=10.98%
+2026-04-06 11:00:37,375 - INFO -   Processed 에스피지 (058610): Current=101,900, P&L=-18.48%
+2026-04-06 11:00:37,868 - INFO -   Processed 한화갤러리아 (452260): Current=2,355, P&L=5.84%
+2026-04-06 11:00:38,309 - INFO -   Processed RF머트리얼즈 (327260): Current=79,700, P&L=70.30%
+2026-04-06 11:00:38,768 - INFO -   Processed 에이치엠넥스 (036170): Current=3,890, P&L=12.59%
+2026-04-06 11:00:39,219 - INFO -   Processed 기가비스 (420770): Current=78,000, P&L=0.91%
+2026-04-06 11:00:39,671 - INFO -   Processed 피에스케이홀딩스 (031980): Current=92,100, P&L=-17.32%
+2026-04-06 11:00:40,128 - INFO -   Processed 네오셈 (253590): Current=14,980, P&L=-21.57%
+2026-04-06 11:00:40,579 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 11:00:41,029 - INFO -   Processed 광동제약 (009290): Current=8,110, P&L=-12.13%
+2026-04-06 11:00:41,480 - INFO -   Processed 한섬 (020000): Current=22,350, P&L=-9.33%
+2026-04-06 11:00:41,952 - INFO -   Processed 우진플라임 (049800): Current=2,430, P&L=-4.52%
+2026-04-06 11:00:42,422 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 11:00:42,868 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,180, P&L=-8.88%
+2026-04-06 11:00:43,314 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,300, P&L=-2.86%
+2026-04-06 11:00:43,772 - INFO -   Processed 아이앤씨 (052860): Current=4,885, P&L=6.43%
+2026-04-06 11:00:43,774 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 11:00:43,792 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:00:43,801 - INFO - Portfolio status updated in PB.
+2026-04-06 11:00:43,801 - INFO - Analysis complete. Total Value: 212,974,000
+2026-04-06 11:00:43,802 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:00:43,805 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 11:10:21,589 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 11:10:21,593 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 11:10:21,595 - INFO - Loaded 34 valid portfolio items from PB.
+2026-04-06 11:10:22,031 - INFO -   Processed DB하이텍 (000990): Current=93,200, P&L=-9.51%
+2026-04-06 11:10:22,483 - INFO -   Processed 한화시스템 (272210): Current=129,700, P&L=43.31%
+2026-04-06 11:10:22,942 - INFO -   Processed 한화시스템 (272210): Current=129,700, P&L=46.06%
+2026-04-06 11:10:23,386 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,900, P&L=1.35%
+2026-04-06 11:10:23,841 - INFO -   Processed 유진로봇 (056080): Current=23,850, P&L=-25.12%
+2026-04-06 11:10:24,268 - INFO -   Processed 에이플러스에셋 (244920): Current=10,560, P&L=-2.67%
+2026-04-06 11:10:24,714 - INFO -   Processed 경인양행 (012610): Current=4,015, P&L=-16.96%
+2026-04-06 11:10:25,166 - INFO -   Processed 인텔리안테크 (189300): Current=111,800, P&L=-12.93%
+2026-04-06 11:10:25,642 - INFO -   Processed 에이플러스에셋 (244920): Current=10,560, P&L=-2.67%
+2026-04-06 11:10:26,091 - INFO -   Processed 한화갤러리아 (452260): Current=2,375, P&L=6.74%
+2026-04-06 11:10:26,546 - INFO -   Processed 한전기술 (052690): Current=162,000, P&L=6.86%
+2026-04-06 11:10:26,975 - INFO -   Processed 휴림로봇 (090710): Current=10,560, P&L=-26.10%
+2026-04-06 11:10:27,390 - INFO -   Processed 화신 (010690): Current=10,660, P&L=-7.71%
+2026-04-06 11:10:27,852 - INFO -   Processed 대원전선 (006340): Current=5,290, P&L=-2.58%
+2026-04-06 11:10:28,310 - INFO -   Processed RF머트리얼즈 (327260): Current=80,800, P&L=55.68%
+2026-04-06 11:10:28,772 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,433,000, P&L=1.63%
+2026-04-06 11:10:29,202 - INFO -   Processed 한미반도체 (042700): Current=256,500, P&L=-16.04%
+2026-04-06 11:10:29,674 - INFO -   Processed 오이솔루션 (138080): Current=43,550, P&L=35.88%
+2026-04-06 11:10:30,135 - INFO -   Processed 대주전자재료 (078600): Current=124,000, P&L=12.01%
+2026-04-06 11:10:30,576 - INFO -   Processed 에스피지 (058610): Current=102,600, P&L=-17.92%
+2026-04-06 11:10:31,040 - INFO -   Processed 한화갤러리아 (452260): Current=2,375, P&L=6.74%
+2026-04-06 11:10:31,453 - INFO -   Processed RF머트리얼즈 (327260): Current=80,800, P&L=72.65%
+2026-04-06 11:10:31,881 - INFO -   Processed 에이치엠넥스 (036170): Current=3,750, P&L=8.54%
+2026-04-06 11:10:32,319 - INFO -   Processed 기가비스 (420770): Current=77,700, P&L=0.52%
+2026-04-06 11:10:32,740 - INFO -   Processed 피에스케이홀딩스 (031980): Current=92,700, P&L=-16.79%
+2026-04-06 11:10:33,197 - INFO -   Processed 네오셈 (253590): Current=15,070, P&L=-21.10%
+2026-04-06 11:10:33,666 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 11:10:34,112 - INFO -   Processed 광동제약 (009290): Current=8,150, P&L=-11.70%
+2026-04-06 11:10:34,577 - INFO -   Processed 한섬 (020000): Current=22,400, P&L=-9.13%
+2026-04-06 11:10:35,019 - INFO -   Processed 우진플라임 (049800): Current=2,430, P&L=-4.52%
+2026-04-06 11:10:35,491 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 11:10:35,948 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,150, P&L=-9.03%
+2026-04-06 11:10:36,391 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,900, P&L=-1.79%
+2026-04-06 11:10:36,831 - INFO -   Processed 아이앤씨 (052860): Current=4,885, P&L=6.43%
+2026-04-06 11:10:36,834 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 11:10:36,853 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:10:36,856 - INFO - Portfolio status updated in PB.
+2026-04-06 11:10:36,856 - INFO - Analysis complete. Total Value: 214,640,200
+2026-04-06 11:10:36,858 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:10:36,860 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 11:20:22,502 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 11:20:22,507 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 11:20:22,507 - INFO - Loaded 35 valid portfolio items from PB.
+2026-04-06 11:20:22,957 - INFO -   Processed DB하이텍 (000990): Current=94,000, P&L=-8.74%
+2026-04-06 11:20:23,454 - INFO -   Processed 한화시스템 (272210): Current=130,100, P&L=43.76%
+2026-04-06 11:20:23,903 - INFO -   Processed 한화시스템 (272210): Current=130,100, P&L=46.51%
+2026-04-06 11:20:24,369 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=98,000, P&L=1.45%
+2026-04-06 11:20:24,807 - INFO -   Processed 유진로봇 (056080): Current=24,000, P&L=-24.65%
+2026-04-06 11:20:25,285 - INFO -   Processed 에이플러스에셋 (244920): Current=10,540, P&L=-2.86%
+2026-04-06 11:20:25,725 - INFO -   Processed 경인양행 (012610): Current=4,025, P&L=-16.75%
+2026-04-06 11:20:26,192 - INFO -   Processed 인텔리안테크 (189300): Current=112,300, P&L=-12.54%
+2026-04-06 11:20:26,636 - INFO -   Processed 에이플러스에셋 (244920): Current=10,540, P&L=-2.86%
+2026-04-06 11:20:27,122 - INFO -   Processed 한화갤러리아 (452260): Current=2,385, P&L=7.19%
+2026-04-06 11:20:27,563 - INFO -   Processed 한전기술 (052690): Current=163,000, P&L=7.52%
+2026-04-06 11:20:28,016 - INFO -   Processed 휴림로봇 (090710): Current=10,630, P&L=-25.61%
+2026-04-06 11:20:28,491 - INFO -   Processed 화신 (010690): Current=10,700, P&L=-7.36%
+2026-04-06 11:20:28,956 - INFO -   Processed 대원전선 (006340): Current=5,320, P&L=-2.03%
+2026-04-06 11:20:29,423 - INFO -   Processed RF머트리얼즈 (327260): Current=82,300, P&L=58.57%
+2026-04-06 11:20:29,873 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,441,000, P&L=2.20%
+2026-04-06 11:20:30,318 - INFO -   Processed 한미반도체 (042700): Current=257,000, P&L=-15.88%
+2026-04-06 11:20:30,766 - INFO -   Processed 오이솔루션 (138080): Current=43,300, P&L=35.10%
+2026-04-06 11:20:31,318 - INFO -   Processed 대주전자재료 (078600): Current=124,300, P&L=12.29%
+2026-04-06 11:20:31,794 - INFO -   Processed 에스피지 (058610): Current=103,500, P&L=-17.20%
+2026-04-06 11:20:32,268 - INFO -   Processed 한화갤러리아 (452260): Current=2,385, P&L=7.19%
+2026-04-06 11:20:32,695 - INFO -   Processed RF머트리얼즈 (327260): Current=82,300, P&L=75.85%
+2026-04-06 11:20:33,232 - INFO -   Processed 에이치엠넥스 (036170): Current=3,750, P&L=8.54%
+2026-04-06 11:20:33,693 - INFO -   Processed 기가비스 (420770): Current=77,800, P&L=0.65%
+2026-04-06 11:20:34,125 - INFO -   Processed 피에스케이홀딩스 (031980): Current=93,300, P&L=-16.25%
+2026-04-06 11:20:34,574 - INFO -   Processed 네오셈 (253590): Current=15,150, P&L=-20.68%
+2026-04-06 11:20:35,056 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 11:20:35,493 - INFO -   Processed 광동제약 (009290): Current=8,210, P&L=-11.05%
+2026-04-06 11:20:35,952 - INFO -   Processed 한섬 (020000): Current=22,500, P&L=-8.72%
+2026-04-06 11:20:36,419 - INFO -   Processed 우진플라임 (049800): Current=2,440, P&L=-4.13%
+2026-04-06 11:20:36,856 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 11:20:37,325 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,180, P&L=-8.88%
+2026-04-06 11:20:37,769 - INFO -   Processed 에이디테크놀로지 (200710): Current=55,300, P&L=-1.07%
+2026-04-06 11:20:38,222 - INFO -   Processed 아이앤씨 (052860): Current=4,930, P&L=7.41%
+2026-04-06 11:20:38,663 - INFO -   Processed 와이어블 (065530): Current=2,130, P&L=-0.93%
+2026-04-06 11:20:38,669 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 11:20:38,690 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:20:38,697 - INFO - Portfolio status updated in PB.
+2026-04-06 11:20:38,697 - INFO - Analysis complete. Total Value: 217,906,700
+2026-04-06 11:20:38,700 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:20:38,702 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 11:30:22,083 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 11:30:22,090 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 11:30:22,093 - INFO - Loaded 35 valid portfolio items from PB.
+2026-04-06 11:30:22,566 - INFO -   Processed DB하이텍 (000990): Current=94,700, P&L=-8.06%
+2026-04-06 11:30:23,008 - INFO -   Processed 한화시스템 (272210): Current=128,900, P&L=42.43%
+2026-04-06 11:30:23,463 - INFO -   Processed 한화시스템 (272210): Current=128,900, P&L=45.16%
+2026-04-06 11:30:23,906 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,700, P&L=1.14%
+2026-04-06 11:30:24,362 - INFO -   Processed 유진로봇 (056080): Current=23,950, P&L=-24.80%
+2026-04-06 11:30:24,829 - INFO -   Processed 에이플러스에셋 (244920): Current=10,530, P&L=-2.95%
+2026-04-06 11:30:25,272 - INFO -   Processed 경인양행 (012610): Current=4,045, P&L=-16.34%
+2026-04-06 11:30:25,721 - INFO -   Processed 인텔리안테크 (189300): Current=111,800, P&L=-12.93%
+2026-04-06 11:30:26,169 - INFO -   Processed 에이플러스에셋 (244920): Current=10,530, P&L=-2.95%
+2026-04-06 11:30:26,653 - INFO -   Processed 한화갤러리아 (452260): Current=2,390, P&L=7.42%
+2026-04-06 11:30:27,116 - INFO -   Processed 한전기술 (052690): Current=162,500, P&L=7.19%
+2026-04-06 11:30:27,575 - INFO -   Processed 휴림로봇 (090710): Current=10,650, P&L=-25.47%
+2026-04-06 11:30:28,054 - INFO -   Processed 화신 (010690): Current=10,720, P&L=-7.19%
+2026-04-06 11:30:28,490 - INFO -   Processed 대원전선 (006340): Current=5,310, P&L=-2.21%
+2026-04-06 11:30:28,928 - INFO -   Processed RF머트리얼즈 (327260): Current=82,000, P&L=58.00%
+2026-04-06 11:30:29,391 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,429,000, P&L=1.35%
+2026-04-06 11:30:29,835 - INFO -   Processed 한미반도체 (042700): Current=258,000, P&L=-15.55%
+2026-04-06 11:30:30,317 - INFO -   Processed 오이솔루션 (138080): Current=43,250, P&L=34.95%
+2026-04-06 11:30:30,802 - INFO -   Processed 대주전자재료 (078600): Current=123,800, P&L=11.83%
+2026-04-06 11:30:31,225 - INFO -   Processed 에스피지 (058610): Current=103,400, P&L=-17.28%
+2026-04-06 11:30:31,691 - INFO -   Processed 한화갤러리아 (452260): Current=2,390, P&L=7.42%
+2026-04-06 11:30:32,129 - INFO -   Processed RF머트리얼즈 (327260): Current=82,000, P&L=75.21%
+2026-04-06 11:30:32,576 - INFO -   Processed 에이치엠넥스 (036170): Current=3,680, P&L=6.51%
+2026-04-06 11:30:33,035 - INFO -   Processed 기가비스 (420770): Current=78,800, P&L=1.94%
+2026-04-06 11:30:33,475 - INFO -   Processed 피에스케이홀딩스 (031980): Current=93,800, P&L=-15.80%
+2026-04-06 11:30:33,896 - INFO -   Processed 네오셈 (253590): Current=15,260, P&L=-20.10%
+2026-04-06 11:30:34,335 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 11:30:34,783 - INFO -   Processed 광동제약 (009290): Current=8,190, P&L=-11.27%
+2026-04-06 11:30:35,230 - INFO -   Processed 한섬 (020000): Current=22,550, P&L=-8.52%
+2026-04-06 11:30:35,652 - INFO -   Processed 우진플라임 (049800): Current=2,425, P&L=-4.72%
+2026-04-06 11:30:36,080 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 11:30:36,528 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,180, P&L=-8.88%
+2026-04-06 11:30:36,994 - INFO -   Processed 에이디테크놀로지 (200710): Current=55,600, P&L=-0.54%
+2026-04-06 11:30:37,472 - INFO -   Processed 아이앤씨 (052860): Current=4,925, P&L=7.30%
+2026-04-06 11:30:37,919 - INFO -   Processed 와이어블 (065530): Current=2,125, P&L=-1.16%
+2026-04-06 11:30:37,921 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 11:30:37,923 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:30:37,928 - INFO - Portfolio status updated in PB.
+2026-04-06 11:30:37,928 - INFO - Analysis complete. Total Value: 217,417,400
+2026-04-06 11:30:37,930 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:30:37,932 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 11:40:21,585 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 11:40:21,590 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 11:40:21,590 - INFO - Loaded 35 valid portfolio items from PB.
+2026-04-06 11:40:22,040 - INFO -   Processed DB하이텍 (000990): Current=93,700, P&L=-9.03%
+2026-04-06 11:40:22,483 - INFO -   Processed 한화시스템 (272210): Current=128,900, P&L=42.43%
+2026-04-06 11:40:22,922 - INFO -   Processed 한화시스템 (272210): Current=128,900, P&L=45.16%
+2026-04-06 11:40:23,366 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,400, P&L=0.83%
+2026-04-06 11:40:23,822 - INFO -   Processed 유진로봇 (056080): Current=23,800, P&L=-25.27%
+2026-04-06 11:40:24,272 - INFO -   Processed 에이플러스에셋 (244920): Current=10,520, P&L=-3.04%
+2026-04-06 11:40:24,742 - INFO -   Processed 경인양행 (012610): Current=4,045, P&L=-16.34%
+2026-04-06 11:40:25,206 - INFO -   Processed 인텔리안테크 (189300): Current=111,400, P&L=-13.24%
+2026-04-06 11:40:25,647 - INFO -   Processed 에이플러스에셋 (244920): Current=10,520, P&L=-3.04%
+2026-04-06 11:40:26,108 - INFO -   Processed 한화갤러리아 (452260): Current=2,375, P&L=6.74%
+2026-04-06 11:40:26,572 - INFO -   Processed 한전기술 (052690): Current=161,900, P&L=6.79%
+2026-04-06 11:40:27,033 - INFO -   Processed 휴림로봇 (090710): Current=10,600, P&L=-25.82%
+2026-04-06 11:40:27,490 - INFO -   Processed 화신 (010690): Current=10,700, P&L=-7.36%
+2026-04-06 11:40:27,972 - INFO -   Processed 대원전선 (006340): Current=5,260, P&L=-3.13%
+2026-04-06 11:40:28,406 - INFO -   Processed RF머트리얼즈 (327260): Current=80,700, P&L=55.49%
+2026-04-06 11:40:28,830 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,423,000, P&L=0.92%
+2026-04-06 11:40:29,306 - INFO -   Processed 한미반도체 (042700): Current=256,000, P&L=-16.20%
+2026-04-06 11:40:29,766 - INFO -   Processed 오이솔루션 (138080): Current=43,050, P&L=34.32%
+2026-04-06 11:40:30,228 - INFO -   Processed 대주전자재료 (078600): Current=123,500, P&L=11.56%
+2026-04-06 11:40:30,672 - INFO -   Processed 에스피지 (058610): Current=103,000, P&L=-17.60%
+2026-04-06 11:40:31,116 - INFO -   Processed 한화갤러리아 (452260): Current=2,375, P&L=6.74%
+2026-04-06 11:40:31,552 - INFO -   Processed RF머트리얼즈 (327260): Current=80,700, P&L=72.44%
+2026-04-06 11:40:31,990 - INFO -   Processed 에이치엠넥스 (036170): Current=3,640, P&L=5.35%
+2026-04-06 11:40:32,470 - INFO -   Processed 기가비스 (420770): Current=78,300, P&L=1.29%
+2026-04-06 11:40:32,935 - INFO -   Processed 피에스케이홀딩스 (031980): Current=93,000, P&L=-16.52%
+2026-04-06 11:40:33,362 - INFO -   Processed 네오셈 (253590): Current=15,120, P&L=-20.84%
+2026-04-06 11:40:33,806 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 11:40:34,265 - INFO -   Processed 광동제약 (009290): Current=8,150, P&L=-11.70%
+2026-04-06 11:40:34,722 - INFO -   Processed 한섬 (020000): Current=22,450, P&L=-8.92%
+2026-04-06 11:40:35,151 - INFO -   Processed 우진플라임 (049800): Current=2,435, P&L=-4.32%
+2026-04-06 11:40:35,592 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 11:40:36,022 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,110, P&L=-9.22%
+2026-04-06 11:40:36,481 - INFO -   Processed 에이디테크놀로지 (200710): Current=55,100, P&L=-1.43%
+2026-04-06 11:40:36,935 - INFO -   Processed 아이앤씨 (052860): Current=4,950, P&L=7.84%
+2026-04-06 11:40:37,386 - INFO -   Processed 와이어블 (065530): Current=2,115, P&L=-1.63%
+2026-04-06 11:40:37,389 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 11:40:37,392 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:40:37,396 - INFO - Portfolio status updated in PB.
+2026-04-06 11:40:37,396 - INFO - Analysis complete. Total Value: 216,227,200
+2026-04-06 11:40:37,398 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:40:37,399 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 11:50:21,706 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 11:50:21,709 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 11:50:21,709 - INFO - Loaded 35 valid portfolio items from PB.
+2026-04-06 11:50:22,157 - INFO -   Processed DB하이텍 (000990): Current=94,200, P&L=-8.54%
+2026-04-06 11:50:22,640 - INFO -   Processed 한화시스템 (272210): Current=128,400, P&L=41.88%
+2026-04-06 11:50:23,062 - INFO -   Processed 한화시스템 (272210): Current=128,400, P&L=44.59%
+2026-04-06 11:50:23,516 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,600, P&L=1.04%
+2026-04-06 11:50:23,979 - INFO -   Processed 유진로봇 (056080): Current=23,800, P&L=-25.27%
+2026-04-06 11:50:24,431 - INFO -   Processed 에이플러스에셋 (244920): Current=10,520, P&L=-3.04%
+2026-04-06 11:50:24,894 - INFO -   Processed 경인양행 (012610): Current=4,025, P&L=-16.75%
+2026-04-06 11:50:25,345 - INFO -   Processed 인텔리안테크 (189300): Current=111,100, P&L=-13.47%
+2026-04-06 11:50:25,788 - INFO -   Processed 에이플러스에셋 (244920): Current=10,520, P&L=-3.04%
+2026-04-06 11:50:26,265 - INFO -   Processed 한화갤러리아 (452260): Current=2,375, P&L=6.74%
+2026-04-06 11:50:26,706 - INFO -   Processed 한전기술 (052690): Current=161,600, P&L=6.60%
+2026-04-06 11:50:27,149 - INFO -   Processed 휴림로봇 (090710): Current=10,560, P&L=-26.10%
+2026-04-06 11:50:27,606 - INFO -   Processed 화신 (010690): Current=10,670, P&L=-7.62%
+2026-04-06 11:50:28,040 - INFO -   Processed 대원전선 (006340): Current=5,280, P&L=-2.76%
+2026-04-06 11:50:28,523 - INFO -   Processed RF머트리얼즈 (327260): Current=80,100, P&L=54.34%
+2026-04-06 11:50:28,976 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,420,000, P&L=0.71%
+2026-04-06 11:50:29,416 - INFO -   Processed 한미반도체 (042700): Current=254,500, P&L=-16.69%
+2026-04-06 11:50:29,883 - INFO -   Processed 오이솔루션 (138080): Current=43,200, P&L=34.79%
+2026-04-06 11:50:30,341 - INFO -   Processed 대주전자재료 (078600): Current=123,200, P&L=11.29%
+2026-04-06 11:50:30,772 - INFO -   Processed 에스피지 (058610): Current=102,800, P&L=-17.76%
+2026-04-06 11:50:31,216 - INFO -   Processed 한화갤러리아 (452260): Current=2,375, P&L=6.74%
+2026-04-06 11:50:31,686 - INFO -   Processed RF머트리얼즈 (327260): Current=80,100, P&L=71.15%
+2026-04-06 11:50:32,122 - INFO -   Processed 에이치엠넥스 (036170): Current=3,630, P&L=5.07%
+2026-04-06 11:50:32,570 - INFO -   Processed 기가비스 (420770): Current=79,000, P&L=2.20%
+2026-04-06 11:50:33,016 - INFO -   Processed 피에스케이홀딩스 (031980): Current=92,700, P&L=-16.79%
+2026-04-06 11:50:33,441 - INFO -   Processed 네오셈 (253590): Current=15,060, P&L=-21.15%
+2026-04-06 11:50:33,890 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 11:50:34,329 - INFO -   Processed 광동제약 (009290): Current=8,140, P&L=-11.81%
+2026-04-06 11:50:34,798 - INFO -   Processed 한섬 (020000): Current=22,400, P&L=-9.13%
+2026-04-06 11:50:35,258 - INFO -   Processed 우진플라임 (049800): Current=2,435, P&L=-4.32%
+2026-04-06 11:50:35,722 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 11:50:36,166 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,960, P&L=-9.93%
+2026-04-06 11:50:36,607 - INFO -   Processed 에이디테크놀로지 (200710): Current=55,400, P&L=-0.89%
+2026-04-06 11:50:37,077 - INFO -   Processed 아이앤씨 (052860): Current=4,940, P&L=7.63%
+2026-04-06 11:50:37,540 - INFO -   Processed 와이어블 (065530): Current=2,100, P&L=-2.33%
+2026-04-06 11:50:37,547 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 11:50:37,566 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:50:37,570 - INFO - Portfolio status updated in PB.
+2026-04-06 11:50:37,570 - INFO - Analysis complete. Total Value: 215,717,400
+2026-04-06 11:50:37,572 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 11:50:37,574 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 12:00:21,819 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 12:00:21,819 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 12:00:21,825 - INFO - Loaded 35 valid portfolio items from PB.
+2026-04-06 12:00:22,272 - INFO -   Processed DB하이텍 (000990): Current=93,500, P&L=-9.22%
+2026-04-06 12:00:22,740 - INFO -   Processed 한화시스템 (272210): Current=128,200, P&L=41.66%
+2026-04-06 12:00:23,272 - INFO -   Processed 한화시스템 (272210): Current=128,200, P&L=44.37%
+2026-04-06 12:00:23,727 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=96,900, P&L=0.31%
+2026-04-06 12:00:24,195 - INFO -   Processed 유진로봇 (056080): Current=23,750, P&L=-25.43%
+2026-04-06 12:00:24,641 - INFO -   Processed 에이플러스에셋 (244920): Current=10,480, P&L=-3.41%
+2026-04-06 12:00:25,089 - INFO -   Processed 경인양행 (012610): Current=4,005, P&L=-17.17%
+2026-04-06 12:00:25,530 - INFO -   Processed 인텔리안테크 (189300): Current=111,000, P&L=-13.55%
+2026-04-06 12:00:25,991 - INFO -   Processed 에이플러스에셋 (244920): Current=10,480, P&L=-3.41%
+2026-04-06 12:00:26,438 - INFO -   Processed 한화갤러리아 (452260): Current=2,365, P&L=6.29%
+2026-04-06 12:00:26,879 - INFO -   Processed 한전기술 (052690): Current=160,900, P&L=6.13%
+2026-04-06 12:00:27,326 - INFO -   Processed 휴림로봇 (090710): Current=10,560, P&L=-26.10%
+2026-04-06 12:00:27,774 - INFO -   Processed 화신 (010690): Current=10,670, P&L=-7.62%
+2026-04-06 12:00:28,224 - INFO -   Processed 대원전선 (006340): Current=5,240, P&L=-3.50%
+2026-04-06 12:00:28,690 - INFO -   Processed RF머트리얼즈 (327260): Current=79,300, P&L=52.79%
+2026-04-06 12:00:29,162 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,410,000, P&L=0.00%
+2026-04-06 12:00:29,601 - INFO -   Processed 한미반도체 (042700): Current=254,000, P&L=-16.86%
+2026-04-06 12:00:30,058 - INFO -   Processed 오이솔루션 (138080): Current=42,950, P&L=34.01%
+2026-04-06 12:00:30,506 - INFO -   Processed 대주전자재료 (078600): Current=122,600, P&L=10.75%
+2026-04-06 12:00:30,990 - INFO -   Processed 에스피지 (058610): Current=102,700, P&L=-17.84%
+2026-04-06 12:00:31,440 - INFO -   Processed 한화갤러리아 (452260): Current=2,365, P&L=6.29%
+2026-04-06 12:00:31,890 - INFO -   Processed RF머트리얼즈 (327260): Current=79,200, P&L=69.23%
+2026-04-06 12:00:32,329 - INFO -   Processed 에이치엠넥스 (036170): Current=3,635, P&L=5.21%
+2026-04-06 12:00:32,773 - INFO -   Processed 기가비스 (420770): Current=79,100, P&L=2.33%
+2026-04-06 12:00:33,241 - INFO -   Processed 피에스케이홀딩스 (031980): Current=92,500, P&L=-16.97%
+2026-04-06 12:00:33,745 - INFO -   Processed 네오셈 (253590): Current=15,020, P&L=-21.36%
+2026-04-06 12:00:34,191 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 12:00:34,706 - INFO -   Processed 광동제약 (009290): Current=8,120, P&L=-12.03%
+2026-04-06 12:00:35,159 - INFO -   Processed 한섬 (020000): Current=22,350, P&L=-9.33%
+2026-04-06 12:00:35,625 - INFO -   Processed 우진플라임 (049800): Current=2,440, P&L=-4.13%
+2026-04-06 12:00:36,076 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 12:00:36,515 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,930, P&L=-10.07%
+2026-04-06 12:00:36,972 - INFO -   Processed 에이디테크놀로지 (200710): Current=55,100, P&L=-1.43%
+2026-04-06 12:00:37,441 - INFO -   Processed 아이앤씨 (052860): Current=4,975, P&L=8.39%
+2026-04-06 12:00:37,882 - INFO -   Processed 와이어블 (065530): Current=2,092, P&L=-2.70%
+2026-04-06 12:00:37,889 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 12:00:37,909 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:00:37,925 - INFO - Portfolio status updated in PB.
+2026-04-06 12:00:37,925 - INFO - Analysis complete. Total Value: 214,851,100
+2026-04-06 12:00:37,931 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:00:37,934 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 12:10:21,841 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 12:10:21,852 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 12:10:21,855 - INFO - Loaded 35 valid portfolio items from PB.
+2026-04-06 12:10:22,302 - INFO -   Processed DB하이텍 (000990): Current=93,700, P&L=-9.03%
+2026-04-06 12:10:22,786 - INFO -   Processed 한화시스템 (272210): Current=128,000, P&L=41.44%
+2026-04-06 12:10:23,228 - INFO -   Processed 한화시스템 (272210): Current=128,000, P&L=44.14%
+2026-04-06 12:10:23,660 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=96,950, P&L=0.36%
+2026-04-06 12:10:24,101 - INFO -   Processed 유진로봇 (056080): Current=23,750, P&L=-25.43%
+2026-04-06 12:10:24,549 - INFO -   Processed 에이플러스에셋 (244920): Current=10,450, P&L=-3.69%
+2026-04-06 12:10:24,980 - INFO -   Processed 경인양행 (012610): Current=4,010, P&L=-17.06%
+2026-04-06 12:10:25,443 - INFO -   Processed 인텔리안테크 (189300): Current=110,900, P&L=-13.63%
+2026-04-06 12:10:25,872 - INFO -   Processed 에이플러스에셋 (244920): Current=10,450, P&L=-3.69%
+2026-04-06 12:10:26,338 - INFO -   Processed 한화갤러리아 (452260): Current=2,365, P&L=6.29%
+2026-04-06 12:10:26,782 - INFO -   Processed 한전기술 (052690): Current=160,900, P&L=6.13%
+2026-04-06 12:10:27,239 - INFO -   Processed 휴림로봇 (090710): Current=10,560, P&L=-26.10%
+2026-04-06 12:10:27,711 - INFO -   Processed 화신 (010690): Current=10,640, P&L=-7.88%
+2026-04-06 12:10:28,159 - INFO -   Processed 대원전선 (006340): Current=5,250, P&L=-3.31%
+2026-04-06 12:10:28,591 - INFO -   Processed RF머트리얼즈 (327260): Current=79,700, P&L=53.56%
+2026-04-06 12:10:29,052 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,419,000, P&L=0.64%
+2026-04-06 12:10:29,483 - INFO -   Processed 한미반도체 (042700): Current=253,000, P&L=-17.18%
+2026-04-06 12:10:29,916 - INFO -   Processed 오이솔루션 (138080): Current=42,900, P&L=33.85%
+2026-04-06 12:10:30,358 - INFO -   Processed 대주전자재료 (078600): Current=121,900, P&L=10.12%
+2026-04-06 12:10:30,833 - INFO -   Processed 에스피지 (058610): Current=102,650, P&L=-17.88%
+2026-04-06 12:10:31,275 - INFO -   Processed 한화갤러리아 (452260): Current=2,365, P&L=6.29%
+2026-04-06 12:10:31,747 - INFO -   Processed RF머트리얼즈 (327260): Current=79,700, P&L=70.30%
+2026-04-06 12:10:32,191 - INFO -   Processed 에이치엠넥스 (036170): Current=3,620, P&L=4.78%
+2026-04-06 12:10:32,640 - INFO -   Processed 기가비스 (420770): Current=79,000, P&L=2.20%
+2026-04-06 12:10:33,066 - INFO -   Processed 피에스케이홀딩스 (031980): Current=92,500, P&L=-16.97%
+2026-04-06 12:10:33,513 - INFO -   Processed 네오셈 (253590): Current=15,010, P&L=-21.41%
+2026-04-06 12:10:33,972 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 12:10:34,426 - INFO -   Processed 광동제약 (009290): Current=8,110, P&L=-12.13%
+2026-04-06 12:10:34,884 - INFO -   Processed 한섬 (020000): Current=22,400, P&L=-9.13%
+2026-04-06 12:10:35,322 - INFO -   Processed 우진플라임 (049800): Current=2,445, P&L=-3.93%
+2026-04-06 12:10:35,750 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 12:10:36,206 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,030, P&L=-9.60%
+2026-04-06 12:10:36,664 - INFO -   Processed 에이디테크놀로지 (200710): Current=55,100, P&L=-1.43%
+2026-04-06 12:10:37,102 - INFO -   Processed 아이앤씨 (052860): Current=5,000, P&L=8.93%
+2026-04-06 12:10:37,578 - INFO -   Processed 와이어블 (065530): Current=2,070, P&L=-3.72%
+2026-04-06 12:10:37,580 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 12:10:37,605 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:10:37,608 - INFO - Portfolio status updated in PB.
+2026-04-06 12:10:37,608 - INFO - Analysis complete. Total Value: 214,847,800
+2026-04-06 12:10:37,610 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:10:37,612 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 12:20:21,619 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 12:20:21,626 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 12:20:21,628 - INFO - Loaded 35 valid portfolio items from PB.
+2026-04-06 12:20:22,060 - INFO -   Processed DB하이텍 (000990): Current=93,300, P&L=-9.42%
+2026-04-06 12:20:22,521 - INFO -   Processed 한화시스템 (272210): Current=128,200, P&L=41.66%
+2026-04-06 12:20:22,972 - INFO -   Processed 한화시스템 (272210): Current=128,200, P&L=44.37%
+2026-04-06 12:20:23,416 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=96,900, P&L=0.31%
+2026-04-06 12:20:23,854 - INFO -   Processed 유진로봇 (056080): Current=23,800, P&L=-25.27%
+2026-04-06 12:20:24,290 - INFO -   Processed 에이플러스에셋 (244920): Current=10,450, P&L=-3.69%
+2026-04-06 12:20:24,752 - INFO -   Processed 경인양행 (012610): Current=4,005, P&L=-17.17%
+2026-04-06 12:20:25,202 - INFO -   Processed 인텔리안테크 (189300): Current=110,600, P&L=-13.86%
+2026-04-06 12:20:25,646 - INFO -   Processed 에이플러스에셋 (244920): Current=10,450, P&L=-3.69%
+2026-04-06 12:20:26,096 - INFO -   Processed 한화갤러리아 (452260): Current=2,350, P&L=5.62%
+2026-04-06 12:20:26,556 - INFO -   Processed 한전기술 (052690): Current=160,800, P&L=6.07%
+2026-04-06 12:20:26,992 - INFO -   Processed 휴림로봇 (090710): Current=10,580, P&L=-25.96%
+2026-04-06 12:20:27,422 - INFO -   Processed 화신 (010690): Current=10,600, P&L=-8.23%
+2026-04-06 12:20:27,883 - INFO -   Processed 대원전선 (006340): Current=5,250, P&L=-3.31%
+2026-04-06 12:20:28,351 - INFO -   Processed RF머트리얼즈 (327260): Current=79,200, P&L=52.60%
+2026-04-06 12:20:28,811 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,419,000, P&L=0.64%
+2026-04-06 12:20:29,281 - INFO -   Processed 한미반도체 (042700): Current=252,000, P&L=-17.51%
+2026-04-06 12:20:29,773 - INFO -   Processed 오이솔루션 (138080): Current=42,850, P&L=33.70%
+2026-04-06 12:20:30,239 - INFO -   Processed 대주전자재료 (078600): Current=122,000, P&L=10.21%
+2026-04-06 12:20:30,689 - INFO -   Processed 에스피지 (058610): Current=102,700, P&L=-17.84%
+2026-04-06 12:20:31,156 - INFO -   Processed 한화갤러리아 (452260): Current=2,350, P&L=5.62%
+2026-04-06 12:20:31,621 - INFO -   Processed RF머트리얼즈 (327260): Current=79,200, P&L=69.23%
+2026-04-06 12:20:32,072 - INFO -   Processed 에이치엠넥스 (036170): Current=3,605, P&L=4.34%
+2026-04-06 12:20:32,519 - INFO -   Processed 기가비스 (420770): Current=78,100, P&L=1.03%
+2026-04-06 12:20:32,966 - INFO -   Processed 피에스케이홀딩스 (031980): Current=92,100, P&L=-17.32%
+2026-04-06 12:20:33,435 - INFO -   Processed 네오셈 (253590): Current=14,960, P&L=-21.68%
+2026-04-06 12:20:33,872 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 12:20:34,327 - INFO -   Processed 광동제약 (009290): Current=8,100, P&L=-12.24%
+2026-04-06 12:20:34,806 - INFO -   Processed 한섬 (020000): Current=22,300, P&L=-9.53%
+2026-04-06 12:20:35,283 - INFO -   Processed 우진플라임 (049800): Current=2,440, P&L=-4.13%
+2026-04-06 12:20:35,734 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 12:20:36,177 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,970, P&L=-9.88%
+2026-04-06 12:20:36,625 - INFO -   Processed 에이디테크놀로지 (200710): Current=55,100, P&L=-1.43%
+2026-04-06 12:20:37,079 - INFO -   Processed 아이앤씨 (052860): Current=4,965, P&L=8.17%
+2026-04-06 12:20:37,522 - INFO -   Processed 와이어블 (065530): Current=2,085, P&L=-3.02%
+2026-04-06 12:20:37,531 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 12:20:37,565 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:20:37,579 - INFO - Portfolio status updated in PB.
+2026-04-06 12:20:37,579 - INFO - Analysis complete. Total Value: 214,436,600
+2026-04-06 12:20:37,584 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:20:37,588 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 12:30:22,082 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 12:30:22,089 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 12:30:22,091 - INFO - Loaded 35 valid portfolio items from PB.
+2026-04-06 12:30:22,551 - INFO -   Processed DB하이텍 (000990): Current=93,300, P&L=-9.42%
+2026-04-06 12:30:23,020 - INFO -   Processed 한화시스템 (272210): Current=128,500, P&L=41.99%
+2026-04-06 12:30:23,472 - INFO -   Processed 한화시스템 (272210): Current=128,500, P&L=44.71%
+2026-04-06 12:30:23,925 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=96,900, P&L=0.31%
+2026-04-06 12:30:24,416 - INFO -   Processed 유진로봇 (056080): Current=23,750, P&L=-25.43%
+2026-04-06 12:30:24,890 - INFO -   Processed 에이플러스에셋 (244920): Current=10,450, P&L=-3.69%
+2026-04-06 12:30:25,338 - INFO -   Processed 경인양행 (012610): Current=4,005, P&L=-17.17%
+2026-04-06 12:30:25,785 - INFO -   Processed 인텔리안테크 (189300): Current=110,500, P&L=-13.94%
+2026-04-06 12:30:26,240 - INFO -   Processed 에이플러스에셋 (244920): Current=10,450, P&L=-3.69%
+2026-04-06 12:30:26,706 - INFO -   Processed 한화갤러리아 (452260): Current=2,360, P&L=6.07%
+2026-04-06 12:30:27,168 - INFO -   Processed 한전기술 (052690): Current=161,300, P&L=6.40%
+2026-04-06 12:30:27,624 - INFO -   Processed 휴림로봇 (090710): Current=10,550, P&L=-26.17%
+2026-04-06 12:30:28,108 - INFO -   Processed 화신 (010690): Current=10,600, P&L=-8.23%
+2026-04-06 12:30:28,572 - INFO -   Processed 대원전선 (006340): Current=5,220, P&L=-3.87%
+2026-04-06 12:30:29,009 - INFO -   Processed RF머트리얼즈 (327260): Current=79,700, P&L=53.56%
+2026-04-06 12:30:29,457 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,428,000, P&L=1.28%
+2026-04-06 12:30:29,906 - INFO -   Processed 한미반도체 (042700): Current=252,500, P&L=-17.35%
+2026-04-06 12:30:30,385 - INFO -   Processed 오이솔루션 (138080): Current=42,800, P&L=33.54%
+2026-04-06 12:30:30,826 - INFO -   Processed 대주전자재료 (078600): Current=121,800, P&L=10.03%
+2026-04-06 12:30:31,279 - INFO -   Processed 에스피지 (058610): Current=102,500, P&L=-18.00%
+2026-04-06 12:30:31,742 - INFO -   Processed 한화갤러리아 (452260): Current=2,360, P&L=6.07%
+2026-04-06 12:30:32,285 - INFO -   Processed RF머트리얼즈 (327260): Current=79,700, P&L=70.30%
+2026-04-06 12:30:32,778 - INFO -   Processed 에이치엠넥스 (036170): Current=3,580, P&L=3.62%
+2026-04-06 12:30:33,242 - INFO -   Processed 기가비스 (420770): Current=78,400, P&L=1.42%
+2026-04-06 12:30:33,734 - INFO -   Processed 피에스케이홀딩스 (031980): Current=92,200, P&L=-17.24%
+2026-04-06 12:30:34,190 - INFO -   Processed 네오셈 (253590): Current=14,980, P&L=-21.57%
+2026-04-06 12:30:34,722 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 12:30:35,258 - INFO -   Processed 광동제약 (009290): Current=8,100, P&L=-12.24%
+2026-04-06 12:30:35,722 - INFO -   Processed 한섬 (020000): Current=22,300, P&L=-9.53%
+2026-04-06 12:30:36,156 - INFO -   Processed 우진플라임 (049800): Current=2,440, P&L=-4.13%
+2026-04-06 12:30:36,609 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 12:30:37,029 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,950, P&L=-9.98%
+2026-04-06 12:30:37,469 - INFO -   Processed 에이디테크놀로지 (200710): Current=55,000, P&L=-1.61%
+2026-04-06 12:30:37,916 - INFO -   Processed 아이앤씨 (052860): Current=4,995, P&L=8.82%
+2026-04-06 12:30:38,395 - INFO -   Processed 와이어블 (065530): Current=2,060, P&L=-4.19%
+2026-04-06 12:30:38,397 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 12:30:38,401 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:30:38,407 - INFO - Portfolio status updated in PB.
+2026-04-06 12:30:38,407 - INFO - Analysis complete. Total Value: 214,765,800
+2026-04-06 12:30:38,410 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:30:38,412 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 12:40:21,490 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 12:40:21,495 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 12:40:21,498 - INFO - Loaded 35 valid portfolio items from PB.
+2026-04-06 12:40:21,943 - INFO -   Processed DB하이텍 (000990): Current=93,000, P&L=-9.71%
+2026-04-06 12:40:22,391 - INFO -   Processed 한화시스템 (272210): Current=128,500, P&L=41.99%
+2026-04-06 12:40:22,869 - INFO -   Processed 한화시스템 (272210): Current=128,600, P&L=44.82%
+2026-04-06 12:40:23,326 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=96,300, P&L=-0.31%
+2026-04-06 12:40:23,778 - INFO -   Processed 유진로봇 (056080): Current=23,750, P&L=-25.43%
+2026-04-06 12:40:24,249 - INFO -   Processed 에이플러스에셋 (244920): Current=10,440, P&L=-3.78%
+2026-04-06 12:40:24,682 - INFO -   Processed 경인양행 (012610): Current=4,005, P&L=-17.17%
+2026-04-06 12:40:25,130 - INFO -   Processed 인텔리안테크 (189300): Current=110,600, P&L=-13.86%
+2026-04-06 12:40:25,561 - INFO -   Processed 에이플러스에셋 (244920): Current=10,440, P&L=-3.78%
+2026-04-06 12:40:26,002 - INFO -   Processed 한화갤러리아 (452260): Current=2,335, P&L=4.94%
+2026-04-06 12:40:26,447 - INFO -   Processed 한전기술 (052690): Current=160,900, P&L=6.13%
+2026-04-06 12:40:26,906 - INFO -   Processed 휴림로봇 (090710): Current=10,560, P&L=-26.10%
+2026-04-06 12:40:27,365 - INFO -   Processed 화신 (010690): Current=10,570, P&L=-8.48%
+2026-04-06 12:40:27,806 - INFO -   Processed 대원전선 (006340): Current=5,210, P&L=-4.05%
+2026-04-06 12:40:28,241 - INFO -   Processed RF머트리얼즈 (327260): Current=79,700, P&L=53.56%
+2026-04-06 12:40:28,690 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,427,000, P&L=1.21%
+2026-04-06 12:40:29,136 - INFO -   Processed 한미반도체 (042700): Current=251,500, P&L=-17.68%
+2026-04-06 12:40:29,605 - INFO -   Processed 오이솔루션 (138080): Current=43,200, P&L=34.79%
+2026-04-06 12:40:30,052 - INFO -   Processed 대주전자재료 (078600): Current=121,300, P&L=9.58%
+2026-04-06 12:40:30,528 - INFO -   Processed 에스피지 (058610): Current=102,300, P&L=-18.16%
+2026-04-06 12:40:30,972 - INFO -   Processed 한화갤러리아 (452260): Current=2,335, P&L=4.94%
+2026-04-06 12:40:31,441 - INFO -   Processed RF머트리얼즈 (327260): Current=79,700, P&L=70.30%
+2026-04-06 12:40:31,904 - INFO -   Processed 에이치엠넥스 (036170): Current=3,575, P&L=3.47%
+2026-04-06 12:40:32,366 - INFO -   Processed 기가비스 (420770): Current=78,100, P&L=1.03%
+2026-04-06 12:40:32,822 - INFO -   Processed 피에스케이홀딩스 (031980): Current=91,800, P&L=-17.59%
+2026-04-06 12:40:33,262 - INFO -   Processed 네오셈 (253590): Current=14,940, P&L=-21.78%
+2026-04-06 12:40:33,694 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 12:40:34,129 - INFO -   Processed 광동제약 (009290): Current=8,090, P&L=-12.35%
+2026-04-06 12:40:34,591 - INFO -   Processed 한섬 (020000): Current=22,300, P&L=-9.53%
+2026-04-06 12:40:35,040 - INFO -   Processed 우진플라임 (049800): Current=2,445, P&L=-3.93%
+2026-04-06 12:40:35,556 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 12:40:36,007 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,920, P&L=-10.12%
+2026-04-06 12:40:36,442 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,600, P&L=-2.33%
+2026-04-06 12:40:36,895 - INFO -   Processed 아이앤씨 (052860): Current=4,970, P&L=8.28%
+2026-04-06 12:40:37,356 - INFO -   Processed 와이어블 (065530): Current=2,065, P&L=-3.95%
+2026-04-06 12:40:37,361 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 12:40:37,366 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:40:37,373 - INFO - Portfolio status updated in PB.
+2026-04-06 12:40:37,373 - INFO - Analysis complete. Total Value: 214,379,200
+2026-04-06 12:40:37,375 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:40:37,377 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 12:46:33,744 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 12:46:33,744 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 12:46:33,751 - INFO - Loaded 35 valid portfolio items from PB.
+2026-04-06 12:46:34,202 - INFO -   Processed DB하이텍 (000990): Current=92,500, P&L=-10.19%
+2026-04-06 12:46:34,668 - INFO -   Processed 한화시스템 (272210): Current=128,300, P&L=41.77%
+2026-04-06 12:46:35,106 - INFO -   Processed 한화시스템 (272210): Current=128,300, P&L=44.48%
+2026-04-06 12:46:35,556 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=96,200, P&L=-0.41%
+2026-04-06 12:46:35,995 - INFO -   Processed 유진로봇 (056080): Current=23,700, P&L=-25.59%
+2026-04-06 12:46:36,442 - INFO -   Processed 에이플러스에셋 (244920): Current=10,420, P&L=-3.96%
+2026-04-06 12:46:36,891 - INFO -   Processed 경인양행 (012610): Current=3,995, P&L=-17.37%
+2026-04-06 12:46:37,354 - INFO -   Processed 인텔리안테크 (189300): Current=110,600, P&L=-13.86%
+2026-04-06 12:46:37,781 - INFO -   Processed 에이플러스에셋 (244920): Current=10,420, P&L=-3.96%
+2026-04-06 12:46:38,225 - INFO -   Processed 한화갤러리아 (452260): Current=2,345, P&L=5.39%
+2026-04-06 12:46:38,666 - INFO -   Processed 한전기술 (052690): Current=160,600, P&L=5.94%
+2026-04-06 12:46:39,148 - INFO -   Processed 휴림로봇 (090710): Current=10,530, P&L=-26.31%
+2026-04-06 12:46:39,683 - INFO -   Processed 화신 (010690): Current=10,570, P&L=-8.48%
+2026-04-06 12:46:40,138 - INFO -   Processed 대원전선 (006340): Current=5,210, P&L=-4.05%
+2026-04-06 12:46:40,617 - INFO -   Processed RF머트리얼즈 (327260): Current=80,900, P&L=55.88%
+2026-04-06 12:46:41,066 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,433,000, P&L=1.63%
+2026-04-06 12:46:41,532 - INFO -   Processed 한미반도체 (042700): Current=251,000, P&L=-17.84%
+2026-04-06 12:46:41,990 - INFO -   Processed 오이솔루션 (138080): Current=43,000, P&L=34.17%
+2026-04-06 12:46:42,447 - INFO -   Processed 대주전자재료 (078600): Current=121,000, P&L=9.30%
+2026-04-06 12:46:42,922 - INFO -   Processed 에스피지 (058610): Current=102,200, P&L=-18.24%
+2026-04-06 12:46:43,376 - INFO -   Processed 한화갤러리아 (452260): Current=2,345, P&L=5.39%
+2026-04-06 12:46:43,895 - INFO -   Processed RF머트리얼즈 (327260): Current=81,000, P&L=73.08%
+2026-04-06 12:46:44,345 - INFO -   Processed 에이치엠넥스 (036170): Current=3,585, P&L=3.76%
+2026-04-06 12:46:44,840 - INFO -   Processed 기가비스 (420770): Current=77,500, P&L=0.26%
+2026-04-06 12:46:45,332 - INFO -   Processed 피에스케이홀딩스 (031980): Current=91,800, P&L=-17.59%
+2026-04-06 12:46:45,812 - INFO -   Processed 네오셈 (253590): Current=14,930, P&L=-21.83%
+2026-04-06 12:46:46,268 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 12:46:46,710 - INFO -   Processed 광동제약 (009290): Current=8,100, P&L=-12.24%
+2026-04-06 12:46:47,167 - INFO -   Processed 한섬 (020000): Current=22,250, P&L=-9.74%
+2026-04-06 12:46:47,676 - INFO -   Processed 우진플라임 (049800): Current=2,445, P&L=-3.93%
+2026-04-06 12:46:48,172 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 12:46:48,655 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,900, P&L=-10.21%
+2026-04-06 12:46:49,072 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,600, P&L=-2.33%
+2026-04-06 12:46:49,538 - INFO -   Processed 아이앤씨 (052860): Current=4,970, P&L=8.28%
+2026-04-06 12:46:49,993 - INFO -   Processed 대동금속 (020400): Current=10,150, P&L=1.50%
+2026-04-06 12:46:49,993 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 12:46:50,002 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:46:50,010 - INFO - Portfolio status updated in PB.
+2026-04-06 12:46:50,010 - INFO - Analysis complete. Total Value: 214,526,300
+2026-04-06 12:46:50,012 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:46:50,014 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 12:50:21,420 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 12:50:21,424 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 12:50:21,427 - INFO - Loaded 36 valid portfolio items from PB.
+2026-04-06 12:50:21,874 - INFO -   Processed DB하이텍 (000990): Current=92,600, P&L=-10.10%
+2026-04-06 12:50:22,335 - INFO -   Processed 한화시스템 (272210): Current=128,200, P&L=41.66%
+2026-04-06 12:50:22,783 - INFO -   Processed 한화시스템 (272210): Current=128,200, P&L=44.37%
+2026-04-06 12:50:23,230 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=96,500, P&L=-0.10%
+2026-04-06 12:50:23,691 - INFO -   Processed 유진로봇 (056080): Current=23,700, P&L=-25.59%
+2026-04-06 12:50:24,152 - INFO -   Processed 에이플러스에셋 (244920): Current=10,430, P&L=-3.87%
+2026-04-06 12:50:24,606 - INFO -   Processed 경인양행 (012610): Current=3,995, P&L=-17.37%
+2026-04-06 12:50:25,066 - INFO -   Processed 인텔리안테크 (189300): Current=110,400, P&L=-14.02%
+2026-04-06 12:50:25,511 - INFO -   Processed 에이플러스에셋 (244920): Current=10,430, P&L=-3.87%
+2026-04-06 12:50:25,954 - INFO -   Processed 한화갤러리아 (452260): Current=2,345, P&L=5.39%
+2026-04-06 12:50:26,420 - INFO -   Processed 한전기술 (052690): Current=160,700, P&L=6.00%
+2026-04-06 12:50:26,873 - INFO -   Processed 휴림로봇 (090710): Current=10,530, P&L=-26.31%
+2026-04-06 12:50:27,339 - INFO -   Processed 화신 (010690): Current=10,600, P&L=-8.23%
+2026-04-06 12:50:27,783 - INFO -   Processed 대원전선 (006340): Current=5,190, P&L=-4.42%
+2026-04-06 12:50:28,210 - INFO -   Processed RF머트리얼즈 (327260): Current=79,600, P&L=53.37%
+2026-04-06 12:50:28,682 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,432,000, P&L=1.56%
+2026-04-06 12:50:29,127 - INFO -   Processed 한미반도체 (042700): Current=251,250, P&L=-17.76%
+2026-04-06 12:50:29,591 - INFO -   Processed 오이솔루션 (138080): Current=42,900, P&L=33.85%
+2026-04-06 12:50:30,032 - INFO -   Processed 대주전자재료 (078600): Current=121,300, P&L=9.58%
+2026-04-06 12:50:30,480 - INFO -   Processed 에스피지 (058610): Current=102,300, P&L=-18.16%
+2026-04-06 12:50:30,935 - INFO -   Processed 한화갤러리아 (452260): Current=2,345, P&L=5.39%
+2026-04-06 12:50:31,406 - INFO -   Processed RF머트리얼즈 (327260): Current=79,600, P&L=70.09%
+2026-04-06 12:50:31,856 - INFO -   Processed 에이치엠넥스 (036170): Current=3,600, P&L=4.20%
+2026-04-06 12:50:32,294 - INFO -   Processed 기가비스 (420770): Current=77,700, P&L=0.52%
+2026-04-06 12:50:32,767 - INFO -   Processed 피에스케이홀딩스 (031980): Current=92,100, P&L=-17.32%
+2026-04-06 12:50:33,228 - INFO -   Processed 네오셈 (253590): Current=15,010, P&L=-21.41%
+2026-04-06 12:50:33,663 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 12:50:34,109 - INFO -   Processed 광동제약 (009290): Current=8,090, P&L=-12.35%
+2026-04-06 12:50:34,581 - INFO -   Processed 한섬 (020000): Current=22,300, P&L=-9.53%
+2026-04-06 12:50:35,040 - INFO -   Processed 우진플라임 (049800): Current=2,445, P&L=-3.93%
+2026-04-06 12:50:35,520 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 12:50:35,955 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,900, P&L=-10.21%
+2026-04-06 12:50:36,401 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,500, P&L=-2.50%
+2026-04-06 12:50:36,835 - INFO -   Processed 아이앤씨 (052860): Current=4,975, P&L=8.39%
+2026-04-06 12:50:37,274 - INFO -   Processed 대동금속 (020400): Current=10,260, P&L=2.60%
+2026-04-06 12:50:37,709 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,900, P&L=-3.42%
+2026-04-06 12:50:37,717 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 12:50:37,747 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:50:37,753 - INFO - Portfolio status updated in PB.
+2026-04-06 12:50:37,753 - INFO - Analysis complete. Total Value: 216,118,400
+2026-04-06 12:50:37,754 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 12:50:37,756 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 13:00:21,516 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 13:00:21,518 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 13:00:21,521 - INFO - Loaded 33 valid portfolio items from PB.
+2026-04-06 13:00:21,966 - INFO -   Processed DB하이텍 (000990): Current=92,300, P&L=-10.39%
+2026-04-06 13:00:22,442 - INFO -   Processed 한화시스템 (272210): Current=127,800, P&L=41.22%
+2026-04-06 13:00:22,891 - INFO -   Processed 한화시스템 (272210): Current=127,800, P&L=43.92%
+2026-04-06 13:00:23,357 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=96,500, P&L=-0.10%
+2026-04-06 13:00:23,822 - INFO -   Processed 유진로봇 (056080): Current=23,700, P&L=-25.59%
+2026-04-06 13:00:24,290 - INFO -   Processed 에이플러스에셋 (244920): Current=10,420, P&L=-3.96%
+2026-04-06 13:00:24,742 - INFO -   Processed 경인양행 (012610): Current=3,980, P&L=-17.68%
+2026-04-06 13:00:25,190 - INFO -   Processed 인텔리안테크 (189300): Current=109,700, P&L=-14.56%
+2026-04-06 13:00:25,630 - INFO -   Processed 에이플러스에셋 (244920): Current=10,420, P&L=-3.96%
+2026-04-06 13:00:26,072 - INFO -   Processed 한화갤러리아 (452260): Current=2,360, P&L=6.07%
+2026-04-06 13:00:26,538 - INFO -   Processed 한전기술 (052690): Current=160,700, P&L=6.00%
+2026-04-06 13:00:26,984 - INFO -   Processed 휴림로봇 (090710): Current=10,530, P&L=-26.31%
+2026-04-06 13:00:27,430 - INFO -   Processed 화신 (010690): Current=10,560, P&L=-8.57%
+2026-04-06 13:00:27,894 - INFO -   Processed 대원전선 (006340): Current=5,200, P&L=-4.24%
+2026-04-06 13:00:28,350 - INFO -   Processed RF머트리얼즈 (327260): Current=79,500, P&L=53.18%
+2026-04-06 13:00:28,806 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,433,000, P&L=1.63%
+2026-04-06 13:00:29,272 - INFO -   Processed 한미반도체 (042700): Current=250,500, P&L=-18.00%
+2026-04-06 13:00:29,734 - INFO -   Processed 오이솔루션 (138080): Current=42,850, P&L=33.70%
+2026-04-06 13:00:30,169 - INFO -   Processed 대주전자재료 (078600): Current=119,900, P&L=8.31%
+2026-04-06 13:00:30,590 - INFO -   Processed 에스피지 (058610): Current=102,000, P&L=-18.40%
+2026-04-06 13:00:31,033 - INFO -   Processed 한화갤러리아 (452260): Current=2,360, P&L=6.07%
+2026-04-06 13:00:31,485 - INFO -   Processed RF머트리얼즈 (327260): Current=79,300, P&L=69.44%
+2026-04-06 13:00:31,928 - INFO -   Processed 에이치엠넥스 (036170): Current=3,570, P&L=3.33%
+2026-04-06 13:00:32,416 - INFO -   Processed 기가비스 (420770): Current=77,400, P&L=0.13%
+2026-04-06 13:00:32,856 - INFO -   Processed 피에스케이홀딩스 (031980): Current=91,600, P&L=-17.77%
+2026-04-06 13:00:33,306 - INFO -   Processed 네오셈 (253590): Current=15,110, P&L=-20.89%
+2026-04-06 13:00:33,779 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 13:00:34,216 - INFO -   Processed 우진플라임 (049800): Current=2,440, P&L=-4.13%
+2026-04-06 13:00:34,723 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 13:00:35,172 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,400, P&L=-2.68%
+2026-04-06 13:00:35,617 - INFO -   Processed 아이앤씨 (052860): Current=4,970, P&L=8.28%
+2026-04-06 13:00:36,078 - INFO -   Processed 대동금속 (020400): Current=10,210, P&L=2.10%
+2026-04-06 13:00:36,523 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,890, P&L=-3.47%
+2026-04-06 13:00:36,533 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 13:00:36,538 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:00:36,545 - INFO - Portfolio status updated in PB.
+2026-04-06 13:00:36,545 - INFO - Analysis complete. Total Value: 209,732,100
+2026-04-06 13:00:36,547 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:00:36,549 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 13:10:21,668 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 13:10:21,677 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 13:10:21,677 - INFO - Loaded 33 valid portfolio items from PB.
+2026-04-06 13:10:22,125 - INFO -   Processed DB하이텍 (000990): Current=92,500, P&L=-10.19%
+2026-04-06 13:10:22,558 - INFO -   Processed 한화시스템 (272210): Current=128,250, P&L=41.71%
+2026-04-06 13:10:23,018 - INFO -   Processed 한화시스템 (272210): Current=128,250, P&L=44.43%
+2026-04-06 13:10:23,455 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,800, P&L=1.24%
+2026-04-06 13:10:23,893 - INFO -   Processed 유진로봇 (056080): Current=23,700, P&L=-25.59%
+2026-04-06 13:10:24,341 - INFO -   Processed 에이플러스에셋 (244920): Current=10,470, P&L=-3.50%
+2026-04-06 13:10:24,792 - INFO -   Processed 경인양행 (012610): Current=4,005, P&L=-17.17%
+2026-04-06 13:10:25,257 - INFO -   Processed 인텔리안테크 (189300): Current=109,400, P&L=-14.80%
+2026-04-06 13:10:25,705 - INFO -   Processed 에이플러스에셋 (244920): Current=10,460, P&L=-3.59%
+2026-04-06 13:10:26,149 - INFO -   Processed 한화갤러리아 (452260): Current=2,370, P&L=6.52%
+2026-04-06 13:10:26,593 - INFO -   Processed 한전기술 (052690): Current=161,000, P&L=6.20%
+2026-04-06 13:10:27,033 - INFO -   Processed 휴림로봇 (090710): Current=10,530, P&L=-26.31%
+2026-04-06 13:10:27,482 - INFO -   Processed 화신 (010690): Current=10,570, P&L=-8.48%
+2026-04-06 13:10:27,916 - INFO -   Processed 대원전선 (006340): Current=5,220, P&L=-3.87%
+2026-04-06 13:10:28,356 - INFO -   Processed RF머트리얼즈 (327260): Current=79,800, P&L=53.76%
+2026-04-06 13:10:28,790 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,436,000, P&L=1.84%
+2026-04-06 13:10:29,247 - INFO -   Processed 한미반도체 (042700): Current=251,000, P&L=-17.84%
+2026-04-06 13:10:29,680 - INFO -   Processed 오이솔루션 (138080): Current=42,650, P&L=33.07%
+2026-04-06 13:10:30,118 - INFO -   Processed 대주전자재료 (078600): Current=118,200, P&L=6.78%
+2026-04-06 13:10:30,556 - INFO -   Processed 에스피지 (058610): Current=102,100, P&L=-18.32%
+2026-04-06 13:10:31,040 - INFO -   Processed 한화갤러리아 (452260): Current=2,370, P&L=6.52%
+2026-04-06 13:10:31,489 - INFO -   Processed RF머트리얼즈 (327260): Current=79,800, P&L=70.51%
+2026-04-06 13:10:31,963 - INFO -   Processed 에이치엠넥스 (036170): Current=3,575, P&L=3.47%
+2026-04-06 13:10:32,425 - INFO -   Processed 기가비스 (420770): Current=79,000, P&L=2.20%
+2026-04-06 13:10:32,868 - INFO -   Processed 피에스케이홀딩스 (031980): Current=90,700, P&L=-18.58%
+2026-04-06 13:10:33,306 - INFO -   Processed 네오셈 (253590): Current=15,180, P&L=-20.52%
+2026-04-06 13:10:33,740 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 13:10:34,198 - INFO -   Processed 우진플라임 (049800): Current=2,435, P&L=-4.32%
+2026-04-06 13:10:34,652 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 13:10:35,106 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,500, P&L=-2.50%
+2026-04-06 13:10:35,564 - INFO -   Processed 아이앤씨 (052860): Current=4,970, P&L=8.28%
+2026-04-06 13:10:35,990 - INFO -   Processed 대동금속 (020400): Current=10,240, P&L=2.40%
+2026-04-06 13:10:36,429 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,900, P&L=-3.42%
+2026-04-06 13:10:36,445 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 13:10:36,476 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:10:36,487 - INFO - Portfolio status updated in PB.
+2026-04-06 13:10:36,487 - INFO - Analysis complete. Total Value: 210,175,300
+2026-04-06 13:10:36,491 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:10:36,496 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 13:20:21,591 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 13:20:21,600 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 13:20:21,602 - INFO - Loaded 33 valid portfolio items from PB.
+2026-04-06 13:20:22,042 - INFO -   Processed DB하이텍 (000990): Current=92,400, P&L=-10.29%
+2026-04-06 13:20:22,504 - INFO -   Processed 한화시스템 (272210): Current=127,900, P&L=41.33%
+2026-04-06 13:20:22,971 - INFO -   Processed 한화시스템 (272210): Current=127,900, P&L=44.03%
+2026-04-06 13:20:23,428 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,300, P&L=0.72%
+2026-04-06 13:20:23,891 - INFO -   Processed 유진로봇 (056080): Current=23,750, P&L=-25.43%
+2026-04-06 13:20:24,343 - INFO -   Processed 에이플러스에셋 (244920): Current=10,460, P&L=-3.59%
+2026-04-06 13:20:24,819 - INFO -   Processed 경인양행 (012610): Current=4,005, P&L=-17.17%
+2026-04-06 13:20:25,302 - INFO -   Processed 인텔리안테크 (189300): Current=108,800, P&L=-15.26%
+2026-04-06 13:20:25,743 - INFO -   Processed 에이플러스에셋 (244920): Current=10,460, P&L=-3.59%
+2026-04-06 13:20:26,202 - INFO -   Processed 한화갤러리아 (452260): Current=2,360, P&L=6.07%
+2026-04-06 13:20:26,666 - INFO -   Processed 한전기술 (052690): Current=160,900, P&L=6.13%
+2026-04-06 13:20:27,122 - INFO -   Processed 휴림로봇 (090710): Current=10,520, P&L=-26.38%
+2026-04-06 13:20:27,559 - INFO -   Processed 화신 (010690): Current=10,580, P&L=-8.40%
+2026-04-06 13:20:28,024 - INFO -   Processed 대원전선 (006340): Current=5,220, P&L=-3.87%
+2026-04-06 13:20:28,499 - INFO -   Processed RF머트리얼즈 (327260): Current=78,900, P&L=52.02%
+2026-04-06 13:20:28,956 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,436,000, P&L=1.84%
+2026-04-06 13:20:29,390 - INFO -   Processed 한미반도체 (042700): Current=250,000, P&L=-18.17%
+2026-04-06 13:20:29,834 - INFO -   Processed 오이솔루션 (138080): Current=42,300, P&L=31.98%
+2026-04-06 13:20:30,282 - INFO -   Processed 대주전자재료 (078600): Current=118,200, P&L=6.78%
+2026-04-06 13:20:30,745 - INFO -   Processed 에스피지 (058610): Current=102,100, P&L=-18.32%
+2026-04-06 13:20:31,191 - INFO -   Processed 한화갤러리아 (452260): Current=2,360, P&L=6.07%
+2026-04-06 13:20:31,666 - INFO -   Processed RF머트리얼즈 (327260): Current=79,000, P&L=68.80%
+2026-04-06 13:20:32,093 - INFO -   Processed 에이치엠넥스 (036170): Current=3,550, P&L=2.75%
+2026-04-06 13:20:32,522 - INFO -   Processed 기가비스 (420770): Current=78,700, P&L=1.81%
+2026-04-06 13:20:32,961 - INFO -   Processed 피에스케이홀딩스 (031980): Current=90,400, P&L=-18.85%
+2026-04-06 13:20:33,422 - INFO -   Processed 네오셈 (253590): Current=15,180, P&L=-20.52%
+2026-04-06 13:20:33,876 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 13:20:34,316 - INFO -   Processed 우진플라임 (049800): Current=2,435, P&L=-4.32%
+2026-04-06 13:20:34,776 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 13:20:35,218 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,200, P&L=-3.04%
+2026-04-06 13:20:35,636 - INFO -   Processed 아이앤씨 (052860): Current=4,950, P&L=7.84%
+2026-04-06 13:20:36,090 - INFO -   Processed 대동금속 (020400): Current=10,390, P&L=3.90%
+2026-04-06 13:20:36,545 - INFO -   Processed 미래에셋증권2우B (00680K): Current=18,920, P&L=-3.32%
+2026-04-06 13:20:36,551 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 13:20:36,582 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:20:36,590 - INFO - Portfolio status updated in PB.
+2026-04-06 13:20:36,590 - INFO - Analysis complete. Total Value: 209,533,300
+2026-04-06 13:20:36,592 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:20:36,593 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 13:30:22,036 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 13:30:22,040 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 13:30:22,040 - INFO - Loaded 33 valid portfolio items from PB.
+2026-04-06 13:30:22,495 - INFO -   Processed DB하이텍 (000990): Current=92,200, P&L=-10.49%
+2026-04-06 13:30:22,957 - INFO -   Processed 한화시스템 (272210): Current=128,100, P&L=41.55%
+2026-04-06 13:30:23,408 - INFO -   Processed 한화시스템 (272210): Current=128,100, P&L=44.26%
+2026-04-06 13:30:23,877 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,600, P&L=1.04%
+2026-04-06 13:30:24,330 - INFO -   Processed 유진로봇 (056080): Current=23,600, P&L=-25.90%
+2026-04-06 13:30:24,771 - INFO -   Processed 에이플러스에셋 (244920): Current=10,500, P&L=-3.23%
+2026-04-06 13:30:25,243 - INFO -   Processed 경인양행 (012610): Current=4,000, P&L=-17.27%
+2026-04-06 13:30:25,702 - INFO -   Processed 인텔리안테크 (189300): Current=108,500, P&L=-15.50%
+2026-04-06 13:30:26,178 - INFO -   Processed 에이플러스에셋 (244920): Current=10,500, P&L=-3.23%
+2026-04-06 13:30:26,618 - INFO -   Processed 한화갤러리아 (452260): Current=2,355, P&L=5.84%
+2026-04-06 13:30:27,056 - INFO -   Processed 한전기술 (052690): Current=161,200, P&L=6.33%
+2026-04-06 13:30:27,501 - INFO -   Processed 휴림로봇 (090710): Current=10,510, P&L=-26.45%
+2026-04-06 13:30:27,940 - INFO -   Processed 화신 (010690): Current=10,570, P&L=-8.48%
+2026-04-06 13:30:28,372 - INFO -   Processed 대원전선 (006340): Current=5,210, P&L=-4.05%
+2026-04-06 13:30:28,806 - INFO -   Processed RF머트리얼즈 (327260): Current=77,400, P&L=49.13%
+2026-04-06 13:30:29,240 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,437,000, P&L=1.91%
+2026-04-06 13:30:29,695 - INFO -   Processed 한미반도체 (042700): Current=250,000, P&L=-18.17%
+2026-04-06 13:30:30,157 - INFO -   Processed 오이솔루션 (138080): Current=42,950, P&L=34.01%
+2026-04-06 13:30:30,606 - INFO -   Processed 대주전자재료 (078600): Current=117,700, P&L=6.32%
+2026-04-06 13:30:31,052 - INFO -   Processed 에스피지 (058610): Current=102,000, P&L=-18.40%
+2026-04-06 13:30:31,495 - INFO -   Processed 한화갤러리아 (452260): Current=2,355, P&L=5.84%
+2026-04-06 13:30:31,958 - INFO -   Processed RF머트리얼즈 (327260): Current=77,400, P&L=65.38%
+2026-04-06 13:30:32,424 - INFO -   Processed 에이치엠넥스 (036170): Current=3,555, P&L=2.89%
+2026-04-06 13:30:32,869 - INFO -   Processed 기가비스 (420770): Current=78,100, P&L=1.03%
+2026-04-06 13:30:33,326 - INFO -   Processed 피에스케이홀딩스 (031980): Current=89,900, P&L=-19.30%
+2026-04-06 13:30:33,771 - INFO -   Processed 네오셈 (253590): Current=15,190, P&L=-20.47%
+2026-04-06 13:30:34,221 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 13:30:34,656 - INFO -   Processed 우진플라임 (049800): Current=2,425, P&L=-4.72%
+2026-04-06 13:30:35,098 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 13:30:35,545 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,100, P&L=-3.22%
+2026-04-06 13:30:36,014 - INFO -   Processed 아이앤씨 (052860): Current=4,960, P&L=8.06%
+2026-04-06 13:30:36,440 - INFO -   Processed 대동금속 (020400): Current=10,430, P&L=4.30%
+2026-04-06 13:30:36,869 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,160, P&L=-2.10%
+2026-04-06 13:30:36,872 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 13:30:36,902 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:30:36,915 - INFO - Portfolio status updated in PB.
+2026-04-06 13:30:36,915 - INFO - Analysis complete. Total Value: 209,147,400
+2026-04-06 13:30:36,918 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:30:36,919 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 13:40:21,522 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 13:40:21,525 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 13:40:21,525 - INFO - Loaded 33 valid portfolio items from PB.
+2026-04-06 13:40:21,972 - INFO -   Processed DB하이텍 (000990): Current=92,500, P&L=-10.19%
+2026-04-06 13:40:22,417 - INFO -   Processed 한화시스템 (272210): Current=128,300, P&L=41.77%
+2026-04-06 13:40:22,880 - INFO -   Processed 한화시스템 (272210): Current=128,300, P&L=44.48%
+2026-04-06 13:40:23,316 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,700, P&L=1.14%
+2026-04-06 13:40:23,744 - INFO -   Processed 유진로봇 (056080): Current=23,700, P&L=-25.59%
+2026-04-06 13:40:24,188 - INFO -   Processed 에이플러스에셋 (244920): Current=10,460, P&L=-3.59%
+2026-04-06 13:40:24,640 - INFO -   Processed 경인양행 (012610): Current=4,005, P&L=-17.17%
+2026-04-06 13:40:25,094 - INFO -   Processed 인텔리안테크 (189300): Current=108,700, P&L=-15.34%
+2026-04-06 13:40:25,531 - INFO -   Processed 에이플러스에셋 (244920): Current=10,460, P&L=-3.59%
+2026-04-06 13:40:25,990 - INFO -   Processed 한화갤러리아 (452260): Current=2,360, P&L=6.07%
+2026-04-06 13:40:26,453 - INFO -   Processed 한전기술 (052690): Current=161,700, P&L=6.66%
+2026-04-06 13:40:26,911 - INFO -   Processed 휴림로봇 (090710): Current=10,550, P&L=-26.17%
+2026-04-06 13:40:27,353 - INFO -   Processed 화신 (010690): Current=10,620, P&L=-8.05%
+2026-04-06 13:40:27,802 - INFO -   Processed 대원전선 (006340): Current=5,240, P&L=-3.50%
+2026-04-06 13:40:28,268 - INFO -   Processed RF머트리얼즈 (327260): Current=79,800, P&L=53.76%
+2026-04-06 13:40:28,730 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,443,000, P&L=2.34%
+2026-04-06 13:40:29,192 - INFO -   Processed 한미반도체 (042700): Current=251,500, P&L=-17.68%
+2026-04-06 13:40:29,656 - INFO -   Processed 오이솔루션 (138080): Current=43,500, P&L=35.73%
+2026-04-06 13:40:30,112 - INFO -   Processed 대주전자재료 (078600): Current=118,500, P&L=7.05%
+2026-04-06 13:40:30,566 - INFO -   Processed 에스피지 (058610): Current=102,300, P&L=-18.16%
+2026-04-06 13:40:31,002 - INFO -   Processed 한화갤러리아 (452260): Current=2,360, P&L=6.07%
+2026-04-06 13:40:31,440 - INFO -   Processed RF머트리얼즈 (327260): Current=79,800, P&L=70.51%
+2026-04-06 13:40:31,869 - INFO -   Processed 에이치엠넥스 (036170): Current=3,545, P&L=2.60%
+2026-04-06 13:40:32,311 - INFO -   Processed 기가비스 (420770): Current=78,700, P&L=1.81%
+2026-04-06 13:40:32,741 - INFO -   Processed 피에스케이홀딩스 (031980): Current=91,300, P&L=-18.04%
+2026-04-06 13:40:33,192 - INFO -   Processed 네오셈 (253590): Current=15,210, P&L=-20.37%
+2026-04-06 13:40:33,646 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 13:40:34,090 - INFO -   Processed 우진플라임 (049800): Current=2,435, P&L=-4.32%
+2026-04-06 13:40:34,587 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 13:40:35,031 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,500, P&L=-2.50%
+2026-04-06 13:40:35,472 - INFO -   Processed 아이앤씨 (052860): Current=4,950, P&L=7.84%
+2026-04-06 13:40:35,929 - INFO -   Processed 대동금속 (020400): Current=10,320, P&L=3.20%
+2026-04-06 13:40:36,364 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,330, P&L=-1.23%
+2026-04-06 13:40:36,370 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 13:40:36,392 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:40:36,407 - INFO - Portfolio status updated in PB.
+2026-04-06 13:40:36,407 - INFO - Analysis complete. Total Value: 210,434,600
+2026-04-06 13:40:36,410 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:40:36,414 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 13:50:22,212 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 13:50:22,215 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 13:50:22,217 - INFO - Loaded 33 valid portfolio items from PB.
+2026-04-06 13:50:22,671 - INFO -   Processed DB하이텍 (000990): Current=92,300, P&L=-10.39%
+2026-04-06 13:50:23,113 - INFO -   Processed 한화시스템 (272210): Current=128,400, P&L=41.88%
+2026-04-06 13:50:23,571 - INFO -   Processed 한화시스템 (272210): Current=128,400, P&L=44.59%
+2026-04-06 13:50:24,019 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,800, P&L=1.24%
+2026-04-06 13:50:24,484 - INFO -   Processed 유진로봇 (056080): Current=23,750, P&L=-25.43%
+2026-04-06 13:50:24,941 - INFO -   Processed 에이플러스에셋 (244920): Current=10,470, P&L=-3.50%
+2026-04-06 13:50:25,374 - INFO -   Processed 경인양행 (012610): Current=4,005, P&L=-17.17%
+2026-04-06 13:50:25,812 - INFO -   Processed 인텔리안테크 (189300): Current=109,200, P&L=-14.95%
+2026-04-06 13:50:26,243 - INFO -   Processed 에이플러스에셋 (244920): Current=10,470, P&L=-3.50%
+2026-04-06 13:50:26,679 - INFO -   Processed 한화갤러리아 (452260): Current=2,370, P&L=6.52%
+2026-04-06 13:50:27,116 - INFO -   Processed 한전기술 (052690): Current=161,800, P&L=6.73%
+2026-04-06 13:50:27,557 - INFO -   Processed 휴림로봇 (090710): Current=10,570, P&L=-26.03%
+2026-04-06 13:50:28,007 - INFO -   Processed 화신 (010690): Current=10,620, P&L=-8.05%
+2026-04-06 13:50:28,460 - INFO -   Processed 대원전선 (006340): Current=5,235, P&L=-3.59%
+2026-04-06 13:50:29,026 - INFO -   Processed RF머트리얼즈 (327260): Current=79,000, P&L=52.22%
+2026-04-06 13:50:29,512 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,442,000, P&L=2.27%
+2026-04-06 13:50:29,966 - INFO -   Processed 한미반도체 (042700): Current=251,000, P&L=-17.84%
+2026-04-06 13:50:30,406 - INFO -   Processed 오이솔루션 (138080): Current=44,250, P&L=38.07%
+2026-04-06 13:50:30,879 - INFO -   Processed 대주전자재료 (078600): Current=118,000, P&L=6.59%
+2026-04-06 13:50:31,316 - INFO -   Processed 에스피지 (058610): Current=102,600, P&L=-17.92%
+2026-04-06 13:50:31,779 - INFO -   Processed 한화갤러리아 (452260): Current=2,370, P&L=6.52%
+2026-04-06 13:50:32,216 - INFO -   Processed RF머트리얼즈 (327260): Current=79,000, P&L=68.80%
+2026-04-06 13:50:32,667 - INFO -   Processed 에이치엠넥스 (036170): Current=3,535, P&L=2.32%
+2026-04-06 13:50:33,106 - INFO -   Processed 기가비스 (420770): Current=78,800, P&L=1.94%
+2026-04-06 13:50:33,559 - INFO -   Processed 피에스케이홀딩스 (031980): Current=91,100, P&L=-18.22%
+2026-04-06 13:50:34,001 - INFO -   Processed 네오셈 (253590): Current=15,240, P&L=-20.21%
+2026-04-06 13:50:34,479 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 13:50:34,934 - INFO -   Processed 우진플라임 (049800): Current=2,440, P&L=-4.13%
+2026-04-06 13:50:35,384 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 13:50:35,864 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,300, P&L=-2.86%
+2026-04-06 13:50:36,292 - INFO -   Processed 아이앤씨 (052860): Current=4,955, P&L=7.95%
+2026-04-06 13:50:36,722 - INFO -   Processed 대동금속 (020400): Current=10,310, P&L=3.10%
+2026-04-06 13:50:37,166 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,390, P&L=-0.92%
+2026-04-06 13:50:37,171 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 13:50:37,196 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:50:37,203 - INFO - Portfolio status updated in PB.
+2026-04-06 13:50:37,203 - INFO - Analysis complete. Total Value: 210,310,900
+2026-04-06 13:50:37,205 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 13:50:37,207 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 14:00:23,429 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 14:00:23,434 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 14:00:23,437 - INFO - Loaded 33 valid portfolio items from PB.
+2026-04-06 14:00:23,940 - INFO -   Processed DB하이텍 (000990): Current=91,900, P&L=-10.78%
+2026-04-06 14:00:24,466 - INFO -   Processed 한화시스템 (272210): Current=128,300, P&L=41.77%
+2026-04-06 14:00:24,990 - INFO -   Processed 한화시스템 (272210): Current=128,300, P&L=44.48%
+2026-04-06 14:00:25,518 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,600, P&L=1.04%
+2026-04-06 14:00:26,024 - INFO -   Processed 유진로봇 (056080): Current=23,700, P&L=-25.59%
+2026-04-06 14:00:26,543 - INFO -   Processed 에이플러스에셋 (244920): Current=10,480, P&L=-3.41%
+2026-04-06 14:00:27,025 - INFO -   Processed 경인양행 (012610): Current=4,000, P&L=-17.27%
+2026-04-06 14:00:27,552 - INFO -   Processed 인텔리안테크 (189300): Current=108,900, P&L=-15.19%
+2026-04-06 14:00:28,076 - INFO -   Processed 에이플러스에셋 (244920): Current=10,480, P&L=-3.41%
+2026-04-06 14:00:28,593 - INFO -   Processed 한화갤러리아 (452260): Current=2,365, P&L=6.29%
+2026-04-06 14:00:29,106 - INFO -   Processed 한전기술 (052690): Current=161,000, P&L=6.20%
+2026-04-06 14:00:29,640 - INFO -   Processed 휴림로봇 (090710): Current=10,520, P&L=-26.38%
+2026-04-06 14:00:30,181 - INFO -   Processed 화신 (010690): Current=10,620, P&L=-8.05%
+2026-04-06 14:00:30,706 - INFO -   Processed 대원전선 (006340): Current=5,250, P&L=-3.31%
+2026-04-06 14:00:31,183 - INFO -   Processed RF머트리얼즈 (327260): Current=76,500, P&L=47.40%
+2026-04-06 14:00:31,702 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,444,000, P&L=2.41%
+2026-04-06 14:00:32,227 - INFO -   Processed 한미반도체 (042700): Current=249,500, P&L=-18.33%
+2026-04-06 14:00:32,772 - INFO -   Processed 오이솔루션 (138080): Current=43,950, P&L=37.13%
+2026-04-06 14:00:33,302 - INFO -   Processed 대주전자재료 (078600): Current=117,900, P&L=6.50%
+2026-04-06 14:00:33,881 - INFO -   Processed 에스피지 (058610): Current=102,200, P&L=-18.24%
+2026-04-06 14:00:34,386 - INFO -   Processed 한화갤러리아 (452260): Current=2,365, P&L=6.29%
+2026-04-06 14:00:34,958 - INFO -   Processed RF머트리얼즈 (327260): Current=76,500, P&L=63.46%
+2026-04-06 14:00:35,525 - INFO -   Processed 에이치엠넥스 (036170): Current=3,560, P&L=3.04%
+2026-04-06 14:00:36,106 - INFO -   Processed 기가비스 (420770): Current=78,800, P&L=1.94%
+2026-04-06 14:00:36,641 - INFO -   Processed 피에스케이홀딩스 (031980): Current=91,000, P&L=-18.31%
+2026-04-06 14:00:37,202 - INFO -   Processed 네오셈 (253590): Current=15,110, P&L=-20.89%
+2026-04-06 14:00:37,704 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 14:00:38,211 - INFO -   Processed 우진플라임 (049800): Current=2,440, P&L=-4.13%
+2026-04-06 14:00:38,765 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 14:00:39,271 - INFO -   Processed 에이디테크놀로지 (200710): Current=53,900, P&L=-3.58%
+2026-04-06 14:00:39,790 - INFO -   Processed 아이앤씨 (052860): Current=4,970, P&L=8.28%
+2026-04-06 14:00:40,298 - INFO -   Processed 대동금속 (020400): Current=10,280, P&L=2.80%
+2026-04-06 14:00:40,822 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,400, P&L=-0.87%
+2026-04-06 14:00:40,827 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 14:00:40,840 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 14:00:40,844 - INFO - Portfolio status updated in PB.
+2026-04-06 14:00:40,845 - INFO - Analysis complete. Total Value: 209,150,600
+2026-04-06 14:00:40,846 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 14:00:40,848 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 14:03:29,662 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 14:03:29,665 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 14:03:29,666 - INFO - Loaded 33 valid portfolio items from PB.
+2026-04-06 14:03:30,174 - INFO -   Processed DB하이텍 (000990): Current=92,100, P&L=-10.58%
+2026-04-06 14:03:30,624 - INFO -   Processed 한화시스템 (272210): Current=128,300, P&L=41.77%
+2026-04-06 14:03:31,091 - INFO -   Processed 한화시스템 (272210): Current=128,300, P&L=44.48%
+2026-04-06 14:03:31,566 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=97,800, P&L=1.24%
+2026-04-06 14:03:32,038 - INFO -   Processed 유진로봇 (056080): Current=23,650, P&L=-25.75%
+2026-04-06 14:03:32,535 - INFO -   Processed 에이플러스에셋 (244920): Current=10,480, P&L=-3.41%
+2026-04-06 14:03:33,016 - INFO -   Processed 경인양행 (012610): Current=3,995, P&L=-17.37%
+2026-04-06 14:03:33,482 - INFO -   Processed 인텔리안테크 (189300): Current=108,900, P&L=-15.19%
+2026-04-06 14:03:33,944 - INFO -   Processed 에이플러스에셋 (244920): Current=10,480, P&L=-3.41%
+2026-04-06 14:03:34,416 - INFO -   Processed 한화갤러리아 (452260): Current=2,365, P&L=6.29%
+2026-04-06 14:03:34,889 - INFO -   Processed 한전기술 (052690): Current=160,900, P&L=6.13%
+2026-04-06 14:03:35,352 - INFO -   Processed 휴림로봇 (090710): Current=10,530, P&L=-26.31%
+2026-04-06 14:03:35,834 - INFO -   Processed 화신 (010690): Current=10,630, P&L=-7.97%
+2026-04-06 14:03:36,298 - INFO -   Processed 대원전선 (006340): Current=5,240, P&L=-3.50%
+2026-04-06 14:03:36,764 - INFO -   Processed RF머트리얼즈 (327260): Current=76,500, P&L=47.40%
+2026-04-06 14:03:37,231 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,448,000, P&L=2.70%
+2026-04-06 14:03:37,722 - INFO -   Processed 한미반도체 (042700): Current=249,500, P&L=-18.33%
+2026-04-06 14:03:38,191 - INFO -   Processed 오이솔루션 (138080): Current=44,100, P&L=37.60%
+2026-04-06 14:03:38,658 - INFO -   Processed 대주전자재료 (078600): Current=117,800, P&L=6.41%
+2026-04-06 14:03:39,134 - INFO -   Processed 에스피지 (058610): Current=102,300, P&L=-18.16%
+2026-04-06 14:03:39,607 - INFO -   Processed 한화갤러리아 (452260): Current=2,365, P&L=6.29%
+2026-04-06 14:03:40,079 - INFO -   Processed RF머트리얼즈 (327260): Current=76,500, P&L=63.46%
+2026-04-06 14:03:40,602 - INFO -   Processed 에이치엠넥스 (036170): Current=3,555, P&L=2.89%
+2026-04-06 14:03:41,061 - INFO -   Processed 기가비스 (420770): Current=79,000, P&L=2.20%
+2026-04-06 14:03:41,526 - INFO -   Processed 피에스케이홀딩스 (031980): Current=91,000, P&L=-18.31%
+2026-04-06 14:03:41,991 - INFO -   Processed 네오셈 (253590): Current=15,190, P&L=-20.47%
+2026-04-06 14:03:42,456 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 14:03:42,906 - INFO -   Processed 우진플라임 (049800): Current=2,440, P&L=-4.13%
+2026-04-06 14:03:43,370 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 14:03:43,840 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,200, P&L=-3.04%
+2026-04-06 14:03:44,304 - INFO -   Processed 아이앤씨 (052860): Current=4,980, P&L=8.50%
+2026-04-06 14:03:44,772 - INFO -   Processed 대동금속 (020400): Current=10,280, P&L=2.80%
+2026-04-06 14:03:45,240 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,410, P&L=-0.82%
+2026-04-06 14:03:45,240 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 14:03:45,274 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 14:03:45,278 - INFO - Portfolio status updated in PB.
+2026-04-06 14:03:45,278 - INFO - Analysis complete. Total Value: 209,256,900
+2026-04-06 14:03:45,280 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 14:03:45,281 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"
+2026-04-06 14:10:21,692 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 14:10:21,697 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 14:10:21,699 - INFO - Loaded 33 valid portfolio items from PB.
+2026-04-06 14:10:22,141 - INFO -   Processed DB하이텍 (000990): Current=92,300, P&L=-10.39%
+2026-04-06 14:10:22,619 - INFO -   Processed 한화시스템 (272210): Current=128,700, P&L=42.21%
+2026-04-06 14:10:23,081 - INFO -   Processed 한화시스템 (272210): Current=128,700, P&L=44.93%
+2026-04-06 14:10:23,541 - INFO -   Processed 이수스페셜티케미컬 (457190): Current=98,000, P&L=1.45%
+2026-04-06 14:10:24,000 - INFO -   Processed 유진로봇 (056080): Current=23,650, P&L=-25.75%
+2026-04-06 14:10:24,437 - INFO -   Processed 에이플러스에셋 (244920): Current=10,490, P&L=-3.32%
+2026-04-06 14:10:24,891 - INFO -   Processed 경인양행 (012610): Current=3,995, P&L=-17.37%
+2026-04-06 14:10:25,329 - INFO -   Processed 인텔리안테크 (189300): Current=108,800, P&L=-15.26%
+2026-04-06 14:10:25,752 - INFO -   Processed 에이플러스에셋 (244920): Current=10,490, P&L=-3.32%
+2026-04-06 14:10:26,196 - INFO -   Processed 한화갤러리아 (452260): Current=2,375, P&L=6.74%
+2026-04-06 14:10:26,622 - INFO -   Processed 한전기술 (052690): Current=161,100, P&L=6.27%
+2026-04-06 14:10:27,056 - INFO -   Processed 휴림로봇 (090710): Current=10,530, P&L=-26.31%
+2026-04-06 14:10:27,528 - INFO -   Processed 화신 (010690): Current=10,620, P&L=-8.05%
+2026-04-06 14:10:28,002 - INFO -   Processed 대원전선 (006340): Current=5,220, P&L=-3.87%
+2026-04-06 14:10:28,440 - INFO -   Processed RF머트리얼즈 (327260): Current=76,800, P&L=47.98%
+2026-04-06 14:10:28,879 - INFO -   Processed 한화에어로스페이스 (012450): Current=1,456,000, P&L=3.26%
+2026-04-06 14:10:29,327 - INFO -   Processed 한미반도체 (042700): Current=250,500, P&L=-18.00%
+2026-04-06 14:10:29,770 - INFO -   Processed 오이솔루션 (138080): Current=43,900, P&L=36.97%
+2026-04-06 14:10:30,238 - INFO -   Processed 대주전자재료 (078600): Current=118,300, P&L=6.87%
+2026-04-06 14:10:30,690 - INFO -   Processed 에스피지 (058610): Current=102,700, P&L=-17.84%
+2026-04-06 14:10:31,140 - INFO -   Processed 한화갤러리아 (452260): Current=2,375, P&L=6.74%
+2026-04-06 14:10:31,592 - INFO -   Processed RF머트리얼즈 (327260): Current=76,700, P&L=63.89%
+2026-04-06 14:10:32,058 - INFO -   Processed 에이치엠넥스 (036170): Current=3,545, P&L=2.60%
+2026-04-06 14:10:32,503 - INFO -   Processed 기가비스 (420770): Current=79,500, P&L=2.85%
+2026-04-06 14:10:32,947 - INFO -   Processed 피에스케이홀딩스 (031980): Current=91,700, P&L=-17.68%
+2026-04-06 14:10:33,409 - INFO -   Processed 네오셈 (253590): Current=15,200, P&L=-20.42%
+2026-04-06 14:10:33,851 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=12.78%
+2026-04-06 14:10:34,307 - INFO -   Processed 우진플라임 (049800): Current=2,445, P&L=-3.93%
+2026-04-06 14:10:34,756 - INFO -   Processed 코오롱ENP (138490): Current=15,000, P&L=9.41%
+2026-04-06 14:10:35,202 - INFO -   Processed 에이디테크놀로지 (200710): Current=54,300, P&L=-2.86%
+2026-04-06 14:10:35,634 - INFO -   Processed 아이앤씨 (052860): Current=4,945, P&L=7.73%
+2026-04-06 14:10:36,095 - INFO -   Processed 대동금속 (020400): Current=10,400, P&L=4.00%
+2026-04-06 14:10:36,535 - INFO -   Processed 미래에셋증권2우B (00680K): Current=19,490, P&L=-0.41%
+2026-04-06 14:10:36,541 - INFO - Portfolio status saved to C:\Users\drspi\Downloads\Project\ClosingSHIN\Scripts\data\portfolio_status.json
+2026-04-06 14:10:36,577 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27portfolio_status%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 14:10:36,591 - INFO - Portfolio status updated in PB.
+2026-04-06 14:10:36,591 - INFO - Analysis complete. Total Value: 209,770,500
+2026-04-06 14:10:36,593 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%22scan_progress%22&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 14:10:36,595 - INFO - HTTP Request: PATCH http://127.0.0.1:8090/api/collections/settings/records/xrjbudv29duv91c "HTTP/1.1 200 OK"

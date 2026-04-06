@@ -223,11 +223,21 @@ def get_top_winners(target_date=None):
         pb_recs = pb_utils.query_pb("stock_infos", limit=5000)
         market_tickers = [{'Ticker': r.get('ticker') or r.get('code'), 'Name': r.get('name')} for r in pb_recs if r.get('ticker') or r.get('code')]
 
+    protection_tickers = pb_utils.get_investor_protection_tickers()
     valid_tickers = {}
     for item in market_tickers:
         t = str(item['Ticker']).zfill(6)
         n = item['Name']
-        if not _is_excluded_stock(n): valid_tickers[t] = n
+        
+        # 1. 이름 기반 필터링 (ETF 등)
+        if _is_excluded_stock(n): 
+            continue
+            
+        # 2. 투자자보호 종목 필터링 (관리, 정지, 경보)
+        if t in protection_tickers:
+            continue
+            
+        valid_tickers[t] = n
     
     # 3. Batch Fetch (시작일과 종료일 데이터 대량 조회)
     def fetch_date_batch(dt_str):

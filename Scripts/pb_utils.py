@@ -332,6 +332,42 @@ def get_market_tickers():
         
     return unique_pairs
 
+def get_investor_protection_tickers():
+    """
+    네이버 금융에서 투자자보호 종목(관리종목, 거래정지, 시장경보)의 티커 목록을 가져옵니다.
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    urls = [
+        "https://finance.naver.com/sise/management.naver",
+        "https://finance.naver.com/sise/trading_halt.naver",
+        "https://finance.naver.com/sise/investment_alert.naver"
+    ]
+    
+    def fetch_tickers(url):
+        try:
+            resp = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=5)
+            if resp.status_code != 200: return set()
+            soup = BeautifulSoup(resp.text, 'html.parser')
+            tickers = set()
+            for a in soup.select('a.tltle'):
+                href = a.get('href', '')
+                if 'code=' in href:
+                    code = href.split('code=')[-1]
+                    if len(code) == 6:
+                        tickers.add(code)
+            return tickers
+        except: return set()
+        
+    excluded = set()
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = [executor.submit(fetch_tickers, url) for url in urls]
+        for f in as_completed(futures):
+            excluded.update(f.result())
+            
+    print(f"[{datetime.now()}] 투자자보호 종목(관리/정지/경보) {len(excluded)}개 수집 완료.")
+    return excluded
+
+
 def update_scan_progress(step, progress, total, message, status="running"):
     """PocketBase의 settings 컬렉션에 스캔 진행률을 업데이트합니다."""
     try:

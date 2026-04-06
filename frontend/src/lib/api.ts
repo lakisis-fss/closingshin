@@ -7,13 +7,13 @@ export type { MarketStatus, VcpResult, NewsAnalysis, NewsItem, StockInfo, Portfo
 
 export async function getLatestMarketStatus(): Promise<MarketStatus | null> {
     try {
-        const data = await fetchFromPB("market_status", { 
-            sort: "-date", 
+        const data = await fetchFromPB("market_status", {
+            sort: "-date",
             limit: 1,
             fields: "data,date"
         });
         if (!data.items || data.items.length === 0) return null;
-        
+
         const item = data.items[0];
         return {
             ...(item.data as MarketStatus),
@@ -47,18 +47,18 @@ export async function getAvailableVcpDates(): Promise<string[]> {
     try {
         // vcp_reports는 종목당 1개 레코드이므로 대량 조회가 필요함
         // fields: "date"만 요청하여 성능 최적화
-        const { items } = await getFullListFromPB("vcp_reports", { 
-            sort: "-date", 
-            fields: "date" 
+        const { items } = await getFullListFromPB("vcp_reports", {
+            sort: "-date",
+            fields: "date"
         });
-        
+
         if (!items || items.length === 0) return [];
-        
+
         const dates = items.map((item: any) => {
             const d = new Date(item.date);
             return d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0');
         });
-        
+
         // 중복 제거 및 명시적 타입 지정 정렬
         return Array.from(new Set(dates)).sort((a: string, b: string) => b.localeCompare(a));
     } catch (e) {
@@ -84,11 +84,11 @@ export async function getLatestTradingDayVcpDate(): Promise<string | null> {
 export async function getVcpResultsByDate(dateStr: string): Promise<VcpResult[]> {
     try {
         const isoDateStart = `${dateStr.substring(0, 4)}-${dateStr.substring(4, 6)}-${dateStr.substring(6, 8)} 00:00:00.000Z`;
-        const data = await fetchFromPB("vcp_reports", { 
+        const data = await fetchFromPB("vcp_reports", {
             filter: `date = "${isoDateStart}"`,
             sort: "-relative_strength",
             limit: 200, // Increase limit for candidate lists
-            fields: "id,ticker,name,market,price,change_pct,vcp_score,jump_score,volume_dry_up,last_depth_pct,contractions_count,contractions_history,vol_ratio,relative_strength,pivot_point,pivot_distance_pct,note,consolidation_weeks,date"
+            fields: "id,ticker,name,market,price,change_pct,vcp_score,jump_score,volume_dry_up,last_depth_pct,contractions_count,contractions_history,vol_ratio,relative_strength,pivot_point,pivot_distance_pct,note,consolidation_weeks,date,vcp_mode"
         });
         if (!data.items) return [];
 
@@ -110,14 +110,14 @@ export async function getVcpResultsByDate(dateStr: string): Promise<VcpResult[]>
 export async function getVcpResultByTicker(ticker: string, dateStr: string): Promise<VcpResult | null> {
     try {
         const isoDateStart = `${dateStr.substring(0, 4)}-${dateStr.substring(4, 6)}-${dateStr.substring(6, 8)} 00:00:00.000Z`;
-        const data = await fetchFromPB("vcp_reports", { 
+        const data = await fetchFromPB("vcp_reports", {
             filter: `ticker = "${ticker.padStart(6, '0')}" && date = "${isoDateStart}"`,
             limit: 1,
-            fields: "id,ticker,name,market,price,change_pct,vcp_score,jump_score,volume_dry_up,last_depth_pct,contractions_count,contractions_history,vol_ratio,relative_strength,pivot_point,pivot_distance_pct,note,consolidation_weeks,date"
+            fields: "id,ticker,name,market,price,change_pct,vcp_score,jump_score,volume_dry_up,last_depth_pct,contractions_count,contractions_history,vol_ratio,relative_strength,pivot_point,pivot_distance_pct,note,consolidation_weeks,date,vcp_mode"
         });
-        
+
         if (!data.items || data.items.length === 0) return null;
-        
+
         const item = data.items[0];
         return {
             ...item,
@@ -151,7 +151,7 @@ export async function getVcpScanDate(): Promise<string | null> {
 
 export async function getNewsAnalysis(targetStock: string): Promise<NewsAnalysis[]> {
     try {
-        const data = await fetchFromPB("news_analysis", { 
+        const data = await fetchFromPB("news_analysis", {
             filter: `target_stock = "${targetStock}"`,
             sort: "-date",
             limit: 50
@@ -172,9 +172,9 @@ export async function getNewsAnalysisByDate(dateStr: string): Promise<NewsAnalys
     try {
         const formattedDate = `${dateStr.substring(0, 4)}-${dateStr.substring(4, 6)}-${dateStr.substring(6, 8)}`;
         const filter = `date ~ "${formattedDate}"`;
-        const data = await fetchFromPB("news_analysis", { 
+        const data = await fetchFromPB("news_analysis", {
             filter: filter,
-            limit: 500 
+            limit: 500
         });
         return (data.items || []) as unknown as NewsAnalysis[];
     } catch (e) { return []; }
@@ -184,10 +184,10 @@ export async function getNewsAnalysisByDate(dateStr: string): Promise<NewsAnalys
 
 export async function getNewsReport(ticker: string): Promise<NewsItem[]> {
     try {
-        const data = await fetchFromPB("news_reports", { 
+        const data = await fetchFromPB("news_reports", {
             filter: `ticker = "${ticker.padStart(6, '0')}"`,
             sort: "-pub_date",
-            limit: 50 
+            limit: 50
         });
         return (data.items || []) as unknown as NewsItem[];
     } catch (e) { return []; }
@@ -205,9 +205,9 @@ export async function getNewsReportsByDate(dateStr: string): Promise<NewsItem[]>
     try {
         const formattedDate = `${dateStr.substring(0, 4)}-${dateStr.substring(4, 6)}-${dateStr.substring(6, 8)}`;
         const filter = `date ~ "${formattedDate}"`;
-        const data = await fetchFromPB("news_reports", { 
+        const data = await fetchFromPB("news_reports", {
             filter: filter,
-            limit: 500 
+            limit: 500
         });
         return (data.items || []) as unknown as NewsItem[];
     } catch (e) { return []; }
@@ -217,13 +217,13 @@ export async function getNewsReportsByDate(dateStr: string): Promise<NewsItem[]>
 
 export async function getStockInfo(ticker: string): Promise<StockInfo | null> {
     try {
-        const data = await fetchFromPB("stock_infos", { 
+        const data = await fetchFromPB("stock_infos", {
             filter: `ticker = "${ticker.padStart(6, '0')}"`,
             sort: "-date",
-            limit: 1 
+            limit: 1
         });
         if (!data.items || data.items.length === 0) return null;
-        
+
         const item = data.items[0];
         return {
             ...item,
@@ -257,7 +257,7 @@ export async function getAllStockInfo(): Promise<StockInfo[]> {
 export async function getStockInfoByDate(dateStr: string): Promise<StockInfo[]> {
     try {
         const isoDateStart = `${dateStr.substring(0, 4)}-${dateStr.substring(4, 6)}-${dateStr.substring(6, 8)} 00:00:00.000Z`;
-        const data = await fetchFromPB("stock_infos", { 
+        const data = await fetchFromPB("stock_infos", {
             filter: `date = "${isoDateStart}"`,
             limit: 300,
             fields: "ticker,name,market,sector,market_cap,price_change_pct,close,PER,PBR,EPS,BPS,DIV,DPS,inst_net_5d,foreign_net_5d,indiv_net_5d,inst_net_15d,foreign_net_15d,indiv_net_15d,inst_net_30d,foreign_net_30d,indiv_net_30d,inst_net_50d,foreign_net_50d,indiv_net_50d,inst_net_100d,foreign_net_100d,indiv_net_100d,supply_score,fundamental_score"
@@ -294,11 +294,11 @@ export async function getPortfolioItems(): Promise<PortfolioItem[]> {
 export async function getVcpChartUrl(ticker: string, dateStr: string): Promise<string | null> {
     try {
         const isoDate = `${dateStr.substring(0, 4)}-${dateStr.substring(4, 6)}-${dateStr.substring(6, 8)} 00:00:00.000Z`;
-        const data = await fetchFromPB("vcp_charts", { 
+        const data = await fetchFromPB("vcp_charts", {
             filter: `date = "${isoDate}" && ticker = "${ticker}"`,
-            limit: 1 
+            limit: 1
         });
-        
+
         if (data.items.length > 0) {
             const record = data.items[0];
             const PB_URL = process.env.NEXT_PUBLIC_PB_URL || "http://127.0.0.1:8090";

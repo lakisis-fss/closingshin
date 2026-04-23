@@ -184,7 +184,17 @@ def main():
                 break
             
             items = news_data['items']
-            all_items.extend(items)
+            # 시뮬레이션 날짜 이후 기사 사전 필터링 (타임머신 방지)
+            filtered_items = []
+            for it in items:
+                try:
+                    pd_str = it.get('pubDate', '')
+                    pd_dt = datetime.strptime(pd_str, '%a, %d %b %Y %H:%M:%S +0900').replace(tzinfo=KST)
+                    if pd_dt <= anchor_dt:
+                        filtered_items.append(it)
+                except:
+                    filtered_items.append(it)
+            all_items.extend(filtered_items)
             
             try:
                 last_item_pub_date_str = items[-1]['pubDate']
@@ -220,6 +230,7 @@ def main():
                     pub_dt = datetime.strptime(pub_date_str, '%a, %d %b %Y %H:%M:%S +0900').replace(tzinfo=KST)
                 
                 if pub_dt < start_dt_limit: continue
+                if pub_dt > anchor_dt: continue  # 시뮬레이션 날짜 이후 기사 제외
                 
                 score = 0
                 lower_title = title.lower()

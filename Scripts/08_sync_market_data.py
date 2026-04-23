@@ -10,6 +10,7 @@ import time
 import pb_utils
 import json
 import re
+import argparse
 
 # 경로 설정
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -98,13 +99,15 @@ def sync_ticker_to_pb(ticker_info, token=None):
     now = datetime.now()
     today_str = now.strftime("%Y-%m-%d")
     
-    # PB에서 최근 데이터 확인 (이미 메인에서 스킵되지 않은 경우)
     last_pb = pb_utils.query_pb("ohlcv", filter_str=f'code="{ticker}"', sort="-date", limit=1, token=token)
+    
+    # force 모드가 아니고 오늘 날짜 데이터가 이미 있으면 스킵
+    force = getattr(args, 'force', False)
     
     count_needed = 10
     if last_pb:
         last_date = last_pb[0]['date'][:10]
-        if last_date == today_str:
+        if last_date == today_str and not force:
             return f"[OK] {ticker} up-to-date."
         days_diff = (now - datetime.strptime(last_date, "%Y-%m-%d")).days
         count_needed = max(10, days_diff + 2)
@@ -137,6 +140,14 @@ def sync_ticker_to_pb(ticker_info, token=None):
         return f"[ERROR] {ticker} ({name}): {e}"
     return None
 
+def parse_args():
+    parser = argparse.ArgumentParser(description='Market Data Sync Tool')
+    parser.add_argument('--force', action='store_true', help='Force update even if today data exists')
+    parser.add_argument('--ticker', type=str, help='Sync specific ticker only')
+    return parser.parse_args()
+
+args = parse_args()
+
 def main():
     # 중복 실행 방지 (Lock)
     lock_file = os.path.join(DATA_DIR, "sync.lock")
@@ -165,13 +176,21 @@ def main():
         print(f"  -> 오늘 이미 동기화 완료된 종목: {len(synced_tickers)}개")
         
         # 2. 전체 종목 리스트 수집
-        tickers = pb_utils.get_market_tickers()
-        if not tickers:
-            pb_recs = pb_utils.query_pb("stock_infos", limit=5000)
-            tickers = [{'Ticker': r.get('ticker') or r.get('code'), 'Name': r.get('name')} for r in pb_recs if r.get('ticker') or r.get('code')]
+        if args.ticker:
+            tickers = [{'Ticker': args.ticker, 'Name': 'Specific Ticker'}]
+        else:
+            tickers = pb_utils.get_market_tickers()
+            if not tickers:
+                pb_recs = pb_utils.query_pb("stock_infos", limit=5000)
+                tickers = [{'Ticker': r.get('ticker') or r.get('code'), 'Name': r.get('name')} for r in pb_recs if r.get('ticker') or r.get('code')]
         
         valid_tickers = [t for t in tickers if not EXCLUDE_NAME_PATTERNS.search(t['Name'])]
-        to_sync_tickers = [t for t in valid_tickers if t['Ticker'] not in synced_tickers]
+        
+        # force 모드면 오늘 이미 동기화된 종목이라도 다시 수집 대상에 포함
+        if args.force:
+            to_sync_tickers = valid_tickers
+        else:
+            to_sync_tickers = [t for t in valid_tickers if t['Ticker'] not in synced_tickers]
         
         total_valid = len(valid_tickers)
         total_to_sync = len(to_sync_tickers)

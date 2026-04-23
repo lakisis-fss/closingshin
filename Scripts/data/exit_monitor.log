@@ -1428,3 +1428,143 @@ Current Price: 199,400
 2026-04-06 14:10:01,753 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
 2026-04-06 14:10:01,758 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
 2026-04-06 14:10:04,902 - INFO - No exit conditions met.
+2026-04-06 14:20:01,478 - INFO - Starting exit monitor...
+2026-04-06 14:20:01,713 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-06 14:20:01,716 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-06 14:20:01,718 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-06 14:20:04,713 - INFO - No exit conditions met.
+2026-04-07 18:00:01,802 - INFO - Starting exit monitor...
+2026-04-07 18:00:02,029 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-07 18:00:02,032 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-07 18:00:02,035 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-07 18:00:05,027 - INFO - No exit conditions met.
+2026-04-08 13:10:04,527 - INFO - Starting exit monitor...
+2026-04-08 13:10:04,833 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 13:10:04,845 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 13:10:04,849 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 13:10:07,860 - INFO - No exit conditions met.
+2026-04-08 13:20:01,750 - INFO - Starting exit monitor...
+2026-04-08 13:20:01,971 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 13:20:01,972 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 13:20:01,977 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 13:20:04,114 - INFO - No exit conditions met.
+2026-04-08 13:30:01,761 - INFO - Starting exit monitor...
+2026-04-08 13:30:01,980 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 13:30:01,982 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 13:30:01,984 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 13:30:03,606 - INFO - No exit conditions met.
+2026-04-08 13:40:01,846 - INFO - Starting exit monitor...
+2026-04-08 13:40:02,077 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 13:40:02,093 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 13:40:02,096 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 13:40:03,187 - INFO - No exit conditions met.
+2026-04-08 13:50:01,862 - INFO - Starting exit monitor...
+2026-04-08 13:50:02,095 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 13:50:02,095 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 13:50:02,102 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 13:50:03,225 - INFO - No exit conditions met.
+2026-04-08 14:00:01,883 - INFO - Starting exit monitor...
+2026-04-08 14:00:02,103 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 14:00:02,106 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 14:00:02,109 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 14:00:03,211 - INFO - No exit conditions met.
+2026-04-08 14:10:01,780 - INFO - Starting exit monitor...
+2026-04-08 14:10:02,002 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 14:10:02,004 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 14:10:02,007 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 14:10:03,104 - INFO - No exit conditions met.
+2026-04-08 14:20:01,768 - INFO - Starting exit monitor...
+2026-04-08 14:20:01,990 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 14:20:01,993 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 14:20:01,996 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 14:20:03,101 - INFO - No exit conditions met.
+2026-04-08 14:30:01,801 - INFO - Starting exit monitor...
+2026-04-08 14:30:02,028 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 14:30:02,031 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 14:30:02,033 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 14:30:03,092 - INFO - No exit conditions met.
+2026-04-08 14:40:01,672 - INFO - Starting exit monitor...
+2026-04-08 14:40:01,892 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 14:40:01,895 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 14:40:01,898 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 14:40:02,939 - INFO - No exit conditions met.
+2026-04-08 14:50:01,665 - INFO - Starting exit monitor...
+2026-04-08 14:50:01,890 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 14:50:01,892 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 14:50:01,895 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 14:50:02,952 - INFO - No exit conditions met.
+2026-04-08 15:00:01,696 - INFO - Starting exit monitor...
+2026-04-08 15:00:01,914 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 15:00:01,917 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 15:00:01,917 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 15:00:02,967 - INFO - No exit conditions met.
+2026-04-08 15:10:01,710 - INFO - Starting exit monitor...
+2026-04-08 15:10:01,927 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 15:10:01,931 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 15:10:01,934 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 15:10:03,009 - INFO - No exit conditions met.
+2026-04-08 15:20:01,718 - INFO - Starting exit monitor...
+2026-04-08 15:20:01,938 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-08 15:20:01,940 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-08 15:20:01,943 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-08 15:20:02,973 - INFO - No exit conditions met.
+2026-04-23 10:30:01,629 - INFO - Starting exit monitor...
+2026-04-23 10:30:01,852 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 10:30:01,855 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 10:30:01,864 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 10:30:02,802 - INFO - No exit conditions met.
+2026-04-23 10:40:01,698 - INFO - Starting exit monitor...
+2026-04-23 10:40:01,934 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 10:40:01,937 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 10:40:01,940 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 10:40:02,963 - INFO - No exit conditions met.
+2026-04-23 10:50:01,589 - INFO - Starting exit monitor...
+2026-04-23 10:50:01,836 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 10:50:01,840 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 10:50:01,843 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 10:50:02,830 - INFO - No exit conditions met.
+2026-04-23 11:00:01,660 - INFO - Starting exit monitor...
+2026-04-23 11:00:01,887 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 11:00:01,890 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 11:00:01,892 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 11:00:02,879 - INFO - No exit conditions met.
+2026-04-23 11:10:01,618 - INFO - Starting exit monitor...
+2026-04-23 11:10:01,847 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 11:10:01,852 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 11:10:01,854 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 11:10:02,882 - INFO - No exit conditions met.
+2026-04-23 11:20:01,443 - INFO - Starting exit monitor...
+2026-04-23 11:20:01,666 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 11:20:01,668 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 11:20:01,671 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 11:20:02,634 - INFO - No exit conditions met.
+2026-04-23 11:30:01,592 - INFO - Starting exit monitor...
+2026-04-23 11:30:01,830 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 11:30:01,840 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 11:30:01,843 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 11:30:02,776 - INFO - No exit conditions met.
+2026-04-23 14:00:01,567 - INFO - Starting exit monitor...
+2026-04-23 14:00:01,786 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 14:00:01,789 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 14:00:01,791 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 14:00:02,728 - INFO - No exit conditions met.
+2026-04-23 14:10:01,466 - INFO - Starting exit monitor...
+2026-04-23 14:10:01,688 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 14:10:01,690 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 14:10:01,693 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 14:10:02,674 - INFO - No exit conditions met.
+2026-04-23 14:20:01,446 - INFO - Starting exit monitor...
+2026-04-23 14:20:01,675 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 14:20:01,678 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 14:20:01,681 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 14:20:02,625 - INFO - No exit conditions met.
+2026-04-23 14:30:01,434 - INFO - Starting exit monitor...
+2026-04-23 14:30:01,654 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 14:30:01,657 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 14:30:01,659 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 14:30:02,585 - INFO - No exit conditions met.
+2026-04-23 18:00:01,481 - INFO - Starting exit monitor...
+2026-04-23 18:00:01,701 - INFO - HTTP Request: POST http://127.0.0.1:8090/api/collections/_superusers/auth-with-password "HTTP/1.1 200 OK"
+2026-04-23 18:00:01,703 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/settings/records?filter=key%3D%27config%27&sort=&page=1&perPage=500 "HTTP/1.1 200 OK"
+2026-04-23 18:00:01,706 - INFO - HTTP Request: GET http://127.0.0.1:8090/api/collections/portfolio/records?filter=&sort=&page=1&perPage=100 "HTTP/1.1 200 OK"
+2026-04-23 18:00:02,640 - INFO - No exit conditions met.

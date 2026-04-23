@@ -358,8 +358,9 @@ export function AddStockModal({
         exitConditions.alertEnabled = alertEnabled;
 
         let simulationResult = existingItem?.simulation;
+        const isAlreadyClosed = existingItem?.simulation?.status === 'CLOSED';
 
-        if (simulationEnabled) {
+        if (simulationEnabled && !isAlreadyClosed) {
             setIsSimulating(true);
             try {
                 const simResponse = await fetch('/api/simulation', {
@@ -389,9 +390,27 @@ export function AddStockModal({
             } finally {
                 setIsSimulating(false);
             }
-        } else {
+        } else if (!simulationEnabled) {
             // If disabled, remove or set enabled false
             simulationResult = undefined;
+        }
+
+        // 이미 청산된 데이터의 경우, 수량이나 가격이 변했을 수 있으므로 손익 재계산
+        if (isAlreadyClosed && simulationResult) {
+            const newBuyPrice = parseFloat(buyPrice);
+            const newQuantity = parseInt(quantity, 10);
+            const exitPrice = simulationResult.exitPrice || 0;
+            
+            if (exitPrice > 0) {
+                const newRealizedPnl = (exitPrice - newBuyPrice) * newQuantity;
+                const newRealizedPnlPercent = newBuyPrice > 0 ? ((exitPrice - newBuyPrice) / newBuyPrice) * 100 : 0;
+                
+                simulationResult = {
+                    ...simulationResult,
+                    realizedPnl: newRealizedPnl,
+                    realizedPnlPercent: newRealizedPnlPercent
+                };
+            }
         }
 
         const data = {

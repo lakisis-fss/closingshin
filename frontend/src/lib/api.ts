@@ -56,7 +56,11 @@ export async function getAvailableVcpDates(): Promise<string[]> {
 
         const dates = items.map((item: any) => {
             const d = new Date(item.date);
-            return d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0');
+            // UTC 기준으로 년, 월, 일을 추출하여 시간대 오차 방지
+            const yyyy = d.getUTCFullYear();
+            const mm = String(d.getUTCMonth() + 1).padStart(2, '0');
+            const dd = String(d.getUTCDate()).padStart(2, '0');
+            return `${yyyy}${mm}${dd}`;
         });
 
         // 중복 제거 및 명시적 타입 지정 정렬
@@ -143,7 +147,11 @@ export async function getVcpScanDate(): Promise<string | null> {
         const data = await fetchFromPB("vcp_reports", { sort: "-date", limit: 1, fields: "date" });
         if (!data.items || data.items.length === 0) return null;
         const d = new Date(data.items[0].date);
-        return d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0');
+        // UTC 기준으로 년, 월, 일을 추출하여 시간대 오차 방지
+        const yyyy = d.getUTCFullYear();
+        const mm = String(d.getUTCMonth() + 1).padStart(2, '0');
+        const dd = String(d.getUTCDate()).padStart(2, '0');
+        return `${yyyy}${mm}${dd}`;
     } catch (e) { return null; }
 }
 
